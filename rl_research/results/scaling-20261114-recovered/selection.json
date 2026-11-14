@@ -1,0 +1,217 @@
+{
+  "selected": {
+    "condition": "B",
+    "seed": 400033,
+    "step": 425984,
+    "mode": "sampled",
+    "wins": 4,
+    "games": 32,
+    "truncations": 0,
+    "parameters": 172109
+  },
+  "all_candidates": [
+    {
+      "condition": "A",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "A",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 1,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "C",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 1,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "C",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "D",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "D",
+      "seed": 400009,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "A",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "A",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 2,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 2,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 1,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "C",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "C",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "D",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "D",
+      "seed": 400031,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 884045
+    },
+    {
+      "condition": "A",
+      "seed": 400033,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 0,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "A",
+      "seed": 400033,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 2,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400033,
+      "step": 425984,
+      "mode": "sampled",
+      "wins": 4,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400033,
+      "step": 425984,
+      "mode": "greedy",
+      "wins": 1,
+      "games": 32,
+      "truncations": 0,
+      "parameters": 172109
+    }
+  ],
+  "checkpoint_sha256": "c674a5f17216bdc5c6e1a8a4a636586f1afe56c0637ae98bb058a8be5e8020a7",
+  "rule": "final validation equal-weight base/contender capped wins, fewer truncations, parameter count, condition A..G, seed order, sampled before greedy",
+  "time": 1794654795.0479355
+}

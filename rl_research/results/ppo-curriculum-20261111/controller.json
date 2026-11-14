@@ -1,0 +1,86 @@
+{
+  "session_base": "tinysettler-ppo-curriculum-20261111-a",
+  "session": "tinysettler-ppo-curriculum-20261111-a-r2",
+  "started": 1794418605.0687976,
+  "deadline": 1794433005.0687976,
+  "replacements": 2,
+  "transfer_retries": 2,
+  "attachments": [
+    {
+      "time": 1794418605.0688071,
+      "pid": 24812,
+      "controller_source_sha256": "1f3b435dd24782458853d55b4e8e7c13fc3b9eef4920d4bad765f8c9adddadf2"
+    },
+    {
+      "time": 1794421059.080142,
+      "pid": 25634,
+      "controller_source_sha256": "1f3b435dd24782458853d55b4e8e7c13fc3b9eef4920d4bad765f8c9adddadf2"
+    },
+    {
+      "time": 1794423630.6830087,
+      "pid": 26272,
+      "controller_source_sha256": "a71406e79f8b63535a34660db5e824f031ebcdf100604e03b2a4079fb2f5a492"
+    }
+  ],
+  "controller_pid": 26272,
+  "watchdog_pids": [
+    24813,
+    25635,
+    26273
+  ],
+  "allocations": [
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a",
+      "allocated": 1794418608.745065
+    },
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a-r1",
+      "allocated": 1794421062.5098708
+    },
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a-r2",
+      "allocated": 1794423634.231278
+    }
+  ],
+  "last_verified_snapshot": 1794427379.165273,
+  "snapshot_sha256": "ebb522963acf617b3531eca7e0e0c45b6cddacbc5305a21a02e788d00ffd4aee",
+  "exec_retries": 2,
+  "total_allocated_upper_bound_seconds": 8775.294137716293,
+  "termination_verified": true,
+  "user_paused": false,
+  "user_resumes": [
+    {
+      "time": 1794421059.0175526,
+      "instruction": "resume experiment with sparse monitoring",
+      "deadline_unchanged": 1794433005.0687976
+    }
+  ],
+  "previous_attempts": [
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a",
+      "ended": 1794420829.1506343,
+      "exception": null,
+      "result": {
+        "phase": "paused_by_user",
+        "training_complete": false
+      },
+      "termination_verified": true
+    },
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a-r1",
+      "ended": 1794423055.544935,
+      "exception": "RuntimeError(\"uv/tools/google-colab-cli/lib/python3.12/site-packages/re \u2502\\n\u2502 quests/sessions.py:784 in send                                               \u2502\\n\u2502                                                                              \u2502\\n\u2502   781 \u2502   \u2502   start = preferred_clock()                                      \u2502\\n\u2502   782 \u2502   \u2502                                                                  \u2502\\n\u2502   783 \u2502   \u2502   # Send the request                                             \u2502\\n\u2502 \u2771 784 \u2502   \u2502   r = adapter.send(request, **kwargs)                            \u2502\\n\u2502   785 \u2502   \u2502                                                                  \u2502\\n\u2502   786 \u2502   \u2502   # Total elapsed time of the request (approximately)            \u2502\\n\u2502   787 \u2502   \u2502   elapsed = preferred_clock() - start                            \u2502\\n\u2502                                                                              \u2502\\n\u2502 /root/.local/share/uv/tools/google-colab-cli/lib/python3.12/site-packages/re \u2502\\n\u2502 quests/adapters.py:742 in send                                               \u2502\\n\u2502                                                                              \u2502\\n\u2502   739 \u2502   \u2502   \u2502   \u2502   # This branch is for urllib3 versions earlier than     \u2502\\n\u2502       v1.22                                                                  \u2502\\n\u2502   740 \u2502   \u2502   \u2502   \u2502   raise SSLError(e, request=request)                     \u2502\\n\u2502   741 \u2502   \u2502   \u2502   elif isinstance(e, ReadTimeoutError):                      \u2502\\n\u2502 \u2771 742 \u2502   \u2502   \u2502   \u2502   raise ReadTimeout(e, request=request)                  \u2502\\n\u2502   743 \u2502   \u2502   \u2502   elif isinstance(e, _InvalidHeader):                        \u2502\\n\u2502   744 \u2502   \u2502   \u2502   \u2502   raise InvalidHeader(e, request=request)                \u2502\\n\u2502   745 \u2502   \u2502   \u2502   else:                                                      \u2502\\n\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256f\\nReadTimeout: \\nHTTPSConnectionPool(host='8080-gpu-t4-s-ass1c2-25cma55nvcb30-c.asia-southeast1.p\\nrod.r.colab.dev', port=443): Read timed out. (read timeout=10)\\n\")",
+      "result": null,
+      "termination_verified": true
+    }
+  ],
+  "result": {
+    "phase": "complete",
+    "time": 1794427293.967569,
+    "completed_training_runs": 6,
+    "target": 176128,
+    "primary_boards": 20
+  },
+  "stop_succeeded": true,
+  "ended": 1794427380.3629353
+}

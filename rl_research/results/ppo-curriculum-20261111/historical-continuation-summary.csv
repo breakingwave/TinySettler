@@ -1,0 +1,7 @@
+case_id,exact_reconstruction,mode,games,wins,losses,truncations
+0,False,greedy,16,6,3,7
+0,False,sample,16,16,0,0
+1,True,greedy,24,0,0,24
+1,True,sample,24,24,0,0
+2,False,greedy,16,3,1,12
+2,False,sample,16,15,0,1

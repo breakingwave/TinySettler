@@ -1,0 +1,134 @@
+{
+  "base": "tinysettler-scaling-20261114-a",
+  "session": "tinysettler-scaling-20261114-a-r1",
+  "started": 1794619143.8894265,
+  "deadline": 1794669543.8894265,
+  "planned_handoffs": 0,
+  "fault_replacements": 1,
+  "allocations": [
+    {
+      "session": "tinysettler-scaling-20261114-a",
+      "requested": 1794619143.89194,
+      "terminated": true,
+      "ready": 1794619145.5403697,
+      "stopped": 1794620243.402611
+    },
+    {
+      "session": "tinysettler-scaling-20261114-a-r1",
+      "requested": 1794620572.931004,
+      "terminated": true,
+      "ready": 1794620576.478415,
+      "stopped": 1794624169.5838182
+    }
+  ],
+  "events": [
+    {
+      "time": 1794619452.955686,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a"
+    },
+    {
+      "time": 1794619491.4967482,
+      "kind": "verified_generation",
+      "files": 10,
+      "bytes": 13856,
+      "generation": "1794619476467151583.json"
+    },
+    {
+      "time": 1794620091.7620025,
+      "kind": "verified_generation",
+      "files": 91,
+      "bytes": 443903,
+      "generation": "1794620077110455920.json"
+    },
+    {
+      "time": 1794620241.329564,
+      "kind": "verified_generation",
+      "files": 95,
+      "bytes": 45022,
+      "generation": "1794620236696532497.json"
+    },
+    {
+      "kind": "pre_sweep_rng_repair_single_fault_replacement",
+      "time": 1794620572.863183,
+      "previous_artifacts": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a"
+    },
+    {
+      "time": 1794621551.6189156,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794622506.7228115,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 2,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794622878.2971017,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a-r1"
+    },
+    {
+      "time": 1794623043.4166467,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794623351.6965652,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794623532.7520921,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794623559.986059,
+      "kind": "verified_generation",
+      "files": 71,
+      "bytes": 464930,
+      "generation": "1794623367654871194.json"
+    },
+    {
+      "time": 1794623971.4806213,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794624152.131476,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794624167.5325572,
+      "kind": "verified_generation",
+      "files": 94,
+      "bytes": 113450,
+      "generation": "1794623986997157760.json"
+    }
+  ],
+  "complete": false,
+  "all_terminated": true,
+  "controller_pid": 58973,
+  "watchdog_pid": 58976,
+  "last_verified_copy": 1794623987.0182133,
+  "latest_generation": "1794623986997157760.json",
+  "fatal": "RuntimeError('fatal worker integrity/stage failure: {\\'phase\\': \\'fatal\\', \\'time\\': 1794623645.4753728, \\'traceback\\': \\'Traceback (most recent call last):\\\\n  File \"/content/experiment/sc_remote.py\", line 187, in <module>\\\\n    try:main(a.out,a.deadline)\\\\n        ~~~~^^^^^^^^^^^^^^^^^^\\\\n  File \"/content/experiment/sc_remote.py\", line 121, in main\\\\n    status(out,\\\\\\'calibration\\\\\\');pilots,timing=calibration(out,deadline)\\\\n                                            ~~~~~~~~~~~^^^^^^^^^^^^^^\\\\n  File \"/content/experiment/sc_remote.py\", line 58, in calibration\\\\n    assert all(t[\\\\\\'n\\\\\\']==8192 for t in ts),\\\\\\'incomplete pilot\\\\\\'\\\\n           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\\\\nAssertionError: incomplete pilot\\\\n\\'}')",
+  "ended": 1794624169.5842755,
+  "elapsed_upper_bound": 5025.694849014282
+}

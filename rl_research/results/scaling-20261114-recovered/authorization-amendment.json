@@ -1,0 +1,28 @@
+{
+  "user_instruction": "try the recovery and get back on experiment plan if sucessful",
+  "authorized_at": 1794624798.4929373,
+  "original_started": 1794619143.8894265,
+  "original_deadline": 1794669543.8894265,
+  "max_fault_replacements": 2,
+  "additional_attempts": 1,
+  "preflight_deadline": 1794628398.4929373,
+  "calibration_order": [
+    "E",
+    "F",
+    "A",
+    "B",
+    "C",
+    "D",
+    "G"
+  ],
+  "all_pilots_fresh": true,
+  "no_experimental_runs_started": true,
+  "changes": [
+    "idempotent detached bounded installation",
+    "retain latest pilot checkpoint in external copies",
+    "cold/warm cache continuation checks",
+    "graph-first calibration and graph external roundtrip"
+  ],
+  "previous_artifacts": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-repair1",
+  "unchanged_learning_problem": true
+}

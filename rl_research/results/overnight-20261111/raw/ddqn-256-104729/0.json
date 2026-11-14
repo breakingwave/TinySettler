@@ -1,0 +1,252 @@
+{
+  "stats": {
+    "n": 0,
+    "complete": true,
+    "elapsed": 5.290003173286095e-07,
+    "learner_decisions_s": 0.0,
+    "engine_actions_s": 0.0,
+    "update_seconds": 0.0,
+    "episodes": 0,
+    "terminal_rewards": 0,
+    "parameters": 676173
+  },
+  "rows": [
+    {
+      "board_seed": 2000000000,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 2,
+      "engine_actions": 1538,
+      "decisions": 741,
+      "seconds": 0.9693770740004766,
+      "inference_seconds": 0.29167992600469006,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000000,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "truncated": true,
+      "points": 7,
+      "engine_actions": 2290,
+      "decisions": 1188,
+      "seconds": 1.5269027670001378,
+      "inference_seconds": 0.45928481899591134,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000000,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 2,
+      "engine_actions": 1159,
+      "decisions": 564,
+      "seconds": 0.7328406759997961,
+      "inference_seconds": 0.21655541899781383,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000000,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 842,
+      "decisions": 427,
+      "seconds": 0.5469868410000345,
+      "inference_seconds": 0.16012660800151934,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000000,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 2,
+      "engine_actions": 243,
+      "decisions": 103,
+      "seconds": 0.150417558999834,
+      "inference_seconds": 0.04251447100250516,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000000,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 2,
+      "engine_actions": 302,
+      "decisions": 124,
+      "seconds": 0.1607305150000684,
+      "inference_seconds": 0.046113213998069114,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000001,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 5,
+      "engine_actions": 1156,
+      "decisions": 563,
+      "seconds": 1.0596779739998965,
+      "inference_seconds": 0.2855478309938917,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000001,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 8,
+      "engine_actions": 1689,
+      "decisions": 867,
+      "seconds": 1.677900385000612,
+      "inference_seconds": 0.43384247799622244,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000001,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 872,
+      "decisions": 428,
+      "seconds": 0.5980050939997454,
+      "inference_seconds": 0.1759303209873906,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000001,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 881,
+      "decisions": 429,
+      "seconds": 0.5777252200005023,
+      "inference_seconds": 0.1713598090072992,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000001,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 1204,
+      "decisions": 498,
+      "seconds": 0.6844033900006252,
+      "inference_seconds": 0.20233413899768493,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2000000001,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 1137,
+      "decisions": 468,
+      "seconds": 0.6404386130006969,
+      "inference_seconds": 0.19009473399910348,
+      "illegal_actions": 0
+    }
+  ],
+  "summary": {
+    "random": {
+      "games": 4,
+      "wins": 0,
+      "losses": 3,
+      "truncations": 1,
+      "completed": 3,
+      "win_rate_ci95_clustered": [
+        0.0,
+        0.0
+      ],
+      "points": 5.5,
+      "inference_ms": 0.4377359493869353,
+      "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer"
+    },
+    "weighted": {
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "truncations": 0,
+      "completed": 4,
+      "win_rate_ci95_clustered": [
+        0.0,
+        0.0
+      ],
+      "points": 5.25,
+      "inference_ms": 0.3917598252132159,
+      "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer"
+    },
+    "heuristic": {
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "truncations": 0,
+      "completed": 4,
+      "win_rate_ci95_clustered": [
+        0.0,
+        0.0
+      ],
+      "points": 3.5,
+      "inference_ms": 0.4032326554881498,
+      "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer"
+    }
+  },
+  "metrics": [],
+  "episodes": [],
+  "telemetry": {
+    "cpu_count": 2,
+    "load": [
+      1.21875,
+      1.35791015625,
+      1.42822265625
+    ],
+    "process_cpu_seconds": 4946.185798702,
+    "peak_rss_kib": 4013124,
+    "gpu": "Tesla T4, 6 %, 1 %, 437 MiB, 15360 MiB"
+  }
+}

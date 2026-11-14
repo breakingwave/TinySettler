@@ -1,0 +1,54 @@
+{
+  "no_model_or_setting_changes": true,
+  "renderer_sha256": "ac0eac1741932032dd3ea1b641b039a6e39aff58d4aa5eb6ef000ef5804e50e1",
+  "charts_refined": [
+    "02",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+  ],
+  "independent_row_totals": {
+    "final-games.csv": {
+      "games": 2400,
+      "wins": 498,
+      "losses": 1902,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "validation-games.csv": {
+      "games": 1920,
+      "wins": 274,
+      "losses": 1646,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "regression-games.csv": {
+      "games": 300,
+      "wins": 247,
+      "losses": 53,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "historical-context.csv": {
+      "games": 720,
+      "wins": 135,
+      "losses": 585,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "confirmation-games.csv": {
+      "games": 320,
+      "wins": 14,
+      "losses": 306,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    }
+  }
+}

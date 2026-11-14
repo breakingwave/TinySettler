@@ -1,0 +1,26 @@
+{
+  "created": 1794660268.9145498,
+  "packages": [
+    {
+      "kind": "portable",
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/final-delivery.tar.gz",
+      "sha256": "01a4175a00bdfd6cc1270f2b279e6d2ae5a4847514be0a7bfcd6bcd965be6610",
+      "bytes": 55643390,
+      "verified_members": 88
+    },
+    {
+      "kind": "full-checkpoints",
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/full-checkpoints.tar.gz",
+      "sha256": "dc64058f3ae882bab574d595738832f4e469dc954eb8652adae6c0ba8ffaee11",
+      "bytes": 537646633,
+      "verified_members": 94
+    }
+  ],
+  "all_models_and_sources_verified": true,
+  "all_four_runtimes_terminated": true,
+  "artifacts": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2",
+  "full_checkpoint_index": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/checkpoint-index.json",
+  "selected_export": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/final-policy-exports/B-400033.pt",
+  "scope": "10 completed A\u2013D runs; graph/teacher omitted before outcomes by calibrated scope",
+  "report_files": 69
+}

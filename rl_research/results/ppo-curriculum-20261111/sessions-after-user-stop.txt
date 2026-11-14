@@ -1,0 +1,2 @@
+[colab] Pruned 1 stale local session(s).
+[colab] No active sessions found on server.

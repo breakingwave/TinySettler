@@ -1,0 +1,10 @@
+{
+  "new_training_seconds": 7019.682150771,
+  "evaluation_seconds": {
+    "validation": 2724.6984589099884,
+    "final": 1383.9413979053497,
+    "secondary": 707.3676428794861
+  },
+  "allocation_upper_bound_seconds": 13054.156758785248,
+  "note": "Training timers exclude validation. Evaluation wall times include resumed/cached calls; setup, transfers, calibration, recovery gates and cleanup are contained in allocation accounting."
+}

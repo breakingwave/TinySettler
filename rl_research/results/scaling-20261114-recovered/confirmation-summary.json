@@ -1,0 +1,80 @@
+{
+  "selected": {
+    "condition": "B",
+    "seed": 400033,
+    "step": 425984,
+    "mode": "sampled",
+    "wins": 4,
+    "games": 32,
+    "truncations": 0,
+    "parameters": 172109
+  },
+  "summary": {
+    "games": 400,
+    "wins": 18,
+    "losses": 382,
+    "truncations": 0,
+    "win_fraction": 0.045,
+    "mean_points": 4.35,
+    "illegal_actions": 0,
+    "inference_ms": 1.0422043873808566,
+    "end_to_end_ms": 1.7117905057688996,
+    "seconds": 377.7365042189974
+  },
+  "boards": 100,
+  "interpretation": "one validation-selected model; not an algorithm average",
+  "base": {
+    "summary": {
+      "games": 200,
+      "wins": 8,
+      "losses": 192,
+      "truncations": 0,
+      "win_fraction": 0.04,
+      "mean_points": 4.36,
+      "illegal_actions": 0,
+      "inference_ms": 1.0527566566493762,
+      "end_to_end_ms": 1.7249787567549957,
+      "seconds": 188.88397764099773
+    },
+    "board_cluster_95": [
+      0.015,
+      0.07
+    ]
+  },
+  "contender": {
+    "summary": {
+      "games": 200,
+      "wins": 10,
+      "losses": 190,
+      "truncations": 0,
+      "win_fraction": 0.05,
+      "mean_points": 4.34,
+      "illegal_actions": 0,
+      "inference_ms": 1.0314882012497628,
+      "end_to_end_ms": 1.6983973911018757,
+      "seconds": 188.8525265779997
+    },
+    "board_cluster_95": [
+      0.02,
+      0.085
+    ]
+  },
+  "base+contender": {
+    "summary": {
+      "games": 400,
+      "wins": 18,
+      "losses": 382,
+      "truncations": 0,
+      "win_fraction": 0.045,
+      "mean_points": 4.35,
+      "illegal_actions": 0,
+      "inference_ms": 1.0422043873808566,
+      "end_to_end_ms": 1.7117905057688996,
+      "seconds": 377.7365042189974
+    },
+    "board_cluster_95": [
+      0.0225,
+      0.07
+    ]
+  }
+}

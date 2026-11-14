@@ -1,0 +1,159 @@
+{
+  "seed": 42,
+  "python": "3.14.7",
+  "catanatron_version": "3.3.0",
+  "package_path": "/Users/alexanderwang/projects/TinySettler/.venv/lib/python3.14/site-packages/catanatron",
+  "scope": "Tiny read-only interface probes, not policy training or playing-strength evaluation",
+  "setup_engine_actions": 8,
+  "optional_dependencies_available": {
+    "numpy": false,
+    "gymnasium": false,
+    "torch": false,
+    "onnx": false
+  },
+  "source_sha256": {
+    "game.py": "ad4f243a4b609178569139fcfe0816e76becc48efd5dfcf023040f8a7560ccea",
+    "state.py": "be1e4da790b21589a171aed8068a847594cdde8da9818c35c89988b4ae5f2e15",
+    "features.py": "f6ec7fd7f30f740a75c978c9a8166512c6514052a79802992216dbd812553746",
+    "apply_action.py": "ebc9577a2198945dd5b89e593abb141aebf2a992641e135bc6288d8e907152b7",
+    "gym/envs/action_space.py": "82c4818de20f60980d2e57ae8246ba33a6643477c4bdb085b90fb6a6da1dbb91",
+    "players/tree_search_utils.py": "c4e5df0d64626ef782f0311355498d29a051b70be93c66e82ec8829457624606"
+  },
+  "dimensions": {
+    "players": 2,
+    "map": "BASE",
+    "land_tiles": 19,
+    "nodes": 54,
+    "edges": 72,
+    "numeric_features": 614,
+    "fixed_actions": 332,
+    "action_mapping_roundtrip_all_pass": true,
+    "action_types": [
+      "BUILD_CITY",
+      "BUILD_ROAD",
+      "BUILD_SETTLEMENT",
+      "BUY_DEVELOPMENT_CARD",
+      "DISCARD_RESOURCE",
+      "END_TURN",
+      "MARITIME_TRADE",
+      "MOVE_ROBBER",
+      "PLAY_KNIGHT_CARD",
+      "PLAY_MONOPOLY",
+      "PLAY_ROAD_BUILDING",
+      "PLAY_YEAR_OF_PLENTY",
+      "ROLL"
+    ],
+    "player_trade_actions_present": false,
+    "dice_features_encode_probability_only": [
+      "TILE0_PROBA",
+      "TILE10_PROBA",
+      "TILE11_PROBA",
+      "TILE12_PROBA",
+      "TILE13_PROBA",
+      "TILE14_PROBA",
+      "TILE15_PROBA",
+      "TILE16_PROBA",
+      "TILE17_PROBA",
+      "TILE18_PROBA",
+      "TILE1_PROBA",
+      "TILE2_PROBA",
+      "TILE3_PROBA",
+      "TILE4_PROBA",
+      "TILE5_PROBA",
+      "TILE6_PROBA",
+      "TILE7_PROBA",
+      "TILE8_PROBA",
+      "TILE9_PROBA"
+    ]
+  },
+  "rng_copy": {
+    "copy_shares_rng": true,
+    "copy_stochastic_action_changes_original_rng": true,
+    "original_action_count_unchanged": true
+  },
+  "roll_spectrum": {
+    "intended_roll_sums": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "realized_roll_sums": [
+      8,
+      9,
+      12,
+      6,
+      8,
+      11,
+      4,
+      8,
+      9,
+      11,
+      8
+    ],
+    "assigned_probabilities": [
+      0.027777777777777776,
+      0.05555555555555555,
+      0.08333333333333333,
+      0.1111111111111111,
+      0.1388888888888889,
+      0.16666666666666669,
+      0.1388888888888889,
+      0.1111111111111111,
+      0.08333333333333333,
+      0.05555555555555555,
+      0.027777777777777776
+    ],
+    "exact_enumeration_matches": false,
+    "audit_baseline_rng_unchanged": true,
+    "cause": "execute_spectrum supplies dice in Action.value; apply_roll honors only ActionRecord.result, otherwise samples RNG"
+  },
+  "bank_information": {
+    "resource_supply_assumption": "19 cards per resource, exactly two players, all resources in bank or player hands",
+    "reconstructed_opponent_hand": {
+      "WOOD": 0,
+      "BRICK": 1,
+      "SHEEP": 0,
+      "WHEAT": 1,
+      "ORE": 1
+    },
+    "actual_opponent_hand": {
+      "WOOD": 0,
+      "BRICK": 1,
+      "SHEEP": 0,
+      "WHEAT": 1,
+      "ORE": 1
+    },
+    "exact_reconstruction": true,
+    "mutated_one_card": {
+      "from": "BRICK",
+      "to": "WOOD"
+    },
+    "changed_feature_names": [
+      "BANK_BRICK",
+      "BANK_WOOD"
+    ],
+    "nonbank_features_unchanged": true,
+    "legal_actions_unchanged": true,
+    "card_conservation": {
+      "WOOD": true,
+      "BRICK": true,
+      "SHEEP": true,
+      "WHEAT": true,
+      "ORE": true
+    },
+    "interpretation": "Exact bank composition reveals the opponent resource hand in 1v1; this is leakage only if the chosen demo protocol does not expose bank composition."
+  },
+  "trade_input_validation": {
+    "negative_counts_pass_shape_check": true,
+    "fractional_counts_pass_shape_check": true,
+    "interpretation": "Offer adapter must check length, integer nonnegative counts, affordability and recipient; the stock helper does not establish these invariants."
+  }
+}

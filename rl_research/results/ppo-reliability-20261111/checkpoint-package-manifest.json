@@ -1,0 +1,97 @@
+{
+  "archive": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/common-final-and-selected.tar.gz",
+  "bytes": 83066070,
+  "sha256": "0a09498c06cf38471876b94844b5e9ed85d1299a6959a9aa2b062aa2929f1b5e",
+  "checkpoints": [
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/106496.pt",
+      "archive_path": "checkpoints/ppo-128-104729/106496.pt",
+      "sha256": "a7fdb4d9806d81de2982d6a35470e2246081823d74fbcf021899a17a61f760bd",
+      "bytes": 5241829
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/434176.pt",
+      "archive_path": "checkpoints/ppo-128-104729/434176.pt",
+      "sha256": "73de31d6518bcc309e29b1e1cb914227dad87d63a9d8344c4e59642fc9d82e01",
+      "bytes": 5312997
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/106496.pt",
+      "archive_path": "checkpoints/ppo-256-104729/106496.pt",
+      "sha256": "5d37d8722c329373af533a98c71c522d0b39d0b45b225438c88204b820211e58",
+      "bytes": 10908517
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/434176.pt",
+      "archive_path": "checkpoints/ppo-256-104729/434176.pt",
+      "sha256": "6fc9d11be06b01874fa9051f1953cf03fe8144dfb5827c440433942476a56ab2",
+      "bytes": 10991333
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/434176.pt",
+      "archive_path": "checkpoints/ppo-128-130363/434176.pt",
+      "sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+      "bytes": 5309349
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-130363/434176.pt",
+      "archive_path": "checkpoints/ppo-256-130363/434176.pt",
+      "sha256": "d7725e9ede7c0a10f377860c7471dc7c4debc040c76334a19b655ba0d1648b74",
+      "bytes": 10982501
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-155921/323584.pt",
+      "archive_path": "checkpoints/ppo-128-155921/323584.pt",
+      "sha256": "1e50e31a8d48d63e4c21e12eedb4851f5bdb3da075910903973cf3cceca6a99c",
+      "bytes": 5315557
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-155921/434176.pt",
+      "archive_path": "checkpoints/ppo-128-155921/434176.pt",
+      "sha256": "72a44e75e85a8d5bacdc6714703791d6decfe22ef113b16e6aee229cb390ebe0",
+      "bytes": 5322597
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-256-155921/434176.pt",
+      "archive_path": "checkpoints/ppo-256-155921/434176.pt",
+      "sha256": "326ae2bc2212b05357698809d11d446f5739ce1828192b7e1222244ee72f307e",
+      "bytes": 10991525
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-196613/106496.pt",
+      "archive_path": "checkpoints/ppo-128-196613/106496.pt",
+      "sha256": "9f27816514452e2ac0c782c27081bad02df85b327c20d1cd40b59a721cddfe7c",
+      "bytes": 5289829
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-196613/434176.pt",
+      "archive_path": "checkpoints/ppo-128-196613/434176.pt",
+      "sha256": "b9eaa886eed7919d857f2e45cc1953fae7d052592ba860f3347e3a1524c40a1b",
+      "bytes": 5325093
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-256-196613/323584.pt",
+      "archive_path": "checkpoints/ppo-256-196613/323584.pt",
+      "sha256": "1b865cbe463e1fd49ead52ebfe13c312e82b7c9bcd6505b5c371fe0b8aa0f6d2",
+      "bytes": 10995173
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-256-196613/434176.pt",
+      "archive_path": "checkpoints/ppo-256-196613/434176.pt",
+      "sha256": "f52d4671e477f2f71cc645ccc447fe43f9362c87d1150a92c78579a3998636a0",
+      "bytes": 10985445
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-262147/434176.pt",
+      "archive_path": "checkpoints/ppo-128-262147/434176.pt",
+      "sha256": "0827ce4a7c32ba827a82ed7c7390300659a054fc7cca6aa1393a178f8270a589",
+      "bytes": 5317989
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-256-262147/434176.pt",
+      "archive_path": "checkpoints/ppo-256-262147/434176.pt",
+      "sha256": "f9f6cce1b3eabedd2f41c2c94f5ee3495b8717bc45ba4696c5cbd0eeb45d8bd4",
+      "bytes": 11013477
+    }
+  ]
+}

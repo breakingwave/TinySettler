@@ -1,0 +1,54 @@
+{
+  "base": "tinysettler-scaling-20261114-a",
+  "session": "tinysettler-scaling-20261114-a",
+  "started": 1794619143.8894265,
+  "deadline": 1794669543.8894265,
+  "planned_handoffs": 0,
+  "fault_replacements": 0,
+  "allocations": [
+    {
+      "session": "tinysettler-scaling-20261114-a",
+      "requested": 1794619143.89194,
+      "terminated": true,
+      "ready": 1794619145.5403697,
+      "stopped": 1794620243.402611
+    }
+  ],
+  "events": [
+    {
+      "time": 1794619452.955686,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a"
+    },
+    {
+      "time": 1794619491.4967482,
+      "kind": "verified_generation",
+      "files": 10,
+      "bytes": 13856,
+      "generation": "1794619476467151583.json"
+    },
+    {
+      "time": 1794620091.7620025,
+      "kind": "verified_generation",
+      "files": 91,
+      "bytes": 443903,
+      "generation": "1794620077110455920.json"
+    },
+    {
+      "time": 1794620241.329564,
+      "kind": "verified_generation",
+      "files": 95,
+      "bytes": 45022,
+      "generation": "1794620236696532497.json"
+    }
+  ],
+  "complete": false,
+  "controller_pid": 58282,
+  "watchdog_pid": 58284,
+  "last_verified_copy": 1794620236.7168581,
+  "latest_generation": "1794620236696532497.json",
+  "fatal": "RuntimeError('fatal worker integrity/stage failure: {\\'phase\\': \\'fatal\\', \\'time\\': 1794620182.6300728, \\'traceback\\': \\'Traceback (most recent call last):\\\\n  File \"/content/experiment/sc_remote.py\", line 182, in <module>\\\\n    try:main(a.out,a.deadline)\\\\n        ~~~~^^^^^^^^^^^^^^^^^^\\\\n  File \"/content/experiment/sc_remote.py\", line 116, in main\\\\n    status(out,\\\\\\'calibration\\\\\\');pilots,timing=calibration(out,deadline)\\\\n                                            ~~~~~~~~~~~^^^^^^^^^^^^^^\\\\n  File \"/content/experiment/sc_remote.py\", line 61, in calibration\\\\n    wait_batch(out,probes,limit)\\\\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\\\\n  File \"/content/experiment/sc_remote.py\", line 37, in wait_batch\\\\n    if any(p.returncode!=0 for p in processes):raise RuntimeError(\\\\\\'INTEGRITY: worker failure; inspect bounded worker logs\\\\\\')\\\\n                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\\\nRuntimeError: INTEGRITY: worker failure; inspect bounded worker logs\\\\n\\'}')",
+  "ended": 1794620243.402981,
+  "elapsed_upper_bound": 1099.513554573059,
+  "all_terminated": true
+}

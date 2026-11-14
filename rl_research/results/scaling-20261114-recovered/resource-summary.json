@@ -1,0 +1,60 @@
+{
+  "elapsed_original_clock_seconds": 40491.078714847565,
+  "allocated_upper_bound_seconds": 39532.5378010273,
+  "hard_limit_seconds": 50400,
+  "all_terminated": true,
+  "deadline": 1794669543.8894265,
+  "training_seconds": 24944.538650756993,
+  "validation_seconds": 2285.7247307170037,
+  "final_seconds": 3780.414102502998,
+  "experimental_transitions": 4259840,
+  "training_terminal_episodes": 18647,
+  "training_truncations": 26,
+  "terminal_reward_frequency": 0.004377394456129807,
+  "training_copy_gap_median_seconds": 645.5881373882294,
+  "training_copy_gap_max_seconds": 1156.9196619987488,
+  "active_worker_gpu_utilization_mean": 4.0292510446801675,
+  "nonfinite_losses": 0,
+  "evaluation": {
+    "final-games.csv": {
+      "games": 2400,
+      "wins": 498,
+      "losses": 1902,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "validation-games.csv": {
+      "games": 1920,
+      "wins": 274,
+      "losses": 1646,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "regression-games.csv": {
+      "games": 300,
+      "wins": 247,
+      "losses": 53,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "historical-context.csv": {
+      "games": 720,
+      "wins": 135,
+      "losses": 585,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    },
+    "confirmation-games.csv": {
+      "games": 320,
+      "wins": 14,
+      "losses": 306,
+      "truncations": 0,
+      "illegal_actions": 0,
+      "infrastructure_failures": 0
+    }
+  }
+}

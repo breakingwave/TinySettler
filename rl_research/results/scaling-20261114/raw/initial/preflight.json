@@ -1,0 +1,32 @@
+{
+  "time": 1794619459.931674,
+  "gpu": "Sat Nov 14 01:24:15 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n| N/A   39C    P8             14W /   70W |       3MiB /  15360MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "torch": "2.9.1+cu128",
+  "cpu_count": 2,
+  "cuda_update": true,
+  "source_hashes": {
+    "sc_transfer.py": "515927472e7d36c6a74ff6dd9aa7a17d6de09b360d5d1323c963d056b2a5aae6",
+    "sc_remote.py": "938cbb83507c2543b4ab43a80d1b8afbecf9d3e425d0f14f8aefd82054b327e7",
+    "sc_train.py": "3bd4507b3515bf7f29f8c6b21b975c268b0e9b7b1047e631b9ad5fa64098ea22",
+    "sc_monitor.py": "120af5d237f148b41e526148a428e3252b465df8172da45613c7d078dee53968",
+    "sc_prepare.py": "732e1332e048ef282b8ef002039e3579607711548021dc0e68f34876c5f34a2e",
+    "sc_models.py": "0de8f20105c37b7835dc915ae9cd29ed57b3c328e82b0330b8f9a528bb894f4c",
+    "sc_bundle.py": "60db024c1856dce0aeb31e3189f19d84a76c894c93e60561a1450352ed8f0526",
+    "sc_common.py": "0b4623f223a71ed8b7ffe036e510936ae4084da68971387828e0b9291fd81cab",
+    "sc_report.py": "613fec309389301e4891eef4e909f808ac6e6992f930a357335cf108d2749795",
+    "sc_eval.py": "7a6331bce8f408f7784374519778638a25ab1bcde4adc90f8547d3d8bcd1f4f7",
+    "sc_checks.py": "20e0dd4d9ccab015558cc2acc09cb3cd61b06de503595ed2f31b96aba0fba039",
+    "sc_env.py": "828c6912f143acbacf498b4339a4969f1cc39aa5d0334357d5e5f91a6b06990f",
+    "sc_plan.py": "abe6ccd6e3b1e7ad4c38830735084e89b78293b7e6ac1629d550f33d5796a29c",
+    "sc_controller.py": "46df90e7e19989ceee6b3e57640562b59a6c44f84f0c166b499b8fe4ea654639",
+    "sc_verify.py": "420466984065c65d35465fa0bdd7da445c74e157d195f1c017000932bb898f41",
+    "schema.json": "8493fa2c75e3828f3bec6c697abb21f4b787cc3ef75ce5a759b70dffa01c3ba8",
+    "requirements-lock.txt": "ff4a68336dc449c9df67da2c9710adb0dea68ef7a910ee313c0b777f7df391fd",
+    "env.py": "5090ecf64ea865b88c1a43387d71b2941ce0d0633ce5ac28a345291e7530733f",
+    "train.py": "6121d95729f32814dca6825502660c03e081ee5f066e8782fb7a998f75921aad",
+    "opponent_adapter.py": "c79f7b15a0bdadb009bfd5442ef761f2efadf8a41ba3c57e5cbfd8fc160451e7",
+    "curriculum_core.py": "c44baa135c028cde9968b19fc3e10d151d833c8e52a705fad83297e436bbb7d9",
+    "reliability_common.py": "41a03d23e7db47cc7eee460a6d6b39b5ee98f8e0e3ab2bb37270ec7131d9f4e9",
+    "config.json": "06a09d80ba8a120e01b7f4b42d12f5e02f94e77b55fafc6f2cb7e0c7360eb998"
+  }
+}

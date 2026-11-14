@@ -1,0 +1,31 @@
+{
+  "original_started": 1794619143.8894265,
+  "original_deadline": 1794669543.8894265,
+  "end": 1794624169.5842755,
+  "wall_clock_seconds": 5025.694849014282,
+  "allocated_upper_bound_seconds": 4696.163485050201,
+  "hard_budget_seconds": 50400,
+  "allocations": [
+    {
+      "session": "tinysettler-scaling-20261114-a",
+      "request_utc": "2026-11-14T01:19:03.891940+00:00",
+      "stop_utc": "2026-11-14T01:37:23.402611+00:00",
+      "charged_upper_bound_seconds": 1099.5106709003448,
+      "terminated": true
+    },
+    {
+      "session": "tinysettler-scaling-20261114-a-r1",
+      "request_utc": "2026-11-14T01:42:52.931004+00:00",
+      "stop_utc": "2026-11-14T02:42:49.583818+00:00",
+      "charged_upper_bound_seconds": 3596.6528141498566,
+      "terminated": true
+    }
+  ],
+  "fault_replacements": 1,
+  "planned_handoffs": 0,
+  "all_terminated": true,
+  "experimental_transitions": 0,
+  "pilot_transitions": 211519,
+  "scope_frozen": false,
+  "final_test_games": 0
+}

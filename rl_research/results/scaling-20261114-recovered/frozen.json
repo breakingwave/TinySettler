@@ -1,0 +1,6676 @@
+{
+  "experiment": "fourteen-hour-scaling-20261114",
+  "created": 1794627193.8596215,
+  "schema": {
+    "version": "compact-normalized-879-v1",
+    "old_dimension": 2049,
+    "dimension": 879,
+    "removed_indices": [
+      855,
+      2025
+    ],
+    "features": [
+      {
+        "index": 0,
+        "name": "EDGE(0, 1)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 1,
+        "name": "EDGE(0, 1)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 2,
+        "name": "EDGE(0, 20)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 3,
+        "name": "EDGE(0, 20)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 4,
+        "name": "EDGE(0, 5)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 5,
+        "name": "EDGE(0, 5)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 6,
+        "name": "EDGE(1, 2)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 7,
+        "name": "EDGE(1, 2)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 8,
+        "name": "EDGE(1, 6)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 9,
+        "name": "EDGE(1, 6)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 10,
+        "name": "EDGE(10, 11)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 11,
+        "name": "EDGE(10, 11)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 12,
+        "name": "EDGE(10, 29)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 13,
+        "name": "EDGE(10, 29)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 14,
+        "name": "EDGE(11, 12)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 15,
+        "name": "EDGE(11, 12)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 16,
+        "name": "EDGE(11, 32)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 17,
+        "name": "EDGE(11, 32)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 18,
+        "name": "EDGE(12, 13)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 19,
+        "name": "EDGE(12, 13)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 20,
+        "name": "EDGE(13, 14)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 21,
+        "name": "EDGE(13, 14)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 22,
+        "name": "EDGE(13, 34)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 23,
+        "name": "EDGE(13, 34)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 24,
+        "name": "EDGE(14, 15)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 25,
+        "name": "EDGE(14, 15)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 26,
+        "name": "EDGE(14, 37)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 27,
+        "name": "EDGE(14, 37)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 28,
+        "name": "EDGE(15, 17)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 29,
+        "name": "EDGE(15, 17)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 30,
+        "name": "EDGE(16, 18)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 31,
+        "name": "EDGE(16, 18)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 32,
+        "name": "EDGE(16, 21)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 33,
+        "name": "EDGE(16, 21)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 34,
+        "name": "EDGE(17, 18)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 35,
+        "name": "EDGE(17, 18)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 36,
+        "name": "EDGE(17, 39)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 37,
+        "name": "EDGE(17, 39)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 38,
+        "name": "EDGE(18, 40)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 39,
+        "name": "EDGE(18, 40)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 40,
+        "name": "EDGE(19, 20)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 41,
+        "name": "EDGE(19, 20)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 42,
+        "name": "EDGE(19, 21)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 43,
+        "name": "EDGE(19, 21)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 44,
+        "name": "EDGE(19, 46)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 45,
+        "name": "EDGE(19, 46)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 46,
+        "name": "EDGE(2, 3)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 47,
+        "name": "EDGE(2, 3)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 48,
+        "name": "EDGE(2, 9)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 49,
+        "name": "EDGE(2, 9)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 50,
+        "name": "EDGE(20, 22)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 51,
+        "name": "EDGE(20, 22)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 52,
+        "name": "EDGE(21, 43)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 53,
+        "name": "EDGE(21, 43)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 54,
+        "name": "EDGE(22, 23)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 55,
+        "name": "EDGE(22, 23)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 56,
+        "name": "EDGE(22, 49)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 57,
+        "name": "EDGE(22, 49)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 58,
+        "name": "EDGE(23, 52)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 59,
+        "name": "EDGE(23, 52)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 60,
+        "name": "EDGE(24, 25)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 61,
+        "name": "EDGE(24, 25)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 62,
+        "name": "EDGE(24, 53)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 63,
+        "name": "EDGE(24, 53)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 64,
+        "name": "EDGE(25, 26)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 65,
+        "name": "EDGE(25, 26)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 66,
+        "name": "EDGE(26, 27)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 67,
+        "name": "EDGE(26, 27)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 68,
+        "name": "EDGE(27, 28)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 69,
+        "name": "EDGE(27, 28)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 70,
+        "name": "EDGE(28, 29)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 71,
+        "name": "EDGE(28, 29)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 72,
+        "name": "EDGE(29, 30)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 73,
+        "name": "EDGE(29, 30)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 74,
+        "name": "EDGE(3, 12)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 75,
+        "name": "EDGE(3, 12)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 76,
+        "name": "EDGE(3, 4)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 77,
+        "name": "EDGE(3, 4)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 78,
+        "name": "EDGE(30, 31)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 79,
+        "name": "EDGE(30, 31)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 80,
+        "name": "EDGE(31, 32)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 81,
+        "name": "EDGE(31, 32)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 82,
+        "name": "EDGE(32, 33)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 83,
+        "name": "EDGE(32, 33)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 84,
+        "name": "EDGE(33, 34)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 85,
+        "name": "EDGE(33, 34)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 86,
+        "name": "EDGE(34, 35)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 87,
+        "name": "EDGE(34, 35)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 88,
+        "name": "EDGE(35, 36)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 89,
+        "name": "EDGE(35, 36)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 90,
+        "name": "EDGE(36, 37)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 91,
+        "name": "EDGE(36, 37)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 92,
+        "name": "EDGE(37, 38)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 93,
+        "name": "EDGE(37, 38)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 94,
+        "name": "EDGE(38, 39)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 95,
+        "name": "EDGE(38, 39)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 96,
+        "name": "EDGE(39, 41)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 97,
+        "name": "EDGE(39, 41)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 98,
+        "name": "EDGE(4, 15)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 99,
+        "name": "EDGE(4, 15)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 100,
+        "name": "EDGE(4, 5)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 101,
+        "name": "EDGE(4, 5)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 102,
+        "name": "EDGE(40, 42)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 103,
+        "name": "EDGE(40, 42)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 104,
+        "name": "EDGE(40, 44)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 105,
+        "name": "EDGE(40, 44)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 106,
+        "name": "EDGE(41, 42)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 107,
+        "name": "EDGE(41, 42)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 108,
+        "name": "EDGE(43, 44)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 109,
+        "name": "EDGE(43, 44)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 110,
+        "name": "EDGE(43, 47)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 111,
+        "name": "EDGE(43, 47)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 112,
+        "name": "EDGE(45, 46)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 113,
+        "name": "EDGE(45, 46)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 114,
+        "name": "EDGE(45, 47)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 115,
+        "name": "EDGE(45, 47)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 116,
+        "name": "EDGE(46, 48)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 117,
+        "name": "EDGE(46, 48)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 118,
+        "name": "EDGE(48, 49)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 119,
+        "name": "EDGE(48, 49)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 120,
+        "name": "EDGE(49, 50)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 121,
+        "name": "EDGE(49, 50)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 122,
+        "name": "EDGE(5, 16)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 123,
+        "name": "EDGE(5, 16)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 124,
+        "name": "EDGE(50, 51)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 125,
+        "name": "EDGE(50, 51)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 126,
+        "name": "EDGE(51, 52)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 127,
+        "name": "EDGE(51, 52)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 128,
+        "name": "EDGE(52, 53)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 129,
+        "name": "EDGE(52, 53)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 130,
+        "name": "EDGE(6, 23)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 131,
+        "name": "EDGE(6, 23)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 132,
+        "name": "EDGE(6, 7)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 133,
+        "name": "EDGE(6, 7)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 134,
+        "name": "EDGE(7, 24)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 135,
+        "name": "EDGE(7, 24)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 136,
+        "name": "EDGE(7, 8)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 137,
+        "name": "EDGE(7, 8)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 138,
+        "name": "EDGE(8, 27)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 139,
+        "name": "EDGE(8, 27)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 140,
+        "name": "EDGE(8, 9)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 141,
+        "name": "EDGE(8, 9)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 142,
+        "name": "EDGE(9, 10)_P0_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 143,
+        "name": "EDGE(9, 10)_P1_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 144,
+        "name": "IS_DISCARDING",
+        "divisor": 1.0
+      },
+      {
+        "index": 145,
+        "name": "IS_MOVING_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 146,
+        "name": "NODE0_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 147,
+        "name": "NODE0_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 148,
+        "name": "NODE0_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 149,
+        "name": "NODE0_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 150,
+        "name": "NODE10_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 151,
+        "name": "NODE10_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 152,
+        "name": "NODE10_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 153,
+        "name": "NODE10_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 154,
+        "name": "NODE11_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 155,
+        "name": "NODE11_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 156,
+        "name": "NODE11_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 157,
+        "name": "NODE11_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 158,
+        "name": "NODE12_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 159,
+        "name": "NODE12_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 160,
+        "name": "NODE12_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 161,
+        "name": "NODE12_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 162,
+        "name": "NODE13_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 163,
+        "name": "NODE13_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 164,
+        "name": "NODE13_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 165,
+        "name": "NODE13_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 166,
+        "name": "NODE14_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 167,
+        "name": "NODE14_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 168,
+        "name": "NODE14_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 169,
+        "name": "NODE14_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 170,
+        "name": "NODE15_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 171,
+        "name": "NODE15_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 172,
+        "name": "NODE15_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 173,
+        "name": "NODE15_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 174,
+        "name": "NODE16_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 175,
+        "name": "NODE16_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 176,
+        "name": "NODE16_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 177,
+        "name": "NODE16_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 178,
+        "name": "NODE17_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 179,
+        "name": "NODE17_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 180,
+        "name": "NODE17_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 181,
+        "name": "NODE17_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 182,
+        "name": "NODE18_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 183,
+        "name": "NODE18_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 184,
+        "name": "NODE18_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 185,
+        "name": "NODE18_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 186,
+        "name": "NODE19_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 187,
+        "name": "NODE19_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 188,
+        "name": "NODE19_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 189,
+        "name": "NODE19_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 190,
+        "name": "NODE1_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 191,
+        "name": "NODE1_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 192,
+        "name": "NODE1_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 193,
+        "name": "NODE1_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 194,
+        "name": "NODE20_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 195,
+        "name": "NODE20_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 196,
+        "name": "NODE20_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 197,
+        "name": "NODE20_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 198,
+        "name": "NODE21_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 199,
+        "name": "NODE21_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 200,
+        "name": "NODE21_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 201,
+        "name": "NODE21_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 202,
+        "name": "NODE22_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 203,
+        "name": "NODE22_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 204,
+        "name": "NODE22_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 205,
+        "name": "NODE22_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 206,
+        "name": "NODE23_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 207,
+        "name": "NODE23_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 208,
+        "name": "NODE23_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 209,
+        "name": "NODE23_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 210,
+        "name": "NODE24_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 211,
+        "name": "NODE24_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 212,
+        "name": "NODE24_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 213,
+        "name": "NODE24_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 214,
+        "name": "NODE25_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 215,
+        "name": "NODE25_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 216,
+        "name": "NODE25_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 217,
+        "name": "NODE25_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 218,
+        "name": "NODE26_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 219,
+        "name": "NODE26_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 220,
+        "name": "NODE26_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 221,
+        "name": "NODE26_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 222,
+        "name": "NODE27_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 223,
+        "name": "NODE27_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 224,
+        "name": "NODE27_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 225,
+        "name": "NODE27_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 226,
+        "name": "NODE28_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 227,
+        "name": "NODE28_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 228,
+        "name": "NODE28_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 229,
+        "name": "NODE28_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 230,
+        "name": "NODE29_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 231,
+        "name": "NODE29_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 232,
+        "name": "NODE29_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 233,
+        "name": "NODE29_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 234,
+        "name": "NODE2_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 235,
+        "name": "NODE2_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 236,
+        "name": "NODE2_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 237,
+        "name": "NODE2_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 238,
+        "name": "NODE30_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 239,
+        "name": "NODE30_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 240,
+        "name": "NODE30_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 241,
+        "name": "NODE30_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 242,
+        "name": "NODE31_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 243,
+        "name": "NODE31_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 244,
+        "name": "NODE31_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 245,
+        "name": "NODE31_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 246,
+        "name": "NODE32_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 247,
+        "name": "NODE32_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 248,
+        "name": "NODE32_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 249,
+        "name": "NODE32_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 250,
+        "name": "NODE33_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 251,
+        "name": "NODE33_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 252,
+        "name": "NODE33_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 253,
+        "name": "NODE33_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 254,
+        "name": "NODE34_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 255,
+        "name": "NODE34_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 256,
+        "name": "NODE34_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 257,
+        "name": "NODE34_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 258,
+        "name": "NODE35_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 259,
+        "name": "NODE35_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 260,
+        "name": "NODE35_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 261,
+        "name": "NODE35_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 262,
+        "name": "NODE36_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 263,
+        "name": "NODE36_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 264,
+        "name": "NODE36_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 265,
+        "name": "NODE36_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 266,
+        "name": "NODE37_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 267,
+        "name": "NODE37_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 268,
+        "name": "NODE37_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 269,
+        "name": "NODE37_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 270,
+        "name": "NODE38_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 271,
+        "name": "NODE38_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 272,
+        "name": "NODE38_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 273,
+        "name": "NODE38_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 274,
+        "name": "NODE39_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 275,
+        "name": "NODE39_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 276,
+        "name": "NODE39_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 277,
+        "name": "NODE39_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 278,
+        "name": "NODE3_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 279,
+        "name": "NODE3_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 280,
+        "name": "NODE3_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 281,
+        "name": "NODE3_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 282,
+        "name": "NODE40_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 283,
+        "name": "NODE40_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 284,
+        "name": "NODE40_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 285,
+        "name": "NODE40_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 286,
+        "name": "NODE41_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 287,
+        "name": "NODE41_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 288,
+        "name": "NODE41_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 289,
+        "name": "NODE41_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 290,
+        "name": "NODE42_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 291,
+        "name": "NODE42_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 292,
+        "name": "NODE42_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 293,
+        "name": "NODE42_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 294,
+        "name": "NODE43_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 295,
+        "name": "NODE43_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 296,
+        "name": "NODE43_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 297,
+        "name": "NODE43_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 298,
+        "name": "NODE44_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 299,
+        "name": "NODE44_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 300,
+        "name": "NODE44_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 301,
+        "name": "NODE44_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 302,
+        "name": "NODE45_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 303,
+        "name": "NODE45_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 304,
+        "name": "NODE45_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 305,
+        "name": "NODE45_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 306,
+        "name": "NODE46_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 307,
+        "name": "NODE46_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 308,
+        "name": "NODE46_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 309,
+        "name": "NODE46_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 310,
+        "name": "NODE47_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 311,
+        "name": "NODE47_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 312,
+        "name": "NODE47_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 313,
+        "name": "NODE47_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 314,
+        "name": "NODE48_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 315,
+        "name": "NODE48_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 316,
+        "name": "NODE48_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 317,
+        "name": "NODE48_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 318,
+        "name": "NODE49_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 319,
+        "name": "NODE49_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 320,
+        "name": "NODE49_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 321,
+        "name": "NODE49_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 322,
+        "name": "NODE4_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 323,
+        "name": "NODE4_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 324,
+        "name": "NODE4_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 325,
+        "name": "NODE4_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 326,
+        "name": "NODE50_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 327,
+        "name": "NODE50_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 328,
+        "name": "NODE50_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 329,
+        "name": "NODE50_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 330,
+        "name": "NODE51_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 331,
+        "name": "NODE51_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 332,
+        "name": "NODE51_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 333,
+        "name": "NODE51_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 334,
+        "name": "NODE52_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 335,
+        "name": "NODE52_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 336,
+        "name": "NODE52_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 337,
+        "name": "NODE52_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 338,
+        "name": "NODE53_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 339,
+        "name": "NODE53_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 340,
+        "name": "NODE53_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 341,
+        "name": "NODE53_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 342,
+        "name": "NODE5_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 343,
+        "name": "NODE5_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 344,
+        "name": "NODE5_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 345,
+        "name": "NODE5_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 346,
+        "name": "NODE6_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 347,
+        "name": "NODE6_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 348,
+        "name": "NODE6_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 349,
+        "name": "NODE6_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 350,
+        "name": "NODE7_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 351,
+        "name": "NODE7_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 352,
+        "name": "NODE7_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 353,
+        "name": "NODE7_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 354,
+        "name": "NODE8_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 355,
+        "name": "NODE8_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 356,
+        "name": "NODE8_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 357,
+        "name": "NODE8_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 358,
+        "name": "NODE9_P0_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 359,
+        "name": "NODE9_P0_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 360,
+        "name": "NODE9_P1_CITY",
+        "divisor": 1.0
+      },
+      {
+        "index": 361,
+        "name": "NODE9_P1_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 362,
+        "name": "P0_ACTUAL_VPS",
+        "divisor": 10.0
+      },
+      {
+        "index": 363,
+        "name": "P0_BRICK_IN_HAND",
+        "divisor": 19.0
+      },
+      {
+        "index": 364,
+        "name": "P0_CITIES_LEFT",
+        "divisor": 4.0
+      },
+      {
+        "index": 365,
+        "name": "P0_HAS_ARMY",
+        "divisor": 1.0
+      },
+      {
+        "index": 366,
+        "name": "P0_HAS_PLAYED_DEVELOPMENT_CARD_IN_TURN",
+        "divisor": 1.0
+      },
+      {
+        "index": 367,
+        "name": "P0_HAS_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 368,
+        "name": "P0_HAS_ROLLED",
+        "divisor": 1.0
+      },
+      {
+        "index": 369,
+        "name": "P0_KNIGHT_IN_HAND",
+        "divisor": 14.0
+      },
+      {
+        "index": 370,
+        "name": "P0_KNIGHT_PLAYED",
+        "divisor": 14.0
+      },
+      {
+        "index": 371,
+        "name": "P0_LONGEST_ROAD_LENGTH",
+        "divisor": 15.0
+      },
+      {
+        "index": 372,
+        "name": "P0_MONOPOLY_IN_HAND",
+        "divisor": 2.0
+      },
+      {
+        "index": 373,
+        "name": "P0_MONOPOLY_PLAYED",
+        "divisor": 2.0
+      },
+      {
+        "index": 374,
+        "name": "P0_NUM_DEVS_IN_HAND",
+        "divisor": 25.0
+      },
+      {
+        "index": 375,
+        "name": "P0_NUM_RESOURCES_IN_HAND",
+        "divisor": 95.0
+      },
+      {
+        "index": 376,
+        "name": "P0_ORE_IN_HAND",
+        "divisor": 19.0
+      },
+      {
+        "index": 377,
+        "name": "P0_PUBLIC_VPS",
+        "divisor": 10.0
+      },
+      {
+        "index": 378,
+        "name": "P0_ROADS_LEFT",
+        "divisor": 15.0
+      },
+      {
+        "index": 379,
+        "name": "P0_ROAD_BUILDING_IN_HAND",
+        "divisor": 2.0
+      },
+      {
+        "index": 380,
+        "name": "P0_ROAD_BUILDING_PLAYED",
+        "divisor": 2.0
+      },
+      {
+        "index": 381,
+        "name": "P0_SETTLEMENTS_LEFT",
+        "divisor": 5.0
+      },
+      {
+        "index": 382,
+        "name": "P0_SHEEP_IN_HAND",
+        "divisor": 19.0
+      },
+      {
+        "index": 383,
+        "name": "P0_VICTORY_POINT_IN_HAND",
+        "divisor": 5.0
+      },
+      {
+        "index": 384,
+        "name": "P0_WHEAT_IN_HAND",
+        "divisor": 19.0
+      },
+      {
+        "index": 385,
+        "name": "P0_WOOD_IN_HAND",
+        "divisor": 19.0
+      },
+      {
+        "index": 386,
+        "name": "P0_YEAR_OF_PLENTY_IN_HAND",
+        "divisor": 2.0
+      },
+      {
+        "index": 387,
+        "name": "P0_YEAR_OF_PLENTY_PLAYED",
+        "divisor": 2.0
+      },
+      {
+        "index": 388,
+        "name": "P1_CITIES_LEFT",
+        "divisor": 4.0
+      },
+      {
+        "index": 389,
+        "name": "P1_HAS_ARMY",
+        "divisor": 1.0
+      },
+      {
+        "index": 390,
+        "name": "P1_HAS_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 391,
+        "name": "P1_HAS_ROLLED",
+        "divisor": 1.0
+      },
+      {
+        "index": 392,
+        "name": "P1_KNIGHT_PLAYED",
+        "divisor": 14.0
+      },
+      {
+        "index": 393,
+        "name": "P1_LONGEST_ROAD_LENGTH",
+        "divisor": 15.0
+      },
+      {
+        "index": 394,
+        "name": "P1_MONOPOLY_PLAYED",
+        "divisor": 2.0
+      },
+      {
+        "index": 395,
+        "name": "P1_NUM_DEVS_IN_HAND",
+        "divisor": 25.0
+      },
+      {
+        "index": 396,
+        "name": "P1_NUM_RESOURCES_IN_HAND",
+        "divisor": 95.0
+      },
+      {
+        "index": 397,
+        "name": "P1_PUBLIC_VPS",
+        "divisor": 10.0
+      },
+      {
+        "index": 398,
+        "name": "P1_ROADS_LEFT",
+        "divisor": 15.0
+      },
+      {
+        "index": 399,
+        "name": "P1_ROAD_BUILDING_PLAYED",
+        "divisor": 2.0
+      },
+      {
+        "index": 400,
+        "name": "P1_SETTLEMENTS_LEFT",
+        "divisor": 5.0
+      },
+      {
+        "index": 401,
+        "name": "P1_YEAR_OF_PLENTY_PLAYED",
+        "divisor": 2.0
+      },
+      {
+        "index": 402,
+        "name": "PORT0_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 403,
+        "name": "PORT0_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 404,
+        "name": "PORT0_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 405,
+        "name": "PORT0_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 406,
+        "name": "PORT0_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 407,
+        "name": "PORT0_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 408,
+        "name": "PORT1_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 409,
+        "name": "PORT1_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 410,
+        "name": "PORT1_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 411,
+        "name": "PORT1_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 412,
+        "name": "PORT1_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 413,
+        "name": "PORT1_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 414,
+        "name": "PORT2_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 415,
+        "name": "PORT2_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 416,
+        "name": "PORT2_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 417,
+        "name": "PORT2_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 418,
+        "name": "PORT2_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 419,
+        "name": "PORT2_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 420,
+        "name": "PORT3_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 421,
+        "name": "PORT3_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 422,
+        "name": "PORT3_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 423,
+        "name": "PORT3_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 424,
+        "name": "PORT3_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 425,
+        "name": "PORT3_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 426,
+        "name": "PORT4_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 427,
+        "name": "PORT4_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 428,
+        "name": "PORT4_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 429,
+        "name": "PORT4_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 430,
+        "name": "PORT4_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 431,
+        "name": "PORT4_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 432,
+        "name": "PORT5_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 433,
+        "name": "PORT5_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 434,
+        "name": "PORT5_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 435,
+        "name": "PORT5_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 436,
+        "name": "PORT5_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 437,
+        "name": "PORT5_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 438,
+        "name": "PORT6_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 439,
+        "name": "PORT6_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 440,
+        "name": "PORT6_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 441,
+        "name": "PORT6_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 442,
+        "name": "PORT6_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 443,
+        "name": "PORT6_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 444,
+        "name": "PORT7_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 445,
+        "name": "PORT7_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 446,
+        "name": "PORT7_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 447,
+        "name": "PORT7_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 448,
+        "name": "PORT7_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 449,
+        "name": "PORT7_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 450,
+        "name": "PORT8_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 451,
+        "name": "PORT8_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 452,
+        "name": "PORT8_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 453,
+        "name": "PORT8_IS_THREE_TO_ONE",
+        "divisor": 1.0
+      },
+      {
+        "index": 454,
+        "name": "PORT8_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 455,
+        "name": "PORT8_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 456,
+        "name": "TILE0_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 457,
+        "name": "TILE0_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 458,
+        "name": "TILE0_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 459,
+        "name": "TILE0_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 460,
+        "name": "TILE0_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 461,
+        "name": "TILE0_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 462,
+        "name": "TILE0_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 463,
+        "name": "TILE0_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 464,
+        "name": "TILE10_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 465,
+        "name": "TILE10_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 466,
+        "name": "TILE10_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 467,
+        "name": "TILE10_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 468,
+        "name": "TILE10_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 469,
+        "name": "TILE10_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 470,
+        "name": "TILE10_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 471,
+        "name": "TILE10_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 472,
+        "name": "TILE11_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 473,
+        "name": "TILE11_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 474,
+        "name": "TILE11_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 475,
+        "name": "TILE11_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 476,
+        "name": "TILE11_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 477,
+        "name": "TILE11_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 478,
+        "name": "TILE11_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 479,
+        "name": "TILE11_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 480,
+        "name": "TILE12_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 481,
+        "name": "TILE12_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 482,
+        "name": "TILE12_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 483,
+        "name": "TILE12_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 484,
+        "name": "TILE12_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 485,
+        "name": "TILE12_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 486,
+        "name": "TILE12_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 487,
+        "name": "TILE12_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 488,
+        "name": "TILE13_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 489,
+        "name": "TILE13_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 490,
+        "name": "TILE13_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 491,
+        "name": "TILE13_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 492,
+        "name": "TILE13_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 493,
+        "name": "TILE13_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 494,
+        "name": "TILE13_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 495,
+        "name": "TILE13_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 496,
+        "name": "TILE14_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 497,
+        "name": "TILE14_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 498,
+        "name": "TILE14_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 499,
+        "name": "TILE14_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 500,
+        "name": "TILE14_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 501,
+        "name": "TILE14_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 502,
+        "name": "TILE14_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 503,
+        "name": "TILE14_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 504,
+        "name": "TILE15_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 505,
+        "name": "TILE15_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 506,
+        "name": "TILE15_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 507,
+        "name": "TILE15_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 508,
+        "name": "TILE15_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 509,
+        "name": "TILE15_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 510,
+        "name": "TILE15_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 511,
+        "name": "TILE15_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 512,
+        "name": "TILE16_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 513,
+        "name": "TILE16_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 514,
+        "name": "TILE16_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 515,
+        "name": "TILE16_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 516,
+        "name": "TILE16_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 517,
+        "name": "TILE16_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 518,
+        "name": "TILE16_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 519,
+        "name": "TILE16_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 520,
+        "name": "TILE17_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 521,
+        "name": "TILE17_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 522,
+        "name": "TILE17_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 523,
+        "name": "TILE17_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 524,
+        "name": "TILE17_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 525,
+        "name": "TILE17_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 526,
+        "name": "TILE17_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 527,
+        "name": "TILE17_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 528,
+        "name": "TILE18_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 529,
+        "name": "TILE18_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 530,
+        "name": "TILE18_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 531,
+        "name": "TILE18_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 532,
+        "name": "TILE18_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 533,
+        "name": "TILE18_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 534,
+        "name": "TILE18_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 535,
+        "name": "TILE18_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 536,
+        "name": "TILE1_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 537,
+        "name": "TILE1_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 538,
+        "name": "TILE1_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 539,
+        "name": "TILE1_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 540,
+        "name": "TILE1_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 541,
+        "name": "TILE1_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 542,
+        "name": "TILE1_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 543,
+        "name": "TILE1_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 544,
+        "name": "TILE2_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 545,
+        "name": "TILE2_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 546,
+        "name": "TILE2_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 547,
+        "name": "TILE2_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 548,
+        "name": "TILE2_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 549,
+        "name": "TILE2_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 550,
+        "name": "TILE2_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 551,
+        "name": "TILE2_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 552,
+        "name": "TILE3_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 553,
+        "name": "TILE3_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 554,
+        "name": "TILE3_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 555,
+        "name": "TILE3_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 556,
+        "name": "TILE3_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 557,
+        "name": "TILE3_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 558,
+        "name": "TILE3_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 559,
+        "name": "TILE3_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 560,
+        "name": "TILE4_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 561,
+        "name": "TILE4_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 562,
+        "name": "TILE4_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 563,
+        "name": "TILE4_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 564,
+        "name": "TILE4_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 565,
+        "name": "TILE4_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 566,
+        "name": "TILE4_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 567,
+        "name": "TILE4_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 568,
+        "name": "TILE5_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 569,
+        "name": "TILE5_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 570,
+        "name": "TILE5_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 571,
+        "name": "TILE5_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 572,
+        "name": "TILE5_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 573,
+        "name": "TILE5_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 574,
+        "name": "TILE5_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 575,
+        "name": "TILE5_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 576,
+        "name": "TILE6_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 577,
+        "name": "TILE6_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 578,
+        "name": "TILE6_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 579,
+        "name": "TILE6_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 580,
+        "name": "TILE6_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 581,
+        "name": "TILE6_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 582,
+        "name": "TILE6_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 583,
+        "name": "TILE6_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 584,
+        "name": "TILE7_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 585,
+        "name": "TILE7_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 586,
+        "name": "TILE7_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 587,
+        "name": "TILE7_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 588,
+        "name": "TILE7_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 589,
+        "name": "TILE7_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 590,
+        "name": "TILE7_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 591,
+        "name": "TILE7_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 592,
+        "name": "TILE8_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 593,
+        "name": "TILE8_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 594,
+        "name": "TILE8_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 595,
+        "name": "TILE8_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 596,
+        "name": "TILE8_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 597,
+        "name": "TILE8_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 598,
+        "name": "TILE8_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 599,
+        "name": "TILE8_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 600,
+        "name": "TILE9_HAS_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 601,
+        "name": "TILE9_IS_BRICK",
+        "divisor": 1.0
+      },
+      {
+        "index": 602,
+        "name": "TILE9_IS_DESERT",
+        "divisor": 1.0
+      },
+      {
+        "index": 603,
+        "name": "TILE9_IS_ORE",
+        "divisor": 1.0
+      },
+      {
+        "index": 604,
+        "name": "TILE9_IS_SHEEP",
+        "divisor": 1.0
+      },
+      {
+        "index": 605,
+        "name": "TILE9_IS_WHEAT",
+        "divisor": 1.0
+      },
+      {
+        "index": 606,
+        "name": "TILE9_IS_WOOD",
+        "divisor": 1.0
+      },
+      {
+        "index": 607,
+        "name": "TILE9_PROBA",
+        "divisor": 1.0
+      },
+      {
+        "index": 608,
+        "name": "exact_tile_0_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 609,
+        "name": "exact_tile_0_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 610,
+        "name": "exact_tile_0_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 611,
+        "name": "exact_tile_0_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 612,
+        "name": "exact_tile_0_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 613,
+        "name": "exact_tile_0_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 614,
+        "name": "exact_tile_0_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 615,
+        "name": "exact_tile_0_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 616,
+        "name": "exact_tile_0_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 617,
+        "name": "exact_tile_0_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 618,
+        "name": "exact_tile_0_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 619,
+        "name": "exact_tile_0_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 620,
+        "name": "exact_tile_0_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 621,
+        "name": "exact_tile_1_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 622,
+        "name": "exact_tile_1_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 623,
+        "name": "exact_tile_1_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 624,
+        "name": "exact_tile_1_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 625,
+        "name": "exact_tile_1_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 626,
+        "name": "exact_tile_1_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 627,
+        "name": "exact_tile_1_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 628,
+        "name": "exact_tile_1_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 629,
+        "name": "exact_tile_1_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 630,
+        "name": "exact_tile_1_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 631,
+        "name": "exact_tile_1_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 632,
+        "name": "exact_tile_1_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 633,
+        "name": "exact_tile_1_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 634,
+        "name": "exact_tile_2_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 635,
+        "name": "exact_tile_2_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 636,
+        "name": "exact_tile_2_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 637,
+        "name": "exact_tile_2_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 638,
+        "name": "exact_tile_2_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 639,
+        "name": "exact_tile_2_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 640,
+        "name": "exact_tile_2_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 641,
+        "name": "exact_tile_2_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 642,
+        "name": "exact_tile_2_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 643,
+        "name": "exact_tile_2_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 644,
+        "name": "exact_tile_2_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 645,
+        "name": "exact_tile_2_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 646,
+        "name": "exact_tile_2_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 647,
+        "name": "exact_tile_3_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 648,
+        "name": "exact_tile_3_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 649,
+        "name": "exact_tile_3_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 650,
+        "name": "exact_tile_3_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 651,
+        "name": "exact_tile_3_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 652,
+        "name": "exact_tile_3_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 653,
+        "name": "exact_tile_3_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 654,
+        "name": "exact_tile_3_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 655,
+        "name": "exact_tile_3_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 656,
+        "name": "exact_tile_3_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 657,
+        "name": "exact_tile_3_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 658,
+        "name": "exact_tile_3_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 659,
+        "name": "exact_tile_3_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 660,
+        "name": "exact_tile_4_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 661,
+        "name": "exact_tile_4_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 662,
+        "name": "exact_tile_4_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 663,
+        "name": "exact_tile_4_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 664,
+        "name": "exact_tile_4_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 665,
+        "name": "exact_tile_4_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 666,
+        "name": "exact_tile_4_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 667,
+        "name": "exact_tile_4_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 668,
+        "name": "exact_tile_4_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 669,
+        "name": "exact_tile_4_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 670,
+        "name": "exact_tile_4_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 671,
+        "name": "exact_tile_4_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 672,
+        "name": "exact_tile_4_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 673,
+        "name": "exact_tile_5_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 674,
+        "name": "exact_tile_5_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 675,
+        "name": "exact_tile_5_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 676,
+        "name": "exact_tile_5_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 677,
+        "name": "exact_tile_5_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 678,
+        "name": "exact_tile_5_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 679,
+        "name": "exact_tile_5_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 680,
+        "name": "exact_tile_5_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 681,
+        "name": "exact_tile_5_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 682,
+        "name": "exact_tile_5_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 683,
+        "name": "exact_tile_5_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 684,
+        "name": "exact_tile_5_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 685,
+        "name": "exact_tile_5_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 686,
+        "name": "exact_tile_6_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 687,
+        "name": "exact_tile_6_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 688,
+        "name": "exact_tile_6_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 689,
+        "name": "exact_tile_6_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 690,
+        "name": "exact_tile_6_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 691,
+        "name": "exact_tile_6_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 692,
+        "name": "exact_tile_6_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 693,
+        "name": "exact_tile_6_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 694,
+        "name": "exact_tile_6_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 695,
+        "name": "exact_tile_6_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 696,
+        "name": "exact_tile_6_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 697,
+        "name": "exact_tile_6_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 698,
+        "name": "exact_tile_6_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 699,
+        "name": "exact_tile_7_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 700,
+        "name": "exact_tile_7_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 701,
+        "name": "exact_tile_7_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 702,
+        "name": "exact_tile_7_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 703,
+        "name": "exact_tile_7_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 704,
+        "name": "exact_tile_7_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 705,
+        "name": "exact_tile_7_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 706,
+        "name": "exact_tile_7_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 707,
+        "name": "exact_tile_7_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 708,
+        "name": "exact_tile_7_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 709,
+        "name": "exact_tile_7_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 710,
+        "name": "exact_tile_7_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 711,
+        "name": "exact_tile_7_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 712,
+        "name": "exact_tile_8_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 713,
+        "name": "exact_tile_8_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 714,
+        "name": "exact_tile_8_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 715,
+        "name": "exact_tile_8_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 716,
+        "name": "exact_tile_8_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 717,
+        "name": "exact_tile_8_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 718,
+        "name": "exact_tile_8_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 719,
+        "name": "exact_tile_8_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 720,
+        "name": "exact_tile_8_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 721,
+        "name": "exact_tile_8_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 722,
+        "name": "exact_tile_8_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 723,
+        "name": "exact_tile_8_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 724,
+        "name": "exact_tile_8_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 725,
+        "name": "exact_tile_9_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 726,
+        "name": "exact_tile_9_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 727,
+        "name": "exact_tile_9_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 728,
+        "name": "exact_tile_9_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 729,
+        "name": "exact_tile_9_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 730,
+        "name": "exact_tile_9_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 731,
+        "name": "exact_tile_9_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 732,
+        "name": "exact_tile_9_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 733,
+        "name": "exact_tile_9_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 734,
+        "name": "exact_tile_9_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 735,
+        "name": "exact_tile_9_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 736,
+        "name": "exact_tile_9_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 737,
+        "name": "exact_tile_9_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 738,
+        "name": "exact_tile_10_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 739,
+        "name": "exact_tile_10_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 740,
+        "name": "exact_tile_10_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 741,
+        "name": "exact_tile_10_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 742,
+        "name": "exact_tile_10_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 743,
+        "name": "exact_tile_10_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 744,
+        "name": "exact_tile_10_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 745,
+        "name": "exact_tile_10_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 746,
+        "name": "exact_tile_10_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 747,
+        "name": "exact_tile_10_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 748,
+        "name": "exact_tile_10_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 749,
+        "name": "exact_tile_10_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 750,
+        "name": "exact_tile_10_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 751,
+        "name": "exact_tile_11_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 752,
+        "name": "exact_tile_11_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 753,
+        "name": "exact_tile_11_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 754,
+        "name": "exact_tile_11_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 755,
+        "name": "exact_tile_11_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 756,
+        "name": "exact_tile_11_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 757,
+        "name": "exact_tile_11_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 758,
+        "name": "exact_tile_11_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 759,
+        "name": "exact_tile_11_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 760,
+        "name": "exact_tile_11_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 761,
+        "name": "exact_tile_11_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 762,
+        "name": "exact_tile_11_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 763,
+        "name": "exact_tile_11_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 764,
+        "name": "exact_tile_12_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 765,
+        "name": "exact_tile_12_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 766,
+        "name": "exact_tile_12_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 767,
+        "name": "exact_tile_12_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 768,
+        "name": "exact_tile_12_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 769,
+        "name": "exact_tile_12_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 770,
+        "name": "exact_tile_12_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 771,
+        "name": "exact_tile_12_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 772,
+        "name": "exact_tile_12_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 773,
+        "name": "exact_tile_12_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 774,
+        "name": "exact_tile_12_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 775,
+        "name": "exact_tile_12_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 776,
+        "name": "exact_tile_12_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 777,
+        "name": "exact_tile_13_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 778,
+        "name": "exact_tile_13_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 779,
+        "name": "exact_tile_13_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 780,
+        "name": "exact_tile_13_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 781,
+        "name": "exact_tile_13_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 782,
+        "name": "exact_tile_13_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 783,
+        "name": "exact_tile_13_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 784,
+        "name": "exact_tile_13_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 785,
+        "name": "exact_tile_13_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 786,
+        "name": "exact_tile_13_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 787,
+        "name": "exact_tile_13_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 788,
+        "name": "exact_tile_13_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 789,
+        "name": "exact_tile_13_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 790,
+        "name": "exact_tile_14_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 791,
+        "name": "exact_tile_14_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 792,
+        "name": "exact_tile_14_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 793,
+        "name": "exact_tile_14_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 794,
+        "name": "exact_tile_14_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 795,
+        "name": "exact_tile_14_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 796,
+        "name": "exact_tile_14_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 797,
+        "name": "exact_tile_14_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 798,
+        "name": "exact_tile_14_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 799,
+        "name": "exact_tile_14_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 800,
+        "name": "exact_tile_14_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 801,
+        "name": "exact_tile_14_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 802,
+        "name": "exact_tile_14_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 803,
+        "name": "exact_tile_15_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 804,
+        "name": "exact_tile_15_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 805,
+        "name": "exact_tile_15_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 806,
+        "name": "exact_tile_15_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 807,
+        "name": "exact_tile_15_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 808,
+        "name": "exact_tile_15_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 809,
+        "name": "exact_tile_15_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 810,
+        "name": "exact_tile_15_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 811,
+        "name": "exact_tile_15_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 812,
+        "name": "exact_tile_15_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 813,
+        "name": "exact_tile_15_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 814,
+        "name": "exact_tile_15_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 815,
+        "name": "exact_tile_15_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 816,
+        "name": "exact_tile_16_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 817,
+        "name": "exact_tile_16_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 818,
+        "name": "exact_tile_16_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 819,
+        "name": "exact_tile_16_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 820,
+        "name": "exact_tile_16_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 821,
+        "name": "exact_tile_16_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 822,
+        "name": "exact_tile_16_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 823,
+        "name": "exact_tile_16_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 824,
+        "name": "exact_tile_16_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 825,
+        "name": "exact_tile_16_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 826,
+        "name": "exact_tile_16_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 827,
+        "name": "exact_tile_16_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 828,
+        "name": "exact_tile_16_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 829,
+        "name": "exact_tile_17_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 830,
+        "name": "exact_tile_17_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 831,
+        "name": "exact_tile_17_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 832,
+        "name": "exact_tile_17_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 833,
+        "name": "exact_tile_17_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 834,
+        "name": "exact_tile_17_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 835,
+        "name": "exact_tile_17_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 836,
+        "name": "exact_tile_17_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 837,
+        "name": "exact_tile_17_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 838,
+        "name": "exact_tile_17_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 839,
+        "name": "exact_tile_17_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 840,
+        "name": "exact_tile_17_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 841,
+        "name": "exact_tile_17_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 842,
+        "name": "exact_tile_18_dice_0",
+        "divisor": 1.0
+      },
+      {
+        "index": 843,
+        "name": "exact_tile_18_dice_1",
+        "divisor": 1.0
+      },
+      {
+        "index": 844,
+        "name": "exact_tile_18_dice_2",
+        "divisor": 1.0
+      },
+      {
+        "index": 845,
+        "name": "exact_tile_18_dice_3",
+        "divisor": 1.0
+      },
+      {
+        "index": 846,
+        "name": "exact_tile_18_dice_4",
+        "divisor": 1.0
+      },
+      {
+        "index": 847,
+        "name": "exact_tile_18_dice_5",
+        "divisor": 1.0
+      },
+      {
+        "index": 848,
+        "name": "exact_tile_18_dice_6",
+        "divisor": 1.0
+      },
+      {
+        "index": 849,
+        "name": "exact_tile_18_dice_7",
+        "divisor": 1.0
+      },
+      {
+        "index": 850,
+        "name": "exact_tile_18_dice_8",
+        "divisor": 1.0
+      },
+      {
+        "index": 851,
+        "name": "exact_tile_18_dice_9",
+        "divisor": 1.0
+      },
+      {
+        "index": 852,
+        "name": "exact_tile_18_dice_10",
+        "divisor": 1.0
+      },
+      {
+        "index": 853,
+        "name": "exact_tile_18_dice_11",
+        "divisor": 1.0
+      },
+      {
+        "index": 854,
+        "name": "exact_tile_18_dice_12",
+        "divisor": 1.0
+      },
+      {
+        "index": 855,
+        "name": "prompt_BUILD_INITIAL_SETTLEMENT",
+        "divisor": 1.0
+      },
+      {
+        "index": 856,
+        "name": "prompt_BUILD_INITIAL_ROAD",
+        "divisor": 1.0
+      },
+      {
+        "index": 857,
+        "name": "prompt_PLAY_TURN",
+        "divisor": 1.0
+      },
+      {
+        "index": 858,
+        "name": "prompt_DISCARD",
+        "divisor": 1.0
+      },
+      {
+        "index": 859,
+        "name": "prompt_MOVE_ROBBER",
+        "divisor": 1.0
+      },
+      {
+        "index": 860,
+        "name": "prompt_DECIDE_TRADE",
+        "divisor": 1.0
+      },
+      {
+        "index": 861,
+        "name": "prompt_DECIDE_ACCEPTEES",
+        "divisor": 1.0
+      },
+      {
+        "index": 862,
+        "name": "acting_self",
+        "divisor": 1.0
+      },
+      {
+        "index": 863,
+        "name": "turn_self",
+        "divisor": 1.0
+      },
+      {
+        "index": 864,
+        "name": "setup",
+        "divisor": 1.0
+      },
+      {
+        "index": 865,
+        "name": "discarding",
+        "divisor": 1.0
+      },
+      {
+        "index": 866,
+        "name": "moving_knight",
+        "divisor": 1.0
+      },
+      {
+        "index": 867,
+        "name": "road_building",
+        "divisor": 1.0
+      },
+      {
+        "index": 868,
+        "name": "free_roads",
+        "divisor": 2.0
+      },
+      {
+        "index": 869,
+        "name": "resolving_trade",
+        "divisor": 1.0
+      },
+      {
+        "index": 870,
+        "name": "turns_already_divided_1000",
+        "divisor": 1.0
+      },
+      {
+        "index": 871,
+        "name": "target_vp",
+        "divisor": 10.0
+      },
+      {
+        "index": 872,
+        "name": "discard_threshold",
+        "divisor": 7.0
+      },
+      {
+        "index": 873,
+        "name": "self_pending_discard",
+        "divisor": 95.0
+      },
+      {
+        "index": 874,
+        "name": "opponent_pending_discard",
+        "divisor": 95.0
+      },
+      {
+        "index": 875,
+        "name": "own_age_KNIGHT",
+        "divisor": 1.0
+      },
+      {
+        "index": 876,
+        "name": "own_age_YEAR_OF_PLENTY",
+        "divisor": 1.0
+      },
+      {
+        "index": 877,
+        "name": "own_age_MONOPOLY",
+        "divisor": 1.0
+      },
+      {
+        "index": 878,
+        "name": "own_age_ROAD_BUILDING",
+        "divisor": 1.0
+      }
+    ],
+    "clipping": false,
+    "mapping_hash": "faf21f26e1c9da3f563c3b778b147e2ccd90855ec5d2f3a03244fa3861cfe1b8"
+  },
+  "source_hashes": {
+    "sc_checks.py": "8c49b7906e65ba744b1e791b2d4affb94515c2a01e5303cac8e68801774bd747",
+    "sc_plan.py": "abe6ccd6e3b1e7ad4c38830735084e89b78293b7e6ac1629d550f33d5796a29c",
+    "sc_report.py": "613fec309389301e4891eef4e909f808ac6e6992f930a357335cf108d2749795",
+    "sc_setup.py": "ce5dc093cb564f2ba90128187b21270cf78d7eaeefa78ea3a81f2fb1baf75ce6",
+    "sc_common.py": "0b4623f223a71ed8b7ffe036e510936ae4084da68971387828e0b9291fd81cab",
+    "sc_bundle.py": "60db024c1856dce0aeb31e3189f19d84a76c894c93e60561a1450352ed8f0526",
+    "sc_train.py": "3bd4507b3515bf7f29f8c6b21b975c268b0e9b7b1047e631b9ad5fa64098ea22",
+    "sc_monitor.py": "120af5d237f148b41e526148a428e3252b465df8172da45613c7d078dee53968",
+    "sc_models.py": "d4c7fd7966be617a39f45d358c224659487af65ce78861ad630ef15e05ddf325",
+    "sc_controller.py": "5bc34fd14dc9c174908f449aa4cec616f2c6ecb36aeff69db88d83c59e7f7450",
+    "sc_prepare.py": "732e1332e048ef282b8ef002039e3579607711548021dc0e68f34876c5f34a2e",
+    "sc_env.py": "44967a1eeeb986a0e129bebc31417d2f927be288a9fcc3fb1e806029b604c74d",
+    "sc_remote.py": "e91ba4a89e4c7f88615f0221dc42291f6d9fd66c5cb2fec71a8b5566d7c74703",
+    "sc_verify.py": "420466984065c65d35465fa0bdd7da445c74e157d195f1c017000932bb898f41",
+    "sc_eval.py": "7a6331bce8f408f7784374519778638a25ab1bcde4adc90f8547d3d8bcd1f4f7",
+    "sc_transfer.py": "9c30104e7e991d26fcd9111c8737b7702c6cda2ab4d733a36eb8eed6f55cee55",
+    "schema.json": "8493fa2c75e3828f3bec6c697abb21f4b787cc3ef75ce5a759b70dffa01c3ba8",
+    "requirements-lock.txt": "ff4a68336dc449c9df67da2c9710adb0dea68ef7a910ee313c0b777f7df391fd",
+    "env.py": "5090ecf64ea865b88c1a43387d71b2941ce0d0633ce5ac28a345291e7530733f",
+    "train.py": "6121d95729f32814dca6825502660c03e081ee5f066e8782fb7a998f75921aad",
+    "opponent_adapter.py": "c79f7b15a0bdadb009bfd5442ef761f2efadf8a41ba3c57e5cbfd8fc160451e7",
+    "curriculum_core.py": "c44baa135c028cde9968b19fc3e10d151d833c8e52a705fad83297e436bbb7d9",
+    "reliability_common.py": "41a03d23e7db47cc7eee460a6d6b39b5ee98f8e0e3ab2bb37270ec7131d9f4e9",
+    "config.json": "06a09d80ba8a120e01b7f4b42d12f5e02f94e77b55fafc6f2cb7e0c7360eb998"
+  },
+  "mapping_hash": "faf21f26e1c9da3f563c3b778b147e2ccd90855ec5d2f3a03244fa3861cfe1b8",
+  "seeds": [
+    400009,
+    400031,
+    400033
+  ],
+  "namespaces": {
+    "namespaces": {
+      "teacher": 11000000000000,
+      "pilot": 12000000000000,
+      "train": 13000000000000,
+      "validation": 14000000000000,
+      "final": 15000000000000,
+      "regression": 16000000000000,
+      "checks": 17000000000000
+    },
+    "range_size": 100000000000,
+    "training_seeds": [
+      400009,
+      400031,
+      400033
+    ],
+    "prior_seed_values_checked": 22025,
+    "disjoint": true
+  },
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "ppo": {
+    "lr": 0.0003,
+    "clip": 0.2,
+    "gae_lambda": 0.95,
+    "epochs": 4,
+    "batch": 256,
+    "rollout": 4096,
+    "entropy": 0.01,
+    "value_coefficient": 0.5,
+    "max_grad_norm": 0.5
+  },
+  "parameter_counts": {
+    "mlp128": 172109,
+    "mlp512": 884045,
+    "graph": 932098
+  },
+  "graph_width": 176,
+  "graph_width_grid": [
+    128,
+    144,
+    160,
+    176,
+    192
+  ],
+  "archive_sha256": "686eee2899ed12555b931858b694900d09500ea5ec686daf149e990e507274ee",
+  "archive_manifest": {
+    "policies": [
+      {
+        "id": "parent-104729",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/inputs/104729.pt",
+        "sha256": "73de31d6518bcc309e29b1e1cb914227dad87d63a9d8344c4e59642fc9d82e01",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      },
+      {
+        "id": "standard-104729",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/176128.pt",
+        "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      },
+      {
+        "id": "parent-130363",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/inputs/130363.pt",
+        "sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      },
+      {
+        "id": "standard-130363",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/176128.pt",
+        "sha256": "58beeee043f19c4cc216fa801b1d158a99843e73df37332a29eaf4e0db008a45",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      },
+      {
+        "id": "parent-155921",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/inputs/155921.pt",
+        "sha256": "72a44e75e85a8d5bacdc6714703791d6decfe22ef113b16e6aee229cb390ebe0",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      },
+      {
+        "id": "standard-155921",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/176128.pt",
+        "sha256": "027eefecc026eac0a0a8dad701c89210e904f5afcfa7cab2c56b7c6546ef5eba",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      },
+      {
+        "id": "heldout-196613",
+        "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-196613/434176.pt",
+        "sha256": "b9eaa886eed7919d857f2e45cc1953fae7d052592ba860f3347e3a1524c40a1b",
+        "source_checked": true,
+        "logits_bitwise_equal": true,
+        "max_error": 0.0
+      }
+    ],
+    "reference": "standard-104729",
+    "initial": [
+      "parent-104729",
+      "standard-104729",
+      "parent-130363",
+      "standard-130363",
+      "parent-155921",
+      "standard-155921"
+    ],
+    "heldout": "heldout-196613",
+    "archive_sha256": "686eee2899ed12555b931858b694900d09500ea5ec686daf149e990e507274ee"
+  },
+  "teacher_sha256": "847bbee2d30d30d8891ac42468e7b03d857aa6cdc08ef0d59d94ed36a6c4baec",
+  "teacher_manifest": {
+    "games": [
+      {
+        "source_game": 11000000000000,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 52,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000001,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 34,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000002,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 81,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000003,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 45,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000004,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 67,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000005,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 83,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000006,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 49,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000007,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 66,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000008,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000009,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 50,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000010,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000011,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 87,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000012,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 37,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000013,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000014,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000015,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 73,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000016,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 52,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000017,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000018,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 43,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000019,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 21,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000020,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 67,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000021,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 45,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000022,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 57,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000023,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 79,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000024,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000025,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 62,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000026,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 40,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000027,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 51,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000028,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 86,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000029,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 75,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000030,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 40,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000031,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 54,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000032,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 29,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000033,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 50,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000034,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 57,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000035,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 72,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000036,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 44,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000037,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 75,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000038,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 52,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000039,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 59,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000040,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 49,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000041,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 43,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000042,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 50,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000043,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 61,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000044,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 33,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000045,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 56,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000046,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 58,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000047,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 57,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000048,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 25,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000049,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 101,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000050,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 54,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000051,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 74,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000052,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 66,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000053,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 35,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000054,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000055,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 35,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000056,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 42,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000057,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 63,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000058,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 77,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000059,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000060,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 56,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000061,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 32,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000062,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 46,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000063,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 45,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000064,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 90,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000065,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000066,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 68,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000067,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 47,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000068,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 56,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000069,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 35,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000070,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 84,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000071,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 94,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000072,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 68,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000073,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 40,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000074,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 70,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000075,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 76,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000076,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 50,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000077,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 92,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000078,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 60,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000079,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 39,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000080,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 56,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000081,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 24,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000082,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 113,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000083,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 65,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000084,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 59,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000085,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 35,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000086,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 94,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000087,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 61,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000088,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 40,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000089,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 71,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000090,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 26,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000091,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000092,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 99,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000093,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 30,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000094,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 92,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000095,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 74,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000096,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 61,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000097,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 79,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000098,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 54,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000099,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 68,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000100,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 91,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000101,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 71,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000102,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 113,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000103,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 69,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000104,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 70,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000105,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 11,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000106,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 41,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000107,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 60,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000108,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 46,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000109,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 30,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000110,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 110,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000111,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 93,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000112,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 60,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000113,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 98,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000114,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 81,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000115,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 84,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000116,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 68,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000117,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 39,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000118,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 64,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000119,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 61,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000120,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000121,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 38,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000122,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 51,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000123,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 42,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000124,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 46,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000125,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 63,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000126,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 75,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000127,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 107,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000128,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 32,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000129,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 142,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000130,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 52,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000131,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 40,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000132,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 87,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000133,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 69,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000134,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 101,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000135,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000136,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 51,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000137,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 45,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000138,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 41,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000139,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 90,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000140,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 46,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000141,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 71,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000142,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 88,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000143,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 65,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000144,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 76,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000145,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 51,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000146,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 60,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000147,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 68,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000148,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 28,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000149,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 69,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000150,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 57,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000151,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 54,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000152,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 75,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000153,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 62,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000154,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 41,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000155,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 54,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000156,
+        "split": "train",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 59,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000157,
+        "split": "train",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 56,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000158,
+        "split": "train",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 81,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000159,
+        "split": "train",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 74,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000160,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 52,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000161,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000162,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 92,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000163,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 79,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000164,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 65,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000165,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 69,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000166,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 90,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000167,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 67,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000168,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 69,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000169,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 103,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000170,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 52,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000171,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 70,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000172,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 51,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000173,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 62,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000174,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 80,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000175,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000176,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 66,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000177,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 49,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000178,
+        "split": "validation",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 96,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000179,
+        "split": "validation",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 26,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000180,
+        "split": "test",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 81,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000181,
+        "split": "test",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 78,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000182,
+        "split": "test",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 111,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000183,
+        "split": "test",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 51,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000184,
+        "split": "test",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 42,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000185,
+        "split": "test",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 41,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000186,
+        "split": "test",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 77,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000187,
+        "split": "test",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 80,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000188,
+        "split": "test",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 47,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000189,
+        "split": "test",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 26,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000190,
+        "split": "test",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 53,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000191,
+        "split": "test",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 44,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000192,
+        "split": "test",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 36,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000193,
+        "split": "test",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 122,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000194,
+        "split": "test",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 38,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000195,
+        "split": "test",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 101,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000196,
+        "split": "test",
+        "seat": 0,
+        "opponent": "base",
+        "nonforced_decisions": 48,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000197,
+        "split": "test",
+        "seat": 1,
+        "opponent": "base",
+        "nonforced_decisions": 86,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000198,
+        "split": "test",
+        "seat": 0,
+        "opponent": "weighted",
+        "nonforced_decisions": 84,
+        "terminal": true,
+        "truncated": false
+      },
+      {
+        "source_game": 11000000000199,
+        "split": "test",
+        "seat": 1,
+        "opponent": "heuristic",
+        "nonforced_decisions": 55,
+        "terminal": true,
+        "truncated": false
+      }
+    ],
+    "observed_nonforced": {
+      "train": 9635,
+      "validation": 1334,
+      "test": 1301
+    },
+    "stored": {
+      "train": 9635,
+      "validation": 1334,
+      "test": 1301
+    },
+    "strata": {
+      "train": {
+        "setup": 640,
+        "early": 4215,
+        "remaining": 4780
+      },
+      "validation": {
+        "setup": 80,
+        "early": 577,
+        "remaining": 677
+      },
+      "test": {
+        "setup": 80,
+        "early": 542,
+        "remaining": 679
+      }
+    },
+    "cpu_seconds": 162.04241934395395,
+    "sha256": "847bbee2d30d30d8891ac42468e7b03d857aa6cdc08ef0d59d94ed36a6c4baec",
+    "max_games": 200,
+    "max_stored": 25000,
+    "split_before_generation": true,
+    "reservoir_seed": [
+      519001,
+      519002,
+      519003
+    ],
+    "unique_states": {
+      "train": 9635,
+      "validation": 1334,
+      "test": 1301
+    }
+  },
+  "deadline_seconds": 50400,
+  "reserve_seconds": 1800,
+  "phase_budgets_seconds": {
+    "preflight": 2700,
+    "training": 36000,
+    "validation": 2700,
+    "final": 5400,
+    "retrieval": 1800,
+    "recovery": 1800
+  },
+  "local_checks": {
+    "schema_privacy_mask_turns": true,
+    "reward_gae": true,
+    "A": {
+      "bitwise_weights_rng_observation_equal": true,
+      "steps": 32,
+      "weights": "3654bd07cb875e1ba59dd4ef6a790ff2077d07392025e6cf4a9672135b6d708c"
+    },
+    "B": {
+      "bitwise_weights_rng_observation_equal": true,
+      "steps": 32,
+      "weights": "3654bd07cb875e1ba59dd4ef6a790ff2077d07392025e6cf4a9672135b6d708c"
+    },
+    "E": {
+      "bitwise_weights_rng_observation_equal": true,
+      "steps": 32,
+      "weights": "2da0363a0019b484aa7aa9d4b092699fcb07a5188886517f1583a66198b5d8bf"
+    },
+    "G": {
+      "bitwise_weights_rng_observation_equal": true,
+      "steps": 32,
+      "weights": "dda8a42f20cec2ffb3dcbbfdd2a624bfdd8f042daacafdd24efc88d06379cf27"
+    },
+    "frozen_opponent_recovery": {
+      "bitwise_weights_rng_observation_equal": true,
+      "steps": 32,
+      "weights": "1d87abd61ec1b04be069e21bc384da884e981749c2397cff6dd56743d813dc9a"
+    },
+    "mixture_counts": {
+      "neural": 10090,
+      "base": 4997,
+      "weighted": 2446,
+      "heuristic": 2467
+    },
+    "teacher_source_split_legal": true,
+    "control_tests": "12 passed",
+    "cold_warm_cache_recovery": "A/B/E/G and own-policy CPU recovery passed"
+  },
+  "runtime_recovery": {
+    "planned_handoff_at_seconds": 36000,
+    "max_planned_handoffs": 1,
+    "max_fault_replacements": 2,
+    "cli_attempts": 3,
+    "backoff_seconds": [
+      10,
+      30
+    ],
+    "connection_unavailable_seconds": 900,
+    "external_stale_fatal_seconds": 1800
+  },
+  "review_every_seconds": 3600,
+  "checkpoint_seconds": 300,
+  "verified_external_copy_seconds": 600,
+  "retained_generations": 2,
+  "initialization": "fresh PyTorch default; same architecture/seed identical across schedules; G teacher then fresh PPO optimizer",
+  "rules": {
+    "players": 2,
+    "board": "BASE",
+    "victory_points": 10,
+    "discard_limit": 7,
+    "max_turns": 1000,
+    "max_engine_actions": 20000,
+    "domestic_negotiation": false
+  },
+  "simulator_revision": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+  "cli_version": "0.7.5",
+  "compute_units_before": 274.95,
+  "search_gate": "omitted: repaired search not validated; no raw stock search benchmark",
+  "optimizer": "Adam lr=0.0003, fixed",
+  "teacher": {
+    "epochs": 3,
+    "batch": 256,
+    "strata": [
+      0.2,
+      0.4,
+      0.4
+    ],
+    "optimizer": "Adam lr=0.0003 actor/body only; fresh PPO Adam afterward"
+  },
+  "opponent_reset_probabilities": {
+    "base": 0.25,
+    "weighted": 0.125,
+    "heuristic": 0.125,
+    "latest_or_reference": 0.25,
+    "archive": 0.25
+  },
+  "snapshot_interval": 65536,
+  "max_retained_own_snapshots": 8,
+  "model_evaluation_mode_primary": "sampled temperature1",
+  "fixed_topology_removed": 1170,
+  "authorization_amendment": {
+    "user_instruction": "try the recovery and get back on experiment plan if sucessful",
+    "authorized_at": 1794624798.4929373,
+    "original_started": 1794619143.8894265,
+    "original_deadline": 1794669543.8894265,
+    "max_fault_replacements": 2,
+    "additional_attempts": 1,
+    "preflight_deadline": 1794628398.4929373,
+    "calibration_order": [
+      "E",
+      "F",
+      "A",
+      "B",
+      "C",
+      "D",
+      "G"
+    ],
+    "all_pilots_fresh": true,
+    "no_experimental_runs_started": true,
+    "changes": [
+      "idempotent detached bounded installation",
+      "retain latest pilot checkpoint in external copies",
+      "cold/warm cache continuation checks",
+      "graph-first calibration and graph external roundtrip"
+    ],
+    "previous_artifacts": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-repair1",
+    "unchanged_learning_problem": true
+  },
+  "authorized_preflight_deadline": 1794628398.4929373,
+  "calibration_order": [
+    "E",
+    "F",
+    "A",
+    "B",
+    "C",
+    "D",
+    "G"
+  ],
+  "runs": [
+    [
+      "A",
+      400009
+    ],
+    [
+      "B",
+      400009
+    ],
+    [
+      "C",
+      400009
+    ],
+    [
+      "D",
+      400009
+    ],
+    [
+      "A",
+      400031
+    ],
+    [
+      "B",
+      400031
+    ],
+    [
+      "C",
+      400031
+    ],
+    [
+      "D",
+      400031
+    ],
+    [
+      "A",
+      400033
+    ],
+    [
+      "B",
+      400033
+    ]
+  ],
+  "target": 425984,
+  "milestones": [
+    106496,
+    212992,
+    319488,
+    425984
+  ],
+  "workers": 1,
+  "scope_decisions": [
+    {
+      "conditions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "feasible_target": 163840,
+      "workers": 1,
+      "projection": {
+        "training_seconds": 29463.156163586435,
+        "raw_training_seconds": 24532.58805126003,
+        "teacher_seconds": 20.042085061999387
+      }
+    },
+    {
+      "conditions": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "feasible_target": 180224,
+      "workers": 1,
+      "projection": {
+        "training_seconds": 29424.195693314436,
+        "raw_training_seconds": 24520.16307776203,
+        "teacher_seconds": 0.0
+      }
+    },
+    {
+      "conditions": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "feasible_target": 425984,
+      "workers": 1,
+      "projection": {
+        "training_seconds": 29845.58280381604,
+        "raw_training_seconds": 24871.319003180033,
+        "teacher_seconds": 0.0
+      }
+    }
+  ],
+  "projection": {
+    "training_seconds": 29845.58280381604,
+    "raw_training_seconds": 24871.319003180033,
+    "teacher_seconds": 0.0
+  },
+  "validation_intermediate_boards": 4,
+  "validation_final_boards": 8,
+  "validation_games": 1920,
+  "final_boards": 20,
+  "weak_boards": 5,
+  "confirmation_boards": 100,
+  "final_games": 3740,
+  "seconds_per_game_with_margin": 1.3671831715999814,
+  "search": {
+    "included": false,
+    "reason": "No repaired depth-two search passed the complete forced-chance/information/exhaustive-reference correctness gate before allocation; main panel prioritized."
+  },
+  "primary_mode": "sampled",
+  "secondary_mode": "greedy",
+  "selection_rule": "final validation equal-weight base/contender capped wins, fewer truncations, parameter count, condition A..G, seed order, sampled before greedy",
+  "opponent_inference": "CPU, one thread, immutable per-episode model, at most 25 cached models per process; learner CUDA",
+  "snapshot_retention": "keep latest and oldest; when >8 remove interior snapshot with smallest neighbor time span, earlier step breaks ties",
+  "canonical_legal_order": "installed actor-relative action ID; fixes cross-process tie enumeration",
+  "deadline": 1794669543.8894265
+}

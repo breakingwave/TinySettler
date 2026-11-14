@@ -1,0 +1,278 @@
+{
+  "timeouts.json": {
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  "05-strength-cost.png": {
+    "sha256": "9b1ec0b25a83394cd0af0b6db5fa1961a10faf554fda5ed34999340a5f20d044",
+    "bytes": 82305
+  },
+  "input-manifest.json": {
+    "sha256": "d1cb8f3370eec1e4ae8e4e2d0667b2858baaeab37ec3d5a9cb2512476255752b",
+    "bytes": 143151
+  },
+  "STATUS.md": {
+    "sha256": "7ef7209e7ff48ed2fbc9f74ffa7c4033f0fa22f7516c770b4fa5cdc5a3cc3330",
+    "bytes": 156
+  },
+  "common-step.json": {
+    "sha256": "7eab7819d37a779d89f40735694cf04026a0c7b6179e8afd9b71133713059073",
+    "bytes": 63
+  },
+  "training-failure-traces.json": {
+    "sha256": "49b6f543c98ef41a42aa5682acb9119acfb242d75b97043d3e7d21d97fc515e1",
+    "bytes": 8620120
+  },
+  "pooled.csv": {
+    "sha256": "e48953e5ffb7211b60d6dc3a63bf0f16a130637550ed4a18244f3d843e325250",
+    "bytes": 3696
+  },
+  "archive-manifest.json": {
+    "sha256": "b4096dc1f7448bef1fa51792ac729bcab1cb001dbccb8f784724cbbc8ad1cbaa",
+    "bytes": 2614
+  },
+  "validation-games.csv": {
+    "sha256": "075b2221d5afa87e150b4289123656ce213196c19cefd65a02cfb8751b2e3e1d",
+    "bytes": 10077683
+  },
+  "coverage.json": {
+    "sha256": "50ea1b79eb37623ddebf8794b4831efcb153a6ed62a58723871748d0d5d1269a",
+    "bytes": 24946
+  },
+  "teacher-manifest.json": {
+    "sha256": "f358f32c9e237dfb5e96a24aae1ae4ee8ed64defe5e62d1b4a179bd2ca7012fd",
+    "bytes": 41150
+  },
+  "resource-summary.json": {
+    "sha256": "d8d46df08b6c8bf5c1471dc7836d85a46036a52debece861845497684130ca0f",
+    "bytes": 1627
+  },
+  "07-ppo-critic.svg": {
+    "sha256": "a9a82830d983b8517d29259cc80b03910b665dea53814cf722be0d913ebe67b1",
+    "bytes": 223015
+  },
+  "auxiliary-summary.csv": {
+    "sha256": "8ce37b78162a0819e68d29f77e8973b50d72c5a0865f1eb8befaa728c509bbed",
+    "bytes": 1044
+  },
+  "artifact-audit.json": {
+    "sha256": "282a9c34f84664cc89f661b22b550e511160fa79c5f3c2f2031ced30537a1b1f",
+    "bytes": 236
+  },
+  "preflight.json": {
+    "sha256": "e8b25ad2fdd4ff32a03d2e8a38af6c97392329c7a940207909217b8ffc225848",
+    "bytes": 3976
+  },
+  "06-expansion-timeouts.png": {
+    "sha256": "3e4b6e27af102a157dd47d946589cf384300db8faca61ed7df808979be53618e",
+    "bytes": 120522
+  },
+  "launch-integrity.json": {
+    "sha256": "99fe24c67d2534e0f15a84b1fed2644d592aef4d5311e47bb4d01fe90fb5190a",
+    "bytes": 260
+  },
+  "02-validation-time.png": {
+    "sha256": "e4bf9fffb4931d7a1948b9d96122f4c8c7a2840e8ad8b9458297414463f61d45",
+    "bytes": 91378
+  },
+  "regression-games.csv": {
+    "sha256": "04867bcfff53a3efdde678272a6cf7e72403691eb77231c18eca20df1135e65a",
+    "bytes": 1698272
+  },
+  "postprocess-audit.json": {
+    "sha256": "ecbb379c78d97d7ed81a4e88ceee16b25b446c78a40c621642080d6740c301d7",
+    "bytes": 1171
+  },
+  "strategic-diagnostics.csv": {
+    "sha256": "ccbacfe36b7e62d88596a8ccb4e97b1e77517c888ad4c721e188ea1903dcd856",
+    "bytes": 1296
+  },
+  "09-utilization-recovery.png": {
+    "sha256": "eda9006acba6fece6ef4db2af3c61a1b406916b95c6fe4ee6c1717c4e0546e28",
+    "bytes": 337561
+  },
+  "08-opponent-pools.png": {
+    "sha256": "62b42d7071ff29932ba55da66cd9f597d9e85f27ac7a1b97ff9862b926874ed4",
+    "bytes": 236772
+  },
+  "confirmation-summary.json": {
+    "sha256": "c60ea151ff8378aa85ea0c4b791eb7046d6c3ad78b6201cdb2057327b9aa85b7",
+    "bytes": 1736
+  },
+  "sampled-minus-greedy.json": {
+    "sha256": "b93e998ac522038bf6ea2667be5444cf4f45e5c1569e11c41ff790f323949dec",
+    "bytes": 4869
+  },
+  "per-seed.csv": {
+    "sha256": "4d2fea546efda98d72d68119030be1b3c6dff3917646dbf804e29e141a230100",
+    "bytes": 6332
+  },
+  "installed-freeze.txt": {
+    "sha256": "3e995bc32acc5d53cdaa670d9aa5f9fddee8da35d8ee2a420ba405feda76cd5c",
+    "bytes": 14365
+  },
+  "runtime-termination.txt": {
+    "sha256": "06c54d498679a866188469bbd95b441554c8529932c1051fd34cbd18af2e57c6",
+    "bytes": 257
+  },
+  "01-validation-transitions.png": {
+    "sha256": "0ec56d2200fa5c2f019506886a0d477d6cf5491e4c6277e4cf8c7bcd0a5d854e",
+    "bytes": 166093
+  },
+  "04-paired-contrasts.png": {
+    "sha256": "b1572b56f75e19391ddb8fbb956291844440257c44556e9c72d3630ff4ec4fc5",
+    "bytes": 96822
+  },
+  "09-utilization-recovery.svg": {
+    "sha256": "4e19535a84e3f7ec55c61d4a8e2b501e567c9bdbf1d985c49617692709fec137",
+    "bytes": 260488
+  },
+  "namespaces.json": {
+    "sha256": "0741e544aa006bdcbdd35ad774b033d85fa188af6af8980ae2c092f8a84a7ddb",
+    "bytes": 390
+  },
+  "confirmation.json": {
+    "sha256": "64aa65eaee9b1af43f418982879b638422c8cdf1833495a44d345fd4a4d7c475",
+    "bytes": 2294007
+  },
+  "evaluation-timing.json": {
+    "sha256": "a56e180a5069eaf788f225af4a14054cb5aa2305d6a50ed7d475f1e794edda41",
+    "bytes": 499
+  },
+  "telemetry.csv": {
+    "sha256": "6ce0ac718d24925dec9b9aa69e7dfad367e2f5188994b85ca41ed9cca651f1ce",
+    "bytes": 279931
+  },
+  "historical-context.csv": {
+    "sha256": "0829ca87b59e0dde26a48b28e75b9f2ad6897ea779f4e8d2fe501ab1c7d916bc",
+    "bytes": 3828399
+  },
+  "verification.json": {
+    "sha256": "ebc82b04b48f1fb75273824a532ccd6b34a70c62c82c4eaca3f7d39856842cdc",
+    "bytes": 37316
+  },
+  "authorization-amendment.json": {
+    "sha256": "f665c7497d2af8332a62af264edc95d45e9601de25d7accf8138a968189eb111",
+    "bytes": 835
+  },
+  "findings.md": {
+    "sha256": "09d626490c27ec47939e5280c4bc5159d444375c228ff0353c0cee2f1c1b18c0",
+    "bytes": 17829
+  },
+  "external-probe-returned.json": {
+    "sha256": "7b891bd40334cacd8e2581dece4d25dbb1d5d87cde3ac09974bd34296a0434d8",
+    "bytes": 147
+  },
+  "confirmation-games.csv": {
+    "sha256": "d226fd08f80618912bf9f32e78abeb878862b250bbdc1a749b01181ef7b1da65",
+    "bytes": 1633832
+  },
+  "07-ppo-critic.png": {
+    "sha256": "d7c341f0f8df3573dd005dac4cca174b11106cc2c300afdbb28a043f8764d54e",
+    "bytes": 1180186
+  },
+  "experiment-state.json": {
+    "sha256": "6723d94be2d2ef4f78441f9b732a69bc51bd0f09b5ff274aaf05277adab8e352",
+    "bytes": 160
+  },
+  "ppo-metrics.csv": {
+    "sha256": "512afa97bead9db7f4a13f1747edc870042b65ca9cca712865c9d2da8eeaf0c4",
+    "bytes": 314871
+  },
+  "cuda-external-recovery.json": {
+    "sha256": "7b891bd40334cacd8e2581dece4d25dbb1d5d87cde3ac09974bd34296a0434d8",
+    "bytes": 147
+  },
+  "frozen.json": {
+    "sha256": "dda04992b1f92562088907ddf98e2cf58edb418f4ee42b662efa1a04e1a87012",
+    "bytes": 145597
+  },
+  "training-episodes.csv": {
+    "sha256": "88e72d4112ca101b24343306faf47564a64caa141f36f467cb3c87733c483b88",
+    "bytes": 89292314
+  },
+  "06-expansion-timeouts.svg": {
+    "sha256": "e53baa9e9094ea806803d7b97809d17d419c36c842de7a86a41e71eb23862f1f",
+    "bytes": 54060
+  },
+  "04-paired-contrasts.svg": {
+    "sha256": "0edf04cb047745ef4bd901fb4037cd7a929cb878a314ec150f09bb082930df13",
+    "bytes": 30806
+  },
+  "02-validation-time.svg": {
+    "sha256": "c816f7388cee33a6502203b7a7f4eb09176e965933e187839f02d8e3f552e252",
+    "bytes": 27710
+  },
+  "05-strength-cost.svg": {
+    "sha256": "69cd7fb7351956fc66d927a4340f352f3a8366da417c0541a83634f4e1d13bd6",
+    "bytes": 39149
+  },
+  "training-runs.csv": {
+    "sha256": "390831f355ca7f90eefb4c7fcdd76db1708c0240c8ca9cb0e16a64ec0473a6f5",
+    "bytes": 16095
+  },
+  "selection.json": {
+    "sha256": "00526a7e51cea061ca75c78860fef709ade65297a852d0d3999a66e4a45bff52",
+    "bytes": 4341
+  },
+  "opponent-shares.csv": {
+    "sha256": "3c635cc5c33fa49f20c327c3149e0fcbc3865ac4b92ab75bd081df15dfe8ffee",
+    "bytes": 16889
+  },
+  "seed-summary.csv": {
+    "sha256": "6ad989d086a520b2c7492e4ec0582a134993a1b18b2130a5a3ed5e26be839b5b",
+    "bytes": 482
+  },
+  "checkpoint-index.json": {
+    "sha256": "fb845028f1fe474f83fae178562848145ae83f0c9ddbe423719057344c7654df",
+    "bytes": 13180
+  },
+  "pilot-timings.json": {
+    "sha256": "3acc4d9cc24ed4d7b81eeaa163a76790baccb9e8388602e14d843f3a8199399b",
+    "bytes": 2663
+  },
+  "03-factorial-heatmaps.png": {
+    "sha256": "4e50d084747efe02eaf7d7064f533970dffa19b6abfba2de9c3014ff6382b3a3",
+    "bytes": 120332
+  },
+  "01-validation-transitions.svg": {
+    "sha256": "4d5d4a2ffbface07d2ae1b879dcc4dbc99e3554fdf60b8f8e4190e6eae5ad79c",
+    "bytes": 66337
+  },
+  "03-factorial-heatmaps.svg": {
+    "sha256": "20661c4cbcbfe2de0e94b33dba83863046b3631b923f9329ede53edefed80556",
+    "bytes": 91337
+  },
+  "controller.json": {
+    "sha256": "6636b9d4486a770b84e2ce6a612ea97083c3d8b8b90e80576616e73bbe6e34f3",
+    "bytes": 19010
+  },
+  "comparison-table.csv": {
+    "sha256": "d03d86f02cd26ba15a25e0a674f146253ca699875558d3aa392bf7ffbdee7dad",
+    "bytes": 875
+  },
+  "final-games.csv": {
+    "sha256": "997276bd0ba69009376070a59605f239136c59c4a4878b6c4d7e65d62944add3",
+    "bytes": 12809875
+  },
+  "source-hashes.json": {
+    "sha256": "543a04eb7ab87d21626a96d89cc5e8650c47180b5b0d49b629af96356f292cab",
+    "bytes": 2084
+  },
+  "frozen-manifest.json": {
+    "sha256": "dda04992b1f92562088907ddf98e2cf58edb418f4ee42b662efa1a04e1a87012",
+    "bytes": 145597
+  },
+  "paired-comparisons.json": {
+    "sha256": "abb657aa40866303200ac97f451e5606c9c78f476131faeafc509d8cac62ef31",
+    "bytes": 5212
+  },
+  "runtime-ledger.csv": {
+    "sha256": "71bcc433005f49a01e7f8179624250148ab514c2a806a50047132d3b2623946f",
+    "bytes": 550
+  },
+  "08-opponent-pools.svg": {
+    "sha256": "b4d8d72df675d663dcad508e51b640b244cac61ad9193a73dbf153df5c3377b0",
+    "bytes": 105535
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "attempt": "initial",
+    "verified_generation_count": 2,
+    "generation_file_entries": 186,
+    "unique_object_count": 70,
+    "latest_files": 95,
+    "source_hashes_verified": 23,
+    "source_archive_sha256": "e3b0e6142294dd3c00fe5c3433778bb3e5e6e528417e1574ef9684b7f8e75b97",
+    "inputs_archive_sha256": "420c5682f1a477b18bd091ba78ed340d208e2006fae82b702d5e713064d46202"
+  },
+  {
+    "attempt": "repair1",
+    "verified_generation_count": 2,
+    "generation_file_entries": 165,
+    "unique_object_count": 70,
+    "latest_files": 94,
+    "source_hashes_verified": 23,
+    "source_archive_sha256": "0816def1c5eda0895563c8f10cfd87ebbafdc87c5956380ca7849ad0e05f9443",
+    "inputs_archive_sha256": "fa1ea058c637fbae6eccfc423cf07902d60e61719751ff15af487c896300e419"
+  }
+]

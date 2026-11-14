@@ -1,0 +1,114 @@
+{
+  "E": {
+    "single": {
+      "seconds": 150.06116678700005,
+      "aggregate_rate": 54.59107226340507,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 280.13811627099994,
+      "aggregate_rate": 58.48543646288551,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "F": {
+    "single": {
+      "seconds": 168.06796869100003,
+      "aggregate_rate": 48.74218486606055,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 322.19250382500013,
+      "aggregate_rate": 50.85158656856592,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "A": {
+    "single": {
+      "seconds": 48.02872953400015,
+      "aggregate_rate": 170.5645783155846,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 90.05453498199995,
+      "aggregate_rate": 181.93420246159536,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "B": {
+    "single": {
+      "seconds": 46.03406098100004,
+      "aggregate_rate": 177.95518851532873,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 96.065176909,
+      "aggregate_rate": 170.55087522006158,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "C": {
+    "single": {
+      "seconds": 50.029018791,
+      "aggregate_rate": 163.74496638086583,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 90.05528821400003,
+      "aggregate_rate": 181.93268074459326,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "D": {
+    "single": {
+      "seconds": 48.024093543999925,
+      "aggregate_rate": 170.58104371078753,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 94.06824509199987,
+      "aggregate_rate": 174.17142186479882,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "G": {
+    "single": {
+      "seconds": 56.038267696000275,
+      "aggregate_rate": 146.18581795640878,
+      "workers": 1,
+      "teacher_seconds": 10.021042530999694,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 108.07272678299978,
+      "aggregate_rate": 151.60161576100123,
+      "workers": 2,
+      "teacher_seconds": 18.264185336999617,
+      "recovery_passed": true
+    }
+  }
+}

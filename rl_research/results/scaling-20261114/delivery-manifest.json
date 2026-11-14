@@ -1,0 +1,8 @@
+{
+  "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-repair1/final-delivery.tar.gz",
+  "sha256": "08a42dc61cc2b207c9c2bbb47afafcaceeb2cb4957b07c3173fcdad873c0eb2f",
+  "bytes": 13121646,
+  "verified_members": 231,
+  "time": 1794624475.3331864,
+  "contains": "Both executed source bundles, current implementation, historical inference archive and teacher inputs, raw preflight results, report, charts, hashes, runtime termination receipt. No experimental checkpoints exist."
+}

@@ -1,0 +1,885 @@
+{
+  "final_games": 2400,
+  "complete_board_games": 2400,
+  "validation_games": 1920,
+  "regression_games": 300,
+  "context_games": 720,
+  "planned": 3740,
+  "training_runs": [
+    {
+      "condition": "A",
+      "seed": 400009,
+      "n": 425984,
+      "elapsed": 2491.8016120969996,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 74038,
+        "standard-155921": 20295,
+        "base": 44426,
+        "weighted": 72640,
+        "standard-104729": 134662,
+        "standard-130363": 17579,
+        "parent-130363": 25426,
+        "parent-155921": 19588,
+        "parent-104729": 17330
+      },
+      "episode_shares": {
+        "heuristic": 238,
+        "standard-155921": 83,
+        "base": 457,
+        "weighted": 222,
+        "standard-104729": 571,
+        "standard-130363": 82,
+        "parent-130363": 92,
+        "parent-155921": 81,
+        "parent-104729": 67
+      },
+      "snapshot_age_sum": {},
+      "component_episode_shares": {
+        "anchor_heuristic": 238,
+        "archive": 495,
+        "anchor_base": 457,
+        "anchor_weighted": 222,
+        "latest_or_reference": 481
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 74038,
+        "archive": 121016,
+        "anchor_base": 44426,
+        "anchor_weighted": 72640,
+        "latest_or_reference": 113864
+      },
+      "archive_events": [],
+      "engine_actions": 894186,
+      "update_seconds": 57.14693635000913,
+      "parameters": 172109
+    },
+    {
+      "condition": "A",
+      "seed": 400031,
+      "n": 425984,
+      "elapsed": 2482.658997119003,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 65782,
+        "standard-104729": 132615,
+        "base": 50200,
+        "parent-155921": 20799,
+        "parent-104729": 21303,
+        "parent-130363": 22191,
+        "standard-130363": 22192,
+        "weighted": 70692,
+        "standard-155921": 20210
+      },
+      "episode_shares": {
+        "heuristic": 240,
+        "standard-104729": 571,
+        "base": 515,
+        "parent-155921": 87,
+        "parent-104729": 91,
+        "parent-130363": 87,
+        "standard-130363": 81,
+        "weighted": 249,
+        "standard-155921": 84
+      },
+      "snapshot_age_sum": {},
+      "component_episode_shares": {
+        "anchor_heuristic": 240,
+        "archive": 520,
+        "latest_or_reference": 481,
+        "anchor_base": 515,
+        "anchor_weighted": 249
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 65782,
+        "archive": 127128,
+        "latest_or_reference": 112182,
+        "anchor_base": 50200,
+        "anchor_weighted": 70692
+      },
+      "archive_events": [],
+      "engine_actions": 875344,
+      "update_seconds": 56.24298141399504,
+      "parameters": 172109
+    },
+    {
+      "condition": "A",
+      "seed": 400033,
+      "n": 425984,
+      "elapsed": 2508.7832309730043,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "standard-104729": 143304,
+        "heuristic": 65806,
+        "weighted": 65320,
+        "parent-130363": 21134,
+        "base": 50860,
+        "parent-104729": 23099,
+        "parent-155921": 17745,
+        "standard-130363": 20452,
+        "standard-155921": 18264
+      },
+      "episode_shares": {
+        "standard-104729": 638,
+        "heuristic": 237,
+        "weighted": 249,
+        "parent-130363": 85,
+        "base": 503,
+        "parent-104729": 100,
+        "parent-155921": 72,
+        "standard-130363": 82,
+        "standard-155921": 80
+      },
+      "snapshot_age_sum": {},
+      "component_episode_shares": {
+        "latest_or_reference": 544,
+        "anchor_heuristic": 237,
+        "anchor_weighted": 249,
+        "archive": 513,
+        "anchor_base": 503
+      },
+      "component_transition_shares": {
+        "latest_or_reference": 121383,
+        "anchor_heuristic": 65806,
+        "anchor_weighted": 65320,
+        "archive": 122615,
+        "anchor_base": 50860
+      },
+      "archive_events": [],
+      "engine_actions": 872473,
+      "update_seconds": 54.58433665800112,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400009,
+      "n": 425984,
+      "elapsed": 2471.769001376003,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 60822,
+        "standard-155921": 10195,
+        "base": 43776,
+        "weighted": 66258,
+        "standard-104729": 24937,
+        "standard-130363": 13884,
+        "parent-130363": 15505,
+        "parent-155921": 11589,
+        "parent-104729": 11378,
+        "B-400009-65536": 37970,
+        "B-400009-131072": 32965,
+        "B-400009-196608": 29843,
+        "B-400009-262144": 33307,
+        "B-400009-327680": 22369,
+        "B-400009-393216": 11186
+      },
+      "episode_shares": {
+        "heuristic": 221,
+        "standard-155921": 46,
+        "base": 432,
+        "weighted": 218,
+        "standard-104729": 116,
+        "standard-130363": 57,
+        "parent-130363": 53,
+        "parent-155921": 51,
+        "parent-104729": 45,
+        "B-400009-65536": 107,
+        "B-400009-131072": 104,
+        "B-400009-196608": 103,
+        "B-400009-262144": 109,
+        "B-400009-327680": 76,
+        "B-400009-393216": 44
+      },
+      "snapshot_age_sum": {
+        "B-400009-65536": 2815615977,
+        "B-400009-131072": 2208370904,
+        "B-400009-196608": 1634871367,
+        "B-400009-262144": 1167179442,
+        "B-400009-327680": 775479426,
+        "B-400009-393216": 170349677
+      },
+      "component_episode_shares": {
+        "anchor_heuristic": 221,
+        "archive": 456,
+        "anchor_base": 432,
+        "anchor_weighted": 218,
+        "latest_or_reference": 455
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 60822,
+        "archive": 118650,
+        "anchor_base": 43776,
+        "anchor_weighted": 66258,
+        "latest_or_reference": 136478
+      },
+      "archive_events": [
+        {
+          "n": 65536,
+          "retained": [
+            "B-400009-65536"
+          ],
+          "sha256": "b10e6cbb9703926f90ed7ee322d1da548afa922b56215b9cf73ee41890243e07"
+        },
+        {
+          "n": 131072,
+          "retained": [
+            "B-400009-65536",
+            "B-400009-131072"
+          ],
+          "sha256": "b53a89b60b3853774bdf2af3a8cea33890d4457b3bdbffe5f4270e9d4bccb6a6"
+        },
+        {
+          "n": 196608,
+          "retained": [
+            "B-400009-65536",
+            "B-400009-131072",
+            "B-400009-196608"
+          ],
+          "sha256": "a19eb1014e04f6820a8553d21b44b6d81d5e24f0ae38b0fe8a4fbb2fc96fb80b"
+        },
+        {
+          "n": 262144,
+          "retained": [
+            "B-400009-65536",
+            "B-400009-131072",
+            "B-400009-196608",
+            "B-400009-262144"
+          ],
+          "sha256": "08a8b5fe415a1999c973d31c7012ee6d3dca692bcd3801b831ec1bb92427c71d"
+        },
+        {
+          "n": 327680,
+          "retained": [
+            "B-400009-65536",
+            "B-400009-131072",
+            "B-400009-196608",
+            "B-400009-262144",
+            "B-400009-327680"
+          ],
+          "sha256": "d800dd525caf2819c8e41ea4b855ff0ed69383fcd6db9f7e94105669b94daa54"
+        },
+        {
+          "n": 393216,
+          "retained": [
+            "B-400009-65536",
+            "B-400009-131072",
+            "B-400009-196608",
+            "B-400009-262144",
+            "B-400009-327680",
+            "B-400009-393216"
+          ],
+          "sha256": "3d66f5650ea4223678a2d0db0c32a6a2db19759d27292c7e96fed0cf2d2020e3"
+        }
+      ],
+      "engine_actions": 874893,
+      "update_seconds": 56.154899722010214,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400031,
+      "n": 425984,
+      "elapsed": 2428.6580808640024,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 63762,
+        "standard-104729": 28448,
+        "base": 40836,
+        "parent-155921": 10301,
+        "parent-104729": 13203,
+        "parent-130363": 14502,
+        "standard-130363": 11803,
+        "weighted": 66081,
+        "standard-155921": 13073,
+        "B-400031-65536": 39967,
+        "B-400031-131072": 30165,
+        "B-400031-196608": 31181,
+        "B-400031-262144": 28701,
+        "B-400031-327680": 24531,
+        "B-400031-393216": 9430
+      },
+      "episode_shares": {
+        "heuristic": 199,
+        "standard-104729": 123,
+        "base": 425,
+        "parent-155921": 42,
+        "parent-104729": 54,
+        "parent-130363": 51,
+        "standard-130363": 45,
+        "weighted": 205,
+        "standard-155921": 53,
+        "B-400031-65536": 103,
+        "B-400031-131072": 83,
+        "B-400031-196608": 97,
+        "B-400031-262144": 89,
+        "B-400031-327680": 82,
+        "B-400031-393216": 31
+      },
+      "snapshot_age_sum": {
+        "B-400031-65536": 3052752492,
+        "B-400031-131072": 2155502472,
+        "B-400031-196608": 1592704134,
+        "B-400031-262144": 1315661608,
+        "B-400031-327680": 869677932,
+        "B-400031-393216": 162448899
+      },
+      "component_episode_shares": {
+        "anchor_heuristic": 199,
+        "archive": 443,
+        "latest_or_reference": 410,
+        "anchor_base": 425,
+        "anchor_weighted": 205
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 63762,
+        "archive": 123029,
+        "latest_or_reference": 132276,
+        "anchor_base": 40836,
+        "anchor_weighted": 66081
+      },
+      "archive_events": [
+        {
+          "n": 65536,
+          "retained": [
+            "B-400031-65536"
+          ],
+          "sha256": "eb133c995b8b4f6ef908e3181f3979efebbe55ea9d2adaae6a495a27ec5832fd"
+        },
+        {
+          "n": 131072,
+          "retained": [
+            "B-400031-65536",
+            "B-400031-131072"
+          ],
+          "sha256": "cfa4536e77b5db804e673e158ada08301fe07eb6fd3e6e957a16cfa1fb6e546a"
+        },
+        {
+          "n": 196608,
+          "retained": [
+            "B-400031-65536",
+            "B-400031-131072",
+            "B-400031-196608"
+          ],
+          "sha256": "90b4dedbe99223d5284726a81ebe1ab09671118ee55db850ba0228591a3383a3"
+        },
+        {
+          "n": 262144,
+          "retained": [
+            "B-400031-65536",
+            "B-400031-131072",
+            "B-400031-196608",
+            "B-400031-262144"
+          ],
+          "sha256": "88004611b77d8f4ded2a799c77d9aa82af1326015fe0a4ee5b3685c3444ef0fa"
+        },
+        {
+          "n": 327680,
+          "retained": [
+            "B-400031-65536",
+            "B-400031-131072",
+            "B-400031-196608",
+            "B-400031-262144",
+            "B-400031-327680"
+          ],
+          "sha256": "b4678a5b851284dc0b6d0776983bc92c970b42fababfde89d8ae883573733db4"
+        },
+        {
+          "n": 393216,
+          "retained": [
+            "B-400031-65536",
+            "B-400031-131072",
+            "B-400031-196608",
+            "B-400031-262144",
+            "B-400031-327680",
+            "B-400031-393216"
+          ],
+          "sha256": "d03731c2d27c41fa4c2a929ebe15551f00aa893290206a0a982e70c0be46550e"
+        }
+      ],
+      "engine_actions": 874815,
+      "update_seconds": 56.208645550002984,
+      "parameters": 172109
+    },
+    {
+      "condition": "B",
+      "seed": 400033,
+      "n": 425984,
+      "elapsed": 2441.9124521100007,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "standard-104729": 26675,
+        "heuristic": 68501,
+        "weighted": 65638,
+        "parent-130363": 13059,
+        "base": 44382,
+        "parent-104729": 13877,
+        "parent-155921": 12812,
+        "standard-130363": 14884,
+        "standard-155921": 10708,
+        "B-400033-65536": 35990,
+        "B-400033-131072": 36647,
+        "B-400033-196608": 27165,
+        "B-400033-262144": 23355,
+        "B-400033-327680": 21438,
+        "B-400033-393216": 10853
+      },
+      "episode_shares": {
+        "standard-104729": 126,
+        "heuristic": 223,
+        "weighted": 224,
+        "parent-130363": 55,
+        "base": 454,
+        "parent-104729": 59,
+        "parent-155921": 49,
+        "standard-130363": 58,
+        "standard-155921": 46,
+        "B-400033-65536": 107,
+        "B-400033-131072": 116,
+        "B-400033-196608": 91,
+        "B-400033-262144": 91,
+        "B-400033-327680": 93,
+        "B-400033-393216": 49
+      },
+      "snapshot_age_sum": {
+        "B-400033-65536": 2611275161,
+        "B-400033-131072": 2346302622,
+        "B-400033-196608": 1602031534,
+        "B-400033-262144": 914752064,
+        "B-400033-327680": 746341562,
+        "B-400033-393216": 165651002
+      },
+      "component_episode_shares": {
+        "latest_or_reference": 497,
+        "anchor_heuristic": 223,
+        "anchor_weighted": 224,
+        "archive": 443,
+        "anchor_base": 454
+      },
+      "component_transition_shares": {
+        "latest_or_reference": 135188,
+        "anchor_heuristic": 68501,
+        "anchor_weighted": 65638,
+        "archive": 112275,
+        "anchor_base": 44382
+      },
+      "archive_events": [
+        {
+          "n": 65536,
+          "retained": [
+            "B-400033-65536"
+          ],
+          "sha256": "7a23e6a960932d62589198324aeb2b15217dc4690ef7215fdd98488d60db9e69"
+        },
+        {
+          "n": 131072,
+          "retained": [
+            "B-400033-65536",
+            "B-400033-131072"
+          ],
+          "sha256": "60369cfb07a2611b122cda82027593a8a69712db11cbf4a1b4613a98c27c4ddd"
+        },
+        {
+          "n": 196608,
+          "retained": [
+            "B-400033-65536",
+            "B-400033-131072",
+            "B-400033-196608"
+          ],
+          "sha256": "e82d8cb4398d115ea9878f461fa369be6c54549d8a85e2ea688ebeff51169de8"
+        },
+        {
+          "n": 262144,
+          "retained": [
+            "B-400033-65536",
+            "B-400033-131072",
+            "B-400033-196608",
+            "B-400033-262144"
+          ],
+          "sha256": "7ec4f7d4a743d19860a7a35a142bdca7277264e37906e6fb4d55046111702088"
+        },
+        {
+          "n": 327680,
+          "retained": [
+            "B-400033-65536",
+            "B-400033-131072",
+            "B-400033-196608",
+            "B-400033-262144",
+            "B-400033-327680"
+          ],
+          "sha256": "64c9675ec73c6f5dcffc50b207060e7b6a64907a8190613b3bd9e239cb3d805f"
+        },
+        {
+          "n": 393216,
+          "retained": [
+            "B-400033-65536",
+            "B-400033-131072",
+            "B-400033-196608",
+            "B-400033-262144",
+            "B-400033-327680",
+            "B-400033-393216"
+          ],
+          "sha256": "b8b901b2d89c61a2e336af83f6623bf28ed0c793a367819b14454d62a5966877"
+        }
+      ],
+      "engine_actions": 874168,
+      "update_seconds": 56.94898064798872,
+      "parameters": 172109
+    },
+    {
+      "condition": "C",
+      "seed": 400009,
+      "n": 425984,
+      "elapsed": 2471.545084246996,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 67163,
+        "standard-155921": 20858,
+        "base": 47395,
+        "weighted": 67788,
+        "standard-104729": 139869,
+        "standard-130363": 18972,
+        "parent-130363": 25535,
+        "parent-155921": 20563,
+        "parent-104729": 17841
+      },
+      "episode_shares": {
+        "heuristic": 253,
+        "standard-155921": 90,
+        "base": 478,
+        "weighted": 238,
+        "standard-104729": 596,
+        "standard-130363": 89,
+        "parent-130363": 96,
+        "parent-155921": 86,
+        "parent-104729": 72
+      },
+      "snapshot_age_sum": {},
+      "component_episode_shares": {
+        "anchor_heuristic": 253,
+        "archive": 528,
+        "anchor_base": 478,
+        "anchor_weighted": 238,
+        "latest_or_reference": 501
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 67163,
+        "archive": 124992,
+        "anchor_base": 47395,
+        "anchor_weighted": 67788,
+        "latest_or_reference": 118646
+      },
+      "archive_events": [],
+      "engine_actions": 873393,
+      "update_seconds": 55.842741814017245,
+      "parameters": 884045
+    },
+    {
+      "condition": "C",
+      "seed": 400031,
+      "n": 425984,
+      "elapsed": 2438.766036157,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 78643,
+        "standard-104729": 129045,
+        "base": 42456,
+        "parent-155921": 20220,
+        "parent-104729": 18856,
+        "parent-130363": 20779,
+        "standard-130363": 18595,
+        "weighted": 78287,
+        "standard-155921": 19103
+      },
+      "episode_shares": {
+        "heuristic": 226,
+        "standard-104729": 538,
+        "base": 476,
+        "parent-155921": 85,
+        "parent-104729": 83,
+        "parent-130363": 82,
+        "standard-130363": 77,
+        "weighted": 237,
+        "standard-155921": 81
+      },
+      "snapshot_age_sum": {},
+      "component_episode_shares": {
+        "anchor_heuristic": 226,
+        "archive": 492,
+        "latest_or_reference": 454,
+        "anchor_base": 476,
+        "anchor_weighted": 237
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 78643,
+        "archive": 119418,
+        "latest_or_reference": 107180,
+        "anchor_base": 42456,
+        "anchor_weighted": 78287
+      },
+      "archive_events": [],
+      "engine_actions": 895162,
+      "update_seconds": 56.86754738799209,
+      "parameters": 884045
+    },
+    {
+      "condition": "D",
+      "seed": 400009,
+      "n": 425984,
+      "elapsed": 2441.4486265230016,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 68072,
+        "standard-155921": 10329,
+        "base": 41196,
+        "weighted": 71582,
+        "standard-104729": 24760,
+        "standard-130363": 14630,
+        "parent-130363": 15469,
+        "parent-155921": 12379,
+        "parent-104729": 11036,
+        "D-400009-65536": 35239,
+        "D-400009-131072": 33669,
+        "D-400009-196608": 28501,
+        "D-400009-262144": 29268,
+        "D-400009-327680": 18953,
+        "D-400009-393216": 10901
+      },
+      "episode_shares": {
+        "heuristic": 220,
+        "standard-155921": 46,
+        "base": 431,
+        "weighted": 217,
+        "standard-104729": 119,
+        "standard-130363": 57,
+        "parent-130363": 53,
+        "parent-155921": 49,
+        "parent-104729": 45,
+        "D-400009-65536": 102,
+        "D-400009-131072": 107,
+        "D-400009-196608": 103,
+        "D-400009-262144": 109,
+        "D-400009-327680": 76,
+        "D-400009-393216": 43
+      },
+      "snapshot_age_sum": {
+        "D-400009-65536": 2786694541,
+        "D-400009-131072": 2514076363,
+        "D-400009-196608": 1588357966,
+        "D-400009-262144": 1034014256,
+        "D-400009-327680": 668538083,
+        "D-400009-393216": 173344978
+      },
+      "component_episode_shares": {
+        "anchor_heuristic": 220,
+        "archive": 454,
+        "anchor_base": 431,
+        "anchor_weighted": 217,
+        "latest_or_reference": 455
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 68072,
+        "archive": 118172,
+        "anchor_base": 41196,
+        "anchor_weighted": 71582,
+        "latest_or_reference": 126962
+      },
+      "archive_events": [
+        {
+          "n": 65536,
+          "retained": [
+            "D-400009-65536"
+          ],
+          "sha256": "1407b987a8323f78cb9b8473f3001f3d072a292f6636631e20dd7af52a1d0fdc"
+        },
+        {
+          "n": 131072,
+          "retained": [
+            "D-400009-65536",
+            "D-400009-131072"
+          ],
+          "sha256": "4900233c89d40249587dc302c080d4ad505c79fb7e8f53671d4c0f2bfa560b48"
+        },
+        {
+          "n": 196608,
+          "retained": [
+            "D-400009-65536",
+            "D-400009-131072",
+            "D-400009-196608"
+          ],
+          "sha256": "897bbb2e56adc6f08bdac4f2f18b4efde223747e04ef314ef85e3ebace268f9b"
+        },
+        {
+          "n": 262144,
+          "retained": [
+            "D-400009-65536",
+            "D-400009-131072",
+            "D-400009-196608",
+            "D-400009-262144"
+          ],
+          "sha256": "4122a5a56e467f3358b3f43a068bbb4a715385e01ececfd26d13962a5bb2b489"
+        },
+        {
+          "n": 327680,
+          "retained": [
+            "D-400009-65536",
+            "D-400009-131072",
+            "D-400009-196608",
+            "D-400009-262144",
+            "D-400009-327680"
+          ],
+          "sha256": "6bd9015e1e3385122e4cea5116d99e840577c9a0efa2b018555e0aa0a03c60c4"
+        },
+        {
+          "n": 393216,
+          "retained": [
+            "D-400009-65536",
+            "D-400009-131072",
+            "D-400009-196608",
+            "D-400009-262144",
+            "D-400009-327680",
+            "D-400009-393216"
+          ],
+          "sha256": "b65befa6d099c3d6ef42d9c25659a4aa9cef1a5a2d400bb1b55c0a0bcf67884f"
+        }
+      ],
+      "engine_actions": 883193,
+      "update_seconds": 56.56526358800329,
+      "parameters": 884045
+    },
+    {
+      "condition": "D",
+      "seed": 400031,
+      "n": 425984,
+      "elapsed": 2465.761278792003,
+      "teacher_seconds": 0.0,
+      "teacher": null,
+      "transition_shares": {
+        "heuristic": 70106,
+        "standard-104729": 25095,
+        "base": 40894,
+        "parent-155921": 11166,
+        "parent-104729": 13171,
+        "parent-130363": 13929,
+        "standard-130363": 10402,
+        "weighted": 67755,
+        "standard-155921": 11920,
+        "D-400031-65536": 41687,
+        "D-400031-131072": 28577,
+        "D-400031-196608": 31400,
+        "D-400031-262144": 28190,
+        "D-400031-327680": 22770,
+        "D-400031-393216": 8922
+      },
+      "episode_shares": {
+        "heuristic": 218,
+        "standard-104729": 127,
+        "base": 445,
+        "parent-155921": 45,
+        "parent-104729": 59,
+        "parent-130363": 54,
+        "standard-130363": 50,
+        "weighted": 216,
+        "standard-155921": 54,
+        "D-400031-65536": 107,
+        "D-400031-131072": 88,
+        "D-400031-196608": 93,
+        "D-400031-262144": 99,
+        "D-400031-327680": 85,
+        "D-400031-393216": 34
+      },
+      "snapshot_age_sum": {
+        "D-400031-65536": 3432402851,
+        "D-400031-131072": 1778243376,
+        "D-400031-196608": 1556148415,
+        "D-400031-262144": 1186355073,
+        "D-400031-327680": 836978881,
+        "D-400031-393216": 158225371
+      },
+      "component_episode_shares": {
+        "anchor_heuristic": 218,
+        "archive": 464,
+        "latest_or_reference": 431,
+        "anchor_base": 445,
+        "anchor_weighted": 216
+      },
+      "component_transition_shares": {
+        "anchor_heuristic": 70106,
+        "archive": 117999,
+        "latest_or_reference": 129230,
+        "anchor_base": 40894,
+        "anchor_weighted": 67755
+      },
+      "archive_events": [
+        {
+          "n": 65536,
+          "retained": [
+            "D-400031-65536"
+          ],
+          "sha256": "7ae45276810a82122196ea073383438fc59d5439ba9317c2e63205e1bc10f01f"
+        },
+        {
+          "n": 131072,
+          "retained": [
+            "D-400031-65536",
+            "D-400031-131072"
+          ],
+          "sha256": "66bcaf6eb9ade57f5439539fb6bef7743df62e7756ae28f4b2abc364a4f5e649"
+        },
+        {
+          "n": 196608,
+          "retained": [
+            "D-400031-65536",
+            "D-400031-131072",
+            "D-400031-196608"
+          ],
+          "sha256": "9ae9fd5287ce817a4cf3d0b318040b495117d6b4c1574e9e52d9cb7e7c3fe2bc"
+        },
+        {
+          "n": 262144,
+          "retained": [
+            "D-400031-65536",
+            "D-400031-131072",
+            "D-400031-196608",
+            "D-400031-262144"
+          ],
+          "sha256": "49c638c18bd5ac0abaae460c2454e717feb0c60f415a6a5ab80a53fdd9c0ea09"
+        },
+        {
+          "n": 327680,
+          "retained": [
+            "D-400031-65536",
+            "D-400031-131072",
+            "D-400031-196608",
+            "D-400031-262144",
+            "D-400031-327680"
+          ],
+          "sha256": "92c595a9fd10e499f462275b22c2aea7a113ac8b5a865a0be628f3cd5c97a19a"
+        },
+        {
+          "n": 393216,
+          "retained": [
+            "D-400031-65536",
+            "D-400031-131072",
+            "D-400031-196608",
+            "D-400031-262144",
+            "D-400031-327680",
+            "D-400031-393216"
+          ],
+          "sha256": "31417c46457b1314e7c6aee1fcf23828bc64b9d79c5ad833321eafc13873436d"
+        }
+      ],
+      "engine_actions": 882806,
+      "update_seconds": 55.684784803000184,
+      "parameters": 884045
+    }
+  ]
+}

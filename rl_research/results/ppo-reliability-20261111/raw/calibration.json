@@ -1,0 +1,27 @@
+{
+  "pilot": {
+    "n": 4096,
+    "complete": true,
+    "elapsed": 11.524883893999913,
+    "learner_decisions_s": 355.40488196436064,
+    "engine_actions_s": 758.5325874346779,
+    "update_seconds": 0.501829918999988,
+    "episodes": 8,
+    "terminal_rewards": 8,
+    "parameters": 676173
+  },
+  "evaluations": [
+    {
+      "step": 106496,
+      "seconds": 0.03361225128173828,
+      "boards": 2,
+      "truncations": 0
+    },
+    {
+      "step": 434176,
+      "seconds": 0.03647804260253906,
+      "boards": 2,
+      "truncations": 0
+    }
+  ]
+}

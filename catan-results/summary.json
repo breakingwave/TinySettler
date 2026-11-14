@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-01T22:54:58.420Z",
+  "notes": [
+    "Legal action IDs are constrained by the decoding grammar. A low invalid count does not establish strategy or unconstrained protocol compliance. The invalid field counts recorded decision errors, including parse or action-API failures.",
+    "Non-setup action counts include model-selected actions only; engineRedActionCounts also includes automatically executed forced actions.",
+    "First listed choice ratio excludes decisions with only one legal action. It is descriptive, not proof of positional bias.",
+    "Consecutive inverse trades are a heuristic: adjacent model decisions in the same turn exchanging the same two resources in opposite directions. Not all trades are bad.",
+    "First-chunk timing includes prompt prefill and runtime/grammar overhead; it is not an isolated measurement of GPU prefill.",
+    "A seed matches the initial random setup; different actions can consume random draws differently. Small samples do not establish playing strength."
+  ],
+  "games": [
+    {
+      "id": "1793572206357-42-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "truncated",
+      "completed": true,
+      "winner": null,
+      "truncated": true,
+      "reason": "turn limit",
+      "turn": 160,
+      "redVP": 7,
+      "redBuildings": {
+        "settlements": 3,
+        "cities": 1,
+        "roads": 15,
+        "longestRoad": 9
+      },
+      "decisions": 76,
+      "invalid": 0,
+      "wallSeconds": 373.8027000000477,
+      "loadSeconds": 1.8120999999046326,
+      "latency": {
+        "medianDecisionMs": 4857.450000047684,
+        "p95DecisionMs": 5762.400000095367,
+        "totalInferenceSeconds": 372.3701000006199,
+        "medianFirstChunkMs": 4645.500000119209,
+        "firstChunkFractionOfInferenceElapsed": 0.9548084016426261,
+        "pairedObservations": 76,
+        "medianDecodeTokensPerSecond": 28.999577664332826,
+        "medianPrefillTokensPerSecond": 448.6165899545694
+      },
+      "tokens": {
+        "promptTotal": 158451,
+        "promptMedian": 2069,
+        "outputTotal": 552,
+        "outputMedian": 7,
+        "reportedTotal": 159003
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "MOVE_ROBBER": 11,
+        "BUY_DEVELOPMENT_CARD": 4,
+        "PLAY_KNIGHT_CARD": 2,
+        "MARITIME_TRADE": 18,
+        "BUILD_CITY": 1,
+        "ROLL": 1,
+        "PLAY_MONOPOLY": 1,
+        "DISCARD_RESOURCE": 19
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "ROLL": 39,
+        "END_TURN": 39,
+        "MOVE_ROBBER": 11,
+        "BUY_DEVELOPMENT_CARD": 4,
+        "PLAY_KNIGHT_CARD": 2,
+        "MARITIME_TRADE": 18,
+        "BUILD_CITY": 1,
+        "PLAY_MONOPOLY": 1,
+        "DISCARD_RESOURCE": 19
+      },
+      "forcedActions": 77,
+      "nonSetupModelActions": {
+        "settlements": 2,
+        "cities": 1,
+        "roads": 13,
+        "developmentPurchases": 4,
+        "developmentPlays": 3,
+        "trades": 18,
+        "endTurns": 0
+      },
+      "firstListedChoice": {
+        "count": 8,
+        "eligibleDecisions": 76,
+        "ratio": 0.10526315789473684,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [
+        {
+          "decisionNumbers": [
+            27,
+            28
+          ],
+          "turn": 86,
+          "actions": [
+            "trade 4 brick for 1 ore",
+            "trade 4 ore for 1 brick"
+          ],
+          "netResourceChange": {
+            "brick": -3,
+            "ore": -3
+          },
+          "totalCardsLost": 6
+        }
+      ],
+      "source": "catan-results/latest.json"
+    },
+    {
+      "id": "1793572580187-43-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 43,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "truncated",
+      "completed": true,
+      "winner": null,
+      "truncated": true,
+      "reason": "turn limit",
+      "turn": 160,
+      "redVP": 6,
+      "redBuildings": {
+        "settlements": 3,
+        "cities": 0,
+        "roads": 13,
+        "longestRoad": 9
+      },
+      "decisions": 49,
+      "invalid": 0,
+      "wallSeconds": 243.20839999985694,
+      "loadSeconds": 1.8120999999046326,
+      "latency": {
+        "medianDecisionMs": 4902,
+        "p95DecisionMs": 5734.899999856949,
+        "totalInferenceSeconds": 242.19710000038148,
+        "medianFirstChunkMs": 4703.099999904633,
+        "firstChunkFractionOfInferenceElapsed": 0.9557612374375187,
+        "pairedObservations": 49,
+        "medianDecodeTokensPerSecond": 29.154518923416994,
+        "medianPrefillTokensPerSecond": 443.1648047909709
+      },
+      "tokens": {
+        "promptTotal": 103069,
+        "promptMedian": 2095,
+        "outputTotal": 352,
+        "outputMedian": 7,
+        "reportedTotal": 103421
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 3,
+        "BUILD_ROAD": 13,
+        "MOVE_ROBBER": 9,
+        "MARITIME_TRADE": 7,
+        "DISCARD_RESOURCE": 8,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "ROLL": 3,
+        "PLAY_KNIGHT_CARD": 2,
+        "END_TURN": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 3,
+        "BUILD_ROAD": 13,
+        "ROLL": 39,
+        "END_TURN": 39,
+        "MOVE_ROBBER": 9,
+        "MARITIME_TRADE": 7,
+        "DISCARD_RESOURCE": 8,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "PLAY_KNIGHT_CARD": 2
+      },
+      "forcedActions": 74,
+      "nonSetupModelActions": {
+        "settlements": 1,
+        "cities": 0,
+        "roads": 11,
+        "developmentPurchases": 3,
+        "developmentPlays": 2,
+        "trades": 7,
+        "endTurns": 1
+      },
+      "firstListedChoice": {
+        "count": 7,
+        "eligibleDecisions": 49,
+        "ratio": 0.14285714285714285,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [],
+      "source": "catan-results/latest.json"
+    },
+    {
+      "id": "1793572825192-42-Qwen3.5-2B-q4f16_1-MLC",
+      "model": "Qwen3.5-2B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "winner",
+      "completed": true,
+      "winner": "RED",
+      "truncated": false,
+      "reason": "winner",
+      "turn": 146,
+      "redVP": 10,
+      "redBuildings": {
+        "settlements": 1,
+        "cities": 3,
+        "roads": 15,
+        "longestRoad": 10
+      },
+      "decisions": 76,
+      "invalid": 0,
+      "wallSeconds": 481.8040999999046,
+      "loadSeconds": 1.7834000000953674,
+      "latency": {
+        "medianDecisionMs": 6126.350000023842,
+        "p95DecisionMs": 7296.900000095367,
+        "totalInferenceSeconds": 479.63880000042917,
+        "medianFirstChunkMs": 5753.600000023842,
+        "firstChunkFractionOfInferenceElapsed": 0.9419354731082458,
+        "pairedObservations": 76,
+        "medianDecodeTokensPerSecond": 20.539906077421445,
+        "medianPrefillTokensPerSecond": 355.1403881622749
+      },
+      "tokens": {
+        "promptTotal": 157696,
+        "promptMedian": 2033.5,
+        "outputTotal": 617,
+        "outputMedian": 8,
+        "reportedTotal": 158313
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "MARITIME_TRADE": 15,
+        "BUILD_CITY": 3,
+        "MOVE_ROBBER": 7,
+        "BUY_DEVELOPMENT_CARD": 7,
+        "END_TURN": 3,
+        "ROLL": 2,
+        "DISCARD_RESOURCE": 14,
+        "PLAY_MONOPOLY": 1,
+        "PLAY_KNIGHT_CARD": 2,
+        "PLAY_YEAR_OF_PLENTY": 2,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "ROLL": 36,
+        "END_TURN": 35,
+        "MARITIME_TRADE": 15,
+        "BUILD_CITY": 3,
+        "MOVE_ROBBER": 7,
+        "BUY_DEVELOPMENT_CARD": 7,
+        "DISCARD_RESOURCE": 14,
+        "PLAY_MONOPOLY": 1,
+        "PLAY_KNIGHT_CARD": 2,
+        "PLAY_YEAR_OF_PLENTY": 2,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "forcedActions": 66,
+      "nonSetupModelActions": {
+        "settlements": 2,
+        "cities": 3,
+        "roads": 13,
+        "developmentPurchases": 7,
+        "developmentPlays": 6,
+        "trades": 15,
+        "endTurns": 3
+      },
+      "firstListedChoice": {
+        "count": 18,
+        "eligibleDecisions": 76,
+        "ratio": 0.23684210526315788,
+        "setupCount": 2,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [],
+      "source": "catan-results/latest.json"
+    },
+    {
+      "id": "1793573307024-43-Qwen3.5-2B-q4f16_1-MLC",
+      "model": "Qwen3.5-2B-q4f16_1-MLC",
+      "seed": 43,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "truncated",
+      "completed": true,
+      "winner": null,
+      "truncated": true,
+      "reason": "turn limit",
+      "turn": 160,
+      "redVP": 3,
+      "redBuildings": {
+        "settlements": 2,
+        "cities": 0,
+        "roads": 4,
+        "longestRoad": 4
+      },
+      "decisions": 59,
+      "invalid": 0,
+      "wallSeconds": 355.3037000000477,
+      "loadSeconds": 1.7834000000953674,
+      "latency": {
+        "medianDecisionMs": 5963.700000047684,
+        "p95DecisionMs": 6951.799999952316,
+        "totalInferenceSeconds": 353.20439999985695,
+        "medianFirstChunkMs": 5624,
+        "firstChunkFractionOfInferenceElapsed": 0.9422824290986339,
+        "pairedObservations": 59,
+        "medianDecodeTokensPerSecond": 21.014710303224614,
+        "medianPrefillTokensPerSecond": 359.20162029928366
+      },
+      "tokens": {
+        "promptTotal": 119434,
+        "promptMedian": 2031,
+        "outputTotal": 474,
+        "outputMedian": 8,
+        "reportedTotal": 119908
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 4,
+        "DISCARD_RESOURCE": 17,
+        "MOVE_ROBBER": 5,
+        "MARITIME_TRADE": 13,
+        "END_TURN": 9,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "ROLL": 4,
+        "PLAY_KNIGHT_CARD": 1,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 4,
+        "ROLL": 39,
+        "END_TURN": 39,
+        "DISCARD_RESOURCE": 17,
+        "MOVE_ROBBER": 5,
+        "MARITIME_TRADE": 13,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "PLAY_KNIGHT_CARD": 1,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "forcedActions": 65,
+      "nonSetupModelActions": {
+        "settlements": 0,
+        "cities": 0,
+        "roads": 2,
+        "developmentPurchases": 3,
+        "developmentPlays": 2,
+        "trades": 13,
+        "endTurns": 9
+      },
+      "firstListedChoice": {
+        "count": 17,
+        "eligibleDecisions": 59,
+        "ratio": 0.288135593220339,
+        "setupCount": 2,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [],
+      "source": "catan-results/latest.json"
+    }
+  ]
+}

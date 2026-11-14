@@ -1,0 +1,106 @@
+{
+  "rule": "win fraction; fewer truncations; earlier checkpoint",
+  "committed_at": 1794395403.589762,
+  "selections": [
+    {
+      "run": "ppo-128-104729",
+      "width": 128,
+      "seed": 104729,
+      "step": 106496,
+      "checkpoint_sha256": "a7fdb4d9806d81de2982d6a35470e2246081823d74fbcf021899a17a61f760bd",
+      "wins": 116,
+      "truncations": 0,
+      "games": 120
+    },
+    {
+      "run": "ppo-256-104729",
+      "width": 256,
+      "seed": 104729,
+      "step": 106496,
+      "checkpoint_sha256": "5d37d8722c329373af533a98c71c522d0b39d0b45b225438c88204b820211e58",
+      "wins": 109,
+      "truncations": 0,
+      "games": 120
+    },
+    {
+      "run": "ppo-128-130363",
+      "width": 128,
+      "seed": 130363,
+      "step": 434176,
+      "checkpoint_sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+      "wins": 108,
+      "truncations": 0,
+      "games": 120
+    },
+    {
+      "run": "ppo-256-130363",
+      "width": 256,
+      "seed": 130363,
+      "step": 434176,
+      "checkpoint_sha256": "d7725e9ede7c0a10f377860c7471dc7c4debc040c76334a19b655ba0d1648b74",
+      "wins": 103,
+      "truncations": 1,
+      "games": 120
+    },
+    {
+      "run": "ppo-128-155921",
+      "width": 128,
+      "seed": 155921,
+      "step": 323584,
+      "checkpoint_sha256": "1e50e31a8d48d63e4c21e12eedb4851f5bdb3da075910903973cf3cceca6a99c",
+      "wins": 104,
+      "truncations": 3,
+      "games": 120
+    },
+    {
+      "run": "ppo-256-155921",
+      "width": 256,
+      "seed": 155921,
+      "step": 434176,
+      "checkpoint_sha256": "326ae2bc2212b05357698809d11d446f5739ce1828192b7e1222244ee72f307e",
+      "wins": 101,
+      "truncations": 4,
+      "games": 120
+    },
+    {
+      "run": "ppo-128-196613",
+      "width": 128,
+      "seed": 196613,
+      "step": 106496,
+      "checkpoint_sha256": "9f27816514452e2ac0c782c27081bad02df85b327c20d1cd40b59a721cddfe7c",
+      "wins": 106,
+      "truncations": 4,
+      "games": 120
+    },
+    {
+      "run": "ppo-256-196613",
+      "width": 256,
+      "seed": 196613,
+      "step": 323584,
+      "checkpoint_sha256": "1b865cbe463e1fd49ead52ebfe13c312e82b7c9bcd6505b5c371fe0b8aa0f6d2",
+      "wins": 102,
+      "truncations": 3,
+      "games": 120
+    },
+    {
+      "run": "ppo-128-262147",
+      "width": 128,
+      "seed": 262147,
+      "step": 434176,
+      "checkpoint_sha256": "0827ce4a7c32ba827a82ed7c7390300659a054fc7cca6aa1393a178f8270a589",
+      "wins": 108,
+      "truncations": 2,
+      "games": 120
+    },
+    {
+      "run": "ppo-256-262147",
+      "width": 256,
+      "seed": 262147,
+      "step": 434176,
+      "checkpoint_sha256": "f9f6cce1b3eabedd2f41c2c94f5ee3495b8717bc45ba4696c5cbd0eeb45d8bd4",
+      "wins": 115,
+      "truncations": 0,
+      "games": 120
+    }
+  ]
+}

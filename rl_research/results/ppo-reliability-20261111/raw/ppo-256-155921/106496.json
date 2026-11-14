@@ -1,0 +1,2820 @@
+{
+  "stats": {
+    "n": 106496,
+    "complete": true,
+    "elapsed": 287.18047647899994,
+    "learner_decisions_s": 370.83300823824464,
+    "engine_actions_s": 769.5369918928327,
+    "update_seconds": 7.920423337000557,
+    "episodes": 286,
+    "terminal_rewards": 285,
+    "parameters": 676173
+  },
+  "metrics": [
+    {
+      "n": 4096,
+      "loss": -0.003298996827652445,
+      "updates": 64,
+      "epsilon": null
+    },
+    {
+      "n": 8192,
+      "loss": -0.006949949471163563,
+      "updates": 128,
+      "epsilon": null
+    },
+    {
+      "n": 12288,
+      "loss": -0.010198946289165178,
+      "updates": 192,
+      "epsilon": null
+    },
+    {
+      "n": 16384,
+      "loss": -0.012765172908984823,
+      "updates": 256,
+      "epsilon": null
+    },
+    {
+      "n": 20480,
+      "loss": -0.00610935714939842,
+      "updates": 320,
+      "epsilon": null
+    },
+    {
+      "n": 24576,
+      "loss": -0.010121129595063394,
+      "updates": 384,
+      "epsilon": null
+    },
+    {
+      "n": 28672,
+      "loss": -0.012987963680643588,
+      "updates": 448,
+      "epsilon": null
+    },
+    {
+      "n": 32768,
+      "loss": -0.009482746063440572,
+      "updates": 512,
+      "epsilon": null
+    },
+    {
+      "n": 36864,
+      "loss": -0.009758172753208783,
+      "updates": 576,
+      "epsilon": null
+    },
+    {
+      "n": 40960,
+      "loss": -0.008940895335399546,
+      "updates": 640,
+      "epsilon": null
+    },
+    {
+      "n": 45056,
+      "loss": -0.008036480816372205,
+      "updates": 704,
+      "epsilon": null
+    },
+    {
+      "n": 49152,
+      "loss": -0.008959644605056383,
+      "updates": 768,
+      "epsilon": null
+    },
+    {
+      "n": 53248,
+      "loss": -0.012093270321201999,
+      "updates": 832,
+      "epsilon": null
+    },
+    {
+      "n": 57344,
+      "loss": -0.01303314737015171,
+      "updates": 896,
+      "epsilon": null
+    },
+    {
+      "n": 61440,
+      "loss": -0.015522036039328668,
+      "updates": 960,
+      "epsilon": null
+    },
+    {
+      "n": 65536,
+      "loss": -0.013008893871301552,
+      "updates": 1024,
+      "epsilon": null
+    },
+    {
+      "n": 69632,
+      "loss": -0.0065767012783908285,
+      "updates": 1088,
+      "epsilon": null
+    },
+    {
+      "n": 73728,
+      "loss": -0.0040655943303136155,
+      "updates": 1152,
+      "epsilon": null
+    },
+    {
+      "n": 77824,
+      "loss": -0.009899120617774315,
+      "updates": 1216,
+      "epsilon": null
+    },
+    {
+      "n": 81920,
+      "loss": -0.009698230078356573,
+      "updates": 1280,
+      "epsilon": null
+    },
+    {
+      "n": 86016,
+      "loss": -0.011747397980798269,
+      "updates": 1344,
+      "epsilon": null
+    },
+    {
+      "n": 90112,
+      "loss": -0.008791606182057876,
+      "updates": 1408,
+      "epsilon": null
+    },
+    {
+      "n": 94208,
+      "loss": -0.006255428448639577,
+      "updates": 1472,
+      "epsilon": null
+    },
+    {
+      "n": 98304,
+      "loss": -0.011295324966340559,
+      "updates": 1536,
+      "epsilon": null
+    },
+    {
+      "n": 102400,
+      "loss": -0.004074534874234814,
+      "updates": 1600,
+      "epsilon": null
+    },
+    {
+      "n": 106496,
+      "loss": -0.0032730967286624946,
+      "updates": 1664,
+      "epsilon": null
+    }
+  ],
+  "episodes": [
+    {
+      "n": 232,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 499,
+      "opponent": "weighted"
+    },
+    {
+      "n": 630,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 930,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 991,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 760,
+      "opponent": "weighted"
+    },
+    {
+      "n": 1330,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 915,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 1527,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 472,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 2167,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 1368,
+      "opponent": "random"
+    },
+    {
+      "n": 2442,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 588,
+      "opponent": "random"
+    },
+    {
+      "n": 2755,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 667,
+      "opponent": "weighted"
+    },
+    {
+      "n": 3003,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 534,
+      "opponent": "random"
+    },
+    {
+      "n": 3299,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 557,
+      "opponent": "random"
+    },
+    {
+      "n": 4375,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 2415,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 4516,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 320,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 5007,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1032,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 5699,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "actions": 1367,
+      "opponent": "weighted"
+    },
+    {
+      "n": 5971,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 686,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 6572,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 1195,
+      "opponent": "random"
+    },
+    {
+      "n": 6854,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 586,
+      "opponent": "random"
+    },
+    {
+      "n": 7059,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 449,
+      "opponent": "random"
+    },
+    {
+      "n": 7492,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 874,
+      "opponent": "weighted"
+    },
+    {
+      "n": 7730,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 498,
+      "opponent": "weighted"
+    },
+    {
+      "n": 8420,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1270,
+      "opponent": "random"
+    },
+    {
+      "n": 8576,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 338,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 8950,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 699,
+      "opponent": "weighted"
+    },
+    {
+      "n": 9288,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 863,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 9622,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 602,
+      "opponent": "random"
+    },
+    {
+      "n": 9786,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 368,
+      "opponent": "random"
+    },
+    {
+      "n": 9957,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 357,
+      "opponent": "weighted"
+    },
+    {
+      "n": 10540,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 1156,
+      "opponent": "weighted"
+    },
+    {
+      "n": 10662,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 259,
+      "opponent": "random"
+    },
+    {
+      "n": 11767,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 2568,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 12099,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 697,
+      "opponent": "random"
+    },
+    {
+      "n": 12525,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1006,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 12944,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 819,
+      "opponent": "random"
+    },
+    {
+      "n": 13271,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 659,
+      "opponent": "random"
+    },
+    {
+      "n": 13705,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 928,
+      "opponent": "weighted"
+    },
+    {
+      "n": 13895,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 403,
+      "opponent": "weighted"
+    },
+    {
+      "n": 14015,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 289,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 14759,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1402,
+      "opponent": "weighted"
+    },
+    {
+      "n": 15399,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "actions": 1214,
+      "opponent": "weighted"
+    },
+    {
+      "n": 15658,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 623,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 15823,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 366,
+      "opponent": "weighted"
+    },
+    {
+      "n": 16573,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1499,
+      "opponent": "weighted"
+    },
+    {
+      "n": 16771,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 414,
+      "opponent": "weighted"
+    },
+    {
+      "n": 17657,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1730,
+      "opponent": "weighted"
+    },
+    {
+      "n": 18198,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 1101,
+      "opponent": "random"
+    },
+    {
+      "n": 18505,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 723,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 19369,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1682,
+      "opponent": "random"
+    },
+    {
+      "n": 19645,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 459,
+      "opponent": "random"
+    },
+    {
+      "n": 19720,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 163,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 19960,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 505,
+      "opponent": "weighted"
+    },
+    {
+      "n": 20521,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 1146,
+      "opponent": "random"
+    },
+    {
+      "n": 20840,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 682,
+      "opponent": "weighted"
+    },
+    {
+      "n": 21014,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 320,
+      "opponent": "random"
+    },
+    {
+      "n": 21211,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 446,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 21741,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1356,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 21923,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 452,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 22056,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 330,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 23227,
+      "reward": 0,
+      "terminal": false,
+      "truncated": true,
+      "points": 7,
+      "actions": 2971,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 23399,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 310,
+      "opponent": "random"
+    },
+    {
+      "n": 24073,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "actions": 1392,
+      "opponent": "weighted"
+    },
+    {
+      "n": 24351,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 558,
+      "opponent": "weighted"
+    },
+    {
+      "n": 24720,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 884,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 25446,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1298,
+      "opponent": "random"
+    },
+    {
+      "n": 25685,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 527,
+      "opponent": "random"
+    },
+    {
+      "n": 26021,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 669,
+      "opponent": "weighted"
+    },
+    {
+      "n": 26315,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 644,
+      "opponent": "random"
+    },
+    {
+      "n": 27421,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 2452,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 27633,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 485,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 28041,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 885,
+      "opponent": "weighted"
+    },
+    {
+      "n": 28547,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 1036,
+      "opponent": "random"
+    },
+    {
+      "n": 28906,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 788,
+      "opponent": "weighted"
+    },
+    {
+      "n": 29476,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1451,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 30749,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 2820,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 31368,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1616,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 32068,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 1466,
+      "opponent": "random"
+    },
+    {
+      "n": 32549,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 956,
+      "opponent": "weighted"
+    },
+    {
+      "n": 32923,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 752,
+      "opponent": "random"
+    },
+    {
+      "n": 33352,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 808,
+      "opponent": "weighted"
+    },
+    {
+      "n": 33602,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 479,
+      "opponent": "random"
+    },
+    {
+      "n": 34203,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1435,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 34649,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 889,
+      "opponent": "weighted"
+    },
+    {
+      "n": 35031,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 796,
+      "opponent": "weighted"
+    },
+    {
+      "n": 35418,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 795,
+      "opponent": "random"
+    },
+    {
+      "n": 35701,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 578,
+      "opponent": "weighted"
+    },
+    {
+      "n": 36253,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 1183,
+      "opponent": "weighted"
+    },
+    {
+      "n": 36531,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 520,
+      "opponent": "random"
+    },
+    {
+      "n": 36667,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 271,
+      "opponent": "weighted"
+    },
+    {
+      "n": 36908,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 564,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 37167,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 567,
+      "opponent": "random"
+    },
+    {
+      "n": 37476,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 664,
+      "opponent": "weighted"
+    },
+    {
+      "n": 38291,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1603,
+      "opponent": "weighted"
+    },
+    {
+      "n": 38412,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 313,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 38763,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 750,
+      "opponent": "weighted"
+    },
+    {
+      "n": 39372,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 1203,
+      "opponent": "random"
+    },
+    {
+      "n": 39758,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 815,
+      "opponent": "weighted"
+    },
+    {
+      "n": 40145,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 762,
+      "opponent": "weighted"
+    },
+    {
+      "n": 40471,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 681,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 40803,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 622,
+      "opponent": "weighted"
+    },
+    {
+      "n": 41185,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 704,
+      "opponent": "weighted"
+    },
+    {
+      "n": 41419,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 442,
+      "opponent": "random"
+    },
+    {
+      "n": 41858,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 857,
+      "opponent": "random"
+    },
+    {
+      "n": 42247,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 761,
+      "opponent": "weighted"
+    },
+    {
+      "n": 42528,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 523,
+      "opponent": "weighted"
+    },
+    {
+      "n": 43276,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1816,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 43513,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 529,
+      "opponent": "weighted"
+    },
+    {
+      "n": 43729,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 438,
+      "opponent": "random"
+    },
+    {
+      "n": 44041,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 558,
+      "opponent": "random"
+    },
+    {
+      "n": 44285,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 610,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 44705,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 1058,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 45454,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1938,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 45804,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 668,
+      "opponent": "random"
+    },
+    {
+      "n": 46472,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1591,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 46607,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 317,
+      "opponent": "weighted"
+    },
+    {
+      "n": 47454,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1935,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 47879,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 807,
+      "opponent": "random"
+    },
+    {
+      "n": 48068,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 407,
+      "opponent": "random"
+    },
+    {
+      "n": 48598,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1049,
+      "opponent": "weighted"
+    },
+    {
+      "n": 49147,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 1162,
+      "opponent": "weighted"
+    },
+    {
+      "n": 49678,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1172,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 49993,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 736,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 50379,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 776,
+      "opponent": "random"
+    },
+    {
+      "n": 51068,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 1428,
+      "opponent": "random"
+    },
+    {
+      "n": 51595,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 930,
+      "opponent": "weighted"
+    },
+    {
+      "n": 51916,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 726,
+      "opponent": "weighted"
+    },
+    {
+      "n": 52269,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 793,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 52589,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 782,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 52835,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 510,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 53129,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 673,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 53435,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 585,
+      "opponent": "random"
+    },
+    {
+      "n": 53751,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 590,
+      "opponent": "weighted"
+    },
+    {
+      "n": 54023,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 483,
+      "opponent": "random"
+    },
+    {
+      "n": 54476,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 936,
+      "opponent": "random"
+    },
+    {
+      "n": 54904,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1079,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 55281,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 812,
+      "opponent": "random"
+    },
+    {
+      "n": 55640,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 699,
+      "opponent": "weighted"
+    },
+    {
+      "n": 56018,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 808,
+      "opponent": "random"
+    },
+    {
+      "n": 56390,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 798,
+      "opponent": "weighted"
+    },
+    {
+      "n": 56618,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 423,
+      "opponent": "weighted"
+    },
+    {
+      "n": 56968,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 685,
+      "opponent": "weighted"
+    },
+    {
+      "n": 57288,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 583,
+      "opponent": "weighted"
+    },
+    {
+      "n": 57584,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 610,
+      "opponent": "random"
+    },
+    {
+      "n": 57717,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 332,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 58103,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 699,
+      "opponent": "random"
+    },
+    {
+      "n": 58447,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 666,
+      "opponent": "weighted"
+    },
+    {
+      "n": 58634,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 388,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 58879,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 450,
+      "opponent": "random"
+    },
+    {
+      "n": 59169,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 582,
+      "opponent": "weighted"
+    },
+    {
+      "n": 59542,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 794,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 59723,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 406,
+      "opponent": "weighted"
+    },
+    {
+      "n": 60293,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1007,
+      "opponent": "random"
+    },
+    {
+      "n": 60989,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1316,
+      "opponent": "weighted"
+    },
+    {
+      "n": 61399,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 795,
+      "opponent": "random"
+    },
+    {
+      "n": 61489,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 217,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 61730,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 453,
+      "opponent": "weighted"
+    },
+    {
+      "n": 62255,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1063,
+      "opponent": "weighted"
+    },
+    {
+      "n": 62352,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 231,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 62794,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 914,
+      "opponent": "random"
+    },
+    {
+      "n": 63039,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 456,
+      "opponent": "random"
+    },
+    {
+      "n": 63246,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 424,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 63493,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 450,
+      "opponent": "weighted"
+    },
+    {
+      "n": 64028,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1060,
+      "opponent": "weighted"
+    },
+    {
+      "n": 64181,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 384,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 65260,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1971,
+      "opponent": "random"
+    },
+    {
+      "n": 65450,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 352,
+      "opponent": "random"
+    },
+    {
+      "n": 66014,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1029,
+      "opponent": "weighted"
+    },
+    {
+      "n": 66486,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 935,
+      "opponent": "weighted"
+    },
+    {
+      "n": 66681,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 420,
+      "opponent": "weighted"
+    },
+    {
+      "n": 67260,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1154,
+      "opponent": "random"
+    },
+    {
+      "n": 67533,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 514,
+      "opponent": "random"
+    },
+    {
+      "n": 68082,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 994,
+      "opponent": "random"
+    },
+    {
+      "n": 68801,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1616,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 69171,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 770,
+      "opponent": "random"
+    },
+    {
+      "n": 69938,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "actions": 1460,
+      "opponent": "weighted"
+    },
+    {
+      "n": 70237,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 593,
+      "opponent": "random"
+    },
+    {
+      "n": 70510,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 574,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 70769,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 472,
+      "opponent": "random"
+    },
+    {
+      "n": 71015,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 447,
+      "opponent": "random"
+    },
+    {
+      "n": 71579,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1120,
+      "opponent": "weighted"
+    },
+    {
+      "n": 71918,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 649,
+      "opponent": "random"
+    },
+    {
+      "n": 72162,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 502,
+      "opponent": "random"
+    },
+    {
+      "n": 72318,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 334,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 73155,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1511,
+      "opponent": "weighted"
+    },
+    {
+      "n": 73335,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 428,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 73646,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 673,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 73896,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 523,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 74651,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1870,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 74837,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 343,
+      "opponent": "random"
+    },
+    {
+      "n": 74923,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 213,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 75262,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 689,
+      "opponent": "weighted"
+    },
+    {
+      "n": 75444,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 334,
+      "opponent": "random"
+    },
+    {
+      "n": 75619,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 315,
+      "opponent": "random"
+    },
+    {
+      "n": 76401,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1452,
+      "opponent": "random"
+    },
+    {
+      "n": 76625,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 536,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 76954,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 595,
+      "opponent": "random"
+    },
+    {
+      "n": 77241,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 582,
+      "opponent": "weighted"
+    },
+    {
+      "n": 77725,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 991,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 77961,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 523,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 78153,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 350,
+      "opponent": "weighted"
+    },
+    {
+      "n": 78363,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 395,
+      "opponent": "random"
+    },
+    {
+      "n": 78578,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 408,
+      "opponent": "random"
+    },
+    {
+      "n": 78786,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 441,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 79152,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 781,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 79422,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 495,
+      "opponent": "random"
+    },
+    {
+      "n": 79638,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 469,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 79874,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 489,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 80253,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 794,
+      "opponent": "random"
+    },
+    {
+      "n": 80481,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 472,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 80862,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 943,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 81263,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 757,
+      "opponent": "weighted"
+    },
+    {
+      "n": 81863,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1133,
+      "opponent": "random"
+    },
+    {
+      "n": 82249,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 850,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 82551,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 551,
+      "opponent": "weighted"
+    },
+    {
+      "n": 82639,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "actions": 199,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 82820,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 382,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 83157,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 665,
+      "opponent": "random"
+    },
+    {
+      "n": 83352,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 383,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 83696,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 647,
+      "opponent": "random"
+    },
+    {
+      "n": 84080,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 726,
+      "opponent": "weighted"
+    },
+    {
+      "n": 84422,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 620,
+      "opponent": "random"
+    },
+    {
+      "n": 84696,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "actions": 564,
+      "opponent": "weighted"
+    },
+    {
+      "n": 84898,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 390,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 85295,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 780,
+      "opponent": "random"
+    },
+    {
+      "n": 85923,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1525,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 86302,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 773,
+      "opponent": "weighted"
+    },
+    {
+      "n": 87010,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1355,
+      "opponent": "weighted"
+    },
+    {
+      "n": 87357,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 800,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 87688,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 697,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 88283,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1411,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 88611,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 582,
+      "opponent": "random"
+    },
+    {
+      "n": 88974,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 687,
+      "opponent": "random"
+    },
+    {
+      "n": 89189,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 409,
+      "opponent": "weighted"
+    },
+    {
+      "n": 89773,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1478,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 89954,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 389,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 90190,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 442,
+      "opponent": "weighted"
+    },
+    {
+      "n": 90702,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1096,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 91004,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 549,
+      "opponent": "random"
+    },
+    {
+      "n": 91220,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 426,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 91419,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 493,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 91602,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 329,
+      "opponent": "random"
+    },
+    {
+      "n": 91912,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "actions": 640,
+      "opponent": "weighted"
+    },
+    {
+      "n": 92352,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 852,
+      "opponent": "random"
+    },
+    {
+      "n": 92683,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 598,
+      "opponent": "weighted"
+    },
+    {
+      "n": 92867,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 322,
+      "opponent": "random"
+    },
+    {
+      "n": 93101,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 410,
+      "opponent": "random"
+    },
+    {
+      "n": 93554,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 859,
+      "opponent": "weighted"
+    },
+    {
+      "n": 93835,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 543,
+      "opponent": "random"
+    },
+    {
+      "n": 94264,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 846,
+      "opponent": "random"
+    },
+    {
+      "n": 95014,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1705,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 95199,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 334,
+      "opponent": "weighted"
+    },
+    {
+      "n": 95395,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 351,
+      "opponent": "weighted"
+    },
+    {
+      "n": 95514,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "actions": 236,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 95705,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 358,
+      "opponent": "random"
+    },
+    {
+      "n": 95966,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 485,
+      "opponent": "weighted"
+    },
+    {
+      "n": 96539,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1131,
+      "opponent": "weighted"
+    },
+    {
+      "n": 96808,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 534,
+      "opponent": "weighted"
+    },
+    {
+      "n": 97251,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 973,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 97578,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 618,
+      "opponent": "weighted"
+    },
+    {
+      "n": 97818,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 505,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 97946,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 223,
+      "opponent": "random"
+    },
+    {
+      "n": 98155,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 364,
+      "opponent": "random"
+    },
+    {
+      "n": 98641,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "actions": 970,
+      "opponent": "random"
+    },
+    {
+      "n": 98911,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 559,
+      "opponent": "weighted"
+    },
+    {
+      "n": 99478,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1023,
+      "opponent": "weighted"
+    },
+    {
+      "n": 99680,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 361,
+      "opponent": "random"
+    },
+    {
+      "n": 99940,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 552,
+      "opponent": "random"
+    },
+    {
+      "n": 100247,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 562,
+      "opponent": "random"
+    },
+    {
+      "n": 100549,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 578,
+      "opponent": "random"
+    },
+    {
+      "n": 100784,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 486,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 101093,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 629,
+      "opponent": "weighted"
+    },
+    {
+      "n": 101263,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 316,
+      "opponent": "random"
+    },
+    {
+      "n": 101463,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 396,
+      "opponent": "weighted"
+    },
+    {
+      "n": 101690,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 415,
+      "opponent": "weighted"
+    },
+    {
+      "n": 101951,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 569,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 102632,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1250,
+      "opponent": "random"
+    },
+    {
+      "n": 102947,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 621,
+      "opponent": "random"
+    },
+    {
+      "n": 103202,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "actions": 534,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 103465,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "actions": 557,
+      "opponent": "weighted"
+    },
+    {
+      "n": 103602,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "actions": 330,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 103854,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 445,
+      "opponent": "weighted"
+    },
+    {
+      "n": 104114,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 467,
+      "opponent": "weighted"
+    },
+    {
+      "n": 104875,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 1866,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 105100,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 454,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 105393,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 626,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 105827,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 920,
+      "opponent": "heuristic"
+    },
+    {
+      "n": 106117,
+      "reward": 1,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "actions": 553,
+      "opponent": "random"
+    },
+    {
+      "n": 106449,
+      "reward": -1,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "actions": 634,
+      "opponent": "random"
+    }
+  ],
+  "diagnostics": [
+    {
+      "n": 23227,
+      "episode": 58,
+      "opponent": "heuristic",
+      "action_type_counts": {
+        "learner": {
+          "BUILD_SETTLEMENT": 3,
+          "BUILD_ROAD": 15,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "MOVE_ROBBER": 86,
+          "MARITIME_TRADE": 57,
+          "BUY_DEVELOPMENT_CARD": 3,
+          "PLAY_MONOPOLY": 1,
+          "DISCARD_RESOURCE": 8
+        },
+        "opponent": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 6,
+          "ROLL": 500,
+          "MOVE_ROBBER": 100,
+          "END_TURN": 500,
+          "DISCARD_RESOURCE": 649,
+          "BUY_DEVELOPMENT_CARD": 22,
+          "PLAY_ROAD_BUILDING": 2,
+          "PLAY_KNIGHT_CARD": 14,
+          "PLAY_YEAR_OF_PLENTY": 2,
+          "PLAY_MONOPOLY": 1,
+          "BUILD_CITY": 2
+        }
+      },
+      "end_turn_frequency": {
+        "learner": 0.426131511528608,
+        "opponent": 0.2777777777777778
+      },
+      "maritime_trades": {
+        "learner": 57,
+        "opponent": 0
+      },
+      "repeated_public_own_hand_states": 743,
+      "unique_public_own_hand_states": 428,
+      "max_state_visits": 14,
+      "most_repeated_state_hashes": [
+        [
+          "2deab35fa4c71d8872492b469690fe15eec5346321e6f552dcf0764126e6805a",
+          14
+        ],
+        [
+          "012ecc6b09122cd16a14d50c084eab41c9bb879ef6fbc68defd5d5c4d30f7e08",
+          12
+        ],
+        [
+          "8cf29d87dd9a72ab2c1906971344e305e2b34cbb8a74933df675f5288237b752",
+          12
+        ],
+        [
+          "bc12a14be781d611fbb2a0dd24d1fc0d243c13643e3a906b207b49ae013266f6",
+          12
+        ],
+        [
+          "59f6f236d5884385261c01a996caa75361df564a9f3e3ba51799e814eca0f584",
+          11
+        ]
+      ],
+      "turns": 1001,
+      "engine_actions": 2971,
+      "own_points": 7,
+      "opponent_public_points": 6,
+      "turn_limit_reached": true,
+      "action_limit_reached": false
+    }
+  ]
+}

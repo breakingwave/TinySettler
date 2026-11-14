@@ -1,0 +1,20 @@
+{
+  "task": "tabular Q-learning, five-state corridor",
+  "training_episodes": 300,
+  "evaluation_episodes": 100,
+  "seed": 42,
+  "success_before": 0.0,
+  "success_after": 1.0,
+  "passed": true,
+  "python": "3.12.10",
+  "machine": "x86_64",
+  "cpu_count": 17,
+  "gpu_probe": null,
+  "training_device": "cpu",
+  "elapsed_seconds": 0.0045311890000001576,
+  "launch": {
+    "provider": "modal",
+    "executed_at": "2026-11-10T22:03:51.786614+00:00",
+    "kind": "tabular RL CPU smoke test"
+  }
+}

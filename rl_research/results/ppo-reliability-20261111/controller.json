@@ -1,0 +1,59 @@
+{
+  "session_base": "tinysettler-ppo-reliability-20261111-a",
+  "session": "tinysettler-ppo-reliability-20261111-a-r1",
+  "started": 1794384494.6572664,
+  "deadline": 1794402494.6572664,
+  "replacements": 1,
+  "transfer_retries": 0,
+  "attachments": [
+    {
+      "time": 1794384494.6572752,
+      "pid": 16543
+    },
+    {
+      "time": 1794385176.6481924,
+      "pid": 16868,
+      "controller_source_sha256": "9802def462e062213a29d66c8d87a0d2f45ae5b9db949eb4551b753cb72bafbd"
+    }
+  ],
+  "controller_pid": 16868,
+  "watchdog_pids": [
+    16544,
+    16869
+  ],
+  "allocations": [
+    {
+      "session": "tinysettler-ppo-reliability-20261111-a",
+      "allocated": 1794384498.0972526
+    },
+    {
+      "session": "tinysettler-ppo-reliability-20261111-a-r1",
+      "allocated": 1794385180.141947
+    }
+  ],
+  "last_verified_snapshot": 1794397547.7283337,
+  "snapshot_sha256": "d278a8430c330c6071f1ddfd27b22ee72d175647f642a6142c345189a044d058",
+  "total_allocated_upper_bound_seconds": 13054.156758785248,
+  "termination_verified": true,
+  "previous_attempts": [
+    {
+      "session": "tinysettler-ppo-reliability-20261111-a",
+      "ended": 1794385074.7446833,
+      "exception": "TimeoutExpired(['/root/.local/bin/colab', '--auth', 'oauth2', 'exec', '-s', 'tinysettler-ppo-reliability-20261111-a', '--timeout', '90'], 135)",
+      "result": null,
+      "termination_verified": true
+    }
+  ],
+  "selection_commit_sha256": "acc194fc64797adfbea20362d222474cc7d86887457d0855ce16c706410a85ba",
+  "selection_committed_externally_at": 1794395450.410413,
+  "result": {
+    "phase": "complete",
+    "time": 1794397534.3509881,
+    "completed_runs": 10,
+    "new_completed": 6,
+    "primary_boards": 50,
+    "secondary_boards_planned": 50
+  },
+  "stop_succeeded": true,
+  "ended": 1794397548.8140252
+}

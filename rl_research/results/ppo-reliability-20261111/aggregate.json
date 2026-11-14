@@ -1,0 +1,34 @@
+[
+  {
+    "width": 128,
+    "games": 1500,
+    "wins": 1207,
+    "losses": 274,
+    "truncations": 19,
+    "completed": 1481,
+    "win_fraction": 0.8046666666666666,
+    "terminal_reward_frequency": 0.9873333333333333,
+    "terminal_rewards_per_decision": 0.003263962198865878,
+    "mean_points": 9.315333333333333,
+    "illegal_actions": 0,
+    "inference_ms": 0.3991883234093822,
+    "learner_decisions_s": 684.181436264501,
+    "engine_actions_s": 1330.5351601641444
+  },
+  {
+    "width": 256,
+    "games": 1500,
+    "wins": 1193,
+    "losses": 283,
+    "truncations": 24,
+    "completed": 1476,
+    "win_fraction": 0.7953333333333333,
+    "terminal_reward_frequency": 0.984,
+    "terminal_rewards_per_decision": 0.003072113493363527,
+    "mean_points": 9.258,
+    "illegal_actions": 0,
+    "inference_ms": 0.40797741095132073,
+    "learner_decisions_s": 675.3882782808083,
+    "engine_actions_s": 1306.3397693247607
+  }
+]

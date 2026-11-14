@@ -1,0 +1,170 @@
+[
+  {
+    "model": "ddqn-256",
+    "opponent": "random",
+    "games": 400,
+    "wins": 248,
+    "losses": 145,
+    "truncations": 7,
+    "win_rate": 0.62,
+    "board_cluster_ci95": [
+      0.5625,
+      0.675
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ddqn-256",
+    "opponent": "weighted",
+    "games": 400,
+    "wins": 213,
+    "losses": 181,
+    "truncations": 6,
+    "win_rate": 0.5325,
+    "board_cluster_ci95": [
+      0.4725,
+      0.59
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ddqn-256",
+    "opponent": "heuristic",
+    "games": 400,
+    "wins": 210,
+    "losses": 178,
+    "truncations": 12,
+    "win_rate": 0.525,
+    "board_cluster_ci95": [
+      0.4575,
+      0.5925
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ddqn-256",
+    "opponent": "all",
+    "games": 1200,
+    "wins": 671,
+    "losses": 504,
+    "truncations": 25,
+    "win_rate": 0.5591666666666667,
+    "board_cluster_ci95": [
+      0.5216666666666666,
+      0.5958541666666664
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-128",
+    "opponent": "random",
+    "games": 400,
+    "wins": 369,
+    "losses": 30,
+    "truncations": 1,
+    "win_rate": 0.9225,
+    "board_cluster_ci95": [
+      0.895,
+      0.9475
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-128",
+    "opponent": "weighted",
+    "games": 400,
+    "wins": 355,
+    "losses": 43,
+    "truncations": 2,
+    "win_rate": 0.8875,
+    "board_cluster_ci95": [
+      0.85,
+      0.9225
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-128",
+    "opponent": "heuristic",
+    "games": 400,
+    "wins": 276,
+    "losses": 100,
+    "truncations": 24,
+    "win_rate": 0.69,
+    "board_cluster_ci95": [
+      0.635,
+      0.7425
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-128",
+    "opponent": "all",
+    "games": 1200,
+    "wins": 1000,
+    "losses": 173,
+    "truncations": 27,
+    "win_rate": 0.8333333333333333,
+    "board_cluster_ci95": [
+      0.8075,
+      0.8575000000000002
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-256",
+    "opponent": "random",
+    "games": 400,
+    "wins": 355,
+    "losses": 45,
+    "truncations": 0,
+    "win_rate": 0.8875,
+    "board_cluster_ci95": [
+      0.85,
+      0.9225
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-256",
+    "opponent": "weighted",
+    "games": 400,
+    "wins": 353,
+    "losses": 47,
+    "truncations": 0,
+    "win_rate": 0.8825,
+    "board_cluster_ci95": [
+      0.8475,
+      0.9175
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-256",
+    "opponent": "heuristic",
+    "games": 400,
+    "wins": 279,
+    "losses": 116,
+    "truncations": 5,
+    "win_rate": 0.6975,
+    "board_cluster_ci95": [
+      0.6425,
+      0.75
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "model": "ppo-256",
+    "opponent": "all",
+    "games": 1200,
+    "wins": 987,
+    "losses": 208,
+    "truncations": 5,
+    "win_rate": 0.8225,
+    "board_cluster_ci95": [
+      0.795,
+      0.8491666666666668
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  }
+]

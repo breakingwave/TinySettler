@@ -1,0 +1,415 @@
+{
+  "all": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": -0.011666666666666667,
+      "by_pair": {
+        "104729": -0.07,
+        "130363": 0.035,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        -0.039999999999999994,
+        0.018333333333333333
+      ],
+      "paired_seed_and_board_95": [
+        -0.075,
+        0.05666666666666668
+      ]
+    },
+    "truncated": {
+      "difference": 0.0033333333333333335,
+      "by_pair": {
+        "104729": 0.005,
+        "130363": 0.005,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        -0.0033333333333333335,
+        0.01
+      ],
+      "paired_seed_and_board_95": [
+        -0.005000000000000001,
+        0.011666666666666667
+      ]
+    },
+    "points": {
+      "difference": 0.1566666666666667,
+      "by_pair": {
+        "104729": -0.515,
+        "130363": 0.5549999999999999,
+        "155921": 0.43000000000000016
+      },
+      "board_only_95": [
+        -0.02500000000000001,
+        0.3416666666666667
+      ],
+      "paired_seed_and_board_95": [
+        -0.475,
+        0.7650416666666661
+      ]
+    }
+  },
+  "base_and_contender": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": -0.008333333333333333,
+      "by_pair": {
+        "104729": -0.0375,
+        "130363": 0.0,
+        "155921": 0.0125
+      },
+      "board_only_95": [
+        -0.0375,
+        0.016666666666666666
+      ],
+      "paired_seed_and_board_95": [
+        -0.0625,
+        0.04583333333333333
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "by_pair": {
+        "104729": 0.0,
+        "130363": 0.0,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_board_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "points": {
+      "difference": 0.48333333333333334,
+      "by_pair": {
+        "104729": -0.5125,
+        "130363": 0.925,
+        "155921": 1.0375
+      },
+      "board_only_95": [
+        0.09166666666666666,
+        0.8834374999999984
+      ],
+      "paired_seed_and_board_95": [
+        -0.5791666666666667,
+        1.4166666666666667
+      ]
+    }
+  },
+  "base": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": 0.0,
+      "by_pair": {
+        "104729": -0.05,
+        "130363": 0.025,
+        "155921": 0.025
+      },
+      "board_only_95": [
+        -0.041666666666666664,
+        0.041666666666666664
+      ],
+      "paired_seed_and_board_95": [
+        -0.06666666666666667,
+        0.06666666666666667
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "by_pair": {
+        "104729": 0.0,
+        "130363": 0.0,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_board_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "points": {
+      "difference": 0.5333333333333333,
+      "by_pair": {
+        "104729": -0.4,
+        "130363": 1.0,
+        "155921": 1.0
+      },
+      "board_only_95": [
+        0.06666666666666667,
+        1.0
+      ],
+      "paired_seed_and_board_95": [
+        -0.4666666666666667,
+        1.525
+      ]
+    }
+  },
+  "contender": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": -0.016666666666666666,
+      "by_pair": {
+        "104729": -0.025,
+        "130363": -0.025,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        -0.05,
+        0.016666666666666666
+      ],
+      "paired_seed_and_board_95": [
+        -0.075,
+        0.05
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "by_pair": {
+        "104729": 0.0,
+        "130363": 0.0,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_board_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "points": {
+      "difference": 0.43333333333333335,
+      "by_pair": {
+        "104729": -0.625,
+        "130363": 0.85,
+        "155921": 1.075
+      },
+      "board_only_95": [
+        0.03333333333333333,
+        0.85
+      ],
+      "paired_seed_and_board_95": [
+        -0.7583333333333333,
+        1.4166666666666667
+      ]
+    }
+  },
+  "random": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": 0.0,
+      "by_pair": {
+        "104729": 0.05,
+        "130363": -0.025,
+        "155921": -0.025
+      },
+      "board_only_95": [
+        -0.041666666666666664,
+        0.041666666666666664
+      ],
+      "paired_seed_and_board_95": [
+        -0.09166666666666666,
+        0.09166666666666666
+      ]
+    },
+    "truncated": {
+      "difference": 0.008333333333333333,
+      "by_pair": {
+        "104729": 0.0,
+        "130363": 0.0,
+        "155921": 0.025
+      },
+      "board_only_95": [
+        0.0,
+        0.025
+      ],
+      "paired_seed_and_board_95": [
+        0.0,
+        0.041666666666666664
+      ]
+    },
+    "points": {
+      "difference": 0.008333333333333333,
+      "by_pair": {
+        "104729": 0.05,
+        "130363": 0.05,
+        "155921": -0.075
+      },
+      "board_only_95": [
+        -0.18333333333333332,
+        0.18333333333333332
+      ],
+      "paired_seed_and_board_95": [
+        -0.35,
+        0.375
+      ]
+    }
+  },
+  "weighted": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": -0.075,
+      "by_pair": {
+        "104729": -0.125,
+        "130363": 0.05,
+        "155921": -0.15
+      },
+      "board_only_95": [
+        -0.15833333333333333,
+        -0.008333333333333333
+      ],
+      "paired_seed_and_board_95": [
+        -0.23333333333333334,
+        0.05
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "by_pair": {
+        "104729": 0.0,
+        "130363": 0.0,
+        "155921": 0.0
+      },
+      "board_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_board_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "points": {
+      "difference": -0.35833333333333334,
+      "by_pair": {
+        "104729": -0.625,
+        "130363": 0.175,
+        "155921": -0.625
+      },
+      "board_only_95": [
+        -0.7083333333333334,
+        -0.06666666666666667
+      ],
+      "paired_seed_and_board_95": [
+        -1.0666666666666667,
+        0.175
+      ]
+    }
+  },
+  "heuristic": {
+    "complete_pairs": [
+      104729,
+      130363,
+      155921
+    ],
+    "boards": 20,
+    "draws": 10000,
+    "contrast": "curriculum minus standard",
+    "cluster": "board, retaining both seats/opponents; crossed paired starting policies",
+    "win": {
+      "difference": 0.03333333333333333,
+      "by_pair": {
+        "104729": -0.2,
+        "130363": 0.15,
+        "155921": 0.15
+      },
+      "board_only_95": [
+        -0.1,
+        0.18333333333333332
+      ],
+      "paired_seed_and_board_95": [
+        -0.225,
+        0.275
+      ]
+    },
+    "truncated": {
+      "difference": 0.008333333333333333,
+      "by_pair": {
+        "104729": 0.025,
+        "130363": 0.025,
+        "155921": -0.025
+      },
+      "board_only_95": [
+        -0.016666666666666666,
+        0.03333333333333333
+      ],
+      "paired_seed_and_board_95": [
+        -0.03333333333333333,
+        0.05
+      ]
+    },
+    "points": {
+      "difference": 0.16666666666666666,
+      "by_pair": {
+        "104729": -0.975,
+        "130363": 0.7,
+        "155921": 0.775
+      },
+      "board_only_95": [
+        -0.4583333333333333,
+        0.8333333333333334
+      ],
+      "paired_seed_and_board_95": [
+        -1.05,
+        1.4
+      ]
+    }
+  }
+}

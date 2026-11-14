@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T00:07:04.503Z",
+  "selectionPolicy": "completed-thinking-reports-only",
+  "excludedNonThinkingReports": 4,
+  "excludedIncompleteReports": 3,
+  "notes": [
+    "Only reports explicitly marked completed enter games and model aggregates. Incomplete/calibration reports remain summarized separately in excludedIncompleteGames. All attempts within retained reports, including errors and slow decisions, remain included.",
+    "End-to-end decision latency uses the outer inferenceMs measurement and includes both stages, prompt processing, resets and runtime overhead. Load time is excluded. Report the median and tail separately; a median under30s does not guarantee every action under30s.",
+    "Thinking is genuinely generated in a bounded first pass; a separate constrained selection pass receives that draft. Forced boundaries and budget terminations are recorded. This is budgeted reasoning, not unrestricted chain-of-thought.",
+    "All measured attempts, including recorded errors, remain in latency statistics. A game that stops before recording an attempt may have additional unmeasured waiting time, visible in wallSeconds.",
+    "The constrained legal-action grammar makes legal output largely guaranteed; score, construction and wins assess strategy separately.",
+    "The old no-thinking reports used a lower turn cap, observation v1 and a different Python hash-seed configuration. Those outcomes are historical references, not an isolated causal ablation of thinking.",
+    "lastObservedAtOrBeforeOriginalTurnCap is the last saved model-input or final-state observation at or before turn160. It is not necessarily the exact state at turn160.",
+    "Two-stage token usage counts both prompt evaluations. First-chunk latencies include prefill and runtime overhead; they are not isolated GPU timings."
+  ],
+  "models": [
+    {
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "games": 1,
+      "seeds": [
+        42
+      ],
+      "redWins": 1,
+      "redPoints": [
+        10
+      ],
+      "decisions": 55,
+      "invalid": 0,
+      "medianDecisionMs": 14008.799999952316,
+      "p95DecisionMs": 22170,
+      "medianWithin30Seconds": true,
+      "reasoningTokenMedian": 110,
+      "reasoningNaturalClosures": 44,
+      "reasoningBudgetTerminations": 10
+    }
+  ],
+  "games": [
+    {
+      "id": "1793577116699-42-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": true,
+        "reasoningTokens": 256,
+        "reasoningDecodeMs": 12000,
+        "reasoningWallMs": 18000,
+        "targetMedianMs": 30000,
+        "adaptiveBudget": true,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "bounded thinking draft then constrained action ID",
+        "maxTurns": 320,
+        "maxDecisions": 480
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "winner",
+      "completed": true,
+      "winner": "RED",
+      "truncated": false,
+      "reason": "winner",
+      "turn": 142,
+      "redVP": 10,
+      "redBuildings": {
+        "settlements": 0,
+        "cities": 4,
+        "roads": 15,
+        "longestRoad": 11
+      },
+      "decisions": 55,
+      "invalid": 0,
+      "wallSeconds": 835.5289000000954,
+      "loadSeconds": 1.2907999999523163,
+      "latency": {
+        "medianDecisionMs": 14008.799999952316,
+        "p95DecisionMs": 22170,
+        "totalInferenceSeconds": 832.8989999990463,
+        "medianFirstChunkMs": 4949,
+        "firstChunkFractionOfInferenceElapsed": 0.3305398373635549,
+        "pairedObservations": 55,
+        "medianDecodeTokensPerSecond": null,
+        "medianPrefillTokensPerSecond": null
+      },
+      "tokens": {
+        "promptTotal": 259135,
+        "promptMedian": 4635,
+        "outputTotal": 7471,
+        "outputMedian": 117,
+        "reportedTotal": 266606
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "MOVE_ROBBER": 7,
+        "MARITIME_TRADE": 15,
+        "BUILD_CITY": 4,
+        "DISCARD_RESOURCE": 10
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "ROLL": 35,
+        "END_TURN": 34,
+        "MOVE_ROBBER": 7,
+        "MARITIME_TRADE": 15,
+        "BUILD_CITY": 4,
+        "DISCARD_RESOURCE": 10
+      },
+      "forcedActions": 69,
+      "nonSetupModelActions": {
+        "settlements": 2,
+        "cities": 4,
+        "roads": 13,
+        "developmentPurchases": 0,
+        "developmentPlays": 0,
+        "trades": 15,
+        "endTurns": 0
+      },
+      "firstListedChoice": {
+        "count": 4,
+        "eligibleDecisions": 55,
+        "ratio": 0.07272727272727272,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [],
+      "observationVersion": "catan-compact-v2",
+      "target": {
+        "medianDecisionMs": 30000,
+        "measuredMedianMs": 14008.799999952316,
+        "met": true,
+        "decisionsOver30Seconds": 0,
+        "measuredDecisions": 55
+      },
+      "reasoning": {
+        "measuredDecisions": 55,
+        "methods": [
+          "bounded-draft-then-constrained-selection"
+        ],
+        "cachePaths": [
+          "full-prefill-both-stages"
+        ],
+        "samplingConfigurations": [
+          {
+            "temperature": 0.6,
+            "topP": 0.95,
+            "presencePenalty": 0,
+            "topK": null,
+            "seed": 42
+          }
+        ],
+        "configuredTokenBudgets": {
+          "256": 55
+        },
+        "configuredDecodeBudgetsMs": {
+          "12000": 55
+        },
+        "configuredStageBudgetsMs": {
+          "18000": 55
+        },
+        "generatedTokens": {
+          "observations": 55,
+          "median": 110,
+          "p95": 256,
+          "total": 7079
+        },
+        "durationMs": {
+          "observations": 55,
+          "median": 8828.799999952316,
+          "p95": 15603.799999952316,
+          "total": 529639.1000006199
+        },
+        "firstChunkMs": {
+          "observations": 55,
+          "median": 4949,
+          "p95": 5718.900000095367,
+          "total": 275306.2999999523
+        },
+        "naturalClosures": 44,
+        "forcedBoundaries": 11,
+        "budgetTerminations": 10,
+        "terminationReasons": {
+          "token_limit": 10,
+          "natural_close": 44,
+          "model_stop": 1
+        },
+        "promptTokens": {
+          "observations": 55,
+          "median": 2289,
+          "p95": 2579,
+          "total": 126844
+        }
+      },
+      "selection": {
+        "measuredDecisions": 55,
+        "durationMs": {
+          "observations": 55,
+          "median": 5383.399999856949,
+          "p95": 6689.599999904633,
+          "total": 303246.69999980927
+        },
+        "firstChunkMs": {
+          "observations": 55,
+          "median": 5165.599999904633,
+          "p95": 6420,
+          "total": 290726.49999928474
+        },
+        "promptTokens": {
+          "observations": 55,
+          "median": 2345,
+          "p95": 2807,
+          "total": 132291
+        },
+        "outputTokens": {
+          "observations": 55,
+          "median": 7,
+          "p95": 8,
+          "total": 392
+        },
+        "finishReasons": {
+          "stop": 55
+        },
+        "terminationReasons": {
+          "model_stop": 55
+        },
+        "configuredStageBudgetsMs": {
+          "30000": 55
+        }
+      },
+      "lastObservedAtOrBeforeOriginalTurnCap": {
+        "decision": null,
+        "turn": 142,
+        "redVP": 10,
+        "source": "final engine state"
+      },
+      "source": "catan-results/latest.json"
+    }
+  ],
+  "excludedIncompleteGames": [
+    {
+      "id": "1793576831285-42-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": true,
+        "reasoningTokens": 128,
+        "reasoningDecodeMs": 8000,
+        "reasoningWallMs": 12000,
+        "targetMedianMs": 30000,
+        "adaptiveBudget": true,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "bounded thinking draft then constrained action ID",
+        "maxTurns": 320,
+        "maxDecisions": 480
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "interrupted",
+      "completed": false,
+      "winner": null,
+      "truncated": false,
+      "reason": "Stopped",
+      "turn": 26,
+      "redVP": 2,
+      "redBuildings": {
+        "settlements": 2,
+        "cities": 0,
+        "roads": 4,
+        "longestRoad": 4
+      },
+      "decisions": 7,
+      "invalid": 1,
+      "wallSeconds": 98.26090000009536,
+      "loadSeconds": 1.7155,
+      "latency": {
+        "medianDecisionMs": 13755.100000143051,
+        "p95DecisionMs": 19049.200000047684,
+        "totalInferenceSeconds": 98.02430000042915,
+        "medianFirstChunkMs": 4534.349999904633,
+        "firstChunkFractionOfInferenceElapsed": 0.3345163895888396,
+        "pairedObservations": 6,
+        "medianDecodeTokensPerSecond": null,
+        "medianPrefillTokensPerSecond": null
+      },
+      "tokens": {
+        "promptTotal": 28223,
+        "promptMedian": 4363,
+        "outputTotal": 810,
+        "outputMedian": 135,
+        "reportedTotal": 29033
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 4
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 4,
+        "ROLL": 6,
+        "END_TURN": 5
+      },
+      "forcedActions": 11,
+      "nonSetupModelActions": {
+        "settlements": 0,
+        "cities": 0,
+        "roads": 2,
+        "developmentPurchases": 0,
+        "developmentPlays": 0,
+        "trades": 0,
+        "endTurns": 0
+      },
+      "firstListedChoice": {
+        "count": 4,
+        "eligibleDecisions": 7,
+        "ratio": 0.5714285714285714,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [],
+      "observationVersion": "catan-compact-v2",
+      "target": {
+        "medianDecisionMs": 30000,
+        "measuredMedianMs": 13755.100000143051,
+        "met": true,
+        "decisionsOver30Seconds": 0,
+        "measuredDecisions": 7
+      },
+      "reasoning": {
+        "measuredDecisions": 6,
+        "methods": [
+          "bounded-draft-then-constrained-selection"
+        ],
+        "cachePaths": [
+          "full-prefill-both-stages"
+        ],
+        "samplingConfigurations": [
+          {
+            "temperature": 0.6,
+            "topP": 0.95,
+            "presencePenalty": 0,
+            "topK": null,
+            "seed": 42
+          }
+        ],
+        "configuredTokenBudgets": {
+          "128": 6
+        },
+        "configuredDecodeBudgetsMs": {
+          "8000": 6
+        },
+        "configuredStageBudgetsMs": {
+          "12000": 6
+        },
+        "generatedTokens": {
+          "observations": 6,
+          "median": 128,
+          "p95": 128,
+          "total": 768
+        },
+        "durationMs": {
+          "observations": 6,
+          "median": 8807.649999976158,
+          "p95": 11847.299999952316,
+          "total": 56881.89999985695
+        },
+        "firstChunkMs": {
+          "observations": 6,
+          "median": 4534.349999904633,
+          "p95": 6716.599999904633,
+          "total": 30066.39999961853
+        },
+        "naturalClosures": 0,
+        "forcedBoundaries": 6,
+        "budgetTerminations": 6,
+        "terminationReasons": {
+          "token_limit": 6
+        },
+        "promptTokens": {
+          "observations": 6,
+          "median": 2131,
+          "p95": 2848,
+          "total": 13809
+        }
+      },
+      "selection": {
+        "measuredDecisions": 6,
+        "durationMs": {
+          "observations": 6,
+          "median": 4961.349999904633,
+          "p95": 7201.299999952316,
+          "total": 32996.09999990463
+        },
+        "firstChunkMs": {
+          "observations": 6,
+          "median": 4751.100000023842,
+          "p95": 6957.799999952316,
+          "total": 31680.900000095367
+        },
+        "promptTokens": {
+          "observations": 6,
+          "median": 2232,
+          "p95": 2948,
+          "total": 14414
+        },
+        "outputTokens": {
+          "observations": 6,
+          "median": 7,
+          "p95": 7,
+          "total": 42
+        },
+        "finishReasons": {
+          "stop": 6
+        },
+        "terminationReasons": {
+          "model_stop": 6
+        },
+        "configuredStageBudgetsMs": {
+          "30000": 6
+        }
+      },
+      "lastObservedAtOrBeforeOriginalTurnCap": {
+        "decision": null,
+        "turn": 26,
+        "redVP": 2,
+        "source": "final engine state"
+      },
+      "source": "catan-results/latest.json"
+    },
+    {
+      "id": "1793576962483-42-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": true,
+        "reasoningTokens": 256,
+        "reasoningDecodeMs": 12000,
+        "reasoningWallMs": 18000,
+        "targetMedianMs": 30000,
+        "adaptiveBudget": true,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "bounded thinking draft then constrained action ID",
+        "maxTurns": 320,
+        "maxDecisions": 480
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "interrupted",
+      "completed": false,
+      "winner": null,
+      "truncated": false,
+      "reason": "Stopped",
+      "turn": 6,
+      "redVP": 2,
+      "redBuildings": {
+        "settlements": 2,
+        "cities": 0,
+        "roads": 2,
+        "longestRoad": 0
+      },
+      "decisions": 5,
+      "invalid": 1,
+      "wallSeconds": 96.06530000019073,
+      "loadSeconds": 1.3226000001430511,
+      "latency": {
+        "medianDecisionMs": 18393.299999952316,
+        "p95DecisionMs": 24490.200000047684,
+        "totalInferenceSeconds": 95.90709999990463,
+        "medianFirstChunkMs": 5087.450000047684,
+        "firstChunkFractionOfInferenceElapsed": 0.25268188248988727,
+        "pairedObservations": 4,
+        "medianDecodeTokensPerSecond": null,
+        "medianPrefillTokensPerSecond": null
+      },
+      "tokens": {
+        "promptTotal": 20013,
+        "promptMedian": 4942.5,
+        "outputTotal": 1052,
+        "outputMedian": 263,
+        "reportedTotal": 21065
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 2
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 2,
+        "ROLL": 1
+      },
+      "forcedActions": 1,
+      "nonSetupModelActions": {
+        "settlements": 0,
+        "cities": 0,
+        "roads": 0,
+        "developmentPurchases": 0,
+        "developmentPlays": 0,
+        "trades": 0,
+        "endTurns": 0
+      },
+      "firstListedChoice": {
+        "count": 4,
+        "eligibleDecisions": 5,
+        "ratio": 0.8,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [],
+      "observationVersion": "catan-compact-v2",
+      "target": {
+        "medianDecisionMs": 30000,
+        "measuredMedianMs": 18393.299999952316,
+        "met": true,
+        "decisionsOver30Seconds": 0,
+        "measuredDecisions": 5
+      },
+      "reasoning": {
+        "measuredDecisions": 4,
+        "methods": [
+          "bounded-draft-then-constrained-selection"
+        ],
+        "cachePaths": [
+          "full-prefill-both-stages"
+        ],
+        "samplingConfigurations": [
+          {
+            "temperature": 0.6,
+            "topP": 0.95,
+            "presencePenalty": 0,
+            "topK": null,
+            "seed": 42
+          }
+        ],
+        "configuredTokenBudgets": {
+          "256": 4
+        },
+        "configuredDecodeBudgetsMs": {
+          "12000": 4
+        },
+        "configuredStageBudgetsMs": {
+          "18000": 4
+        },
+        "generatedTokens": {
+          "observations": 4,
+          "median": 256,
+          "p95": 256,
+          "total": 1024
+        },
+        "durationMs": {
+          "observations": 4,
+          "median": 14306.450000047684,
+          "p95": 16872.799999952316,
+          "total": 57992.40000009537
+        },
+        "firstChunkMs": {
+          "observations": 4,
+          "median": 5087.450000047684,
+          "p95": 6564.200000047684,
+          "total": 20843.400000095367
+        },
+        "naturalClosures": 0,
+        "forcedBoundaries": 4,
+        "budgetTerminations": 4,
+        "terminationReasons": {
+          "token_limit": 4
+        },
+        "promptTokens": {
+          "observations": 4,
+          "median": 2357.5,
+          "p95": 2849,
+          "total": 9551
+        }
+      },
+      "selection": {
+        "measuredDecisions": 4,
+        "durationMs": {
+          "observations": 4,
+          "median": 5955.949999928474,
+          "p95": 7617,
+          "total": 24495.299999952316
+        },
+        "firstChunkMs": {
+          "observations": 4,
+          "median": 5730.699999928474,
+          "p95": 7363.899999856949,
+          "total": 23585.099999904633
+        },
+        "promptTokens": {
+          "observations": 4,
+          "median": 2585,
+          "p95": 3077,
+          "total": 10462
+        },
+        "outputTokens": {
+          "observations": 4,
+          "median": 7,
+          "p95": 7,
+          "total": 28
+        },
+        "finishReasons": {
+          "stop": 4
+        },
+        "terminationReasons": {
+          "model_stop": 4
+        },
+        "configuredStageBudgetsMs": {
+          "30000": 4
+        }
+      },
+      "lastObservedAtOrBeforeOriginalTurnCap": {
+        "decision": null,
+        "turn": 6,
+        "redVP": 2,
+        "source": "final engine state"
+      },
+      "source": "catan-results/latest.json"
+    },
+    {
+      "id": "1793577953996-42-Qwen3.5-2B-q4f16_1-MLC",
+      "model": "Qwen3.5-2B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": true,
+        "reasoningTokens": 256,
+        "reasoningDecodeMs": 12000,
+        "reasoningWallMs": 18000,
+        "targetMedianMs": 30000,
+        "adaptiveBudget": true,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "bounded thinking draft then constrained action ID",
+        "maxTurns": 320,
+        "maxDecisions": 480
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "in_progress",
+      "completed": false,
+      "winner": null,
+      "truncated": false,
+      "reason": null,
+      "turn": 6,
+      "redVP": 1,
+      "redBuildings": {
+        "settlements": 1,
+        "cities": 0,
+        "roads": 1,
+        "longestRoad": 0
+      },
+      "decisions": 2,
+      "invalid": 0,
+      "wallSeconds": 51.8335,
+      "loadSeconds": 1.7178999998569489,
+      "latency": {
+        "medianDecisionMs": 25863.449999928474,
+        "p95DecisionMs": 27482.39999985695,
+        "totalInferenceSeconds": 51.72689999985695,
+        "medianFirstChunkMs": 7182.200000047684,
+        "firstChunkFractionOfInferenceElapsed": 0.2776969043212544,
+        "pairedObservations": 2,
+        "medianDecodeTokensPerSecond": null,
+        "medianPrefillTokensPerSecond": null
+      },
+      "tokens": {
+        "promptTotal": 10216,
+        "promptMedian": 5108,
+        "outputTotal": 432,
+        "outputMedian": 216,
+        "reportedTotal": 10648
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 1,
+        "BUILD_ROAD": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 1,
+        "BUILD_ROAD": 1
+      },
+      "forcedActions": 0,
+      "nonSetupModelActions": {
+        "settlements": 0,
+        "cities": 0,
+        "roads": 0,
+        "developmentPurchases": 0,
+        "developmentPlays": 0,
+        "trades": 0,
+        "endTurns": 0
+      },
+      "firstListedChoice": {
+        "count": 2,
+        "eligibleDecisions": 2,
+        "ratio": 1,
+        "setupCount": 2,
+        "setupEligible": 2
+      },
+      "consecutiveInverseTrades": [],
+      "observationVersion": "catan-compact-v2",
+      "target": {
+        "medianDecisionMs": 30000,
+        "measuredMedianMs": 25863.449999928474,
+        "met": true,
+        "decisionsOver30Seconds": 0,
+        "measuredDecisions": 2
+      },
+      "reasoning": {
+        "measuredDecisions": 2,
+        "methods": [
+          "bounded-draft-then-constrained-selection"
+        ],
+        "cachePaths": [
+          "full-prefill-both-stages"
+        ],
+        "samplingConfigurations": [
+          {
+            "temperature": 1,
+            "topP": 0.95,
+            "presencePenalty": 1.5,
+            "topK": null,
+            "seed": 42
+          }
+        ],
+        "configuredTokenBudgets": {
+          "256": 2
+        },
+        "configuredDecodeBudgetsMs": {
+          "12000": 2
+        },
+        "configuredStageBudgetsMs": {
+          "18000": 2
+        },
+        "generatedTokens": {
+          "observations": 2,
+          "median": 208.5,
+          "p95": 250,
+          "total": 417
+        },
+        "durationMs": {
+          "observations": 2,
+          "median": 17824.050000071526,
+          "p95": 18014.900000095367,
+          "total": 35648.10000014305
+        },
+        "firstChunkMs": {
+          "observations": 2,
+          "median": 7182.200000047684,
+          "p95": 8756.700000047684,
+          "total": 14364.400000095367
+        },
+        "naturalClosures": 0,
+        "forcedBoundaries": 2,
+        "budgetTerminations": 2,
+        "terminationReasons": {
+          "stage_deadline": 1,
+          "decode_deadline": 1
+        },
+        "promptTokens": {
+          "observations": 2,
+          "median": 2462.5,
+          "p95": 2920,
+          "total": 4925
+        }
+      },
+      "selection": {
+        "measuredDecisions": 2,
+        "durationMs": {
+          "observations": 2,
+          "median": 8038.600000023842,
+          "p95": 9466.600000143051,
+          "total": 16077.200000047684
+        },
+        "firstChunkMs": {
+          "observations": 2,
+          "median": 7624.150000095367,
+          "p95": 8946.400000095367,
+          "total": 15248.300000190735
+        },
+        "promptTokens": {
+          "observations": 2,
+          "median": 2645.5,
+          "p95": 3061,
+          "total": 5291
+        },
+        "outputTokens": {
+          "observations": 2,
+          "median": 7.5,
+          "p95": 8,
+          "total": 15
+        },
+        "finishReasons": {
+          "stop": 2
+        },
+        "terminationReasons": {
+          "model_stop": 2
+        },
+        "configuredStageBudgetsMs": {
+          "30000": 2
+        }
+      },
+      "lastObservedAtOrBeforeOriginalTurnCap": {
+        "decision": null,
+        "turn": 6,
+        "redVP": 1,
+        "source": "final engine state"
+      },
+      "source": "catan-results/latest.json"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/content/experiment/sc_remote.py", line 182, in <module>
+    try:main(a.out,a.deadline)
+        ~~~~^^^^^^^^^^^^^^^^^^
+  File "/content/experiment/sc_remote.py", line 116, in main
+    status(out,'calibration');pilots,timing=calibration(out,deadline)
+                                            ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/content/experiment/sc_remote.py", line 61, in calibration
+    wait_batch(out,probes,limit)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/content/experiment/sc_remote.py", line 37, in wait_batch
+    if any(p.returncode!=0 for p in processes):raise RuntimeError('INTEGRITY: worker failure; inspect bounded worker logs')
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: INTEGRITY: worker failure; inspect bounded worker logs

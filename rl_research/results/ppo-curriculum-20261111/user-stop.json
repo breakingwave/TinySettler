@@ -1,0 +1,54 @@
+{
+  "requested_at": 1794420827.9460287,
+  "action": "user requested pause training and kill runtime",
+  "session": "tinysettler-ppo-curriculum-20261111-a",
+  "controller_pid": 24812,
+  "last_verified_snapshot": 1794420782.2443168,
+  "stop_returncode": 0,
+  "stop_output": "[colab] Stopping session 'tinysettler-ppo-curriculum-20261111-a'...\n[colab] Session terminated.\n",
+  "stop_finished_at": 1794420829.1506343,
+  "termination_verified": true,
+  "allocated_upper_bound_seconds": 2224.0818367004395,
+  "checkpoints": [
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/0.pt",
+      "sha256": "3fa1f84313a19f225c53391905a25b0fa81f08e6e85dfe40b960f2971ee833f7",
+      "bytes": 5242917
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/57344.pt",
+      "sha256": "fe765fe1b531af4faa20e9438fe7577a30dc07bb3ef7933cfe28df1103fada4a",
+      "bytes": 5281445
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/0.pt",
+      "sha256": "5a836ae33ca148dfbe36dd409d3a524f13e8227e6a4c2b69f0ced4a1481f4802",
+      "bytes": 5228389
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/114688.pt",
+      "sha256": "2d4ff15ba2a14c6dcc00f086b4684ccdf7122f4fb887493998251507d62b2789",
+      "bytes": 5304357
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/176128.pt",
+      "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+      "bytes": 5319013
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/57344.pt",
+      "sha256": "483e3f558631a1b54ca31dcab31fa8f1849462cc80cfcf58aff16cab1dd499cc",
+      "bytes": 5270245
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/latest.pt",
+      "sha256": "fe765fe1b531af4faa20e9438fe7577a30dc07bb3ef7933cfe28df1103fada4a",
+      "bytes": 5281445
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/latest.pt",
+      "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+      "bytes": 5319013
+    }
+  ]
+}

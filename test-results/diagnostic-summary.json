@@ -1,0 +1,110 @@
+[
+  {
+    "file": "qwen35-2b-prompt-only.json",
+    "model": "Qwen3.5-2B-q4f16_1-MLC",
+    "protocol": "json",
+    "output": "prompt-only",
+    "thinking": false,
+    "strictPass": 0,
+    "objectives": 0,
+    "durationSeconds": 83.51159999990463,
+    "turns": 43,
+    "invalid": 41
+  },
+  {
+    "file": "qwen35-2b-schema.json",
+    "model": "Qwen3.5-2B-q4f16_1-MLC",
+    "protocol": "json",
+    "output": "schema",
+    "thinking": false,
+    "strictPass": 1,
+    "objectives": 1,
+    "durationSeconds": 13.055599999904633,
+    "turns": 12,
+    "invalid": 0
+  },
+  {
+    "file": "qwen3-17b-schema.json",
+    "model": "Qwen3-1.7B-q4f16_1-MLC",
+    "protocol": "json",
+    "output": "schema",
+    "thinking": false,
+    "strictPass": 4,
+    "objectives": 4,
+    "durationSeconds": 15.342200000047685,
+    "turns": 29,
+    "invalid": 0
+  },
+  {
+    "file": "qwen35-2b-q4f32-prompt-only.json",
+    "model": "Qwen3.5-2B-q4f32_1-MLC",
+    "protocol": "json",
+    "output": "prompt-only",
+    "thinking": false,
+    "strictPass": 0,
+    "objectives": 0,
+    "durationSeconds": 94.07089999985695,
+    "turns": 43,
+    "invalid": 41
+  },
+  {
+    "file": "qwen35-2b-thinking-sampled.json",
+    "model": "Qwen3.5-2B-q4f16_1-MLC",
+    "protocol": "json",
+    "output": "prompt-only",
+    "thinking": true,
+    "strictPass": 0,
+    "objectives": 0,
+    "durationSeconds": 553.594600000143,
+    "turns": 7,
+    "invalid": 6
+  },
+  {
+    "file": "qwen35-2b-onnx-q4f16.json",
+    "model": "onnx:q4f16",
+    "protocol": "json",
+    "output": "prompt-only",
+    "thinking": false,
+    "strictPass": 2,
+    "objectives": 2,
+    "durationSeconds": 61.604599999904636,
+    "turns": 46,
+    "invalid": 30
+  },
+  {
+    "file": "qwen35-2b-onnx-fp16.json",
+    "model": "onnx:fp16",
+    "protocol": "json",
+    "output": "prompt-only",
+    "thinking": false,
+    "strictPass": 4,
+    "objectives": 4,
+    "durationSeconds": 73.46070000004768,
+    "turns": 37,
+    "invalid": 20
+  },
+  {
+    "file": "qwen35-2b-onnx-q4f16-native.json",
+    "model": "onnx:q4f16",
+    "protocol": "native",
+    "output": "prompt-only",
+    "thinking": false,
+    "strictPass": 3,
+    "objectives": 5,
+    "durationSeconds": 73.16810000014306,
+    "turns": 31,
+    "invalid": 6
+  },
+  {
+    "file": "qwen35-2b-onnx-fp16-native.json",
+    "model": "onnx:fp16",
+    "protocol": "native",
+    "output": "prompt-only",
+    "thinking": false,
+    "strictPass": 5,
+    "objectives": 6,
+    "durationSeconds": 114.81739999985695,
+    "turns": 29,
+    "invalid": 1
+  }
+]

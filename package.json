@@ -1,0 +1,19 @@
+{
+  "name": "tinysettler-browser-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test tests/*.test.js",
+    "catan": "node scripts/start-catan.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.2",
+    "@mlc-ai/web-llm": "0.2.87"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  }
+}

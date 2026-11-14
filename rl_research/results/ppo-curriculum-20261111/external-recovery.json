@@ -1,0 +1,7 @@
+{
+  "sha256": "13c4fc85bee44f62ba48ad3feb6842924e094e6b08517425ac514e07d02f5a08",
+  "cuda_continuation_bitwise_equal": true,
+  "optimizer_update_equal": true,
+  "planning_rng_equal": true,
+  "category_counters_equal": true
+}

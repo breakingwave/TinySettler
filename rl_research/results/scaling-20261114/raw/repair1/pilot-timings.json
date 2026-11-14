@@ -1,0 +1,66 @@
+{
+  "A": {
+    "single": {
+      "seconds": 50.03431689599984,
+      "aggregate_rate": 163.72762752068147,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 92.05278847600039,
+      "aggregate_rate": 177.9848310002208,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "B": {
+    "single": {
+      "seconds": 44.02213791400027,
+      "aggregate_rate": 186.0881908098951,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 88.04600272699963,
+      "aggregate_rate": 186.08454095072491,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "C": {
+    "single": {
+      "seconds": 50.0284302959999,
+      "aggregate_rate": 163.7468925475162,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 94.06471386400017,
+      "aggregate_rate": 174.17796033152425,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  },
+  "D": {
+    "single": {
+      "seconds": 54.02850626600002,
+      "aggregate_rate": 151.623662510085,
+      "workers": 1,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    },
+    "dual": {
+      "seconds": 94.07632085099976,
+      "aggregate_rate": 174.1564705315098,
+      "workers": 2,
+      "teacher_seconds": 0.0,
+      "recovery_passed": true
+    }
+  }
+}

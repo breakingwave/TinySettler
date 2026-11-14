@@ -1,0 +1,2840 @@
+{
+  "rows": [
+    {
+      "board_seed": 2100000000,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 1071,
+      "decisions": 534,
+      "seconds": 0.99487269599922,
+      "inference_seconds": 0.2638767130083579,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000000,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1740,
+      "decisions": 972,
+      "seconds": 2.022406103999856,
+      "inference_seconds": 0.5059400469999673,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000000,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1037,
+      "decisions": 525,
+      "seconds": 0.7998613839999962,
+      "inference_seconds": 0.22226284699263488,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000000,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 315,
+      "decisions": 169,
+      "seconds": 0.24105383999994956,
+      "inference_seconds": 0.0687924030044087,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000000,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "engine_actions": 1093,
+      "decisions": 466,
+      "seconds": 0.6802099940005064,
+      "inference_seconds": 0.19543092798903672,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000000,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 935,
+      "decisions": 417,
+      "seconds": 0.5911528300002828,
+      "inference_seconds": 0.16814198498195765,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000001,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "engine_actions": 645,
+      "decisions": 311,
+      "seconds": 0.4403921809998792,
+      "inference_seconds": 0.1246706850024566,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000001,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 800,
+      "decisions": 407,
+      "seconds": 0.6055121830004282,
+      "inference_seconds": 0.16799801000342995,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000001,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 746,
+      "decisions": 388,
+      "seconds": 0.5481076949999988,
+      "inference_seconds": 0.1520969419971152,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000001,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1276,
+      "decisions": 694,
+      "seconds": 0.9795174900000347,
+      "inference_seconds": 0.2767575099978785,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000001,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 790,
+      "decisions": 346,
+      "seconds": 0.5287558679992799,
+      "inference_seconds": 0.1430008470060784,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000001,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1742,
+      "decisions": 879,
+      "seconds": 1.2898605689997567,
+      "inference_seconds": 0.35398828699726437,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000002,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 819,
+      "decisions": 438,
+      "seconds": 0.6196939739993468,
+      "inference_seconds": 0.1785834549837091,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000002,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1745,
+      "decisions": 975,
+      "seconds": 1.401421967000715,
+      "inference_seconds": 0.3924557400187041,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000002,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 622,
+      "decisions": 319,
+      "seconds": 0.451805081999737,
+      "inference_seconds": 0.1253515999942465,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000002,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1124,
+      "decisions": 604,
+      "seconds": 0.8859133710002425,
+      "inference_seconds": 0.2451719920072719,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000002,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 933,
+      "decisions": 460,
+      "seconds": 0.9949977830001444,
+      "inference_seconds": 0.2461821009965206,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000002,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1480,
+      "decisions": 721,
+      "seconds": 1.5447551620000013,
+      "inference_seconds": 0.3646827390057297,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000003,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 793,
+      "decisions": 391,
+      "seconds": 0.5999014710005213,
+      "inference_seconds": 0.16827377499885188,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000003,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "engine_actions": 2329,
+      "decisions": 1254,
+      "seconds": 1.7545929030002299,
+      "inference_seconds": 0.4960909399778757,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000003,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "engine_actions": 1254,
+      "decisions": 653,
+      "seconds": 0.9009676019995823,
+      "inference_seconds": 0.25953930300693173,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000003,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 7,
+      "engine_actions": 2462,
+      "decisions": 1240,
+      "seconds": 1.6814594209999996,
+      "inference_seconds": 0.4881611929877181,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 2,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 83,
+            "MARITIME_TRADE": 122,
+            "BUY_DEVELOPMENT_CARD": 19,
+            "PLAY_MONOPOLY": 1,
+            "DISCARD_RESOURCE": 12,
+            "PLAY_YEAR_OF_PLENTY": 1
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 13,
+            "ROLL": 500,
+            "END_TURN": 500,
+            "MOVE_ROBBER": 114,
+            "MARITIME_TRADE": 55,
+            "BUY_DEVELOPMENT_CARD": 6,
+            "PLAY_KNIGHT_CARD": 5,
+            "DISCARD_RESOURCE": 25,
+            "PLAY_YEAR_OF_PLENTY": 1
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.40241935483870966,
+          "opponent": 0.40916530278232405
+        },
+        "maritime_trades": {
+          "learner": 122,
+          "opponent": 55
+        },
+        "repeated_public_own_hand_states": 635,
+        "unique_public_own_hand_states": 605,
+        "max_state_visits": 10,
+        "most_repeated_state_hashes": [
+          [
+            "11e462b6c8ae7dd31d51dcc9afcab79d993872d4515f7265e9698767c7ef2fea",
+            10
+          ],
+          [
+            "8287df1997b24b7962a81194d3e8fe04e9baaf135eeb9b67f4e79bab7f52558a",
+            10
+          ],
+          [
+            "3903beb1f79e8aa46d1e55a4ecbd433744ef1999c37c4ec987bf5c3d91d86382",
+            9
+          ],
+          [
+            "e2f428c075401bad427bffaa03ab7137b6d501104a88119fd27c09c9529715e9",
+            9
+          ],
+          [
+            "2dae40e995f0e0e5c2a90c4d6093093841dca0cabba3bf7d3f40e2215286aeb2",
+            8
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2462,
+        "own_points": 7,
+        "opponent_public_points": 7,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000003,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 2746,
+      "decisions": 1243,
+      "seconds": 1.785385643999689,
+      "inference_seconds": 0.5002179000093747,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000003,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "engine_actions": 2263,
+      "decisions": 1003,
+      "seconds": 1.407088666999698,
+      "inference_seconds": 0.3975364049902055,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000004,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "engine_actions": 1008,
+      "decisions": 517,
+      "seconds": 0.7706159299996216,
+      "inference_seconds": 0.21478919799665164,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000004,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1679,
+      "decisions": 923,
+      "seconds": 1.3850582049999502,
+      "inference_seconds": 0.388558099990405,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000004,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "engine_actions": 587,
+      "decisions": 297,
+      "seconds": 0.6283652789998087,
+      "inference_seconds": 0.15188648299954366,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000004,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "engine_actions": 1029,
+      "decisions": 550,
+      "seconds": 1.2020041899995704,
+      "inference_seconds": 0.2860335270052019,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000004,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 2333,
+      "decisions": 994,
+      "seconds": 1.6924822080000013,
+      "inference_seconds": 0.4489581750185607,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000004,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 7,
+      "engine_actions": 3445,
+      "decisions": 1666,
+      "seconds": 2.2748756749997483,
+      "inference_seconds": 0.6615128279890996,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 5,
+            "ROLL": 499,
+            "MOVE_ROBBER": 93,
+            "END_TURN": 499,
+            "BUILD_CITY": 1,
+            "BUY_DEVELOPMENT_CARD": 20,
+            "DISCARD_RESOURCE": 501,
+            "MARITIME_TRADE": 44,
+            "PLAY_YEAR_OF_PLENTY": 2
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 4,
+            "ROLL": 500,
+            "END_TURN": 499,
+            "BUY_DEVELOPMENT_CARD": 5,
+            "PLAY_ROAD_BUILDING": 1,
+            "MOVE_ROBBER": 85,
+            "PLAY_KNIGHT_CARD": 3,
+            "DISCARD_RESOURCE": 678,
+            "BUILD_CITY": 2
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.2995198079231693,
+          "opponent": 0.2804946599213041
+        },
+        "maritime_trades": {
+          "learner": 44,
+          "opponent": 0
+        },
+        "repeated_public_own_hand_states": 901,
+        "unique_public_own_hand_states": 765,
+        "max_state_visits": 32,
+        "most_repeated_state_hashes": [
+          [
+            "d3d327002e709249ac36a17b7cb64648f0cc9047cc43cb731ac2845ae8b13ed5",
+            32
+          ],
+          [
+            "ba15d44fa725086ea08097d4063a86cf75a53a30db8cacfbfc7292e991c37fa5",
+            25
+          ],
+          [
+            "9b59b70f81ae3bafec28c68f083555899895b73f81b97015bf0b32314ecb671f",
+            18
+          ],
+          [
+            "d9c587361790bf19f4f32d440fcf34694742c6ed866bb49359705006db2368af",
+            15
+          ],
+          [
+            "1d955f5d55cdc29a12dff74cf91456343deb612ec9a1573ad837158f39bd281f",
+            15
+          ]
+        ],
+        "turns": 1000,
+        "engine_actions": 3445,
+        "own_points": 7,
+        "opponent_public_points": 6,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000005,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 554,
+      "decisions": 297,
+      "seconds": 0.39642058000026736,
+      "inference_seconds": 0.11505195700283366,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000005,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 498,
+      "decisions": 260,
+      "seconds": 0.36195734100056143,
+      "inference_seconds": 0.10426088299482217,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000005,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 548,
+      "decisions": 290,
+      "seconds": 0.39159020999977656,
+      "inference_seconds": 0.11263296400829859,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000005,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1864,
+      "decisions": 1044,
+      "seconds": 1.3971488779998253,
+      "inference_seconds": 0.40138631898571475,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000005,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 796,
+      "decisions": 347,
+      "seconds": 0.4897478749999209,
+      "inference_seconds": 0.13445988599323755,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000005,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 787,
+      "decisions": 350,
+      "seconds": 0.482093607999559,
+      "inference_seconds": 0.13572826698691642,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000006,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1162,
+      "decisions": 653,
+      "seconds": 0.8973879530003614,
+      "inference_seconds": 0.25537528300355916,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000006,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1291,
+      "decisions": 725,
+      "seconds": 0.9658296870002232,
+      "inference_seconds": 0.27900889499233017,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000006,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 2,
+      "engine_actions": 785,
+      "decisions": 389,
+      "seconds": 0.5498164749997159,
+      "inference_seconds": 0.15469424900038575,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000006,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 481,
+      "decisions": 201,
+      "seconds": 0.27954309599954286,
+      "inference_seconds": 0.07699713499914651,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000006,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1946,
+      "decisions": 848,
+      "seconds": 1.5273236319999342,
+      "inference_seconds": 0.3891380889917855,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000006,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 8,
+      "engine_actions": 3870,
+      "decisions": 1770,
+      "seconds": 2.9547568719999617,
+      "inference_seconds": 0.7859158790151923,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 9,
+            "ROLL": 499,
+            "MOVE_ROBBER": 83,
+            "END_TURN": 499,
+            "MARITIME_TRADE": 64,
+            "BUY_DEVELOPMENT_CARD": 13,
+            "DISCARD_RESOURCE": 599,
+            "BUILD_CITY": 1
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 2,
+            "ROLL": 500,
+            "MOVE_ROBBER": 99,
+            "END_TURN": 500,
+            "BUILD_CITY": 2,
+            "DISCARD_RESOURCE": 974,
+            "BUY_DEVELOPMENT_CARD": 12,
+            "PLAY_YEAR_OF_PLENTY": 2,
+            "PLAY_KNIGHT_CARD": 7
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.28192090395480224,
+          "opponent": 0.23809523809523808
+        },
+        "maritime_trades": {
+          "learner": 64,
+          "opponent": 0
+        },
+        "repeated_public_own_hand_states": 661,
+        "unique_public_own_hand_states": 1109,
+        "max_state_visits": 15,
+        "most_repeated_state_hashes": [
+          [
+            "3bfb70c814fd3f1bf726a4d348f942bc33c434bd46506a557a172e3fe0d3594b",
+            15
+          ],
+          [
+            "c5f2c86735008f180ff0c675b2d4b657fa6a1d0248c90f2e5c95977bd376ee86",
+            13
+          ],
+          [
+            "fb9a2e4089c021fced222c7f9cbcb9054790554a1c041ba6705a4149a8e7e4d5",
+            13
+          ],
+          [
+            "aea1c11c549cf15eb524b2b1331efd46773072aa2687eb65528bf10230b266d7",
+            11
+          ],
+          [
+            "3a6499dc9d03b34402cd51a9e98a1d4c07c0117bedd329268ff220f27b8e061e",
+            11
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 3870,
+        "own_points": 8,
+        "opponent_public_points": 6,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000007,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1346,
+      "decisions": 723,
+      "seconds": 0.981413440000324,
+      "inference_seconds": 0.2810841879891086,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000007,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1448,
+      "decisions": 760,
+      "seconds": 1.0004492009993555,
+      "inference_seconds": 0.29205173500668025,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000007,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 1467,
+      "decisions": 761,
+      "seconds": 1.0121661510002014,
+      "inference_seconds": 0.2920883779934229,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000007,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 7,
+      "engine_actions": 2404,
+      "decisions": 1333,
+      "seconds": 1.7430140500000562,
+      "inference_seconds": 0.5135876090007514,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 4,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 99,
+            "MARITIME_TRADE": 154,
+            "DISCARD_RESOURCE": 49,
+            "BUY_DEVELOPMENT_CARD": 25,
+            "PLAY_YEAR_OF_PLENTY": 2
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 3,
+            "ROLL": 500,
+            "END_TURN": 500,
+            "MOVE_ROBBER": 65,
+            "MARITIME_TRADE": 1
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.3743435858964741,
+          "opponent": 0.4668534080298786
+        },
+        "maritime_trades": {
+          "learner": 154,
+          "opponent": 1
+        },
+        "repeated_public_own_hand_states": 474,
+        "unique_public_own_hand_states": 859,
+        "max_state_visits": 7,
+        "most_repeated_state_hashes": [
+          [
+            "d6d0c655b2934064d09a1db37c6d0624c542bdb1ffb4f5f6a88a608b224ba940",
+            7
+          ],
+          [
+            "47c2c3be43c06f0ba3139511c244299da6fe791eab3725fc510362ba2b14eae8",
+            6
+          ],
+          [
+            "821f9eb03839e801eb422de00d3806d0bd84705e472e83d75f1b357f63d44849",
+            5
+          ],
+          [
+            "7300378a9de7eb05cc3b86375a5fcb0106b3be775fb6391005334154b6604161",
+            5
+          ],
+          [
+            "9ec803f0c86b7d13bf78ea1ab8bcb64d39ad2d6db89cdc5f414f56b863abb2b0",
+            5
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2404,
+        "own_points": 7,
+        "opponent_public_points": 2,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000007,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 9,
+      "engine_actions": 3468,
+      "decisions": 1489,
+      "seconds": 2.023980715000107,
+      "inference_seconds": 0.5841642080131351,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 4,
+            "BUILD_ROAD": 11,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 69,
+            "MARITIME_TRADE": 249,
+            "BUY_DEVELOPMENT_CARD": 7,
+            "PLAY_YEAR_OF_PLENTY": 1,
+            "BUILD_CITY": 1,
+            "DISCARD_RESOURCE": 149
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 6,
+            "ROLL": 499,
+            "BUY_DEVELOPMENT_CARD": 18,
+            "END_TURN": 499,
+            "PLAY_KNIGHT_CARD": 10,
+            "MOVE_ROBBER": 96,
+            "PLAY_ROAD_BUILDING": 2,
+            "DISCARD_RESOURCE": 842,
+            "PLAY_MONOPOLY": 2,
+            "PLAY_YEAR_OF_PLENTY": 1,
+            "BUILD_CITY": 2
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.3351242444593687,
+          "opponent": 0.2521475492673067
+        },
+        "maritime_trades": {
+          "learner": 249,
+          "opponent": 0
+        },
+        "repeated_public_own_hand_states": 438,
+        "unique_public_own_hand_states": 1051,
+        "max_state_visits": 14,
+        "most_repeated_state_hashes": [
+          [
+            "d928f9d4c3c24bcb580ed47c0be3ca22b6326d15aa62fc43c5a542d82158e940",
+            14
+          ],
+          [
+            "0c15c5fabbb3944219f47f9f9b2dfdda2945dbab8263937929e30007cbab07fb",
+            7
+          ],
+          [
+            "036f82487581bd889638b0b43a54eca50ea3b962a2489e91227d9e513809b0c2",
+            7
+          ],
+          [
+            "62fbb3dcc354a305b363c034b8709a7441739adb4932dd23ea7194acd0959723",
+            6
+          ],
+          [
+            "c6a456e20502827f791fd337e0a2408bf1141560e5f017eb3c17d60c6fb8089e",
+            6
+          ]
+        ],
+        "turns": 1000,
+        "engine_actions": 3468,
+        "own_points": 9,
+        "opponent_public_points": 6,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000007,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 4,
+      "engine_actions": 3088,
+      "decisions": 1299,
+      "seconds": 1.8021906889998718,
+      "inference_seconds": 0.5018536069846959,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 9,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 74,
+            "MARITIME_TRADE": 124,
+            "BUY_DEVELOPMENT_CARD": 15,
+            "DISCARD_RESOURCE": 75,
+            "PLAY_YEAR_OF_PLENTY": 1
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 5,
+            "BUILD_ROAD": 15,
+            "ROLL": 500,
+            "END_TURN": 500,
+            "MOVE_ROBBER": 78,
+            "DISCARD_RESOURCE": 689,
+            "BUY_DEVELOPMENT_CARD": 1,
+            "PLAY_KNIGHT_CARD": 1
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.38414164742109314,
+          "opponent": 0.27948574622694244
+        },
+        "maritime_trades": {
+          "learner": 124,
+          "opponent": 0
+        },
+        "repeated_public_own_hand_states": 529,
+        "unique_public_own_hand_states": 770,
+        "max_state_visits": 9,
+        "most_repeated_state_hashes": [
+          [
+            "76ab38394cb037432837440678d9c1ea5ecc70e0d915f3a6f30554f5cb3da8df",
+            9
+          ],
+          [
+            "abdc656d5a1d4566695d1aa4edd4a683856233ac2ffd96375ec19b37abd8ca7b",
+            9
+          ],
+          [
+            "ec8071550d18d962c63a7eb3c3b2c8bd752bad6b5d21bb9101424401d03aec01",
+            8
+          ],
+          [
+            "ff15b8e86279b8c1cac129ed94626fecb9a697d5641355faf57d5939f6801089",
+            7
+          ],
+          [
+            "3dbcd8bbb41d16abc43c54a81827796df86386a356e7e25feebf865912beff2a",
+            6
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 3088,
+        "own_points": 4,
+        "opponent_public_points": 7,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000008,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1009,
+      "decisions": 504,
+      "seconds": 1.0038450069996543,
+      "inference_seconds": 0.25342878499668586,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000008,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 945,
+      "decisions": 473,
+      "seconds": 0.9346571199994287,
+      "inference_seconds": 0.222902903989052,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000008,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 691,
+      "decisions": 393,
+      "seconds": 0.8091634570000679,
+      "inference_seconds": 0.21106851900458423,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000008,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1479,
+      "decisions": 867,
+      "seconds": 1.2094942630001242,
+      "inference_seconds": 0.34036167199883494,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000008,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 2,
+      "engine_actions": 3041,
+      "decisions": 1524,
+      "seconds": 2.145605433000128,
+      "inference_seconds": 0.6031643220230762,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 11,
+            "ROLL": 499,
+            "MOVE_ROBBER": 77,
+            "END_TURN": 499,
+            "DISCARD_RESOURCE": 366,
+            "MARITIME_TRADE": 70
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 15,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 72,
+            "DISCARD_RESOURCE": 430
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.3274278215223097,
+          "opponent": 0.3289386947923533
+        },
+        "maritime_trades": {
+          "learner": 70,
+          "opponent": 0
+        },
+        "repeated_public_own_hand_states": 660,
+        "unique_public_own_hand_states": 864,
+        "max_state_visits": 9,
+        "most_repeated_state_hashes": [
+          [
+            "8ec05b39f544ff5e95c69d2bb83107f80649ce96285336d9d292d15f115c8c47",
+            9
+          ],
+          [
+            "7c861b205776bf5b86dc0a525868b20601425487031e05c025d20ae3d872c30c",
+            8
+          ],
+          [
+            "abc59aa1086440fdd3d6bf3349dd1e3d73ea6f9ef2365e4b926da94b7b18959e",
+            7
+          ],
+          [
+            "13d85f91a6769c6c5e8bcc8ad6316bf94fda4ef5440c890b638886aa7a4d1209",
+            7
+          ],
+          [
+            "5c487a9e97781a718106532364fafcb61b938fa5d7687fc8104d136d557afee1",
+            6
+          ]
+        ],
+        "turns": 1000,
+        "engine_actions": 3041,
+        "own_points": 2,
+        "opponent_public_points": 4,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000008,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 7,
+      "engine_actions": 3161,
+      "decisions": 1574,
+      "seconds": 2.147266393000791,
+      "inference_seconds": 0.6082080119940656,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 4,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MARITIME_TRADE": 195,
+            "MOVE_ROBBER": 76,
+            "BUY_DEVELOPMENT_CARD": 24,
+            "BUILD_CITY": 1,
+            "DISCARD_RESOURCE": 272,
+            "PLAY_YEAR_OF_PLENTY": 2
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 15,
+            "ROLL": 500,
+            "MOVE_ROBBER": 74,
+            "END_TURN": 500,
+            "DISCARD_RESOURCE": 495,
+            "BUY_DEVELOPMENT_CARD": 1
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.3170266836086404,
+          "opponent": 0.315059861373661
+        },
+        "maritime_trades": {
+          "learner": 195,
+          "opponent": 0
+        },
+        "repeated_public_own_hand_states": 627,
+        "unique_public_own_hand_states": 947,
+        "max_state_visits": 8,
+        "most_repeated_state_hashes": [
+          [
+            "ffa2f163796ae28be6632ceda2c168822fd28524636b832f7b9343329c8f7fde",
+            8
+          ],
+          [
+            "cf505413aa9d247103956a15c1c497e42f4235e7a3766d0ea9c9d2e88b9ef2d7",
+            8
+          ],
+          [
+            "86b1762a22167150a51fa86ab2bb06272bc2ba8cf9a3e7a4195c32cc1b32ac38",
+            8
+          ],
+          [
+            "238ff83af3e33ead06f29f0a6397d7aef9806c8499f92259c4dd5ae5459d7e25",
+            8
+          ],
+          [
+            "c8c36c409d6002b508aa22038c3efa6debeae2b640e476010e422de472fddebb",
+            7
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 3161,
+        "own_points": 7,
+        "opponent_public_points": 4,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000009,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1424,
+      "decisions": 763,
+      "seconds": 1.0513625080002384,
+      "inference_seconds": 0.3018940940110042,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000009,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 872,
+      "decisions": 449,
+      "seconds": 0.6049110419999124,
+      "inference_seconds": 0.17325486199388251,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000009,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 522,
+      "decisions": 261,
+      "seconds": 0.3533949410002606,
+      "inference_seconds": 0.10152710200509318,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000009,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 669,
+      "decisions": 353,
+      "seconds": 0.4853366309998819,
+      "inference_seconds": 0.13712058400778915,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000009,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 2283,
+      "decisions": 983,
+      "seconds": 1.3688053810001293,
+      "inference_seconds": 0.3807577140223657,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000009,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 2424,
+      "decisions": 1127,
+      "seconds": 2.1150890810004057,
+      "inference_seconds": 0.6756735209819453,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000010,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 773,
+      "decisions": 415,
+      "seconds": 0.821756565999749,
+      "inference_seconds": 0.2116086869900755,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000010,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 636,
+      "decisions": 353,
+      "seconds": 0.5405082079996646,
+      "inference_seconds": 0.15377408000040305,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000010,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1719,
+      "decisions": 961,
+      "seconds": 1.5065708419997463,
+      "inference_seconds": 0.413458410002022,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000010,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1186,
+      "decisions": 636,
+      "seconds": 0.8487519229993268,
+      "inference_seconds": 0.2445369449978898,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000010,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1131,
+      "decisions": 490,
+      "seconds": 0.6637685660007264,
+      "inference_seconds": 0.18775171701236104,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000010,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 732,
+      "decisions": 310,
+      "seconds": 0.4552310810004201,
+      "inference_seconds": 0.13016226799300057,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000011,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1010,
+      "decisions": 510,
+      "seconds": 0.6703079700000671,
+      "inference_seconds": 0.18835944300917618,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000011,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 949,
+      "decisions": 501,
+      "seconds": 0.6858541580004385,
+      "inference_seconds": 0.19018030400184216,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000011,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 980,
+      "decisions": 537,
+      "seconds": 0.7222850289999769,
+      "inference_seconds": 0.20258363699940674,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000011,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 2186,
+      "decisions": 1267,
+      "seconds": 1.6960323660005088,
+      "inference_seconds": 0.476915673005351,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000011,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1904,
+      "decisions": 920,
+      "seconds": 1.2521801630000482,
+      "inference_seconds": 0.35495997599900875,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000011,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 2085,
+      "decisions": 1042,
+      "seconds": 1.57035022799937,
+      "inference_seconds": 0.4300320479997026,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000012,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 1265,
+      "decisions": 704,
+      "seconds": 1.4098604270002397,
+      "inference_seconds": 0.3422465970052144,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000012,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 1969,
+      "decisions": 1107,
+      "seconds": 1.7346558019999065,
+      "inference_seconds": 0.477320981007324,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000012,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1246,
+      "decisions": 736,
+      "seconds": 0.9882095539996953,
+      "inference_seconds": 0.28264615400257753,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000012,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 2655,
+      "decisions": 1420,
+      "seconds": 1.9705347360004453,
+      "inference_seconds": 0.5500655650084809,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000012,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1989,
+      "decisions": 1003,
+      "seconds": 1.371943115999784,
+      "inference_seconds": 0.387345970007118,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000012,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1261,
+      "decisions": 645,
+      "seconds": 0.8939110680003068,
+      "inference_seconds": 0.24957055101731385,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000013,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1432,
+      "decisions": 792,
+      "seconds": 1.0524231469998995,
+      "inference_seconds": 0.3084240660091382,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000013,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 9,
+      "engine_actions": 2665,
+      "decisions": 1513,
+      "seconds": 2.02531670999997,
+      "inference_seconds": 0.5890096540097147,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 8,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MARITIME_TRADE": 184,
+            "MOVE_ROBBER": 110,
+            "BUILD_CITY": 1,
+            "BUY_DEVELOPMENT_CARD": 21,
+            "DISCARD_RESOURCE": 186,
+            "PLAY_YEAR_OF_PLENTY": 2
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 7,
+            "ROLL": 500,
+            "MOVE_ROBBER": 89,
+            "END_TURN": 500,
+            "MARITIME_TRADE": 46,
+            "BUY_DEVELOPMENT_CARD": 4,
+            "PLAY_MONOPOLY": 1,
+            "PLAY_KNIGHT_CARD": 1,
+            "BUILD_CITY": 2
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.3298083278255122,
+          "opponent": 0.4340277777777778
+        },
+        "maritime_trades": {
+          "learner": 184,
+          "opponent": 46
+        },
+        "repeated_public_own_hand_states": 514,
+        "unique_public_own_hand_states": 999,
+        "max_state_visits": 9,
+        "most_repeated_state_hashes": [
+          [
+            "34a69910fc9d4bf6305d70e66067f970eaeecae5da1f3871170a1c56288a5003",
+            9
+          ],
+          [
+            "2e7e405e0977cb43384017adfc7fc2c936dc85258aaf061d840d6d2653478437",
+            8
+          ],
+          [
+            "51192784e6f5d48e201b6965efc08d2693e1577f688d9ffe5d1b65120bdaddad",
+            7
+          ],
+          [
+            "ed116e22f58f52dd360e0368134c4a6fe610652324d9689af00a77d7fb734e11",
+            6
+          ],
+          [
+            "b6ce26f625a8ba7bceab797477bd88cafe56ca353185365c045ea25ef05dd666",
+            6
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2665,
+        "own_points": 9,
+        "opponent_public_points": 4,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000013,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 753,
+      "decisions": 416,
+      "seconds": 0.5511743850001949,
+      "inference_seconds": 0.16083540200270363,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000013,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1051,
+      "decisions": 571,
+      "seconds": 1.0790686059999643,
+      "inference_seconds": 0.2867259780086897,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000013,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 1520,
+      "decisions": 708,
+      "seconds": 1.5533743820005839,
+      "inference_seconds": 0.3676871529969503,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000013,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 872,
+      "decisions": 415,
+      "seconds": 0.6192930130000605,
+      "inference_seconds": 0.1693345909980053,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000014,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1813,
+      "decisions": 934,
+      "seconds": 1.2864245549999396,
+      "inference_seconds": 0.3625439080142314,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000014,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 5,
+      "engine_actions": 2626,
+      "decisions": 1500,
+      "seconds": 1.9923912659996859,
+      "inference_seconds": 0.5739518620148374,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 11,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 82,
+            "MARITIME_TRADE": 172,
+            "DISCARD_RESOURCE": 234
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 15,
+            "ROLL": 500,
+            "END_TURN": 500,
+            "MOVE_ROBBER": 77,
+            "MARITIME_TRADE": 25,
+            "BUY_DEVELOPMENT_CARD": 4,
+            "PLAY_MONOPOLY": 1,
+            "PLAY_KNIGHT_CARD": 2
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.33266666666666667,
+          "opponent": 0.44404973357015987
+        },
+        "maritime_trades": {
+          "learner": 172,
+          "opponent": 25
+        },
+        "repeated_public_own_hand_states": 438,
+        "unique_public_own_hand_states": 1062,
+        "max_state_visits": 10,
+        "most_repeated_state_hashes": [
+          [
+            "a16f869393a4400471a9c40b9e88625b368c610d070ee900387e3321198970d7",
+            10
+          ],
+          [
+            "e1c53fc447a664a634768e58398b36c6048a07d1e9a9b7e99a76e9ec098d6db3",
+            6
+          ],
+          [
+            "eea5077522799178df712297030e4c626c2ca743c0ab839a5f45965a0d65b372",
+            5
+          ],
+          [
+            "850bebb5ca36ebe10ce47d8173157de35c02cd4510d2af87cc64ae7def0db935",
+            5
+          ],
+          [
+            "3db82a1348dec0bca00776b2b22e82b26e46be76c20b718b5de8508ed280e51c",
+            5
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2626,
+        "own_points": 5,
+        "opponent_public_points": 2,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000014,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 3,
+      "engine_actions": 2629,
+      "decisions": 1462,
+      "seconds": 1.9524796080004307,
+      "inference_seconds": 0.5572344329912085,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 11,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 66,
+            "BUY_DEVELOPMENT_CARD": 5,
+            "MARITIME_TRADE": 183,
+            "DISCARD_RESOURCE": 195,
+            "PLAY_YEAR_OF_PLENTY": 1
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 15,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 82,
+            "MARITIME_TRADE": 59,
+            "BUY_DEVELOPMENT_CARD": 7,
+            "PLAY_KNIGHT_CARD": 3,
+            "PLAY_YEAR_OF_PLENTY": 1
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.34131326949384405,
+          "opponent": 0.42759211653813195
+        },
+        "maritime_trades": {
+          "learner": 183,
+          "opponent": 59
+        },
+        "repeated_public_own_hand_states": 412,
+        "unique_public_own_hand_states": 1050,
+        "max_state_visits": 7,
+        "most_repeated_state_hashes": [
+          [
+            "455953b47262fc2fb2ad70cf83e15994f1fc07eb939aa8512e4da154f687ee5e",
+            7
+          ],
+          [
+            "dd9cc37d71c24ad5f94a253c2f81cc647ad90b2a6ae176a07c80b928678b491a",
+            6
+          ],
+          [
+            "6990f68c79de784722e3b9ff9a13b48a403561897f5b966c255c834739202f7f",
+            5
+          ],
+          [
+            "8345d3db2ec238d44ea1962a2182cc60c739061de1b2d3d09dbed3f2ea68da25",
+            5
+          ],
+          [
+            "d93a54b413bdcdf5b5c3890465c896e1cc48531e5c034c5714fcbed5e35cce54",
+            5
+          ]
+        ],
+        "turns": 1000,
+        "engine_actions": 2629,
+        "own_points": 3,
+        "opponent_public_points": 6,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000014,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 6,
+      "engine_actions": 2498,
+      "decisions": 1396,
+      "seconds": 1.8982336429999123,
+      "inference_seconds": 0.5415782250192933,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 4,
+            "BUILD_ROAD": 11,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 81,
+            "MARITIME_TRADE": 188,
+            "DISCARD_RESOURCE": 111,
+            "BUY_DEVELOPMENT_CARD": 3
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 13,
+            "ROLL": 500,
+            "END_TURN": 500,
+            "MOVE_ROBBER": 60,
+            "MARITIME_TRADE": 27
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.35744985673352436,
+          "opponent": 0.4537205081669691
+        },
+        "maritime_trades": {
+          "learner": 188,
+          "opponent": 27
+        },
+        "repeated_public_own_hand_states": 483,
+        "unique_public_own_hand_states": 913,
+        "max_state_visits": 14,
+        "most_repeated_state_hashes": [
+          [
+            "edd8bf0627e66b9e07c393c536f430d7c579c1ffaeb5245e014b479d611c7857",
+            14
+          ],
+          [
+            "f7b4dfaf81ee9283550257ad819753c7d59b03511350581217f10fddcd42c3fe",
+            10
+          ],
+          [
+            "d6a5a63f490384f77f9d305555b3fb1fc64d5b10a5693f1d12a7c9a49d297093",
+            8
+          ],
+          [
+            "97e0f23220a91326c84f0e96768b7ec0417e358bc0cce63aa1fc496a0101435c",
+            8
+          ],
+          [
+            "495a1136be1b13dba18dfcfce4c3b1b7b8bfad6b92767650cdc4cb4246d2e3ba",
+            6
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2498,
+        "own_points": 6,
+        "opponent_public_points": 2,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000014,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 785,
+      "decisions": 344,
+      "seconds": 0.4544990599997618,
+      "inference_seconds": 0.12969999901361007,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000014,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 805,
+      "decisions": 367,
+      "seconds": 0.5097226849993604,
+      "inference_seconds": 0.14484532299411512,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000015,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 6,
+      "engine_actions": 627,
+      "decisions": 301,
+      "seconds": 0.4143384190001598,
+      "inference_seconds": 0.11485127800187911,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000015,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 628,
+      "decisions": 327,
+      "seconds": 0.4233462779993715,
+      "inference_seconds": 0.12212104200443719,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000015,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1185,
+      "decisions": 642,
+      "seconds": 1.071320809000099,
+      "inference_seconds": 0.2880083220125016,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000015,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 796,
+      "decisions": 434,
+      "seconds": 0.8329582520000258,
+      "inference_seconds": 0.2070682079938706,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000015,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 861,
+      "decisions": 413,
+      "seconds": 0.8308936289995472,
+      "inference_seconds": 0.2007875179824623,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000015,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 860,
+      "decisions": 412,
+      "seconds": 0.6879732340003102,
+      "inference_seconds": 0.18910490999314788,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000016,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "engine_actions": 835,
+      "decisions": 455,
+      "seconds": 0.586917096000434,
+      "inference_seconds": 0.17061849900346715,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000016,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 8,
+      "engine_actions": 2688,
+      "decisions": 1500,
+      "seconds": 2.0090485299997454,
+      "inference_seconds": 0.5713255049677173,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 4,
+            "BUILD_ROAD": 11,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 85,
+            "MARITIME_TRADE": 216,
+            "BUY_DEVELOPMENT_CARD": 17,
+            "PLAY_YEAR_OF_PLENTY": 1,
+            "DISCARD_RESOURCE": 167,
+            "BUILD_CITY": 1
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 2,
+            "BUILD_ROAD": 13,
+            "ROLL": 500,
+            "MARITIME_TRADE": 69,
+            "END_TURN": 500,
+            "MOVE_ROBBER": 86,
+            "BUY_DEVELOPMENT_CARD": 8,
+            "PLAY_YEAR_OF_PLENTY": 1,
+            "PLAY_KNIGHT_CARD": 5,
+            "DISCARD_RESOURCE": 4
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.33266666666666667,
+          "opponent": 0.4208754208754209
+        },
+        "maritime_trades": {
+          "learner": 216,
+          "opponent": 69
+        },
+        "repeated_public_own_hand_states": 468,
+        "unique_public_own_hand_states": 1032,
+        "max_state_visits": 6,
+        "most_repeated_state_hashes": [
+          [
+            "ce52e9bd114998143f0640d6ab8e9801afff0febc3e89ce91b26c3ab76705f2d",
+            6
+          ],
+          [
+            "815c482a431134250af263a09c3b1d42146955c55677d03d8333189102dd99d5",
+            6
+          ],
+          [
+            "097022882a00511192663dc2defb06e27201da6a87c75e64ba72e1df8dbddb17",
+            6
+          ],
+          [
+            "4e13b8c8ca6456d6fd96eb8b8113e124cbc06036cd14120483edced45de28375",
+            6
+          ],
+          [
+            "5fdf7a62e28073043f771781375fc563e991e789846766188fbbb2f3560ebbac",
+            6
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2688,
+        "own_points": 8,
+        "opponent_public_points": 6,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000016,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 849,
+      "decisions": 445,
+      "seconds": 0.5906553869999698,
+      "inference_seconds": 0.17190727299657738,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000016,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1098,
+      "decisions": 591,
+      "seconds": 0.7952173499998025,
+      "inference_seconds": 0.23280341198733367,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000016,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1812,
+      "decisions": 835,
+      "seconds": 1.1059985790006976,
+      "inference_seconds": 0.31930293799814535,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000016,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 11,
+      "engine_actions": 2528,
+      "decisions": 1189,
+      "seconds": 1.5679979959995762,
+      "inference_seconds": 0.4544251670013182,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000017,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 5,
+      "engine_actions": 605,
+      "decisions": 305,
+      "seconds": 0.4245178989995111,
+      "inference_seconds": 0.12098942099873966,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000017,
+      "seat": 1,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 2196,
+      "decisions": 1201,
+      "seconds": 1.647503856000185,
+      "inference_seconds": 0.47347839500980626,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000017,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 3,
+      "engine_actions": 363,
+      "decisions": 174,
+      "seconds": 0.23589034500037087,
+      "inference_seconds": 0.0660955669991381,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000017,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1104,
+      "decisions": 538,
+      "seconds": 0.7718368499999997,
+      "inference_seconds": 0.2207886710029925,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000017,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 9,
+      "engine_actions": 1665,
+      "decisions": 770,
+      "seconds": 1.5873355140001877,
+      "inference_seconds": 0.3834202000089135,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000017,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 4,
+      "engine_actions": 429,
+      "decisions": 193,
+      "seconds": 0.39990731600028084,
+      "inference_seconds": 0.0969517470075516,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000018,
+      "seat": 0,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1149,
+      "decisions": 610,
+      "seconds": 1.0124098030000823,
+      "inference_seconds": 0.2740165079885628,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000018,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 7,
+      "engine_actions": 1202,
+      "decisions": 634,
+      "seconds": 0.8782318710000254,
+      "inference_seconds": 0.24564649900730728,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000018,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1094,
+      "decisions": 632,
+      "seconds": 0.8491336460001548,
+      "inference_seconds": 0.24374936199637887,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000018,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "engine_actions": 748,
+      "decisions": 388,
+      "seconds": 0.5329222749996916,
+      "inference_seconds": 0.1486876460030544,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000018,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1282,
+      "decisions": 640,
+      "seconds": 0.8875181519997568,
+      "inference_seconds": 0.25168499900610186,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000018,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1061,
+      "decisions": 504,
+      "seconds": 0.7243859579994023,
+      "inference_seconds": 0.20295855100357585,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000019,
+      "seat": 0,
+      "opponent": "random",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 907,
+      "decisions": 505,
+      "seconds": 0.6666118329994788,
+      "inference_seconds": 0.19163241800015385,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000019,
+      "seat": 1,
+      "opponent": "random",
+      "reward": -1,
+      "win": false,
+      "loss": true,
+      "terminal": true,
+      "truncated": false,
+      "points": 8,
+      "engine_actions": 1673,
+      "decisions": 905,
+      "seconds": 1.2494348139998692,
+      "inference_seconds": 0.35359347997837176,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000019,
+      "seat": 0,
+      "opponent": "weighted",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 567,
+      "decisions": 313,
+      "seconds": 0.42132724600014626,
+      "inference_seconds": 0.11994084900288726,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000019,
+      "seat": 1,
+      "opponent": "weighted",
+      "reward": 0,
+      "win": false,
+      "loss": false,
+      "terminal": false,
+      "truncated": true,
+      "points": 9,
+      "engine_actions": 2925,
+      "decisions": 1534,
+      "seconds": 2.0803831580005863,
+      "inference_seconds": 0.5885105050165294,
+      "illegal_actions": 0,
+      "diagnostic": {
+        "action_type_counts": {
+          "learner": {
+            "BUILD_SETTLEMENT": 3,
+            "BUILD_ROAD": 7,
+            "ROLL": 499,
+            "END_TURN": 499,
+            "MOVE_ROBBER": 100,
+            "MARITIME_TRADE": 158,
+            "DISCARD_RESOURCE": 247,
+            "BUY_DEVELOPMENT_CARD": 18,
+            "PLAY_MONOPOLY": 1,
+            "BUILD_CITY": 1,
+            "PLAY_YEAR_OF_PLENTY": 1
+          },
+          "opponent": {
+            "BUILD_SETTLEMENT": 5,
+            "BUILD_ROAD": 15,
+            "ROLL": 500,
+            "END_TURN": 500,
+            "MARITIME_TRADE": 238,
+            "MOVE_ROBBER": 99,
+            "BUY_DEVELOPMENT_CARD": 7,
+            "PLAY_ROAD_BUILDING": 1,
+            "PLAY_KNIGHT_CARD": 5,
+            "PLAY_YEAR_OF_PLENTY": 1,
+            "DISCARD_RESOURCE": 20
+          }
+        },
+        "end_turn_frequency": {
+          "learner": 0.32529335071707954,
+          "opponent": 0.35945363048166784
+        },
+        "maritime_trades": {
+          "learner": 158,
+          "opponent": 238
+        },
+        "repeated_public_own_hand_states": 557,
+        "unique_public_own_hand_states": 977,
+        "max_state_visits": 8,
+        "most_repeated_state_hashes": [
+          [
+            "59311238b998069d682e8c49e862f77ae3428ef555212f568b7e135b7a27a8d5",
+            8
+          ],
+          [
+            "5c894f3a8ef06cfd6b95cf63c805126581031531320b393f23afbdf80e0f5b1d",
+            7
+          ],
+          [
+            "53b97b4a2db356420374a89c02503ce283a6c12d2e36388e7dcfcef757db41d5",
+            7
+          ],
+          [
+            "e5660b356372a0ce3aeb7c24e8ba1bb387886a1205e0b54aa2940d789fa4e6ad",
+            7
+          ],
+          [
+            "59d6b5bea60715a71bfe4f0af439697404ddd5228c2619b0b4db593cffe1ac4a",
+            7
+          ]
+        ],
+        "turns": 1001,
+        "engine_actions": 2925,
+        "own_points": 9,
+        "opponent_public_points": 9,
+        "turn_limit_reached": true,
+        "action_limit_reached": false
+      }
+    },
+    {
+      "board_seed": 2100000019,
+      "seat": 0,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 1151,
+      "decisions": 482,
+      "seconds": 0.6526099009997779,
+      "inference_seconds": 0.18408882101721247,
+      "illegal_actions": 0
+    },
+    {
+      "board_seed": 2100000019,
+      "seat": 1,
+      "opponent": "heuristic",
+      "reward": 1,
+      "win": true,
+      "loss": false,
+      "terminal": true,
+      "truncated": false,
+      "points": 10,
+      "engine_actions": 918,
+      "decisions": 373,
+      "seconds": 0.5034665929997573,
+      "inference_seconds": 0.1420818459973816,
+      "illegal_actions": 0
+    }
+  ],
+  "seed_start": 2100000000,
+  "boards_target": 20,
+  "checkpoint_sha256": "5b11488cc9119e0bfaf8cb3f81fb315301f9ddd41c526de5d1c7f95fa12042b7",
+  "wall_seconds": 126.80625224113464,
+  "complete": true
+}

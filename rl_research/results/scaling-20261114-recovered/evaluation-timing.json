@@ -1,0 +1,23 @@
+{
+  "mlp128": {
+    "seconds_per_game": 1.1393193096666512,
+    "fresh_weak_and_pilot_seconds_per_game": [
+      1.1393193096666512,
+      0.8639230386666744
+    ]
+  },
+  "mlp512": {
+    "seconds_per_game": 1.065453664083331,
+    "fresh_weak_and_pilot_seconds_per_game": [
+      0.803767097250026,
+      1.065453664083331
+    ]
+  },
+  "graph": {
+    "seconds_per_game": 1.7981859137500276,
+    "fresh_weak_and_pilot_seconds_per_game": [
+      1.7981859137500276,
+      1.2295066369166534
+    ]
+  }
+}

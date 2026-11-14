@@ -1,0 +1,5 @@
+{
+  "phase": "fatal",
+  "time": 1794620182.6300728,
+  "traceback": "Traceback (most recent call last):\n  File \"/content/experiment/sc_remote.py\", line 182, in <module>\n    try:main(a.out,a.deadline)\n        ~~~~^^^^^^^^^^^^^^^^^^\n  File \"/content/experiment/sc_remote.py\", line 116, in main\n    status(out,'calibration');pilots,timing=calibration(out,deadline)\n                                            ~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"/content/experiment/sc_remote.py\", line 61, in calibration\n    wait_batch(out,probes,limit)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"/content/experiment/sc_remote.py\", line 37, in wait_batch\n    if any(p.returncode!=0 for p in processes):raise RuntimeError('INTEGRITY: worker failure; inspect bounded worker logs')\n                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: INTEGRITY: worker failure; inspect bounded worker logs\n"
+}

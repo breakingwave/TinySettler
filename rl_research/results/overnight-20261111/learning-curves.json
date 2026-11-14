@@ -1,0 +1,212 @@
+[
+  {
+    "run": "ddqn-256-104729",
+    "n": 217088,
+    "elapsed_seconds": 884.487812419,
+    "win_rate": 0.6666666666666666,
+    "terminal_frequency": 0.0024137676886792454
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 323584,
+    "elapsed_seconds": 1346.2076316939992,
+    "win_rate": 0.08333333333333333,
+    "terminal_frequency": 0.0024074119857594935
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 0,
+    "elapsed_seconds": 5.290003173286095e-07,
+    "win_rate": 0.0,
+    "terminal_frequency": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 434176,
+    "elapsed_seconds": 1816.5773220929987,
+    "win_rate": 0.5,
+    "terminal_frequency": 0.002326245577830189
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 106496,
+    "elapsed_seconds": 427.83910468700014,
+    "win_rate": 0.3333333333333333,
+    "terminal_frequency": 0.002422626201923077
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 217088,
+    "elapsed_seconds": 933.9162407989998,
+    "win_rate": 0.25,
+    "terminal_frequency": 0.00242298054245283
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 323584,
+    "elapsed_seconds": 1378.3877128060003,
+    "win_rate": 0.5,
+    "terminal_frequency": 0.002385779272151899
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 0,
+    "elapsed_seconds": 7.700000423938036e-07,
+    "win_rate": 0.0,
+    "terminal_frequency": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 434176,
+    "elapsed_seconds": 1841.5267756839994,
+    "win_rate": 0.5,
+    "terminal_frequency": 0.0023423680719339623
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 106496,
+    "elapsed_seconds": 434.4988513729995,
+    "win_rate": 0.5,
+    "terminal_frequency": 0.002422626201923077
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 217088,
+    "elapsed_seconds": 583.6249469790001,
+    "win_rate": 0.8333333333333334,
+    "terminal_frequency": 0.003054061025943396
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 323584,
+    "elapsed_seconds": 872.204881168,
+    "win_rate": 0.9166666666666666,
+    "terminal_frequency": 0.0033870648734177214
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 0,
+    "elapsed_seconds": 7.930000265332637e-07,
+    "win_rate": 0.0,
+    "terminal_frequency": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 434176,
+    "elapsed_seconds": 1170.4311521110003,
+    "win_rate": 0.75,
+    "terminal_frequency": 0.0035861033313679246
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 106496,
+    "elapsed_seconds": 285.2195828790001,
+    "win_rate": 0.8333333333333334,
+    "terminal_frequency": 0.002497746394230769
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 217088,
+    "elapsed_seconds": 590.274328212,
+    "win_rate": 0.9166666666666666,
+    "terminal_frequency": 0.0029849646226415096
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 323584,
+    "elapsed_seconds": 874.5974302479999,
+    "win_rate": 0.8333333333333334,
+    "terminal_frequency": 0.003229455102848101
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 0,
+    "elapsed_seconds": 7.359999472100753e-07,
+    "win_rate": 0.25,
+    "terminal_frequency": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 434176,
+    "elapsed_seconds": 1176.510267623,
+    "win_rate": 0.9166666666666666,
+    "terminal_frequency": 0.0033696012676886792
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 106496,
+    "elapsed_seconds": 292.4698602190001,
+    "win_rate": 1.0,
+    "terminal_frequency": 0.0025540865384615385
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 217088,
+    "elapsed_seconds": 589.0826039680001,
+    "win_rate": 0.8333333333333334,
+    "terminal_frequency": 0.003316627358490566
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 323584,
+    "elapsed_seconds": 877.302804729,
+    "win_rate": 0.8333333333333334,
+    "terminal_frequency": 0.0034921380537974683
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 0,
+    "elapsed_seconds": 6.469999789260328e-07,
+    "win_rate": 0.0,
+    "terminal_frequency": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 434176,
+    "elapsed_seconds": 1175.7930854710003,
+    "win_rate": 0.9166666666666666,
+    "terminal_frequency": 0.0036390772405660377
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 106496,
+    "elapsed_seconds": 288.3212458760004,
+    "win_rate": 0.8333333333333334,
+    "terminal_frequency": 0.0028170072115384615
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 217088,
+    "elapsed_seconds": 583.9554192630003,
+    "win_rate": 0.3333333333333333,
+    "terminal_frequency": 0.0028744103773584904
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 323584,
+    "elapsed_seconds": 870.4147645880003,
+    "win_rate": 0.25,
+    "terminal_frequency": 0.0031089299841772153
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 0,
+    "elapsed_seconds": 5.680003596353345e-07,
+    "win_rate": 0.0,
+    "terminal_frequency": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 434176,
+    "elapsed_seconds": 1167.5063641770003,
+    "win_rate": 0.6666666666666666,
+    "terminal_frequency": 0.0032912920106132077
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 106496,
+    "elapsed_seconds": 286.2724788080004,
+    "win_rate": 0.5833333333333334,
+    "terminal_frequency": 0.002582256610576923
+  }
+]

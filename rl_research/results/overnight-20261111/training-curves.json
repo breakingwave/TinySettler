@@ -1,0 +1,1892 @@
+[
+  {
+    "run": "ddqn-256-104729",
+    "n": 19597,
+    "win_rate": 0.48,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 29290,
+    "win_rate": 0.42,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 38660,
+    "win_rate": 0.44,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 49487,
+    "win_rate": 0.48,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 58684,
+    "win_rate": 0.56,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 68535,
+    "win_rate": 0.62,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 79180,
+    "win_rate": 0.5,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 90183,
+    "win_rate": 0.48,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 101722,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 112430,
+    "win_rate": 0.48,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 123035,
+    "win_rate": 0.52,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 133472,
+    "win_rate": 0.62,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 144398,
+    "win_rate": 0.6,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 152647,
+    "win_rate": 0.58,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 163003,
+    "win_rate": 0.62,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 172244,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 182306,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 192355,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 204560,
+    "win_rate": 0.66,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 215977,
+    "win_rate": 0.7,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 225240,
+    "win_rate": 0.62,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 232886,
+    "win_rate": 0.46,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 243000,
+    "win_rate": 0.46,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 253553,
+    "win_rate": 0.48,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 264860,
+    "win_rate": 0.5,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 274668,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 285564,
+    "win_rate": 0.58,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 299101,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 310271,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 319719,
+    "win_rate": 0.58,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 330481,
+    "win_rate": 0.54,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 342705,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 354159,
+    "win_rate": 0.56,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 365730,
+    "win_rate": 0.48,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 378840,
+    "win_rate": 0.44,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 390527,
+    "win_rate": 0.4,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 401731,
+    "win_rate": 0.46,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 409883,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-104729",
+    "n": 423181,
+    "win_rate": 0.58,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 20786,
+    "win_rate": 0.5,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 29748,
+    "win_rate": 0.42,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 39514,
+    "win_rate": 0.4,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 49782,
+    "win_rate": 0.38,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 62573,
+    "win_rate": 0.38,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 74335,
+    "win_rate": 0.5,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 85028,
+    "win_rate": 0.56,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 93969,
+    "win_rate": 0.44,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 103020,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 111837,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 121528,
+    "win_rate": 0.62,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 131866,
+    "win_rate": 0.6,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 142157,
+    "win_rate": 0.54,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 153003,
+    "win_rate": 0.48,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 164705,
+    "win_rate": 0.56,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 174381,
+    "win_rate": 0.56,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 184290,
+    "win_rate": 0.4,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 193668,
+    "win_rate": 0.46,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 205092,
+    "win_rate": 0.54,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 214246,
+    "win_rate": 0.58,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 226500,
+    "win_rate": 0.58,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 236518,
+    "win_rate": 0.58,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 245524,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 257353,
+    "win_rate": 0.46,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 267850,
+    "win_rate": 0.58,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 277114,
+    "win_rate": 0.54,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 287649,
+    "win_rate": 0.46,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 299469,
+    "win_rate": 0.46,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 310760,
+    "win_rate": 0.5,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 320169,
+    "win_rate": 0.56,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 330430,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 339960,
+    "win_rate": 0.4,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 352822,
+    "win_rate": 0.48,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 366109,
+    "win_rate": 0.64,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 376046,
+    "win_rate": 0.62,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 383865,
+    "win_rate": 0.58,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 394471,
+    "win_rate": 0.68,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 407263,
+    "win_rate": 0.58,
+    "truncation_rate": 0.06
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 417746,
+    "win_rate": 0.42,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ddqn-256-130363",
+    "n": 428891,
+    "win_rate": 0.5,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 22262,
+    "win_rate": 0.38,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 33557,
+    "win_rate": 0.4,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 42181,
+    "win_rate": 0.5,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 51350,
+    "win_rate": 0.56,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 62221,
+    "win_rate": 0.56,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 72772,
+    "win_rate": 0.62,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 83164,
+    "win_rate": 0.62,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 93057,
+    "win_rate": 0.62,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 101016,
+    "win_rate": 0.66,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 108685,
+    "win_rate": 0.74,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 117995,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 125223,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 132994,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 140011,
+    "win_rate": 0.78,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 147458,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 154336,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 160641,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 167110,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 174224,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 180005,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 185946,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 192912,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 200056,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 206709,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 213544,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 219733,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 225861,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 232861,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 238783,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 245549,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 251672,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 257271,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 263173,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 269782,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 275529,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 281981,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 287954,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 294926,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 300451,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 306370,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 312252,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 318097,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 324126,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 330672,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 336591,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 342655,
+    "win_rate": 0.98,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 348359,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 354680,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 360105,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 366609,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 372003,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 378751,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 384003,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 389935,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 395446,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 401496,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 407786,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 414215,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 420301,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 425817,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-104729",
+    "n": 431952,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 21853,
+    "win_rate": 0.46,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 30885,
+    "win_rate": 0.5,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 41130,
+    "win_rate": 0.52,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 51452,
+    "win_rate": 0.6,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 61137,
+    "win_rate": 0.64,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 71455,
+    "win_rate": 0.68,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 81682,
+    "win_rate": 0.8,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 90434,
+    "win_rate": 0.82,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 98472,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 106876,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 114217,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 121647,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 128457,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 136707,
+    "win_rate": 0.78,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 143911,
+    "win_rate": 0.82,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 151929,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 159820,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 167735,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 175642,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 182275,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 188963,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 196072,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 202022,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 211070,
+    "win_rate": 0.76,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 217056,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 223929,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 230220,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 237087,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 244348,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 250726,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 256982,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 264088,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 270411,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 276619,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 284134,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 291187,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 297378,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 303542,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 309933,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 318062,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 324376,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 331155,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 337528,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 344689,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 351714,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 358056,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 365106,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 371670,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 378435,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 386792,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 393788,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 399735,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 406111,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 412174,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 418351,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 424525,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-128-130363",
+    "n": 430128,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 20659,
+    "win_rate": 0.4,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 30240,
+    "win_rate": 0.44,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 39613,
+    "win_rate": 0.54,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 48713,
+    "win_rate": 0.64,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 58049,
+    "win_rate": 0.72,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 67863,
+    "win_rate": 0.78,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 75886,
+    "win_rate": 0.76,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 84250,
+    "win_rate": 0.78,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 91495,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 98317,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 105814,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 113563,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 121165,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 128304,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 134287,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 140882,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 146631,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 153021,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 160263,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 166117,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 173219,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 179482,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 185702,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 192819,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 198872,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 205056,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 210964,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 217581,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 223867,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 230626,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 236760,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 242749,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 248079,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 254943,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 262158,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 268357,
+    "win_rate": 0.98,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 275395,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 281648,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 287751,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 294251,
+    "win_rate": 0.98,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 300515,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 307647,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 315390,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 321819,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 328891,
+    "win_rate": 0.8,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 334836,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 341146,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 347597,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 353598,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 359951,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 365548,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 371361,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 376830,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 381837,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 387247,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 393468,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 400762,
+    "win_rate": 0.96,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 407152,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 412588,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 418550,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 425523,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-104729",
+    "n": 432144,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 20613,
+    "win_rate": 0.44,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 29819,
+    "win_rate": 0.4,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 41259,
+    "win_rate": 0.46,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 51521,
+    "win_rate": 0.56,
+    "truncation_rate": 0.04
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 62569,
+    "win_rate": 0.72,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 71322,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 79036,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 89209,
+    "win_rate": 0.8,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 97266,
+    "win_rate": 0.86,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 105189,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 114485,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 123705,
+    "win_rate": 0.84,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 131673,
+    "win_rate": 0.8,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 139783,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 145956,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 152623,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 161487,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 168925,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 177703,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 184540,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 192669,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 199825,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 208383,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 216193,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 222622,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 230117,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 237499,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 244100,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 250656,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 256916,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 264722,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 272081,
+    "win_rate": 0.94,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 279997,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 286343,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 292515,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 300674,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 307530,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 314035,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 320488,
+    "win_rate": 0.82,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 328448,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 335055,
+    "win_rate": 0.9,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 343099,
+    "win_rate": 0.88,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 349131,
+    "win_rate": 0.92,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 354848,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 361267,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 367655,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 374165,
+    "win_rate": 0.9,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 378917,
+    "win_rate": 0.86,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 385036,
+    "win_rate": 0.84,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 393775,
+    "win_rate": 0.86,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 399755,
+    "win_rate": 0.86,
+    "truncation_rate": 0.02
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 405795,
+    "win_rate": 0.88,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 412336,
+    "win_rate": 0.92,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 418101,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 424050,
+    "win_rate": 0.78,
+    "truncation_rate": 0.0
+  },
+  {
+    "run": "ppo-256-130363",
+    "n": 430848,
+    "win_rate": 0.86,
+    "truncation_rate": 0.0
+  }
+]

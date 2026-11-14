@@ -1,0 +1,11 @@
+catan-universe.png
+Official CATAN Universe gameplay screenshot, 1920 x 1080.
+Source page: https://www.catan.com/catan-universe
+Original asset: https://www.catan.com/sites/default/files/2021-05/CATAN_Universe_Screen1.png
+Credit: CATAN / USM, official promotional screenshot. Retrieved 2026-11-05.
+
+catanatron.png
+Upstream Catanatron web UI screenshot, 1100 x 1054.
+Source page: https://github.com/bcollazo/catanatron
+Original asset: https://raw.githubusercontent.com/bcollazo/catanatron/main/docs/source/_static/CatanatronUI.png
+Credit: bcollazo/catanatron. Repository GPL-3.0 license. Retrieved 2026-11-05.

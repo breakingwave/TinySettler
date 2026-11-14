@@ -1,0 +1,19 @@
+{
+  "observation_version": "actor-relative-v2",
+  "activation": "Tanh",
+  "encoder": "two shared fully connected hidden layers; separate linear action and scalar value heads",
+  "dtype": "float32",
+  "initialization": "torch.nn.Linear default reset_parameters (PyTorch 2.9.1)",
+  "optimizer": {"name": "Adam", "betas": [0.9, 0.999], "eps": 1e-8, "weight_decay": 0, "amsgrad": false},
+  "observation_normalization": "none beyond explicit edge endpoint /53 and turn /1000 features",
+  "reward_normalization": false,
+  "gradient_accumulation": false,
+  "mixed_precision": false,
+  "inference_batch_size": 1,
+  "torch_cpu_threads": 1,
+  "ppo": {"shared_actor_critic_body": true, "value_clipping": false, "advantage_normalization": "whole rollout; population standard deviation plus 1e-8", "minibatch_order": "new torch.randperm each epoch", "kl_early_stopping": false, "learning_rate_schedule": "constant", "rollout_masks_reused": true},
+  "ddqn": {"replay_sampling": "uniform without replacement within minibatch", "prioritized_replay": false, "target_updates": "hard copy every 1000 optimizer updates, after online update", "exploration": "uniform among legal actions; linear epsilon by learner transition count", "bootstrap": "masked online argmax evaluated by target network; bootstrap through administrative truncations", "unused_head": "the shared architecture includes a scalar value head unused by DDQN (257 parameters at width 256)", "learning_rate_schedule": "constant"},
+  "evaluation_policy": "deterministic masked argmax for both algorithms",
+  "validation_selection": "maximum mean terminal reward across validation rows, ties prefer earlier transition checkpoint",
+  "reproducibility_scope": "pinned libraries, game and policy RNG states and seeds; no cross-hardware bitwise determinism guarantee; PYTHONHASHSEED was not explicitly set for the executed runs"
+}

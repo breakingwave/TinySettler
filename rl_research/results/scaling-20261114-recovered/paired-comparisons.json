@@ -1,0 +1,278 @@
+{
+  "self_play_128": {
+    "heuristic_family": {
+      "terms": {
+        "B": 1,
+        "A": -1
+      },
+      "seeds": [
+        400009,
+        400031,
+        400033
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "base",
+        "contender"
+      ],
+      "mode": "sampled",
+      "difference": 0.008333333333333333,
+      "per_seed": {
+        "400009": 0.0375,
+        "400031": -0.0125,
+        "400033": 0.0
+      },
+      "board_only_95": [
+        -0.020833333333333332,
+        0.041666666666666664
+      ],
+      "crossed_seed_board_95": [
+        -0.0375,
+        0.058333333333333334
+      ],
+      "draws": 10000
+    },
+    "heldout_neural": {
+      "terms": {
+        "B": 1,
+        "A": -1
+      },
+      "seeds": [
+        400009,
+        400031,
+        400033
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "heldout"
+      ],
+      "mode": "sampled",
+      "difference": 0.05,
+      "per_seed": {
+        "400009": 0.225,
+        "400031": -0.05,
+        "400033": -0.025
+      },
+      "board_only_95": [
+        -0.058333333333333334,
+        0.15833333333333333
+      ],
+      "crossed_seed_board_95": [
+        -0.13333333333333333,
+        0.275
+      ],
+      "draws": 10000
+    }
+  },
+  "capacity_static": {
+    "heuristic_family": {
+      "terms": {
+        "C": 1,
+        "A": -1
+      },
+      "seeds": [
+        400009,
+        400031
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "base",
+        "contender"
+      ],
+      "mode": "sampled",
+      "difference": 0.0375,
+      "per_seed": {
+        "400009": 0.05,
+        "400031": 0.025
+      },
+      "board_only_95": [
+        0.0,
+        0.08125
+      ],
+      "crossed_seed_board_95": [
+        -0.0125,
+        0.0875
+      ],
+      "draws": 10000
+    },
+    "heldout_neural": {
+      "terms": {
+        "C": 1,
+        "A": -1
+      },
+      "seeds": [
+        400009,
+        400031
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "heldout"
+      ],
+      "mode": "sampled",
+      "difference": 0.175,
+      "per_seed": {
+        "400009": 0.3,
+        "400031": 0.05
+      },
+      "board_only_95": [
+        0.025,
+        0.325
+      ],
+      "crossed_seed_board_95": [
+        -0.075,
+        0.425
+      ],
+      "draws": 10000
+    }
+  },
+  "capacity_refresh": {
+    "heuristic_family": {
+      "terms": {
+        "D": 1,
+        "B": -1
+      },
+      "seeds": [
+        400009,
+        400031
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "base",
+        "contender"
+      ],
+      "mode": "sampled",
+      "difference": 0.0125,
+      "per_seed": {
+        "400009": -0.0375,
+        "400031": 0.0625
+      },
+      "board_only_95": [
+        -0.0125,
+        0.04375
+      ],
+      "crossed_seed_board_95": [
+        -0.0625,
+        0.1
+      ],
+      "draws": 10000
+    },
+    "heldout_neural": {
+      "terms": {
+        "D": 1,
+        "B": -1
+      },
+      "seeds": [
+        400009,
+        400031
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "heldout"
+      ],
+      "mode": "sampled",
+      "difference": 0.025,
+      "per_seed": {
+        "400009": 0.025,
+        "400031": 0.025
+      },
+      "board_only_95": [
+        -0.1375,
+        0.1875
+      ],
+      "crossed_seed_board_95": [
+        -0.175,
+        0.225
+      ],
+      "draws": 10000
+    }
+  },
+  "structure_static": {
+    "inconclusive": true,
+    "reason": "omitted before outcomes by calibrated scope"
+  },
+  "structure_refresh": {
+    "inconclusive": true,
+    "reason": "omitted before outcomes by calibrated scope"
+  },
+  "teacher": {
+    "inconclusive": true,
+    "reason": "omitted before outcomes by calibrated scope"
+  },
+  "capacity_selfplay_interaction": {
+    "heuristic_family": {
+      "terms": {
+        "D": 1,
+        "C": -1,
+        "B": -1,
+        "A": 1
+      },
+      "seeds": [
+        400009,
+        400031
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "base",
+        "contender"
+      ],
+      "mode": "sampled",
+      "difference": -0.025,
+      "per_seed": {
+        "400009": -0.0875,
+        "400031": 0.0375
+      },
+      "board_only_95": [
+        -0.08125,
+        0.03125
+      ],
+      "crossed_seed_board_95": [
+        -0.125,
+        0.0875
+      ],
+      "draws": 10000
+    },
+    "heldout_neural": {
+      "terms": {
+        "D": 1,
+        "C": -1,
+        "B": -1,
+        "A": 1
+      },
+      "seeds": [
+        400009,
+        400031
+      ],
+      "boards": 20,
+      "excluded_board_count": 0,
+      "opponents": [
+        "heldout"
+      ],
+      "mode": "sampled",
+      "difference": -0.15,
+      "per_seed": {
+        "400009": -0.275,
+        "400031": -0.025
+      },
+      "board_only_95": [
+        -0.3625,
+        0.0875
+      ],
+      "crossed_seed_board_95": [
+        -0.475,
+        0.175
+      ],
+      "draws": 10000
+    }
+  },
+  "structure_selfplay_interaction": {
+    "inconclusive": true,
+    "reason": "omitted before outcomes by calibrated scope"
+  }
+}

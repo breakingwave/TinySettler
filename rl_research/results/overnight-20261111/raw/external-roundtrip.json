@@ -1,0 +1,7 @@
+{
+  "checkpoint_transitions": 323584,
+  "sha256": "78b88a193d689e022cb13164337abba91c1d5e8b33c700c4a194cb1bb856849d",
+  "external_upload": true,
+  "cuda_next_transition_matches": true,
+  "resumed_update_passed": true
+}

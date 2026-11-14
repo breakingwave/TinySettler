@@ -1,0 +1,1098 @@
+{
+  "checkpoints": [
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/external-probe.pt",
+      "sha256": "115a4b9ae820a3325cadda9566166ada247f927fef3f38ffaa3a927c78ca9455",
+      "bytes": 45907287
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/319488.pt",
+      "sha256": "6f34b206c7f4d5abdbd67136b25e8cde562d5614b32bd1ae6fa21731a1695fed",
+      "bytes": 31439901
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/106496.pt",
+      "sha256": "ac393169b98d3427b5ea5bb6de227fadd96e66480be6c6ebf67187b7536468f8",
+      "bytes": 16400165
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/425984.pt",
+      "sha256": "e3d5466d14fe8c7894e905535991901625b78f602b90dde8d4621bc1fe09ae30",
+      "bytes": 42610557
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/latest.pt",
+      "sha256": "e3d5466d14fe8c7894e905535991901625b78f602b90dde8d4621bc1fe09ae30",
+      "bytes": 42610557
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/0.pt",
+      "sha256": "32634a0eafe05bc91da833389a7bdc8436aac5337ec1ed6b24030a3a84972e6d",
+      "bytes": 3607813
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/212992.pt",
+      "sha256": "ca537966c6407f1ba565d25e4e4d82991631e8cac65889c1e530e7a7097635d1",
+      "bytes": 25878837
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/319488.pt",
+      "sha256": "4efcfba6667d8bd3684c8ff670057fc1e6e88a347f8586d88e543929fb6e28c2",
+      "bytes": 13768109
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/106496.pt",
+      "sha256": "8fb215c306dd072deec8ec5870e534f31e0b09272942e3f062d6fb2f573e30f1",
+      "bytes": 8491573
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/425984.pt",
+      "sha256": "97915144e48875345d114a9d34524c8f169e149281f92911b0d9a834aebf12a5",
+      "bytes": 15089941
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/latest.pt",
+      "sha256": "97915144e48875345d114a9d34524c8f169e149281f92911b0d9a834aebf12a5",
+      "bytes": 15089941
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/0.pt",
+      "sha256": "fbcf6fd4e002950c255f9bb4eb518a193ac3522c4f270813aa50e60bcc8d307d",
+      "bytes": 760261
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/212992.pt",
+      "sha256": "5c310eb23f43e2f8097a6d7cc7a83ac1b6d299e7da7ee227d65ee4ab01f878fc",
+      "bytes": 9526621
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/319488.pt",
+      "sha256": "ede1f137c8f587735b228814592f5b8cbbf958feae18e753eae6524e1540f8f1",
+      "bytes": 33195693
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/106496.pt",
+      "sha256": "611e576a2b441b5bd079f5209fcaf61cf9fa65d6ad69aff587e4a91e84da0119",
+      "bytes": 16315877
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/425984.pt",
+      "sha256": "ea9463061b5d21ad882c699aa78fd2614a4ccec7fb68bd89702948cdfed33aae",
+      "bytes": 42984533
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/latest.pt",
+      "sha256": "ea9463061b5d21ad882c699aa78fd2614a4ccec7fb68bd89702948cdfed33aae",
+      "bytes": 42984533
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/0.pt",
+      "sha256": "42a66125409700ac8a06afe248a69f105d026c1749cc279cf870be21d58ff7b7",
+      "bytes": 3608069
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/212992.pt",
+      "sha256": "149cc89a757fc65d74faaeb72c3318445eaced1874cf9ea8b3499ab335b2fbca",
+      "bytes": 27139717
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/319488.pt",
+      "sha256": "679a90709ba36640f4d8a1f7e64dba21750ca23b79c4dba694e1e6c2e535505d",
+      "bytes": 11828125
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/106496.pt",
+      "sha256": "620057cee0855895268cb39cdd75a03ea6f315f062d6b2792bca2dfef6f71420",
+      "bytes": 8460917
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/425984.pt",
+      "sha256": "c674a5f17216bdc5c6e1a8a4a636586f1afe56c0637ae98bb058a8be5e8020a7",
+      "bytes": 15119981
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/latest.pt",
+      "sha256": "c674a5f17216bdc5c6e1a8a4a636586f1afe56c0637ae98bb058a8be5e8020a7",
+      "bytes": 15119981
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/0.pt",
+      "sha256": "92b4d4064f69d8e186566e4edfe1598c7901416d3980eb28acad59bc7e0b76fe",
+      "bytes": 3341589
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/212992.pt",
+      "sha256": "2b3844e188aa23bb833fd2184689bf4b6ba303e4d7daa09fecf984837b9fa950",
+      "bytes": 11723269
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400031/319488.pt",
+      "sha256": "9307bb1933ae60b21896d7287c2d107557cac11cd8690ea9a767f1994f20bc26",
+      "bytes": 18190333
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400031/106496.pt",
+      "sha256": "1c32181b4ea888c4a4ea72003ca93e29380d2a35a03ae9775b1c5a374871028a",
+      "bytes": 13632829
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400031/425984.pt",
+      "sha256": "2417acbe4a447038022e96826f7d21626a33f5d1787899d2391362f798946cf0",
+      "bytes": 22663309
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400031/latest.pt",
+      "sha256": "2417acbe4a447038022e96826f7d21626a33f5d1787899d2391362f798946cf0",
+      "bytes": 22663309
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400031/0.pt",
+      "sha256": "7586263675e6738ed0028425fa26ad66362c373b88698c00cb06d7bb25ef0bd8",
+      "bytes": 3607813
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400031/212992.pt",
+      "sha256": "6e5d3169bf374b1f404644c86106570015a4dd3117d8bc178415a46a3348d24c",
+      "bytes": 18606221
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/319488.pt",
+      "sha256": "103f895ef79bd90a3e80e194b12e2548e608034293a38cc26c60763187c9644d",
+      "bytes": 11974237
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/106496.pt",
+      "sha256": "b03c5ca173aa6aae425ba3f3c69045891e6241b5979ef875b9bfec482ec33ff9",
+      "bytes": 6004517
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/425984.pt",
+      "sha256": "4831f0b33139c0ed2085c26d7a2707ec837273486e0697ab9412c18962599c45",
+      "bytes": 15731989
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/latest.pt",
+      "sha256": "4831f0b33139c0ed2085c26d7a2707ec837273486e0697ab9412c18962599c45",
+      "bytes": 15731989
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/0.pt",
+      "sha256": "f0c75fdfa53513eed813749fea2982018e99dedc0a1d574ce278404a78c9fe4a",
+      "bytes": 760005
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/212992.pt",
+      "sha256": "7a1508f1a626be1a45371f084b657896b76fa2953c5033a2b26aa6fbb6e553e0",
+      "bytes": 12288901
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400009/319488.pt",
+      "sha256": "919c25bd27bffeb99676d1846db75b03a3b81c61d0af32af2785e0bb598335cc",
+      "bytes": 12301005
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400009/106496.pt",
+      "sha256": "d60be839cb738b3250d3430f1f6e5fb61ca4b5967a04402b096e4f612474b8e7",
+      "bytes": 7941005
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400009/425984.pt",
+      "sha256": "c0a831ab96650011c0de8f48e1aae182229e1b98d2e3d219330318e7fbd9e38e",
+      "bytes": 12096125
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400009/latest.pt",
+      "sha256": "c0a831ab96650011c0de8f48e1aae182229e1b98d2e3d219330318e7fbd9e38e",
+      "bytes": 12096125
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400009/0.pt",
+      "sha256": "652fa8593c746723d354855bb7d0ceb16879b51c7c4aa647956e57c6a803b63a",
+      "bytes": 760261
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400009/212992.pt",
+      "sha256": "8e03e3b78758ee4c75a2bcc75a6e29d0b9cd611e61553700c0aec13b470d5dcf",
+      "bytes": 10071565
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400033/319488.pt",
+      "sha256": "f9494121b1a9d041f12539bf1bf03c80af519f1598b09354ad9f05e46aaba0ed",
+      "bytes": 11178765
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400033/106496.pt",
+      "sha256": "6b63e32e5d4420efc8fa9fd188412ed2878151dbb76faebb0df41053d3f57e29",
+      "bytes": 7897613
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400033/425984.pt",
+      "sha256": "6bea22a1da87636108ccf359dcff9928e54e918f7ebdd77e9d1ac88ab1927655",
+      "bytes": 13669965
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400033/latest.pt",
+      "sha256": "6bea22a1da87636108ccf359dcff9928e54e918f7ebdd77e9d1ac88ab1927655",
+      "bytes": 13669965
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400033/0.pt",
+      "sha256": "f09480932c3640aa0987e29a548505c8253986990450b940b17d049deee2347d",
+      "bytes": 3341589
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400033/212992.pt",
+      "sha256": "9c2b1fd5bafe403ef43435bca34d22b8d94bdff50eb371abea39a5d6f25dea1c",
+      "bytes": 7080637
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400009/319488.pt",
+      "sha256": "b21b00820da68e40d3c9c13999d1f560133c561e36ed18cb2bac6057372d3b0d",
+      "bytes": 18773837
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400009/106496.pt",
+      "sha256": "7785bc27cd1ce4e96f1b861bd056028a5e6329056e5614a9f04c08507bc299f6",
+      "bytes": 15476237
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400009/425984.pt",
+      "sha256": "60e2ba01a0a4a396f3a87d94b491155c9be83d5ec122f4a9d50eb91249b018b0",
+      "bytes": 18645117
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400009/latest.pt",
+      "sha256": "60e2ba01a0a4a396f3a87d94b491155c9be83d5ec122f4a9d50eb91249b018b0",
+      "bytes": 18645117
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400009/0.pt",
+      "sha256": "4b4af5a192303fe256b7cf277095ee87c919c49a667b63b60b47c61a915ab682",
+      "bytes": 3608069
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/C-400009/212992.pt",
+      "sha256": "feba2e11264f4810098f200654087d5d8f45629e278c64508f653f2c600577f8",
+      "bytes": 14679549
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400031/319488.pt",
+      "sha256": "77476d3d007e90e9e9a09d3a7bcc3ab8ba2efad75937e4dd6c5283509d0d5462",
+      "bytes": 11616141
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400031/106496.pt",
+      "sha256": "a3992b4d79959e1a127835b2a4e975e9e22ba4ac24a46175ce59e3b881fc10dd",
+      "bytes": 7861069
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400031/425984.pt",
+      "sha256": "efd978fcb1b02cbc7cbd282d6704d13b13f3a87dfe4eefd32b7fb4e59ca7c8ca",
+      "bytes": 10476989
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400031/latest.pt",
+      "sha256": "efd978fcb1b02cbc7cbd282d6704d13b13f3a87dfe4eefd32b7fb4e59ca7c8ca",
+      "bytes": 10476989
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400031/0.pt",
+      "sha256": "12463a6f82268c0e9a46128df1c552882512c14527fe84964310f9eda94a2a06",
+      "bytes": 760005
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/A-400031/212992.pt",
+      "sha256": "ccc28f484e37901c732eda9b9727723e13c8772d1f8b51a09791230beba0c58a",
+      "bytes": 7076925
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/opponent-snapshots/393216.pt",
+      "sha256": "98842e4e1f7d948b8d8ebc557ba1bf89f87c2237b5712f70853b6d7d66095ad1",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/opponent-snapshots/262144.pt",
+      "sha256": "ea6b6129c319ca4e17ad7890b086603f09a9a18a7ed30f4a3db28698aed1f12e",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/opponent-snapshots/65536.pt",
+      "sha256": "9ae629e297802664519824cf6f7506e200009da0e66e2a0deb30da8a4ce37e6e",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/opponent-snapshots/131072.pt",
+      "sha256": "ec23adada295d35efe5f9d1802f976518e6b80dd0087f5fb93582ea3c3bf047c",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/opponent-snapshots/196608.pt",
+      "sha256": "bd476a99cd4b949d77a101bb4ae56266a5d5f011b9c55b1b4762023558587534",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400031/opponent-snapshots/327680.pt",
+      "sha256": "0fe32203592d1192064170944d6c02a0b7419a75f3bf4ac19fe04aaf5410c4cb",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/opponent-snapshots/393216.pt",
+      "sha256": "6ec5d56681e7581f5caad94b7b01b05a3358e994befa88577b96ce0611ff4411",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/opponent-snapshots/262144.pt",
+      "sha256": "7f58f1fdeb1eceb409837a74f9888389c4a822e40968da75064a83592cdefacd",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/opponent-snapshots/65536.pt",
+      "sha256": "1027d3f169bd8d2213db034b559478459dd55f4c82eac13c32a8d61e0983e6c3",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/opponent-snapshots/131072.pt",
+      "sha256": "b5081bb3f2ec7b78245c43dbc7c44aa1fa772031aa6e7f858b72671816237c6e",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/opponent-snapshots/196608.pt",
+      "sha256": "cdaf7d8b5b07233952d089603c1dab6a5724ac91817a3a896982982c1373d5bd",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400033/opponent-snapshots/327680.pt",
+      "sha256": "e93f4fea6748653866b1691e4ce618da6697d6fcfa57d19e3983d79efee1e891",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/opponent-snapshots/393216.pt",
+      "sha256": "787b3897f35cff1821d8cad09aa957050b026d8f06355004e8e74bf666b5eb53",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/opponent-snapshots/262144.pt",
+      "sha256": "32adfda68c1fd1478dcf7ede25c4253a1f3b3d4f1ca4bdcb09d852f68e1e8e78",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/opponent-snapshots/65536.pt",
+      "sha256": "7b9e6d4317826ad232f65f1a555a8bcbe3eb455d700b155f2b7c46ce43ec0957",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/opponent-snapshots/131072.pt",
+      "sha256": "1146845784c606f62fcbc2010a2853db170d2acaa3a2656b37e7995e8b3c3da0",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/opponent-snapshots/196608.pt",
+      "sha256": "eb04b99bc894a736ced813f43f231901cef51612407e03ab003ada8cd07bb8db",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400009/opponent-snapshots/327680.pt",
+      "sha256": "23aa58515579dd2148c0a23e1d7d44f81f683c4514dc3b58db30d429781213c9",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/opponent-snapshots/393216.pt",
+      "sha256": "2a76e05243ed62da2228c0a4c0501253487a15f07ab9a2de377393e8ec4167f9",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/opponent-snapshots/262144.pt",
+      "sha256": "0988d5ac86af7f093cabc8903261cf08fa11b2b9cc3b73284ce911a90e86afa9",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/opponent-snapshots/65536.pt",
+      "sha256": "f4e529e8ce3b257c6dad22719d65d7c5bbdb1e1e94076418a92014db06bbce98",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/opponent-snapshots/131072.pt",
+      "sha256": "62c482a48891f52aa1623fa8fb91e920beb326ead343cc985a6647816a12699a",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/opponent-snapshots/196608.pt",
+      "sha256": "5f304e4b37b6fca9c6ff62b48993fb4cf5301327f29174ad186bc60764014770",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/B-400009/opponent-snapshots/327680.pt",
+      "sha256": "22e4a706be44be4485650275e2af2febbfd875fc6d312edfbe018f6d8fcec5d2",
+      "bytes": 691661
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/opponent-snapshots/393216.pt",
+      "sha256": "3ae9632fd0b500f0ec91e4ab89809378d2b1ea6b3d6935d85340b6c09d5d3c42",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/opponent-snapshots/262144.pt",
+      "sha256": "dd2b80fd24c338eae5d633dac8a17e96010245d146853267916c9d4993828eea",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/opponent-snapshots/65536.pt",
+      "sha256": "b6dc00137cc6d33a7e19cbed5d681559d7f809d6f9dbf4864bd89e24b2458c31",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/opponent-snapshots/131072.pt",
+      "sha256": "e00c3b559606fb262099b8bb629016ab5c999c0eba0ed6bcd3a152c7a48b6265",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/opponent-snapshots/196608.pt",
+      "sha256": "e7ec974262fb5a100e0fa8071b10e6a702bd8b1f9c3d7c9965c1d5a0960b141c",
+      "bytes": 3539405
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/retrieved/runs/D-400031/opponent-snapshots/327680.pt",
+      "sha256": "9279df9684ed13eaf97301187cb03b7664f254854b6f5fc7f2fdb70edba3b314",
+      "bytes": 3539405
+    }
+  ],
+  "initial_pairs": [
+    {
+      "a": "A",
+      "b": "B",
+      "seed": 400009,
+      "identical_initial_weights": true,
+      "fresh_optimizers": true
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "seed": 400031,
+      "identical_initial_weights": true,
+      "fresh_optimizers": true
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "seed": 400033,
+      "identical_initial_weights": true,
+      "fresh_optimizers": true
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "seed": 400009,
+      "identical_initial_weights": true,
+      "fresh_optimizers": true
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "seed": 400031,
+      "identical_initial_weights": true,
+      "fresh_optimizers": true
+    }
+  ],
+  "cpu_recoveries": [
+    {
+      "condition": "A",
+      "seed": 400009,
+      "n": 425984,
+      "sha256": "c0a831ab96650011c0de8f48e1aae182229e1b98d2e3d219330318e7fbd9e38e",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "B",
+      "seed": 400009,
+      "n": 425984,
+      "sha256": "97915144e48875345d114a9d34524c8f169e149281f92911b0d9a834aebf12a5",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "C",
+      "seed": 400009,
+      "n": 425984,
+      "sha256": "60e2ba01a0a4a396f3a87d94b491155c9be83d5ec122f4a9d50eb91249b018b0",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "D",
+      "seed": 400009,
+      "n": 425984,
+      "sha256": "ea9463061b5d21ad882c699aa78fd2614a4ccec7fb68bd89702948cdfed33aae",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "A",
+      "seed": 400031,
+      "n": 425984,
+      "sha256": "efd978fcb1b02cbc7cbd282d6704d13b13f3a87dfe4eefd32b7fb4e59ca7c8ca",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "B",
+      "seed": 400031,
+      "n": 425984,
+      "sha256": "4831f0b33139c0ed2085c26d7a2707ec837273486e0697ab9412c18962599c45",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "C",
+      "seed": 400031,
+      "n": 425984,
+      "sha256": "2417acbe4a447038022e96826f7d21626a33f5d1787899d2391362f798946cf0",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "D",
+      "seed": 400031,
+      "n": 425984,
+      "sha256": "e3d5466d14fe8c7894e905535991901625b78f602b90dde8d4621bc1fe09ae30",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "A",
+      "seed": 400033,
+      "n": 425984,
+      "sha256": "6bea22a1da87636108ccf359dcff9928e54e918f7ebdd77e9d1ac88ab1927655",
+      "cpu_collect_update": true
+    },
+    {
+      "condition": "B",
+      "seed": 400033,
+      "n": 425984,
+      "sha256": "c674a5f17216bdc5c6e1a8a4a636586f1afe56c0637ae98bb058a8be5e8020a7",
+      "cpu_collect_update": true
+    }
+  ],
+  "panels": [
+    {
+      "panel": "validation/B-400009-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400031-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400009-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400033-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400031-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400031-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400009-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400009-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400031-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400033-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400009-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400031-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400033-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400009-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400031-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400009-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400009-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400033-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400031-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400009-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400009-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400031-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400031-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400033-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400033-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400033-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400031-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400009-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400031-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400009-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400009-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400031-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400031-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400031-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400031-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400033-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400009-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400009-106496-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400009-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400009-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400031-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400009-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400033-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400033-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400031-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/D-400031-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/A-400031-0-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400009-425984-both.json",
+      "games": 96,
+      "expected": 96,
+      "complete": true
+    },
+    {
+      "panel": "validation/C-400009-212992-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "validation/B-400031-319488-sampled.json",
+      "games": 24,
+      "expected": 24,
+      "complete": true
+    },
+    {
+      "panel": "final/C-400009-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/A-400031-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/B-400033-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/A-400033-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/B-400009-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/C-400031-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/D-400009-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/B-400009-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/B-400033-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/C-400031-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/D-400031-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/D-400031-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/C-400009-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/A-400009-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/A-400031-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/B-400031-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/A-400009-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/A-400033-greedy.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/D-400009-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "final/B-400031-sampled.json",
+      "games": 120,
+      "expected": 120,
+      "complete": true
+    },
+    {
+      "panel": "regression/B-400009.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/A-400031.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/A-400033.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/B-400033.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/A-400009.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/C-400009.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/D-400009.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/C-400031.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/D-400031.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "regression/B-400031.json",
+      "games": 30,
+      "expected": 30,
+      "complete": true
+    },
+    {
+      "panel": "context/104729.json",
+      "games": 240,
+      "expected": 240,
+      "complete": true
+    },
+    {
+      "panel": "context/130363.json",
+      "games": 240,
+      "expected": 240,
+      "complete": true
+    },
+    {
+      "panel": "context/155921.json",
+      "games": 240,
+      "expected": 240,
+      "complete": true
+    },
+    {
+      "panel": "confirmation.json",
+      "games": 320,
+      "expected": 320,
+      "complete": true
+    }
+  ],
+  "all_panels_complete": true,
+  "training_complete": true,
+  "common_step": 425984,
+  "target": 425984,
+  "all_runtimes_terminated": true,
+  "original_elapsed_seconds": 40491.078714847565,
+  "allocated_interval_upper_bound": 39532.5378010273,
+  "package": {
+    "path": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/policies-source-results.tar.gz",
+    "sha256": "7f777c47e5b1d2ab592edc9a6434edba20d228845296d5d24ac5cb792bdd35c1",
+    "bytes": 54928477
+  },
+  "inference_exports": {
+    "B-400031.pt": "9e7c927170ef337878755f13a996bddea980ae0a406a3b472ae06ed0c87277e8",
+    "B-400033.pt": "e68ab68854a4c3e0740824fb9b3a6f105bf23fe3d07ad34a21cd5b40de235994",
+    "D-400031.pt": "d675e7076cafd9c8387579a5052ee952ace309f951e4c48691d49225474080d9",
+    "B-400009.pt": "cb005a4e61ca94616d434702dba071183fed819492d5ed72fda5ff5a8402bddc",
+    "C-400031.pt": "6d2a60169ac4cb0a4f4dd51e197d1beb7eba95174071c6a6151b018c43eb9e47",
+    "D-400009.pt": "5c2ec1252f1cd698360962de3aa0fda8266b30b22604bab7f129582c43a12ffe",
+    "A-400009.pt": "79a3188629130d2512a54dea9dd4d6d172e5d3b051314cc4e70a09088238e9c8",
+    "C-400009.pt": "70becf0231f6c95ed94e53123f57d51363c73e1b3c29be970e8b5040eee9c0a2",
+    "A-400031.pt": "1e2f03e47095d71458ff935ec8746702df7de5fd6691f4bc8e5ce41c84e1900d",
+    "A-400033.pt": "516b8ea343891c3cc42fa3faa2a45e61a473b91b6ea77c102c8b4f1cac74f22d"
+  }
+}

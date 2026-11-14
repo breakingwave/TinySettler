@@ -1,0 +1,45 @@
+node_modules/
+dist/
+
+.venv/
+__pycache__/
+*.pyc
+
+# Local caches and machine files
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.chart-data-*/
+.venv-*/
+
+# Credentials and local agent configuration
+.env
+.env.*
+!.env.example
+.ssh/
+.aws/
+.azure/
+.config/
+.codex/
+.agents/
+.netrc
+.npmrc
+.pypirc
+.modal.toml
+.colab-cli*
+credentials.json
+client_secret*.json
+token.json
+tokens.json
+secrets/
+secrets.*
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+
+# Rebuildable presentation intermediates and an obsolete source archive
+output/llm-proposal/build/
+/rl_research.zip

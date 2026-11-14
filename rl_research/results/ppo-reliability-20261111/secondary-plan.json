@@ -1,0 +1,12 @@
+{
+  "boards": 50,
+  "policies": 5,
+  "seed_start": 3100000000,
+  "created_at": 1794395498.9323497,
+  "source": "expanded validation game durations, multiplied by 1.30; no test outcomes consulted",
+  "primary_seconds_reserved": 1805.0018739285367,
+  "secondary_seconds_per_board": 19.050710117790004,
+  "retrieval_reserve_seconds": 1200,
+  "selection_sha256": "acc194fc64797adfbea20362d222474cc7d86887457d0855ce16c706410a85ba",
+  "reason": "explicit corrected timing plan after resumed calibration correction"
+}

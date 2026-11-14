@@ -1,0 +1,33 @@
+[
+  {
+    "event": "user_requested_pause",
+    "session": "tinysettler-ablation-20261111-a",
+    "result": "artifacts retrieved; runtime stopped; no active sessions verified",
+    "charged_seconds_upper_bound": 423
+  },
+  {
+    "event": "resume",
+    "session": "tinysettler-ablation-20261111-b",
+    "result": "original deadline preserved; new pilots passed after actor-relative mapping correction"
+  },
+  {
+    "event": "auxiliary_ddqn_upload_failure",
+    "phase": "fourth PPO training run",
+    "error": "TLS EOF during uncompressed 82 MiB checkpoint upload",
+    "training_affected": false,
+    "retry_count": 1
+  },
+  {
+    "event": "auxiliary_ddqn_upload_retry",
+    "compressed_bytes": 11117689,
+    "result": "upload, byte hash, next CUDA transition, replay/exploration recovery, and bitwise-identical optimizer update passed"
+  },
+  {
+    "event": "local_controller_SIGTERM",
+    "time_utc": "2026-11-11 05:15 UTC approximately",
+    "cause": "unknown",
+    "runtime_remained_active": true,
+    "training_restarted": false,
+    "recovery": "detached controller reattached to same session and original deadline"
+  }
+]

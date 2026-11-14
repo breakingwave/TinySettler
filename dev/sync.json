@@ -1,0 +1,19 @@
+{
+  "name": "tinysettler",
+  "alpha": "/Users/alexanderwang/Projects/TinySettler",
+  "beta": "rex-coding-sync:/home/rexdev/projects/TinySettler",
+  "mode": "two-way-safe",
+  "ignores": [
+    ".git", ".hg", ".svn", ".env", ".env.*", ".ssh", ".aws", ".azure",
+    ".config", ".codex", ".claude", ".agents", ".docker", ".mutagen",
+    ".sail", ".modal.toml", ".colab-cli*", ".netrc", ".npmrc", ".pypirc",
+    "credentials.json", "client_secret*.json", "token.json", "tokens.json",
+    "secrets", "secrets.*", "*.pem", "*.key", "id_ed25519*", "id_rsa*",
+    ".venv", ".venv-*", "venv", "node_modules", "dist", ".cache", ".vite",
+    "__pycache__", "*.pyc", ".pytest_cache", ".mypy_cache", ".ruff_cache",
+    ".uv-cache", ".npm", ".DS_Store", ".chart-data-*",
+    "checkpoints", "weights", "wandb", "*.safetensors", "*.gguf", "*.pt",
+    "*.pth", "*.ckpt", "*.onnx", "*.onnx_data", "pytorch_model*.bin",
+    "model*.bin", "params_shard*.bin"
+  ]
+}

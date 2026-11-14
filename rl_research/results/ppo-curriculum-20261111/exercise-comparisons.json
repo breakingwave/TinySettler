@@ -1,0 +1,181 @@
+{
+  "largest_army": {
+    "source_games": [
+      850000000007,
+      850000000014
+    ],
+    "paired_starting_seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "task_success": {
+      "difference": -0.08333333333333333,
+      "source_game_only_95": [
+        -0.16666666666666666,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        -0.3333333333333333,
+        0.0
+      ]
+    },
+    "win": {
+      "difference": -0.16666666666666666,
+      "source_game_only_95": [
+        -0.3333333333333333,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        -0.5,
+        0.0
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "source_game_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "expansion": {
+    "source_games": [
+      850000000002,
+      850000000003,
+      850000000004
+    ],
+    "paired_starting_seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "task_success": {
+      "difference": 0.0,
+      "source_game_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "win": {
+      "difference": 0.05555555555555555,
+      "source_game_only_95": [
+        0.0,
+        0.16666666666666666
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.2222222222222222
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "source_game_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "productive_trade": {
+    "source_games": [
+      850000000001,
+      850000000002,
+      850000000003
+    ],
+    "paired_starting_seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "task_success": {
+      "difference": 0.16666666666666666,
+      "source_game_only_95": [
+        -0.3333333333333333,
+        0.8333333333333334
+      ],
+      "paired_seed_and_source_95": [
+        -0.6111111111111112,
+        0.8333333333333334
+      ]
+    },
+    "win": {
+      "difference": 0.1111111111111111,
+      "source_game_only_95": [
+        0.0,
+        0.3333333333333333
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.3333333333333333
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "source_game_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "immediate_win": {
+    "source_games": [
+      850000000004,
+      850000000008,
+      850000000012
+    ],
+    "paired_starting_seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "task_success": {
+      "difference": 0.0,
+      "source_game_only_95": [
+        -0.3333333333333333,
+        0.3333333333333333
+      ],
+      "paired_seed_and_source_95": [
+        -0.4444444444444444,
+        0.4444444444444444
+      ]
+    },
+    "win": {
+      "difference": 0.2222222222222222,
+      "source_game_only_95": [
+        0.0,
+        0.6666666666666666
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.6666666666666666
+      ]
+    },
+    "truncated": {
+      "difference": 0.0,
+      "source_game_only_95": [
+        0.0,
+        0.0
+      ],
+      "paired_seed_and_source_95": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

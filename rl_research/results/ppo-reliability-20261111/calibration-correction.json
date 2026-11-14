@@ -1,0 +1,27 @@
+{
+  "reason": "resumed evaluator reused complete rows; elapsed no-op time was not a valid throughput measurement",
+  "previous": {
+    "training_seconds": 8795.791387900734,
+    "evaluation_board_seconds": 0.022798776626586914,
+    "projected_primary_seconds": 9425.429797515297
+  },
+  "fresh_measurements": [
+    {
+      "step": 106496,
+      "seconds": 5.208921670913696,
+      "boards": 2
+    },
+    {
+      "step": 434176,
+      "seconds": 6.499403953552246,
+      "boards": 2
+    }
+  ],
+  "corrected": {
+    "training_seconds": 8795.791387900734,
+    "evaluation_board_seconds": 4.062127470970154,
+    "projected_primary_seconds": 14676.557100161934
+  },
+  "time": 1794385782.4933856,
+  "learning_conditions_changed": false
+}

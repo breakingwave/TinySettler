@@ -1,0 +1,71 @@
+{
+  "policies": [
+    {
+      "id": "parent-104729",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/inputs/104729.pt",
+      "sha256": "73de31d6518bcc309e29b1e1cb914227dad87d63a9d8344c4e59642fc9d82e01",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    },
+    {
+      "id": "standard-104729",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/176128.pt",
+      "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    },
+    {
+      "id": "parent-130363",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/inputs/130363.pt",
+      "sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    },
+    {
+      "id": "standard-130363",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/176128.pt",
+      "sha256": "58beeee043f19c4cc216fa801b1d158a99843e73df37332a29eaf4e0db008a45",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    },
+    {
+      "id": "parent-155921",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/inputs/155921.pt",
+      "sha256": "72a44e75e85a8d5bacdc6714703791d6decfe22ef113b16e6aee229cb390ebe0",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    },
+    {
+      "id": "standard-155921",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/176128.pt",
+      "sha256": "027eefecc026eac0a0a8dad701c89210e904f5afcfa7cab2c56b7c6546ef5eba",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    },
+    {
+      "id": "heldout-196613",
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-196613/434176.pt",
+      "sha256": "b9eaa886eed7919d857f2e45cc1953fae7d052592ba860f3347e3a1524c40a1b",
+      "source_checked": true,
+      "logits_bitwise_equal": true,
+      "max_error": 0.0
+    }
+  ],
+  "reference": "standard-104729",
+  "initial": [
+    "parent-104729",
+    "standard-104729",
+    "parent-130363",
+    "standard-130363",
+    "parent-155921",
+    "standard-155921"
+  ],
+  "heldout": "heldout-196613",
+  "archive_sha256": "686eee2899ed12555b931858b694900d09500ea5ec686daf149e990e507274ee"
+}

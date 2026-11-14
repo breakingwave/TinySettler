@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/content/experiment/sc_checks.py", line 77, in <module>
+    if a.probe:write(a.out,recovery_probe(a.probe,a.device))
+                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/content/experiment/sc_checks.py", line 15, in recovery_probe
+    assert outputs[0]==outputs[1],'INTEGRITY: resume continuation diverged'
+           ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: INTEGRITY: resume continuation diverged

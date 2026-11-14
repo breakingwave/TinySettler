@@ -1,0 +1,22 @@
+{
+  "verified_at": 1794397891.6955264,
+  "evaluation_games": {
+    "validation": 4800,
+    "final": 3000,
+    "secondary": 1500
+  },
+  "unique_study_evaluation_games": 9300,
+  "new_training_runs": 6,
+  "new_training_transitions": 2605056,
+  "complete_board_blocks": true,
+  "source_hashes_match": true,
+  "selection_commit_verified": true,
+  "checkpoint_hashes_verified": 31,
+  "cpu_recovery_updates": 6,
+  "external_cuda_exact_recovery": true,
+  "illegal_actions": 0,
+  "evaluation_truncations": 218,
+  "allocation_upper_bound_seconds": 13054.156758785248,
+  "runtime_termination_verified": true,
+  "independent_sessions_response": "[colab] No active sessions found on server."
+}

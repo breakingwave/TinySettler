@@ -1,0 +1,89 @@
+{
+  "allocations": [
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a",
+      "request_started": 1794418605.0688071,
+      "ready": 1794418608.745065,
+      "stopped": 1794420829.1506343,
+      "allocation_upper_bound_seconds": 2224.0818271636963,
+      "termination_verified": true
+    },
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a-r1",
+      "request_started": 1794421059.080142,
+      "ready": 1794421062.5098708,
+      "stopped": 1794423055.544935,
+      "allocation_upper_bound_seconds": 1996.4647929668427,
+      "termination_verified": true
+    },
+    {
+      "session": "tinysettler-ppo-curriculum-20261111-a-r2",
+      "request_started": 1794423630.6830087,
+      "ready": 1794423634.231278,
+      "stopped": 1794427380.3629353,
+      "allocation_upper_bound_seconds": 3749.679926633835,
+      "termination_verified": true
+    }
+  ],
+  "total_allocation_upper_bound_seconds": 7970.226546764374,
+  "conservative_original_clock_seconds": 8775.294137716293,
+  "original_deadline": 1794433005.0687976,
+  "retained_training_seconds": 5262.3699711710005,
+  "note": "Retained training time excludes rolled-back work; allocation intervals include setup, evaluation, transfer and lost work.",
+  "training_by_arm": {
+    "standard": {
+      "transitions": 528384,
+      "category_transitions": {
+        "fresh": 528384
+      },
+      "completed_episodes": 2919,
+      "terminal_episodes": 2918,
+      "truncations": 1,
+      "terminal_reward_frequency_per_transition": 0.00552249878875969,
+      "realized_episode_opponents": {
+        "weighted": 754,
+        "heuristic": 706,
+        "base": 1459
+      },
+      "planning": {
+        "calls": 175200,
+        "seconds": 1014.5952410080115,
+        "worlds": 195586,
+        "rejections": 0,
+        "fallbacks": 0
+      }
+    },
+    "curriculum": {
+      "transitions": 528384,
+      "category_transitions": {
+        "endgame": 49444,
+        "midgame": 106727,
+        "fresh": 372213
+      },
+      "completed_episodes": 4073,
+      "terminal_episodes": 4071,
+      "truncations": 2,
+      "terminal_reward_frequency_per_transition": 0.007704623909883721,
+      "realized_episode_opponents": {
+        "weighted": 1036,
+        "base": 2049,
+        "heuristic": 988
+      },
+      "planning": {
+        "calls": 190921,
+        "seconds": 950.3192193640963,
+        "worlds": 204246,
+        "rejections": 0,
+        "fallbacks": 0
+      }
+    }
+  },
+  "telemetry": {
+    "samples": 660,
+    "mean_gpu_utilization_pct": 6.446969696969697,
+    "peak_gpu_memory_mib": 221.0,
+    "mean_trainer_cpu_pct_one_core": 95.815464039904,
+    "peak_trainer_rss_gib": 1.707611083984375,
+    "scope": "All recorded training/evaluation samples across all three sequential allocations; two CPU cores."
+  }
+}

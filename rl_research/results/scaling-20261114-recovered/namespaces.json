@@ -1,0 +1,19 @@
+{
+  "namespaces": {
+    "teacher": 11000000000000,
+    "pilot": 12000000000000,
+    "train": 13000000000000,
+    "validation": 14000000000000,
+    "final": 15000000000000,
+    "regression": 16000000000000,
+    "checks": 17000000000000
+  },
+  "range_size": 100000000000,
+  "training_seeds": [
+    400009,
+    400031,
+    400033
+  ],
+  "prior_seed_values_checked": 22025,
+  "disjoint": true
+}

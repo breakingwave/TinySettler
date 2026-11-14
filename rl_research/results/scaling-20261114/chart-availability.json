@@ -1,0 +1,17 @@
+{
+  "provided": [
+    "pilot-throughput",
+    "allocation-timeline",
+    "preflight-utilization"
+  ],
+  "unavailable": [
+    "validation versus transitions/time",
+    "final strength heatmaps",
+    "paired strength contrasts",
+    "strength versus size/latency",
+    "final action-use diagnostics",
+    "experimental PPO curves",
+    "experimental opponent-pool composition"
+  ],
+  "reason": "Calibration failed before scope freeze or experimental initialization; no valid experimental data for these charts."
+}

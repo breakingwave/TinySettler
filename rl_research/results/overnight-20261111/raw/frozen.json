@@ -1,0 +1,160 @@
+{
+  "target": 434176,
+  "workers": 1,
+  "worker_measurements": {
+    "local_one_decisions_s": 998.6420856963626,
+    "subprocess_two_decisions_s": 1195.4189537761104,
+    "selected_workers": 1,
+    "reason": "single engine avoids synchronous IPC and retains exact sequential learner transitions; two-worker transport comparison recorded"
+  },
+  "calibration_seconds": 1800,
+  "pilots": [
+    {
+      "n": 4096,
+      "complete": true,
+      "elapsed": 11.227519820999987,
+      "learner_decisions_s": 364.8178818922082,
+      "engine_actions_s": 759.2950300612977,
+      "update_seconds": 0.5031758989999844,
+      "episodes": 9,
+      "terminal_rewards": 9,
+      "parameters": 321869,
+      "algo": "ppo",
+      "width": 128,
+      "evaluation_seconds": 7.840963611000063,
+      "telemetry": {
+        "cpu_count": 2,
+        "load": [
+          2.45068359375,
+          1.85888671875,
+          0.888671875
+        ],
+        "process_cpu_seconds": 26.828165695,
+        "peak_rss_kib": 1592436,
+        "gpu": "Tesla T4, 4 %, 0 %, 219 MiB, 15360 MiB"
+      }
+    },
+    {
+      "n": 4096,
+      "complete": true,
+      "elapsed": 10.403372975000025,
+      "learner_decisions_s": 393.71846129548095,
+      "engine_actions_s": 800.8940965610224,
+      "update_seconds": 0.3904672620000156,
+      "episodes": 9,
+      "terminal_rewards": 9,
+      "parameters": 676173,
+      "algo": "ppo",
+      "width": 256,
+      "evaluation_seconds": 6.407446141000037,
+      "telemetry": {
+        "cpu_count": 2,
+        "load": [
+          2.28955078125,
+          1.849609375,
+          0.90234375
+        ],
+        "process_cpu_seconds": 43.537754828,
+        "peak_rss_kib": 1629272,
+        "gpu": "Tesla T4, 7 %, 1 %, 223 MiB, 15360 MiB"
+      }
+    },
+    {
+      "n": 4096,
+      "complete": true,
+      "elapsed": 15.387886486999946,
+      "learner_decisions_s": 266.1834036441846,
+      "engine_actions_s": 536.7208815179005,
+      "update_seconds": 5.025961117998918,
+      "episodes": 10,
+      "terminal_rewards": 10,
+      "parameters": 676173,
+      "steady_decisions_s": 242.57181657938,
+      "steady_update_total_seconds": 37.88761368299345,
+      "algo": "ddqn",
+      "width": 256,
+      "evaluation_seconds": 6.273439419999818,
+      "telemetry": {
+        "cpu_count": 2,
+        "load": [
+          1.4423828125,
+          1.71826171875,
+          0.9794921875
+        ],
+        "process_cpu_seconds": 155.076122673,
+        "peak_rss_kib": 4013124,
+        "gpu": "Tesla T4, 0 %, 0 %, 223 MiB, 15360 MiB"
+      }
+    }
+  ],
+  "config": {
+    "version": 1,
+    "rules": {
+      "map": "BASE",
+      "players": 2,
+      "victory_points": 10,
+      "discard_limit": 7,
+      "player_negotiation": false,
+      "bank_port_trade": true,
+      "max_turns": 1000,
+      "max_engine_actions": 20000
+    },
+    "opponents": {
+      "random": 0.3333333333333333,
+      "weighted": 0.3333333333333333,
+      "heuristic": 0.3333333333333333
+    },
+    "training_seeds": [
+      104729,
+      130363
+    ],
+    "validation_seed_start": 2000000000,
+    "final_seed_start": 3000000000,
+    "gamma": 1.0,
+    "reward": "terminal +1/-1; otherwise zero",
+    "ppo": {
+      "lr": 0.0003,
+      "clip": 0.2,
+      "gae_lambda": 0.95,
+      "epochs": 4,
+      "batch": 256,
+      "rollout": 4096,
+      "entropy": 0.01,
+      "value_coefficient": 0.5,
+      "max_grad_norm": 0.5
+    },
+    "ddqn": {
+      "lr": 0.0003,
+      "batch": 256,
+      "replay_capacity": 20000,
+      "warmup": 1024,
+      "update_every": 4,
+      "target_every": 1000,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.05,
+      "epsilon_fraction": 0.8,
+      "max_grad_norm": 10.0,
+      "loss": "smooth_l1"
+    },
+    "configurations": [
+      [
+        "ppo",
+        128
+      ],
+      [
+        "ppo",
+        256
+      ],
+      [
+        "ddqn",
+        256
+      ]
+    ],
+    "run_limit_seconds": 2700,
+    "gpu_limit_seconds": 28800,
+    "checkpoint_seconds": 300,
+    "max_retries": 1,
+    "graph": "omitted: no validated graph path before allocation"
+  },
+  "deadline": 1794397166.0740397
+}

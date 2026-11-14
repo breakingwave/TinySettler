@@ -1,0 +1,359 @@
+{
+  "version": 1,
+  "created": 1794418594.0865352,
+  "allocation_cap_seconds": 14400,
+  "retrieval_reserve_seconds": 1200,
+  "phase_budgets_seconds": {
+    "preflight": 1500,
+    "training": 8100,
+    "evaluation": 3000,
+    "retrieval": 1200,
+    "recovery": 600
+  },
+  "workers": 1,
+  "starting_seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "starting_step": 434176,
+  "starting_checkpoints": {
+    "104729": {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/434176.pt",
+      "sha256": "73de31d6518bcc309e29b1e1cb914227dad87d63a9d8344c4e59642fc9d82e01",
+      "n": 434176
+    },
+    "130363": {
+      "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/434176.pt",
+      "sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+      "n": 434176
+    },
+    "155921": {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-reliability-20261111-a/retrieved/ppo-128-155921/434176.pt",
+      "sha256": "72a44e75e85a8d5bacdc6714703791d6decfe22ef113b16e6aee229cb390ebe0",
+      "n": 434176
+    }
+  },
+  "order": [
+    [
+      "standard",
+      104729
+    ],
+    [
+      "curriculum",
+      104729
+    ],
+    [
+      "curriculum",
+      130363
+    ],
+    [
+      "standard",
+      130363
+    ],
+    [
+      "standard",
+      155921
+    ],
+    [
+      "curriculum",
+      155921
+    ]
+  ],
+  "transition_cap": 262144,
+  "opponent_mixture": {
+    "base": 0.5,
+    "weighted": 0.25,
+    "heuristic": 0.25
+  },
+  "reset_mixture": {
+    "standard": {
+      "fresh": 1.0
+    },
+    "curriculum": {
+      "fresh": 0.5,
+      "midgame": 0.25,
+      "endgame": 0.25
+    }
+  },
+  "sampled_worlds": 2,
+  "opponent_label": "Catanatron ValueFunctionPlayer, information/RNG adapter v1, K=2",
+  "opponent_belief": "conservative public resource intervals; conditioned observed legal set; shared sampled worlds; float64 upstream scores",
+  "held_out_opponent": "contender: same heuristic family with different upstream weights",
+  "corpus_sha256": "76a3c30a04e294ba060267ea6f802d5134a28e8417ca34ea793638ce83185345",
+  "corpus_manifest_sha256": "c73b09400180a175ec0ba5e8a570040c37e875768cc8a3b7c18cfca2c6d446e2",
+  "core_hashes": {
+    "train.py": "6121d95729f32814dca6825502660c03e081ee5f066e8782fb7a998f75921aad",
+    "env.py": "5090ecf64ea865b88c1a43387d71b2941ce0d0633ce5ac28a345291e7530733f",
+    "config.json": "06a09d80ba8a120e01b7f4b42d12f5e02f94e77b55fafc6f2cb7e0c7360eb998",
+    "requirements-lock.txt": "ff4a68336dc449c9df67da2c9710adb0dea68ef7a910ee313c0b777f7df391fd"
+  },
+  "learning_settings": {
+    "lr": 0.0003,
+    "clip": 0.2,
+    "gae_lambda": 0.95,
+    "epochs": 4,
+    "batch": 256,
+    "rollout": 4096,
+    "entropy": 0.01,
+    "value_coefficient": 0.5,
+    "max_grad_norm": 0.5
+  },
+  "gamma": 1.0,
+  "reward": "terminal +1/-1; otherwise zero",
+  "rules": {
+    "map": "BASE",
+    "players": 2,
+    "victory_points": 10,
+    "discard_limit": 7,
+    "player_negotiation": false,
+    "bank_port_trade": true,
+    "max_turns": 1000,
+    "max_engine_actions": 20000
+  },
+  "seed_namespaces": {
+    "continuation": [
+      710000000000,
+      710030000000
+    ],
+    "opponent_preflight": [
+      820000000000,
+      820000000004
+    ],
+    "corpus_train": [
+      830000000000,
+      830000000060
+    ],
+    "corpus_validation": [
+      840000000000,
+      840000000012
+    ],
+    "corpus_test": [
+      850000000000,
+      850000000016
+    ],
+    "task_future": [
+      9360000000000,
+      9360000010000
+    ],
+    "calibration": [
+      870000000000,
+      870000000101
+    ],
+    "final": [
+      880000000000,
+      880000000020
+    ]
+  },
+  "prior_unique_seeds_checked": 174,
+  "pythonhashseed": "0",
+  "simulator_revision": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+  "primary": "six common final additional-transition policies, fresh full games; no checkpoint selection",
+  "diagnostic_reconstruction": "one of the two requested 25-card/zero-knight/8-VP cases exactly reproduced; the other labeled approximate because historical hash seed/action trace was not archived",
+  "source_hashes": {
+    "curriculum_evaluate.py": "2bd2187d0b7500233b0781b686188c98d469eea68b68aeae140bb7e9a9a02105",
+    "prepare.py": "13c7e850e2e09cf7f75bbb02a1c57a5b2f9b209103fb9ab9ce1b03b3a1175625",
+    "worker_probe.py": "b29d55b24f312305846538028527df7e07d8beb0cad57a12cf58aeb8d5f4f3fd",
+    "reliability_report.py": "5a04ca41758ed6ac7c8e32fd85124d30073e0c05a8bafbced392c836306804e7",
+    "curriculum_core.py": "c44baa135c028cde9968b19fc3e10d151d833c8e52a705fad83297e436bbb7d9",
+    "README.md": "c3d7a1025ec4bbbecbe55de55d5f272b2ab33cc72b198bebfdf0d04966ce3e5a",
+    "report.py": "e4031e5cd8bc6d3e1de0437c8f334e85a7452cef6fc35e1f1cfe43139e34aebc",
+    "reliability_roundtrip.py": "9f02efebc2bbb9e7642c5a1b9dd4bae47b186590c265ed9bad636438145935a9",
+    "test_reliability.py": "01b1946a929d94d8857b594ce83b32c78c969cd0685360797fcfda655e3df0a7",
+    "curriculum_roundtrip.py": "df1c68b2be71de8cb367e70ed15362d98ea9912f57c0eac6dcad4156531aae9e",
+    "prepare_bundle.py": "b0b1809172da1a806db9a54adf62749c74f090df3a2ab72a57c7c2553b8516ce",
+    "reliability_common.py": "41a03d23e7db47cc7eee460a6d6b39b5ee98f8e0e3ab2bb37270ec7131d9f4e9",
+    "env.py": "5090ecf64ea865b88c1a43387d71b2941ce0d0633ce5ac28a345291e7530733f",
+    "test_contract.py": "fa73e045df84b3d04bcaaf5f8c947f48de6493ff27f28784cbd0885d8a0488f2",
+    "curriculum_remote.py": "9782eeed926ff7f6b34e439914227d13c46635c08f15de5d2b74006a54026310",
+    "reliability_evaluate.py": "c89c7fa032799a52e92bb5ecf9a4ba37f31466616591caa1f3a1d1e33ee61d53",
+    "reliability_controller.py": "4c0a6a794b2e92d773c042d0bd13eef1f7ca38487f75d5749391a2fb9ccd1074",
+    "verify_retrieved.py": "c7184b1cb80a84ea38e6764a4c61ecc5f1e7d1ef160aaacde1a4681b4707d778",
+    "requirements-lock.txt": "ff4a68336dc449c9df67da2c9710adb0dea68ef7a910ee313c0b777f7df391fd",
+    "test_curriculum.py": "54f2e5c907e044a200ae86e158d06fd049956953968d4eceb7b46913c5f69120",
+    "opponent_adapter.py": "c79f7b15a0bdadb009bfd5442ef761f2efadf8a41ba3c57e5cbfd8fc160451e7",
+    "HANDOFF.md": "d8574fbf8fe01af74f9be61edc0969520b7b3501118e0c2c3d1d0d4cd2ab23b4",
+    "reliability_remote.py": "c59273ac70e400805fd85b783ee7dc4e37c2f16fd207f7550494786ccd16d6d0",
+    "evaluate.py": "0459dc7bd751e6c25c3a4ebaead23ff2bba1df023f8798925914efc44d72690f",
+    "secondary_plan.py": "3e1baf9fa291f9209e724d31d55c6732c9e7f7e72ad62c19370e1f834d2b61ac",
+    "status.py": "200bfeb6fd48d06ac0e8a8c36b4a96aaa3b14146e9af872c5324a32cd16c7e35",
+    "cpu_monitor.py": "5b43792d5accdca430851150aac3081c719c2bc4d7d7b1b7da848b959c3452a2",
+    "remote.py": "20cfb155048e29357b1ca9b82786c556e6d73e8d80cccec7028f2fde183573f1",
+    "monitor.py": "71675314ecc151cbebf736880f4483e7b2260ef16bd36b10a3a0b6a9527eeb45",
+    "config.json": "06a09d80ba8a120e01b7f4b42d12f5e02f94e77b55fafc6f2cb7e0c7360eb998",
+    "train.py": "6121d95729f32814dca6825502660c03e081ee5f066e8782fb7a998f75921aad",
+    "controller.py": "66bd23c8f2ed12f3b33e8083f5ca3beab2c798464fcc44cb02970be5e59ea3c4",
+    "prepare_data.py": "702274c1773d950a23ae8794dd0370a7dff2a5a1ef172192451643b44986dc33",
+    "package_checkpoints.py": "bbb48e88be2bbd2a1657bf572469141b6dd9b6c897e061253be69ee2eebdf98b",
+    "curriculum_controller.py": "1f3b435dd24782458853d55b4e8e7c13fc3b9eef4920d4bad765f8c9adddadf2"
+  },
+  "deadline": 1794433005.0687976,
+  "target": 176128,
+  "full_game_boards": 20,
+  "full_game_seeds": [
+    880000000000,
+    880000000001,
+    880000000002,
+    880000000003,
+    880000000004,
+    880000000005,
+    880000000006,
+    880000000007,
+    880000000008,
+    880000000009,
+    880000000010,
+    880000000011,
+    880000000012,
+    880000000013,
+    880000000014,
+    880000000015,
+    880000000016,
+    880000000017,
+    880000000018,
+    880000000019
+  ],
+  "task_cases": [
+    {
+      "snapshot_id": "test-850000000007-410",
+      "source_game": 850000000007,
+      "task": "largest_army",
+      "category": "endgame"
+    },
+    {
+      "snapshot_id": "test-850000000014-78",
+      "source_game": 850000000014,
+      "task": "largest_army",
+      "category": "midgame"
+    },
+    {
+      "snapshot_id": "test-850000000002-186",
+      "source_game": 850000000002,
+      "task": "expansion",
+      "category": "midgame"
+    },
+    {
+      "snapshot_id": "test-850000000003-244",
+      "source_game": 850000000003,
+      "task": "expansion",
+      "category": "midgame"
+    },
+    {
+      "snapshot_id": "test-850000000004-100",
+      "source_game": 850000000004,
+      "task": "expansion",
+      "category": "endgame"
+    },
+    {
+      "snapshot_id": "test-850000000001-87",
+      "source_game": 850000000001,
+      "task": "productive_trade",
+      "category": "midgame"
+    },
+    {
+      "snapshot_id": "test-850000000002-250",
+      "source_game": 850000000002,
+      "task": "productive_trade",
+      "category": "midgame"
+    },
+    {
+      "snapshot_id": "test-850000000003-305",
+      "source_game": 850000000003,
+      "task": "productive_trade",
+      "category": "midgame"
+    },
+    {
+      "snapshot_id": "test-850000000004-123",
+      "source_game": 850000000004,
+      "task": "immediate_win",
+      "category": "endgame"
+    },
+    {
+      "snapshot_id": "test-850000000008-402",
+      "source_game": 850000000008,
+      "task": "immediate_win",
+      "category": "endgame"
+    },
+    {
+      "snapshot_id": "test-850000000012-277",
+      "source_game": 850000000012,
+      "task": "immediate_win",
+      "category": "endgame"
+    }
+  ],
+  "pilot_results": [
+    {
+      "arm": "standard",
+      "n": 8192,
+      "complete": true,
+      "elapsed": 41.969506052999975,
+      "learner_decisions_s": 195.18933555365103,
+      "engine_actions_s": 388.94906171604,
+      "update_seconds": 0.9724172850000059,
+      "episodes": 46,
+      "terminal_rewards": 46,
+      "parameters": 321869,
+      "reset_counts": {
+        "fresh": 47
+      },
+      "category_transitions": {
+        "fresh": 8192
+      },
+      "planning": {
+        "calls": 2163,
+        "seconds": 13.375591586000212,
+        "worlds": 2258,
+        "rejections": 0,
+        "fallbacks": 0
+      }
+    },
+    {
+      "arm": "curriculum",
+      "n": 8192,
+      "complete": true,
+      "elapsed": 46.83679151399997,
+      "learner_decisions_s": 174.90523443629422,
+      "engine_actions_s": 351.71068443226005,
+      "update_seconds": 0.7897726689999445,
+      "episodes": 68,
+      "terminal_rewards": 68,
+      "parameters": 321869,
+      "reset_counts": {
+        "endgame": 21,
+        "midgame": 15,
+        "fresh": 33
+      },
+      "category_transitions": {
+        "endgame": 681,
+        "midgame": 2057,
+        "fresh": 5454
+      },
+      "planning": {
+        "calls": 3143,
+        "seconds": 18.273331660995837,
+        "worlds": 3310,
+        "rejections": 0,
+        "fallbacks": 0
+      }
+    }
+  ],
+  "evaluation_timing": [
+    {
+      "weak": false,
+      "seconds": 7.179174423217773,
+      "games": 10,
+      "truncations": 0
+    },
+    {
+      "weak": true,
+      "seconds": 10.360589981079102,
+      "games": 10,
+      "truncations": 2
+    }
+  ],
+  "task_timing_seconds": 6.165875434875488,
+  "projected_training_seconds": 8055.928140407995,
+  "projected_evaluation_seconds": 1696.520219707489,
+  "run_limit_seconds": 1350,
+  "calibration_slow_rate": 174.90523443629422,
+  "calibration_margin": 0.75
+}

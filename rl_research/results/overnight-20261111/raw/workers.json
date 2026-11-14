@@ -1,0 +1,6 @@
+{
+  "local_one_decisions_s": 998.6420856963626,
+  "subprocess_two_decisions_s": 1195.4189537761104,
+  "selected_workers": 1,
+  "reason": "single engine avoids synchronous IPC and retains exact sequential learner transitions; two-worker transport comparison recorded"
+}

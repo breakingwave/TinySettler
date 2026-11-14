@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "created": 1794384459.3424597,
+  "allocation_cap_seconds": 18000,
+  "budget_override": "User explicitly allowed up to five hours; supersedes copied four-hour plan",
+  "retrieval_reserve_seconds": 1200,
+  "run_training_limit_seconds": 2100,
+  "workers": 1,
+  "target": 434176,
+  "steps": [
+    106496,
+    217088,
+    323584,
+    434176
+  ],
+  "new_seeds": [
+    155921,
+    196613,
+    262147
+  ],
+  "historical_seeds": [
+    104729,
+    130363
+  ],
+  "widths": [
+    128,
+    256
+  ],
+  "order": [
+    [
+      128,
+      155921
+    ],
+    [
+      256,
+      155921
+    ],
+    [
+      256,
+      196613
+    ],
+    [
+      128,
+      196613
+    ],
+    [
+      128,
+      262147
+    ],
+    [
+      256,
+      262147
+    ]
+  ],
+  "splits": {
+    "validation": {
+      "seed_start": 2100000000,
+      "boards": 20
+    },
+    "final": {
+      "seed_start": 3100000000,
+      "boards": 50
+    },
+    "calibration": {
+      "seed_start": 1800000000,
+      "boards": 2
+    }
+  },
+  "selection_rule": "win fraction; fewer truncations; earlier checkpoint",
+  "primary": "common final 434176 transitions",
+  "secondary": "distinct expanded-validation-selected checkpoints",
+  "optional_challenge": "omitted to prioritize primary coverage",
+  "historical_location": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b",
+  "historical_checkpoint_checks": {
+    "retrieved/ppo-128-104729/106496.pt": {
+      "sha256": "a7fdb4d9806d81de2982d6a35470e2246081823d74fbcf021899a17a61f760bd",
+      "bytes": 5241829
+    },
+    "retrieved/ppo-128-104729/217088.pt": {
+      "sha256": "2ac361bd336cb8e8012c270a45c7f4f97dfc70e8ed2299d82372fd7c0124fbf9",
+      "bytes": 5261285
+    },
+    "retrieved/ppo-128-104729/323584.pt": {
+      "sha256": "78b88a193d689e022cb13164337abba91c1d5e8b33c700c4a194cb1bb856849d",
+      "bytes": 5308325
+    },
+    "retrieved/ppo-128-104729/434176.pt": {
+      "sha256": "73de31d6518bcc309e29b1e1cb914227dad87d63a9d8344c4e59642fc9d82e01",
+      "bytes": 5312997
+    },
+    "retrieved/ppo-128-130363/106496.pt": {
+      "sha256": "1b980b0d313b49e4d37e22ba5793cb0e5aa44f16307ed6057e6889443e53380d",
+      "bytes": 5267237
+    },
+    "retrieved/ppo-128-130363/217088.pt": {
+      "sha256": "b7a604396829e94bd4427e851ec73434e071a85c266c19da16d5a19245f7edec",
+      "bytes": 5260709
+    },
+    "retrieved/ppo-128-130363/323584.pt": {
+      "sha256": "6a5165075addf95edb0ecbbbcc3e2592f95713cf61cea8faad3e53d800d3d0e7",
+      "bytes": 5284965
+    },
+    "retrieved/ppo-128-130363/434176.pt": {
+      "sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+      "bytes": 5309349
+    },
+    "retrieved/ppo-256-104729/106496.pt": {
+      "sha256": "5d37d8722c329373af533a98c71c522d0b39d0b45b225438c88204b820211e58",
+      "bytes": 10908517
+    },
+    "retrieved/ppo-256-104729/217088.pt": {
+      "sha256": "a08e62cc1b3dec998ca103ed79bed7bba20a810f9bcccdeac499f229c0e3e1ab",
+      "bytes": 10948325
+    },
+    "retrieved/ppo-256-104729/323584.pt": {
+      "sha256": "3ef4b3f336c0619f748d355e84386eeca8856570207946fba4dc87df1e061f5e",
+      "bytes": 10958821
+    },
+    "retrieved/ppo-256-104729/434176.pt": {
+      "sha256": "6fc9d11be06b01874fa9051f1953cf03fe8144dfb5827c440433942476a56ab2",
+      "bytes": 10991333
+    },
+    "retrieved/ppo-256-130363/106496.pt": {
+      "sha256": "eff1f8b69e38ec52bd6eb474d1f2ad5d5451925b1005421043f9cdbb52501197",
+      "bytes": 10909989
+    },
+    "retrieved/ppo-256-130363/217088.pt": {
+      "sha256": "763cd3b071239f175252958ac7b6771a7a26d0aec5d07345936215a4085f9bcb",
+      "bytes": 10932965
+    },
+    "retrieved/ppo-256-130363/323584.pt": {
+      "sha256": "0caef7bc75eb986da66a3029712fe1672987aac65969c3c8485c6cd4358e5ef9",
+      "bytes": 11012837
+    },
+    "retrieved/ppo-256-130363/434176.pt": {
+      "sha256": "d7725e9ede7c0a10f377860c7471dc7c4debc040c76334a19b655ba0d1648b74",
+      "bytes": 10982501
+    }
+  },
+  "archived_source_sha256": "ecb7a9ad1e4f00514339500bc80eae5d631ca23a3e8213100b2d51c9401097c9",
+  "core_hashes": {
+    "train.py": "6121d95729f32814dca6825502660c03e081ee5f066e8782fb7a998f75921aad",
+    "env.py": "5090ecf64ea865b88c1a43387d71b2941ce0d0633ce5ac28a345291e7530733f",
+    "config.json": "06a09d80ba8a120e01b7f4b42d12f5e02f94e77b55fafc6f2cb7e0c7360eb998",
+    "requirements-lock.txt": "ff4a68336dc449c9df67da2c9710adb0dea68ef7a910ee313c0b777f7df391fd"
+  },
+  "source_hashes": {
+    "prepare.py": "13c7e850e2e09cf7f75bbb02a1c57a5b2f9b209103fb9ab9ce1b03b3a1175625",
+    "worker_probe.py": "b29d55b24f312305846538028527df7e07d8beb0cad57a12cf58aeb8d5f4f3fd",
+    "reliability_report.py": "3b53c17aaf241ce286e937b0765c91174a3c2cd5e47a593904a7db9d6c82d92b",
+    "README.md": "c3d7a1025ec4bbbecbe55de55d5f272b2ab33cc72b198bebfdf0d04966ce3e5a",
+    "report.py": "e4031e5cd8bc6d3e1de0437c8f334e85a7452cef6fc35e1f1cfe43139e34aebc",
+    "reliability_roundtrip.py": "9f02efebc2bbb9e7642c5a1b9dd4bae47b186590c265ed9bad636438145935a9",
+    "test_reliability.py": "01b1946a929d94d8857b594ce83b32c78c969cd0685360797fcfda655e3df0a7",
+    "reliability_common.py": "41a03d23e7db47cc7eee460a6d6b39b5ee98f8e0e3ab2bb37270ec7131d9f4e9",
+    "env.py": "5090ecf64ea865b88c1a43387d71b2941ce0d0633ce5ac28a345291e7530733f",
+    "test_contract.py": "fa73e045df84b3d04bcaaf5f8c947f48de6493ff27f28784cbd0885d8a0488f2",
+    "reliability_evaluate.py": "c89c7fa032799a52e92bb5ecf9a4ba37f31466616591caa1f3a1d1e33ee61d53",
+    "reliability_controller.py": "8aefc89631a9b3146237b2cbf3f030a36fedfd44be8d96f58dadd76682c5fbeb",
+    "requirements-lock.txt": "ff4a68336dc449c9df67da2c9710adb0dea68ef7a910ee313c0b777f7df391fd",
+    "HANDOFF.md": "d8574fbf8fe01af74f9be61edc0969520b7b3501118e0c2c3d1d0d4cd2ab23b4",
+    "reliability_remote.py": "ccccf56e6335b6e447f1bd2bf302d04dee80489915438f98e65e2960299cbafc",
+    "evaluate.py": "0459dc7bd751e6c25c3a4ebaead23ff2bba1df023f8798925914efc44d72690f",
+    "cpu_monitor.py": "5b43792d5accdca430851150aac3081c719c2bc4d7d7b1b7da848b959c3452a2",
+    "remote.py": "20cfb155048e29357b1ca9b82786c556e6d73e8d80cccec7028f2fde183573f1",
+    "monitor.py": "71675314ecc151cbebf736880f4483e7b2260ef16bd36b10a3a0b6a9527eeb45",
+    "config.json": "06a09d80ba8a120e01b7f4b42d12f5e02f94e77b55fafc6f2cb7e0c7360eb998",
+    "train.py": "6121d95729f32814dca6825502660c03e081ee5f066e8782fb7a998f75921aad",
+    "controller.py": "66bd23c8f2ed12f3b33e8083f5ca3beab2c798464fcc44cb02970be5e59ea3c4"
+  },
+  "seed_audit": {
+    "prior_unique_board_seeds": 102,
+    "scanned_manifests": [
+      "results/colab-rl-smoke-20261110.json",
+      "results/benchmark.json",
+      "results/audit.json",
+      "results/modal-rl-smoke-20261110T220351786614Z.json",
+      "results/overnight-20261111/opponent-comparison.json",
+      "results/overnight-20261111/implementation-details.json",
+      "results/overnight-20261111/aggregate.json",
+      "results/overnight-20261111/comparison.json",
+      "results/overnight-20261111/training-curves.json",
+      "results/overnight-20261111/learning-curves.json",
+      "results/overnight-20261111/utilization.json",
+      "results/overnight-20261111/local-cleanup.json",
+      "results/overnight-20261111/recovery-checks.json",
+      "results/overnight-20261111/operational-events.json",
+      "results/overnight-20261111/artifact-manifest.json",
+      "results/overnight-20261111/paired-comparisons.json",
+      "results/overnight-20261111/final-games.json",
+      "results/overnight-20261111/raw/preflight.json",
+      "results/overnight-20261111/raw/pilots.json",
+      "results/overnight-20261111/raw/workers.json",
+      "results/overnight-20261111/raw/external-roundtrip.json",
+      "results/overnight-20261111/raw/frozen.json",
+      "results/overnight-20261111/raw/selections.json",
+      "results/overnight-20261111/raw/status.json",
+      "results/overnight-20261111/raw/external-roundtrip-ddqn.json",
+      "results/overnight-20261111/raw/final_plan.json",
+      "results/overnight-20261111/raw/ppo-128-104729/217088.json",
+      "results/overnight-20261111/raw/ppo-128-104729/323584.json",
+      "results/overnight-20261111/raw/ppo-128-104729/0.json",
+      "results/overnight-20261111/raw/ppo-128-104729/434176.json",
+      "results/overnight-20261111/raw/ppo-128-104729/final.json",
+      "results/overnight-20261111/raw/ppo-128-104729/106496.json",
+      "results/overnight-20261111/raw/ppo-128-104729/final-raw.json",
+      "results/overnight-20261111/raw/ppo-256-104729/217088.json",
+      "results/overnight-20261111/raw/ppo-256-104729/progress.json",
+      "results/overnight-20261111/raw/ppo-256-104729/323584.json",
+      "results/overnight-20261111/raw/ppo-256-104729/0.json",
+      "results/overnight-20261111/raw/ppo-256-104729/434176.json",
+      "results/overnight-20261111/raw/ppo-256-104729/final.json",
+      "results/overnight-20261111/raw/ppo-256-104729/106496.json",
+      "results/overnight-20261111/raw/ppo-256-104729/final-raw.json",
+      "results/overnight-20261111/raw/ddqn-256-104729/progress.json",
+      "results/overnight-20261111/raw/ddqn-256-104729/0.json",
+      "results/overnight-20261111/raw/ddqn-256-104729/final.json",
+      "results/overnight-20261111/raw/ddqn-256-104729/final-raw.json",
+      "results/overnight-20261111/raw/ddqn-256-130363/progress.json",
+      "results/overnight-20261111/raw/ddqn-256-130363/0.json",
+      "results/overnight-20261111/raw/ddqn-256-130363/final.json",
+      "results/overnight-20261111/raw/ddqn-256-130363/final-raw.json",
+      "results/overnight-20261111/raw/ppo-256-130363/217088.json",
+      "results/overnight-20261111/raw/ppo-256-130363/323584.json",
+      "results/overnight-20261111/raw/ppo-256-130363/0.json",
+      "results/overnight-20261111/raw/ppo-256-130363/434176.json",
+      "results/overnight-20261111/raw/ppo-256-130363/final.json",
+      "results/overnight-20261111/raw/ppo-256-130363/106496.json",
+      "results/overnight-20261111/raw/ppo-256-130363/final-raw.json",
+      "results/overnight-20261111/raw/ppo-128-130363/217088.json",
+      "results/overnight-20261111/raw/ppo-128-130363/progress.json",
+      "results/overnight-20261111/raw/ppo-128-130363/323584.json",
+      "results/overnight-20261111/raw/ppo-128-130363/0.json",
+      "results/overnight-20261111/raw/ppo-128-130363/434176.json",
+      "results/overnight-20261111/raw/ppo-128-130363/final.json",
+      "results/overnight-20261111/raw/ppo-128-130363/106496.json",
+      "results/overnight-20261111/raw/ppo-128-130363/final-raw.json"
+    ],
+    "training_episode_ranges": [
+      [
+        1047290001,
+        1047724177
+      ],
+      [
+        1303630001,
+        1304064177
+      ],
+      [
+        1559210001,
+        1559644177
+      ],
+      [
+        1966130001,
+        1966564177
+      ],
+      [
+        2621470001,
+        2621904177
+      ]
+    ],
+    "disjoint": true
+  },
+  "simulator_revision": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+  "learning_config": {
+    "version": 1,
+    "rules": {
+      "map": "BASE",
+      "players": 2,
+      "victory_points": 10,
+      "discard_limit": 7,
+      "player_negotiation": false,
+      "bank_port_trade": true,
+      "max_turns": 1000,
+      "max_engine_actions": 20000
+    },
+    "opponents": {
+      "random": 0.3333333333333333,
+      "weighted": 0.3333333333333333,
+      "heuristic": 0.3333333333333333
+    },
+    "training_seeds": [
+      104729,
+      130363
+    ],
+    "validation_seed_start": 2000000000,
+    "final_seed_start": 3000000000,
+    "gamma": 1.0,
+    "reward": "terminal +1/-1; otherwise zero",
+    "ppo": {
+      "lr": 0.0003,
+      "clip": 0.2,
+      "gae_lambda": 0.95,
+      "epochs": 4,
+      "batch": 256,
+      "rollout": 4096,
+      "entropy": 0.01,
+      "value_coefficient": 0.5,
+      "max_grad_norm": 0.5
+    },
+    "ddqn": {
+      "lr": 0.0003,
+      "batch": 256,
+      "replay_capacity": 20000,
+      "warmup": 1024,
+      "update_every": 4,
+      "target_every": 1000,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.05,
+      "epsilon_fraction": 0.8,
+      "max_grad_norm": 10.0,
+      "loss": "smooth_l1"
+    },
+    "configurations": [
+      [
+        "ppo",
+        128
+      ],
+      [
+        "ppo",
+        256
+      ],
+      [
+        "ddqn",
+        256
+      ]
+    ],
+    "run_limit_seconds": 2700,
+    "gpu_limit_seconds": 28800,
+    "checkpoint_seconds": 300,
+    "max_retries": 1,
+    "graph": "omitted: no validated graph path before allocation"
+  },
+  "operational_override_fields": [
+    "training_seeds",
+    "validation_seed_start",
+    "final_seed_start",
+    "gpu_limit_seconds",
+    "run_limit_seconds",
+    "configurations"
+  ],
+  "inference_location": "Colab T4; network and masked action only, excludes observation encoding and host-to-device transfer"
+}

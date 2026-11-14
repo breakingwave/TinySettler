@@ -1,0 +1,15 @@
+{
+  "time": 1794423630.6006627,
+  "reason": "bounded technical recovery after CLI kernel connection read timeout; previous replacement followed user-requested pause",
+  "deadline": 1794433005.0687976,
+  "max_replacements": 2,
+  "max_exec_retries_total": 6,
+  "max_transfer_retries_total": 6,
+  "copy_interval_seconds": 120,
+  "training_source_unchanged": true,
+  "completed_run_hashes": {
+    "retrieved/standard-104729/176128.pt": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+    "retrieved/curriculum-130363/176128.pt": "c260dfe69f5c82941a3732a5ffc1e5f4008c2cfa4ca67a459a36578152289001",
+    "retrieved/curriculum-104729/176128.pt": "6a7564dd1a039f5d0979b3b8d399886b6b842f5f3c584bc1cfdd378512807023"
+  }
+}

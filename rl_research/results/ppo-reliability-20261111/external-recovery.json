@@ -1,0 +1,6 @@
+{
+  "sha256": "dfdedf47c3fd8b57358554d89d17f048546532591746d5aa33bfe7e8d97c7c2a",
+  "cuda_continuation_bitwise_equal": true,
+  "optimizer_update_equal": true,
+  "diagnostics_retained": true
+}

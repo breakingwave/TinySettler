@@ -1,0 +1,989 @@
+{
+  "generatedAt": "2026-11-02T00:29:32.587Z",
+  "purpose": "Read-only diagnosis after user-requested stop; no further games",
+  "selectionPolicy": "Finalprotocolruns only; completed-selection latency excludesonly explicit user interruption, shownseparately. Othererrors wouldnotbe hidden.",
+  "runs": [
+    {
+      "reportId": "1793577116699-42-Qwen3-1.7B-q4f16_1-MLC",
+      "sourceFile": "1793577116699-42-Qwen3-1_7B-q4f16_1-MLC.json",
+      "completedSelections": 55,
+      "recordedAttempts": 55,
+      "completedSelectionLatencyMs": {
+        "min": 10558.700000047684,
+        "max": 24427,
+        "median": 14008.799999952316,
+        "p95": 22170
+      },
+      "allAttemptLatencyMs": {
+        "min": 10558.700000047684,
+        "max": 24427,
+        "median": 14008.799999952316,
+        "p95": 22170
+      },
+      "userInterruptedAttempts": [],
+      "otherErrorAttempts": [],
+      "budgetAdjustments": [],
+      "summary": {
+        "id": "1793577116699-42-Qwen3-1.7B-q4f16_1-MLC",
+        "model": "Qwen3-1.7B-q4f16_1-MLC",
+        "seed": 42,
+        "runtime": "WebLLM 0.2.87",
+        "settings": {
+          "temperature": 0,
+          "thinking": true,
+          "reasoningTokens": 256,
+          "reasoningDecodeMs": 12000,
+          "reasoningWallMs": 18000,
+          "targetMedianMs": 30000,
+          "adaptiveBudget": true,
+          "maxTokens": 32,
+          "contextWindow": 8192,
+          "protocol": "bounded thinking draft then constrained action ID",
+          "maxTurns": 320,
+          "maxDecisions": 480
+        },
+        "engine": {
+          "name": "Catanatron",
+          "version": "3.3.0",
+          "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+          "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+          "vpsToWin": 10,
+          "playerTradeOffers": false,
+          "autoForced": true
+        },
+        "status": "winner",
+        "completed": true,
+        "winner": "RED",
+        "truncated": false,
+        "reason": "winner",
+        "turn": 142,
+        "redVP": 10,
+        "redBuildings": {
+          "settlements": 0,
+          "cities": 4,
+          "roads": 15,
+          "longestRoad": 11
+        },
+        "decisions": 55,
+        "invalid": 0,
+        "wallSeconds": 835.5289000000954,
+        "loadSeconds": 1.2907999999523163,
+        "latency": {
+          "medianDecisionMs": 14008.799999952316,
+          "p95DecisionMs": 22170,
+          "totalInferenceSeconds": 832.8989999990463,
+          "medianFirstChunkMs": 4949,
+          "firstChunkFractionOfInferenceElapsed": 0.3305398373635549,
+          "pairedObservations": 55,
+          "medianDecodeTokensPerSecond": null,
+          "medianPrefillTokensPerSecond": null
+        },
+        "tokens": {
+          "promptTotal": 259135,
+          "promptMedian": 4635,
+          "outputTotal": 7471,
+          "outputMedian": 117,
+          "reportedTotal": 266606
+        },
+        "modelActionCounts": {
+          "BUILD_SETTLEMENT": 4,
+          "BUILD_ROAD": 15,
+          "MOVE_ROBBER": 7,
+          "MARITIME_TRADE": 15,
+          "BUILD_CITY": 4,
+          "DISCARD_RESOURCE": 10
+        },
+        "engineRedActionCounts": {
+          "BUILD_SETTLEMENT": 4,
+          "BUILD_ROAD": 15,
+          "ROLL": 35,
+          "END_TURN": 34,
+          "MOVE_ROBBER": 7,
+          "MARITIME_TRADE": 15,
+          "BUILD_CITY": 4,
+          "DISCARD_RESOURCE": 10
+        },
+        "forcedActions": 69,
+        "nonSetupModelActions": {
+          "settlements": 2,
+          "cities": 4,
+          "roads": 13,
+          "developmentPurchases": 0,
+          "developmentPlays": 0,
+          "trades": 15,
+          "endTurns": 0
+        },
+        "firstListedChoice": {
+          "count": 4,
+          "eligibleDecisions": 55,
+          "ratio": 0.07272727272727272,
+          "setupCount": 4,
+          "setupEligible": 4
+        },
+        "consecutiveInverseTrades": [],
+        "observationVersion": "catan-compact-v2",
+        "target": {
+          "medianDecisionMs": 30000,
+          "measuredMedianMs": 14008.799999952316,
+          "met": true,
+          "decisionsOver30Seconds": 0,
+          "measuredDecisions": 55
+        },
+        "reasoning": {
+          "measuredDecisions": 55,
+          "methods": [
+            "bounded-draft-then-constrained-selection"
+          ],
+          "cachePaths": [
+            "full-prefill-both-stages"
+          ],
+          "samplingConfigurations": [
+            {
+              "temperature": 0.6,
+              "topP": 0.95,
+              "presencePenalty": 0,
+              "topK": null,
+              "seed": 42
+            }
+          ],
+          "configuredTokenBudgets": {
+            "256": 55
+          },
+          "configuredDecodeBudgetsMs": {
+            "12000": 55
+          },
+          "configuredStageBudgetsMs": {
+            "18000": 55
+          },
+          "generatedTokens": {
+            "observations": 55,
+            "median": 110,
+            "p95": 256,
+            "total": 7079
+          },
+          "durationMs": {
+            "observations": 55,
+            "median": 8828.799999952316,
+            "p95": 15603.799999952316,
+            "total": 529639.1000006199
+          },
+          "firstChunkMs": {
+            "observations": 55,
+            "median": 4949,
+            "p95": 5718.900000095367,
+            "total": 275306.2999999523
+          },
+          "naturalClosures": 44,
+          "forcedBoundaries": 11,
+          "budgetTerminations": 10,
+          "terminationReasons": {
+            "token_limit": 10,
+            "natural_close": 44,
+            "model_stop": 1
+          },
+          "promptTokens": {
+            "observations": 55,
+            "median": 2289,
+            "p95": 2579,
+            "total": 126844
+          }
+        },
+        "selection": {
+          "measuredDecisions": 55,
+          "durationMs": {
+            "observations": 55,
+            "median": 5383.399999856949,
+            "p95": 6689.599999904633,
+            "total": 303246.69999980927
+          },
+          "firstChunkMs": {
+            "observations": 55,
+            "median": 5165.599999904633,
+            "p95": 6420,
+            "total": 290726.49999928474
+          },
+          "promptTokens": {
+            "observations": 55,
+            "median": 2345,
+            "p95": 2807,
+            "total": 132291
+          },
+          "outputTokens": {
+            "observations": 55,
+            "median": 7,
+            "p95": 8,
+            "total": 392
+          },
+          "finishReasons": {
+            "stop": 55
+          },
+          "terminationReasons": {
+            "model_stop": 55
+          },
+          "configuredStageBudgetsMs": {
+            "30000": 55
+          }
+        },
+        "lastObservedAtOrBeforeOriginalTurnCap": {
+          "decision": null,
+          "turn": 142,
+          "redVP": 10,
+          "source": "final engine state"
+        }
+      }
+    },
+    {
+      "reportId": "1793577953996-42-Qwen3.5-2B-q4f16_1-MLC",
+      "sourceFile": "1793577953996-42-Qwen3_5-2B-q4f16_1-MLC.json",
+      "completedSelections": 54,
+      "recordedAttempts": 55,
+      "completedSelectionLatencyMs": {
+        "min": 15665.299999952316,
+        "max": 27482.39999985695,
+        "median": 24981.450000047684,
+        "p95": 25879.099999904633
+      },
+      "allAttemptLatencyMs": {
+        "min": 320.80000019073486,
+        "max": 27482.39999985695,
+        "median": 24944.200000047684,
+        "p95": 25879.099999904633
+      },
+      "userInterruptedAttempts": [
+        {
+          "decision": 55,
+          "turn": 154,
+          "durationMs": 320.80000019073486,
+          "error": "Stopped"
+        }
+      ],
+      "otherErrorAttempts": [],
+      "budgetAdjustments": [],
+      "summary": {
+        "id": "1793577953996-42-Qwen3.5-2B-q4f16_1-MLC",
+        "model": "Qwen3.5-2B-q4f16_1-MLC",
+        "seed": 42,
+        "runtime": "WebLLM 0.2.87",
+        "settings": {
+          "temperature": 0,
+          "thinking": true,
+          "reasoningTokens": 256,
+          "reasoningDecodeMs": 12000,
+          "reasoningWallMs": 18000,
+          "targetMedianMs": 30000,
+          "adaptiveBudget": true,
+          "maxTokens": 32,
+          "contextWindow": 8192,
+          "protocol": "bounded thinking draft then constrained action ID",
+          "maxTurns": 320,
+          "maxDecisions": 480
+        },
+        "engine": {
+          "name": "Catanatron",
+          "version": "3.3.0",
+          "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+          "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+          "vpsToWin": 10,
+          "playerTradeOffers": false,
+          "autoForced": true
+        },
+        "status": "interrupted",
+        "completed": false,
+        "winner": null,
+        "truncated": false,
+        "reason": "Stopped",
+        "turn": 154,
+        "redVP": 6,
+        "redBuildings": {
+          "settlements": 0,
+          "cities": 2,
+          "roads": 15,
+          "longestRoad": 7
+        },
+        "decisions": 54,
+        "invalid": 0,
+        "wallSeconds": 1261.388,
+        "loadSeconds": 1.7178999998569489,
+        "latency": {
+          "medianDecisionMs": 24981.450000047684,
+          "p95DecisionMs": 25879.099999904633,
+          "totalInferenceSeconds": 1256.8107999999522,
+          "medianFirstChunkMs": 6372.100000023842,
+          "firstChunkFractionOfInferenceElapsed": 0.27676234163553004,
+          "pairedObservations": 54,
+          "medianDecodeTokensPerSecond": null,
+          "medianPrefillTokensPerSecond": null
+        },
+        "tokens": {
+          "promptTotal": 255689,
+          "promptMedian": 4733.5,
+          "outputTotal": 10730,
+          "outputMedian": 225.5,
+          "reportedTotal": 266419
+        },
+        "modelActionCounts": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 15,
+          "MARITIME_TRADE": 13,
+          "DISCARD_RESOURCE": 7,
+          "MOVE_ROBBER": 7,
+          "END_TURN": 5,
+          "BUY_DEVELOPMENT_CARD": 1,
+          "ROLL": 1,
+          "PLAY_ROAD_BUILDING": 1,
+          "BUILD_CITY": 2
+        },
+        "engineRedActionCounts": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 15,
+          "ROLL": 38,
+          "END_TURN": 37,
+          "MARITIME_TRADE": 13,
+          "DISCARD_RESOURCE": 8,
+          "MOVE_ROBBER": 7,
+          "BUY_DEVELOPMENT_CARD": 1,
+          "PLAY_ROAD_BUILDING": 1,
+          "BUILD_CITY": 2
+        },
+        "forcedActions": 70,
+        "nonSetupModelActions": {
+          "settlements": 0,
+          "cities": 2,
+          "roads": 13,
+          "developmentPurchases": 1,
+          "developmentPlays": 1,
+          "trades": 13,
+          "endTurns": 5
+        },
+        "firstListedChoice": {
+          "count": 13,
+          "eligibleDecisions": 54,
+          "ratio": 0.24074074074074073,
+          "setupCount": 2,
+          "setupEligible": 4
+        },
+        "consecutiveInverseTrades": [],
+        "observationVersion": "catan-compact-v2",
+        "target": {
+          "medianDecisionMs": 30000,
+          "measuredMedianMs": 24981.450000047684,
+          "met": true,
+          "decisionsOver30Seconds": 0,
+          "measuredDecisions": 54
+        },
+        "reasoning": {
+          "measuredDecisions": 54,
+          "methods": [
+            "bounded-draft-then-constrained-selection"
+          ],
+          "cachePaths": [
+            "full-prefill-both-stages"
+          ],
+          "samplingConfigurations": [
+            {
+              "temperature": 1,
+              "topP": 0.95,
+              "presencePenalty": 1.5,
+              "topK": null,
+              "seed": 42
+            }
+          ],
+          "configuredTokenBudgets": {
+            "256": 54
+          },
+          "configuredDecodeBudgetsMs": {
+            "12000": 54
+          },
+          "configuredStageBudgetsMs": {
+            "18000": 54
+          },
+          "generatedTokens": {
+            "observations": 54,
+            "median": 218.5,
+            "p95": 250,
+            "total": 10335
+          },
+          "durationMs": {
+            "observations": 54,
+            "median": 17979.700000047684,
+            "p95": 18045.599999904633,
+            "total": 863596.0000004768
+          },
+          "firstChunkMs": {
+            "observations": 54,
+            "median": 6372.100000023842,
+            "p95": 7134.600000143051,
+            "total": 347837.9000008106
+          },
+          "naturalClosures": 24,
+          "forcedBoundaries": 30,
+          "budgetTerminations": 30,
+          "terminationReasons": {
+            "stage_deadline": 25,
+            "decode_deadline": 5,
+            "natural_close": 24
+          },
+          "promptTokens": {
+            "observations": 54,
+            "median": 2271,
+            "p95": 2510,
+            "total": 123381
+          }
+        },
+        "selection": {
+          "measuredDecisions": 54,
+          "durationMs": {
+            "observations": 54,
+            "median": 7260.599999904633,
+            "p95": 8015.400000095367,
+            "total": 393190.69999957085
+          },
+          "firstChunkMs": {
+            "observations": 54,
+            "median": 6902.75,
+            "p95": 7641.5,
+            "total": 374401.5000002384
+          },
+          "promptTokens": {
+            "observations": 54,
+            "median": 2455,
+            "p95": 2697,
+            "total": 132308
+          },
+          "outputTokens": {
+            "observations": 54,
+            "median": 7,
+            "p95": 8,
+            "total": 395
+          },
+          "finishReasons": {
+            "stop": 54
+          },
+          "terminationReasons": {
+            "model_stop": 54
+          },
+          "configuredStageBudgetsMs": {
+            "30000": 54
+          }
+        },
+        "lastObservedAtOrBeforeOriginalTurnCap": {
+          "decision": null,
+          "turn": 154,
+          "redVP": 6,
+          "source": "final engine state"
+        }
+      }
+    }
+  ],
+  "originalNoThinking": [
+    {
+      "id": "1793572206357-42-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "truncated",
+      "completed": true,
+      "winner": null,
+      "truncated": true,
+      "reason": "turn limit",
+      "turn": 160,
+      "redVP": 7,
+      "redBuildings": {
+        "settlements": 3,
+        "cities": 1,
+        "roads": 15,
+        "longestRoad": 9
+      },
+      "decisions": 76,
+      "invalid": 0,
+      "wallSeconds": 373.8027000000477,
+      "loadSeconds": 1.8120999999046326,
+      "latency": {
+        "medianDecisionMs": 4857.450000047684,
+        "p95DecisionMs": 5762.400000095367,
+        "totalInferenceSeconds": 372.3701000006199,
+        "medianFirstChunkMs": 4645.500000119209,
+        "firstChunkFractionOfInferenceElapsed": 0.9548084016426261,
+        "pairedObservations": 76,
+        "medianDecodeTokensPerSecond": 28.999577664332826,
+        "medianPrefillTokensPerSecond": 448.6165899545694
+      },
+      "tokens": {
+        "promptTotal": 158451,
+        "promptMedian": 2069,
+        "outputTotal": 552,
+        "outputMedian": 7,
+        "reportedTotal": 159003
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "MOVE_ROBBER": 11,
+        "BUY_DEVELOPMENT_CARD": 4,
+        "PLAY_KNIGHT_CARD": 2,
+        "MARITIME_TRADE": 18,
+        "BUILD_CITY": 1,
+        "ROLL": 1,
+        "PLAY_MONOPOLY": 1,
+        "DISCARD_RESOURCE": 19
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "ROLL": 39,
+        "END_TURN": 39,
+        "MOVE_ROBBER": 11,
+        "BUY_DEVELOPMENT_CARD": 4,
+        "PLAY_KNIGHT_CARD": 2,
+        "MARITIME_TRADE": 18,
+        "BUILD_CITY": 1,
+        "PLAY_MONOPOLY": 1,
+        "DISCARD_RESOURCE": 19
+      },
+      "forcedActions": 77,
+      "nonSetupModelActions": {
+        "settlements": 2,
+        "cities": 1,
+        "roads": 13,
+        "developmentPurchases": 4,
+        "developmentPlays": 3,
+        "trades": 18,
+        "endTurns": 0
+      },
+      "firstListedChoice": {
+        "count": 8,
+        "eligibleDecisions": 76,
+        "ratio": 0.10526315789473684,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": [
+        {
+          "decisionNumbers": [
+            27,
+            28
+          ],
+          "turn": 86,
+          "actions": [
+            "trade 4 brick for 1 ore",
+            "trade 4 ore for 1 brick"
+          ],
+          "netResourceChange": {
+            "brick": -3,
+            "ore": -3
+          },
+          "totalCardsLost": 6
+        }
+      ]
+    },
+    {
+      "id": "1793572580187-43-Qwen3-1.7B-q4f16_1-MLC",
+      "model": "Qwen3-1.7B-q4f16_1-MLC",
+      "seed": 43,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "truncated",
+      "completed": true,
+      "winner": null,
+      "truncated": true,
+      "reason": "turn limit",
+      "turn": 160,
+      "redVP": 6,
+      "redBuildings": {
+        "settlements": 3,
+        "cities": 0,
+        "roads": 13,
+        "longestRoad": 9
+      },
+      "decisions": 49,
+      "invalid": 0,
+      "wallSeconds": 243.20839999985694,
+      "loadSeconds": 1.8120999999046326,
+      "latency": {
+        "medianDecisionMs": 4902,
+        "p95DecisionMs": 5734.899999856949,
+        "totalInferenceSeconds": 242.19710000038148,
+        "medianFirstChunkMs": 4703.099999904633,
+        "firstChunkFractionOfInferenceElapsed": 0.9557612374375187,
+        "pairedObservations": 49,
+        "medianDecodeTokensPerSecond": 29.154518923416994,
+        "medianPrefillTokensPerSecond": 443.1648047909709
+      },
+      "tokens": {
+        "promptTotal": 103069,
+        "promptMedian": 2095,
+        "outputTotal": 352,
+        "outputMedian": 7,
+        "reportedTotal": 103421
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 3,
+        "BUILD_ROAD": 13,
+        "MOVE_ROBBER": 9,
+        "MARITIME_TRADE": 7,
+        "DISCARD_RESOURCE": 8,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "ROLL": 3,
+        "PLAY_KNIGHT_CARD": 2,
+        "END_TURN": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 3,
+        "BUILD_ROAD": 13,
+        "ROLL": 39,
+        "END_TURN": 39,
+        "MOVE_ROBBER": 9,
+        "MARITIME_TRADE": 7,
+        "DISCARD_RESOURCE": 8,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "PLAY_KNIGHT_CARD": 2
+      },
+      "forcedActions": 74,
+      "nonSetupModelActions": {
+        "settlements": 1,
+        "cities": 0,
+        "roads": 11,
+        "developmentPurchases": 3,
+        "developmentPlays": 2,
+        "trades": 7,
+        "endTurns": 1
+      },
+      "firstListedChoice": {
+        "count": 7,
+        "eligibleDecisions": 49,
+        "ratio": 0.14285714285714285,
+        "setupCount": 4,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": []
+    },
+    {
+      "id": "1793572825192-42-Qwen3.5-2B-q4f16_1-MLC",
+      "model": "Qwen3.5-2B-q4f16_1-MLC",
+      "seed": 42,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "winner",
+      "completed": true,
+      "winner": "RED",
+      "truncated": false,
+      "reason": "winner",
+      "turn": 146,
+      "redVP": 10,
+      "redBuildings": {
+        "settlements": 1,
+        "cities": 3,
+        "roads": 15,
+        "longestRoad": 10
+      },
+      "decisions": 76,
+      "invalid": 0,
+      "wallSeconds": 481.8040999999046,
+      "loadSeconds": 1.7834000000953674,
+      "latency": {
+        "medianDecisionMs": 6126.350000023842,
+        "p95DecisionMs": 7296.900000095367,
+        "totalInferenceSeconds": 479.63880000042917,
+        "medianFirstChunkMs": 5753.600000023842,
+        "firstChunkFractionOfInferenceElapsed": 0.9419354731082458,
+        "pairedObservations": 76,
+        "medianDecodeTokensPerSecond": 20.539906077421445,
+        "medianPrefillTokensPerSecond": 355.1403881622749
+      },
+      "tokens": {
+        "promptTotal": 157696,
+        "promptMedian": 2033.5,
+        "outputTotal": 617,
+        "outputMedian": 8,
+        "reportedTotal": 158313
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "MARITIME_TRADE": 15,
+        "BUILD_CITY": 3,
+        "MOVE_ROBBER": 7,
+        "BUY_DEVELOPMENT_CARD": 7,
+        "END_TURN": 3,
+        "ROLL": 2,
+        "DISCARD_RESOURCE": 14,
+        "PLAY_MONOPOLY": 1,
+        "PLAY_KNIGHT_CARD": 2,
+        "PLAY_YEAR_OF_PLENTY": 2,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 4,
+        "BUILD_ROAD": 15,
+        "ROLL": 36,
+        "END_TURN": 35,
+        "MARITIME_TRADE": 15,
+        "BUILD_CITY": 3,
+        "MOVE_ROBBER": 7,
+        "BUY_DEVELOPMENT_CARD": 7,
+        "DISCARD_RESOURCE": 14,
+        "PLAY_MONOPOLY": 1,
+        "PLAY_KNIGHT_CARD": 2,
+        "PLAY_YEAR_OF_PLENTY": 2,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "forcedActions": 66,
+      "nonSetupModelActions": {
+        "settlements": 2,
+        "cities": 3,
+        "roads": 13,
+        "developmentPurchases": 7,
+        "developmentPlays": 6,
+        "trades": 15,
+        "endTurns": 3
+      },
+      "firstListedChoice": {
+        "count": 18,
+        "eligibleDecisions": 76,
+        "ratio": 0.23684210526315788,
+        "setupCount": 2,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": []
+    },
+    {
+      "id": "1793573307024-43-Qwen3.5-2B-q4f16_1-MLC",
+      "model": "Qwen3.5-2B-q4f16_1-MLC",
+      "seed": 43,
+      "runtime": "WebLLM 0.2.87",
+      "settings": {
+        "temperature": 0,
+        "thinking": false,
+        "maxTokens": 32,
+        "contextWindow": 8192,
+        "protocol": "choose one legal action ID / constrained JSON",
+        "maxTurns": 160,
+        "maxDecisions": 240
+      },
+      "engine": {
+        "name": "Catanatron",
+        "version": "3.3.0",
+        "commit": "ecf931181b9a65bb4116a2153fb78c16f1438e00",
+        "opponents": "3 WeightedRandomPlayer bots; seeded game RNG",
+        "vpsToWin": 10,
+        "playerTradeOffers": false,
+        "autoForced": true
+      },
+      "status": "truncated",
+      "completed": true,
+      "winner": null,
+      "truncated": true,
+      "reason": "turn limit",
+      "turn": 160,
+      "redVP": 3,
+      "redBuildings": {
+        "settlements": 2,
+        "cities": 0,
+        "roads": 4,
+        "longestRoad": 4
+      },
+      "decisions": 59,
+      "invalid": 0,
+      "wallSeconds": 355.3037000000477,
+      "loadSeconds": 1.7834000000953674,
+      "latency": {
+        "medianDecisionMs": 5963.700000047684,
+        "p95DecisionMs": 6951.799999952316,
+        "totalInferenceSeconds": 353.20439999985695,
+        "medianFirstChunkMs": 5624,
+        "firstChunkFractionOfInferenceElapsed": 0.9422824290986339,
+        "pairedObservations": 59,
+        "medianDecodeTokensPerSecond": 21.014710303224614,
+        "medianPrefillTokensPerSecond": 359.20162029928366
+      },
+      "tokens": {
+        "promptTotal": 119434,
+        "promptMedian": 2031,
+        "outputTotal": 474,
+        "outputMedian": 8,
+        "reportedTotal": 119908
+      },
+      "modelActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 4,
+        "DISCARD_RESOURCE": 17,
+        "MOVE_ROBBER": 5,
+        "MARITIME_TRADE": 13,
+        "END_TURN": 9,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "ROLL": 4,
+        "PLAY_KNIGHT_CARD": 1,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "engineRedActionCounts": {
+        "BUILD_SETTLEMENT": 2,
+        "BUILD_ROAD": 4,
+        "ROLL": 39,
+        "END_TURN": 39,
+        "DISCARD_RESOURCE": 17,
+        "MOVE_ROBBER": 5,
+        "MARITIME_TRADE": 13,
+        "BUY_DEVELOPMENT_CARD": 3,
+        "PLAY_KNIGHT_CARD": 1,
+        "PLAY_ROAD_BUILDING": 1
+      },
+      "forcedActions": 65,
+      "nonSetupModelActions": {
+        "settlements": 0,
+        "cities": 0,
+        "roads": 2,
+        "developmentPurchases": 3,
+        "developmentPlays": 2,
+        "trades": 13,
+        "endTurns": 9
+      },
+      "firstListedChoice": {
+        "count": 17,
+        "eligibleDecisions": 59,
+        "ratio": 0.288135593220339,
+        "setupCount": 2,
+        "setupEligible": 4
+      },
+      "consecutiveInverseTrades": []
+    }
+  ],
+  "findings": [
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        1,
+        3
+      ],
+      "type": "resource_balance",
+      "evidence": "Starting settlements N0 and N22 produce only brick, ore and wood; no wheat or sheep production."
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        18,
+        19
+      ],
+      "turn": 50,
+      "type": "dominated_trade_chain",
+      "evidence": "4 brick\u21921 wood, then4 wood\u21921 ore; direct4 brick\u21921 ore was legal at18(action14). Chain loses3 extra wood versus direct trade."
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        24
+      ],
+      "turn": 58,
+      "type": "self_robber",
+      "evidence": "Moves robber toT6 ORE9, adjacent to bothREDsettlementsN0/N22, stealsnobody. Draft incorrectly calls it a free road and claimsRED8VP whileinput2VP."
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        27
+      ],
+      "turn": 58,
+      "type": "draft_selection_mismatch",
+      "evidence": "Draft recommendsN0\u2013N20; finalselectionexecutesN9\u2013N10. Independentsecondpass may change recommendation; draft is not faithful justification."
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        30
+      ],
+      "turn": 70,
+      "type": "invented_effects",
+      "evidence": "Ordinary build_roadN3\u2013N12 described as twofree roads worth2VP; inputhas0developmentcards and4VP."
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        47
+      ],
+      "turn": 122,
+      "type": "missed_available_city",
+      "evidence": "Ends turn with2wheat/4ore andtwolegalcity upgrades; draft falsely saysno newbuildingpath exists. Buildsonecitynextturn126."
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "decisions": [
+        49
+      ],
+      "turn": 130,
+      "type": "wrong_action_mapping",
+      "evidence": "Draft identifiesID1asN4\u2013N5; actualID1isN10\u2013N11, whichisexecuted."
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "decisions": [
+        1,
+        3,
+        52,
+        54
+      ],
+      "type": "menu_copying",
+      "evidence": "Large settlement/robber menus consume reasoning budget by copyingactions rather than completedcomparisons."
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "decisions": [
+        55
+      ],
+      "turn": 142,
+      "type": "incorrect_rationale_with_correct_action",
+      "evidence": "Winning cityN6 upgrade described as providing2wheat, butN6toucheswood10/ore9/wood2."
+    }
+  ],
+  "calibrationAttemptCount": 12
+}

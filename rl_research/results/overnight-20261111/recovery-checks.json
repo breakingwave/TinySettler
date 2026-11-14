@@ -1,0 +1,252 @@
+[
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-104729/0.pt",
+    "sha256": "ab197cef00ebd18c7919a45b49a630e5fa86194a53a7fd46cf84c692efd4625b",
+    "n": 0,
+    "updates": 0,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-104729/106496.pt",
+    "sha256": "b5c371f56c3e1767c9e34901501dea86d23a637c1aa86ec2f4391134aea437e3",
+    "n": 106496,
+    "updates": 26369,
+    "replay_size": 20000,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-104729/217088.pt",
+    "sha256": "47f173dca45a4d6e78f172a164bf51a8455be0389b228a156a08f8ce9e81f8a1",
+    "n": 217088,
+    "updates": 54017,
+    "replay_size": 20000,
+    "selected": true,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-104729/323584.pt",
+    "sha256": "6f7ef8d10034aaaef1453b92c271cf822948ed9c7197574be91d3ff928483228",
+    "n": 323584,
+    "updates": 80641,
+    "replay_size": 20000,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-104729/434176.pt",
+    "sha256": "4fbc5c0b5f88b6061a18eca580210a2ceee3161029c4cfae2d6fd85ead88fa21",
+    "n": 434176,
+    "updates": 108289,
+    "replay_size": 20000,
+    "selected": false,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-130363/0.pt",
+    "sha256": "e0e3f2ec74c35c67a87c96b1bcf14f16c07e03661da59fceaaf0a6d39d8bcb93",
+    "n": 0,
+    "updates": 0,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-130363/106496.pt",
+    "sha256": "180ac276125cb681495f8ccf8114c578d2fd8e003eb578bca2be1a3cfbf80e40",
+    "n": 106496,
+    "updates": 26369,
+    "replay_size": 20000,
+    "selected": true,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-130363/217088.pt",
+    "sha256": "8941cdda40d219258fa349f17a68511cd5a0106134266e89d56c15b3c4b8dad2",
+    "n": 217088,
+    "updates": 54017,
+    "replay_size": 20000,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-130363/323584.pt",
+    "sha256": "f27dde4cc5e3242876a62ba6848ec51fb55cef7b28a80d84f860528fce8f0300",
+    "n": 323584,
+    "updates": 80641,
+    "replay_size": 20000,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ddqn-256-130363/434176.pt",
+    "sha256": "2fef2152f0fafa6b8b3a5fb04b99b06272723f44e248bedb4ccde78595294c5b",
+    "n": 434176,
+    "updates": 108289,
+    "replay_size": 20000,
+    "selected": false,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/0.pt",
+    "sha256": "79b9ddc67f3df6d35db545b4f69f257dc951661545630aa860d0993465add345",
+    "n": 0,
+    "updates": 0,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/106496.pt",
+    "sha256": "a7fdb4d9806d81de2982d6a35470e2246081823d74fbcf021899a17a61f760bd",
+    "n": 106496,
+    "updates": 1664,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/217088.pt",
+    "sha256": "2ac361bd336cb8e8012c270a45c7f4f97dfc70e8ed2299d82372fd7c0124fbf9",
+    "n": 217088,
+    "updates": 3392,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/323584.pt",
+    "sha256": "78b88a193d689e022cb13164337abba91c1d5e8b33c700c4a194cb1bb856849d",
+    "n": 323584,
+    "updates": 5056,
+    "replay_size": 0,
+    "selected": true,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-104729/434176.pt",
+    "sha256": "73de31d6518bcc309e29b1e1cb914227dad87d63a9d8344c4e59642fc9d82e01",
+    "n": 434176,
+    "updates": 6784,
+    "replay_size": 0,
+    "selected": false,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/0.pt",
+    "sha256": "e8d451a3e1f510146900871cb7ef2d92920637848bc76898841e5cf6779a2dc0",
+    "n": 0,
+    "updates": 0,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/106496.pt",
+    "sha256": "1b980b0d313b49e4d37e22ba5793cb0e5aa44f16307ed6057e6889443e53380d",
+    "n": 106496,
+    "updates": 1664,
+    "replay_size": 0,
+    "selected": true,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/217088.pt",
+    "sha256": "b7a604396829e94bd4427e851ec73434e071a85c266c19da16d5a19245f7edec",
+    "n": 217088,
+    "updates": 3392,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/323584.pt",
+    "sha256": "6a5165075addf95edb0ecbbbcc3e2592f95713cf61cea8faad3e53d800d3d0e7",
+    "n": 323584,
+    "updates": 5056,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-128-130363/434176.pt",
+    "sha256": "809bcdb9d70f21bb3d12991d793e943b25da5429ba5d9cfedd3c380ed9de14bd",
+    "n": 434176,
+    "updates": 6784,
+    "replay_size": 0,
+    "selected": false,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/0.pt",
+    "sha256": "f4ece3064a8c1ce348a1a8060b30e08b6ed2e4b61b124b646851ea5058f998bc",
+    "n": 0,
+    "updates": 0,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/106496.pt",
+    "sha256": "5d37d8722c329373af533a98c71c522d0b39d0b45b225438c88204b820211e58",
+    "n": 106496,
+    "updates": 1664,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/217088.pt",
+    "sha256": "a08e62cc1b3dec998ca103ed79bed7bba20a810f9bcccdeac499f229c0e3e1ab",
+    "n": 217088,
+    "updates": 3392,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/323584.pt",
+    "sha256": "3ef4b3f336c0619f748d355e84386eeca8856570207946fba4dc87df1e061f5e",
+    "n": 323584,
+    "updates": 5056,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-104729/434176.pt",
+    "sha256": "6fc9d11be06b01874fa9051f1953cf03fe8144dfb5827c440433942476a56ab2",
+    "n": 434176,
+    "updates": 6784,
+    "replay_size": 0,
+    "selected": true,
+    "cpu_recovery_collect_update_passed": true
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-130363/0.pt",
+    "sha256": "f3343760b074f938f3f996ec6e53a965e5fb8f99e5aedc8445cf44b0d9d252c3",
+    "n": 0,
+    "updates": 0,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-130363/106496.pt",
+    "sha256": "eff1f8b69e38ec52bd6eb474d1f2ad5d5451925b1005421043f9cdbb52501197",
+    "n": 106496,
+    "updates": 1664,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-130363/217088.pt",
+    "sha256": "763cd3b071239f175252958ac7b6771a7a26d0aec5d07345936215a4085f9bcb",
+    "n": 217088,
+    "updates": 3392,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-130363/323584.pt",
+    "sha256": "0caef7bc75eb986da66a3029712fe1672987aac65969c3c8485c6cd4358e5ef9",
+    "n": 323584,
+    "updates": 5056,
+    "replay_size": 0,
+    "selected": false
+  },
+  {
+    "path": "/root/tinysettler-artifacts/tinysettler-ablation-20261111-b/retrieved/ppo-256-130363/434176.pt",
+    "sha256": "d7725e9ede7c0a10f377860c7471dc7c4debc040c76334a19b655ba0d1648b74",
+    "n": 434176,
+    "updates": 6784,
+    "replay_size": 0,
+    "selected": true,
+    "cpu_recovery_collect_update_passed": true
+  }
+]

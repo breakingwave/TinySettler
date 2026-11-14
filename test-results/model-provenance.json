@@ -1,0 +1,27 @@
+[
+  {
+    "model": "mlc-ai/Qwen3.5-2B-q4f16_1-MLC",
+    "sha": "dd74e9c8a20c4546df85c844103bff87b6dcacad",
+    "lastModified": "2026-03-29T07:53:15.000Z"
+  },
+  {
+    "model": "mlc-ai/Qwen3.5-2B-q4f32_1-MLC",
+    "sha": "d835e5c41aa56174d915e8a3940cde599d3f5a30",
+    "lastModified": "2026-04-22T18:44:50.000Z"
+  },
+  {
+    "model": "mlc-ai/Qwen3-1.7B-q4f16_1-MLC",
+    "sha": "80b3abcec6c3b3f5355dc0cc99cc4fb578f192bc",
+    "lastModified": "2026-04-18T20:59:14.000Z"
+  },
+  {
+    "model": "onnx-community/Qwen3.5-2B-ONNX-OPT",
+    "sha": "ed446636739bf426e73c5a00714fd8e010d36c21",
+    "lastModified": "2026-10-13T18:55:38.000Z"
+  },
+  {
+    "model": "Qwen/Qwen3.5-2B",
+    "sha": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "lastModified": "2026-03-02T11:26:29.000Z"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "reason": "Fatal pre-sweep E-single exact CUDA recovery divergence. CPU model constructors used torch.manual_seed inside a CPU-only fork_rng, which also reset CUDA RNG on cache misses. Use CPU default_generator.manual_seed; actual CUDA isolation assertion added. No experimental policies were trained and no scope was frozen.",
+  "previous_artifacts": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a",
+  "previous_source_sha256": "e3b0e6142294dd3c00fe5c3433778bb3e5e6e528417e1574ef9684b7f8e75b97",
+  "original_started": 1794619143.8894265,
+  "original_deadline": 1794669543.8894265,
+  "reserved_fault_replacement": 1,
+  "preflight_repair_reserve_seconds": 1800,
+  "all_pilots_fresh": true,
+  "settings_unchanged": true,
+  "time": 1794620572.834974
+}

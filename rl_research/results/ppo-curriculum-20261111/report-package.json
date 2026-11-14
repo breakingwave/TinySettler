@@ -1,0 +1,7 @@
+{
+  "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/reports-and-recovery-code.tar.gz",
+  "bytes": 1023514,
+  "sha256": "4d6997d1fd0280bccb6da2ae6921524de9a82630750b8b654f6ef842b8b2251f",
+  "verified_at": 1794427767.9818947,
+  "note": "Reporting/recovery code is separate from the immutable executed training source in final-policies-and-corpus.tar.gz."
+}

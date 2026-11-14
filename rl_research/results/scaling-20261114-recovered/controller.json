@@ -1,0 +1,768 @@
+{
+  "base": "tinysettler-scaling-20261114-a",
+  "session": "tinysettler-scaling-20261114-a-r3",
+  "started": 1794619143.8894265,
+  "deadline": 1794669543.8894265,
+  "planned_handoffs": 1,
+  "fault_replacements": 2,
+  "allocations": [
+    {
+      "session": "tinysettler-scaling-20261114-a",
+      "requested": 1794619143.89194,
+      "terminated": true,
+      "ready": 1794619145.5403697,
+      "stopped": 1794620243.402611
+    },
+    {
+      "session": "tinysettler-scaling-20261114-a-r1",
+      "requested": 1794620572.931004,
+      "terminated": true,
+      "ready": 1794620576.478415,
+      "stopped": 1794624169.5838182
+    },
+    {
+      "session": "tinysettler-scaling-20261114-a-r2",
+      "requested": 1794624798.5908477,
+      "terminated": true,
+      "ready": 1794624802.3199136,
+      "stopped": 1794655400.6331072
+    },
+    {
+      "session": "tinysettler-scaling-20261114-a-r3",
+      "requested": 1794655400.6347687,
+      "terminated": true,
+      "ready": 1794655404.3384178,
+      "stopped": 1794659634.9668252
+    }
+  ],
+  "events": [
+    {
+      "time": 1794619452.955686,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a"
+    },
+    {
+      "time": 1794619491.4967482,
+      "kind": "verified_generation",
+      "files": 10,
+      "bytes": 13856,
+      "generation": "1794619476467151583.json"
+    },
+    {
+      "time": 1794620091.7620025,
+      "kind": "verified_generation",
+      "files": 91,
+      "bytes": 443903,
+      "generation": "1794620077110455920.json"
+    },
+    {
+      "time": 1794620241.329564,
+      "kind": "verified_generation",
+      "files": 95,
+      "bytes": 45022,
+      "generation": "1794620236696532497.json"
+    },
+    {
+      "kind": "pre_sweep_rng_repair_single_fault_replacement",
+      "time": 1794620572.863183,
+      "previous_artifacts": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a"
+    },
+    {
+      "time": 1794621551.6189156,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794622506.7228115,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 2,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794622878.2971017,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a-r1"
+    },
+    {
+      "time": 1794623043.4166467,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794623351.6965652,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794623532.7520921,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794623559.986059,
+      "kind": "verified_generation",
+      "files": 71,
+      "bytes": 464930,
+      "generation": "1794623367654871194.json"
+    },
+    {
+      "time": 1794623971.4806213,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794624152.131476,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794624167.5325572,
+      "kind": "verified_generation",
+      "files": 94,
+      "bytes": 113450,
+      "generation": "1794623986997157760.json"
+    },
+    {
+      "kind": "user_authorized_one_additional_fault_recovery",
+      "time": 1794624798.4929373,
+      "amendment": "/root/tinysettler-artifacts/tinysettler-scaling-20261114-a-recovery2/authorization-amendment.json"
+    },
+    {
+      "time": 1794625129.3957732,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794625156.8947258,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a-r2"
+    },
+    {
+      "time": 1794625177.3586173,
+      "kind": "verified_generation",
+      "files": 13,
+      "bytes": 3529817,
+      "generation": "1794625172287467670.json"
+    },
+    {
+      "time": 1794625821.1902444,
+      "kind": "verified_generation",
+      "files": 41,
+      "bytes": 72369166,
+      "generation": "1794625816128844254.json"
+    },
+    {
+      "time": 1794626469.1986675,
+      "kind": "verified_generation",
+      "files": 95,
+      "bytes": 103996302,
+      "generation": "1794626442508945510.json"
+    },
+    {
+      "time": 1794627066.4417133,
+      "kind": "verified_generation",
+      "files": 179,
+      "bytes": 175480079,
+      "generation": "1794627060905654430.json"
+    },
+    {
+      "time": 1794627152.1399384,
+      "kind": "verified_generation",
+      "files": 183,
+      "bytes": 41688526,
+      "generation": "1794627147447191586.json"
+    },
+    {
+      "time": 1794627539.831348,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794627557.8840225,
+      "kind": "verified_generation",
+      "files": 186,
+      "bytes": 30624,
+      "generation": "1794627552972789894.json"
+    },
+    {
+      "time": 1794627855.9937,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794627917.657644,
+      "kind": "verified_generation",
+      "files": 247,
+      "bytes": 22443939,
+      "generation": "1794627902334543784.json"
+    },
+    {
+      "time": 1794628389.260194,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794628554.5616415,
+      "kind": "verified_generation",
+      "files": 250,
+      "bytes": 5368725,
+      "generation": "1794628539670765246.json"
+    },
+    {
+      "time": 1794629161.815046,
+      "kind": "verified_generation",
+      "files": 252,
+      "bytes": 6554398,
+      "generation": "1794629156084881421.json"
+    },
+    {
+      "time": 1794629783.2674222,
+      "kind": "verified_generation",
+      "files": 254,
+      "bytes": 12432460,
+      "generation": "1794629777886985523.json"
+    },
+    {
+      "time": 1794630455.3661335,
+      "kind": "verified_generation",
+      "files": 259,
+      "bytes": 29078730,
+      "generation": "1794630440664200580.json"
+    },
+    {
+      "time": 1794630938.0348644,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794631103.2625961,
+      "kind": "verified_generation",
+      "files": 265,
+      "bytes": 4198163,
+      "generation": "1794631087962956130.json"
+    },
+    {
+      "time": 1794631717.623051,
+      "kind": "verified_generation",
+      "files": 266,
+      "bytes": 5321382,
+      "generation": "1794631712237992388.json"
+    },
+    {
+      "time": 1794632490.5949256,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794632534.328457,
+      "kind": "verified_generation",
+      "files": 272,
+      "bytes": 16693068,
+      "generation": "1794632528719594555.json"
+    },
+    {
+      "time": 1794633203.9162173,
+      "kind": "verified_generation",
+      "files": 275,
+      "bytes": 10229521,
+      "generation": "1794633198059934570.json"
+    },
+    {
+      "time": 1794633568.024998,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794633815.9505308,
+      "kind": "verified_generation",
+      "files": 278,
+      "bytes": 5359356,
+      "generation": "1794633800026378378.json"
+    },
+    {
+      "time": 1794634102.8623924,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794634277.959388,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 2,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794634492.6443605,
+      "kind": "verified_generation",
+      "files": 283,
+      "bytes": 9851298,
+      "generation": "1794634477142037897.json"
+    },
+    {
+      "time": 1794635171.0731528,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794635477.7513738,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794635507.7649612,
+      "kind": "verified_generation",
+      "files": 287,
+      "bytes": 38099626,
+      "generation": "1794635499087646982.json"
+    },
+    {
+      "time": 1794635868.610956,
+      "kind": "verified_generation",
+      "files": 291,
+      "bytes": 11799615,
+      "generation": "1794635863286991003.json"
+    },
+    {
+      "time": 1794636467.839751,
+      "kind": "verified_generation",
+      "files": 295,
+      "bytes": 7044574,
+      "generation": "1794636462485867712.json"
+    },
+    {
+      "time": 1794637093.6614602,
+      "kind": "verified_generation",
+      "files": 298,
+      "bytes": 6428004,
+      "generation": "1794637083633705706.json"
+    },
+    {
+      "time": 1794637728.7680411,
+      "kind": "verified_generation",
+      "files": 302,
+      "bytes": 16905912,
+      "generation": "1794637720935660758.json"
+    },
+    {
+      "time": 1794638376.3681421,
+      "kind": "verified_generation",
+      "files": 306,
+      "bytes": 24222086,
+      "generation": "1794638348871840581.json"
+    },
+    {
+      "time": 1794638998.4398572,
+      "kind": "verified_generation",
+      "files": 310,
+      "bytes": 4688709,
+      "generation": "1794638992724373939.json"
+    },
+    {
+      "time": 1794639615.9075563,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794639650.0216076,
+      "kind": "verified_generation",
+      "files": 315,
+      "bytes": 9461473,
+      "generation": "1794639643791423945.json"
+    },
+    {
+      "time": 1794640285.3470635,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794640327.581664,
+      "kind": "verified_generation",
+      "files": 319,
+      "bytes": 8838458,
+      "generation": "1794640319560790317.json"
+    },
+    {
+      "time": 1794640925.3003895,
+      "kind": "verified_generation",
+      "files": 322,
+      "bytes": 4055149,
+      "generation": "1794640917826329359.json"
+    },
+    {
+      "time": 1794641408.2704618,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794641588.9557528,
+      "kind": "verified_generation",
+      "files": 325,
+      "bytes": 7554438,
+      "generation": "1794641575475665781.json"
+    },
+    {
+      "time": 1794642224.5842803,
+      "kind": "verified_generation",
+      "files": 329,
+      "bytes": 10468331,
+      "generation": "1794642217707114392.json"
+    },
+    {
+      "time": 1794642870.370951,
+      "kind": "verified_generation",
+      "files": 332,
+      "bytes": 14708115,
+      "generation": "1794642864505406762.json"
+    },
+    {
+      "time": 1794643381.6431758,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794643496.8808239,
+      "kind": "verified_generation",
+      "files": 336,
+      "bytes": 30899218,
+      "generation": "1794643489579647615.json"
+    },
+    {
+      "time": 1794644072.7135959,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794644096.7151048,
+      "kind": "verified_generation",
+      "files": 340,
+      "bytes": 8037558,
+      "generation": "1794644090028631986.json"
+    },
+    {
+      "time": 1794644753.2053032,
+      "kind": "verified_generation",
+      "files": 340,
+      "bytes": 8030650,
+      "generation": "1794644741247556773.json"
+    },
+    {
+      "time": 1794645411.6746976,
+      "kind": "verified_generation",
+      "files": 344,
+      "bytes": 39605244,
+      "generation": "1794645404302576327.json"
+    },
+    {
+      "time": 1794646137.9822118,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794646313.0925167,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 2,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794646532.7197351,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794646568.5943596,
+      "kind": "verified_generation",
+      "files": 350,
+      "bytes": 37647653,
+      "generation": "1794646367573970846.json"
+    },
+    {
+      "time": 1794646855.4852028,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794647037.4026499,
+      "kind": "verified_generation",
+      "files": 353,
+      "bytes": 7642866,
+      "generation": "1794647031437002324.json"
+    },
+    {
+      "time": 1794647458.823591,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794647711.3264472,
+      "kind": "verified_generation",
+      "files": 358,
+      "bytes": 11514315,
+      "generation": "1794647704510700180.json"
+    },
+    {
+      "time": 1794648364.7298553,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794648397.4232943,
+      "kind": "verified_generation",
+      "files": 362,
+      "bytes": 39559926,
+      "generation": "1794648390295816925.json"
+    },
+    {
+      "time": 1794648622.5355911,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794649064.7806454,
+      "kind": "verified_generation",
+      "files": 366,
+      "bytes": 14262373,
+      "generation": "1794649048446471573.json"
+    },
+    {
+      "time": 1794649361.8015487,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794650022.6468763,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794650048.3264174,
+      "kind": "verified_generation",
+      "files": 370,
+      "bytes": 17274392,
+      "generation": "1794650040669192601.json"
+    },
+    {
+      "time": 1794650380.6730273,
+      "kind": "verified_generation",
+      "files": 373,
+      "bytes": 6428726,
+      "generation": "1794650374087675709.json"
+    },
+    {
+      "time": 1794651000.5654464,
+      "kind": "verified_generation",
+      "files": 373,
+      "bytes": 16588673,
+      "generation": "1794650993680973194.json"
+    },
+    {
+      "time": 1794651627.1884658,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794651689.4071136,
+      "kind": "verified_generation",
+      "files": 378,
+      "bytes": 52537913,
+      "generation": "1794651677021376276.json"
+    },
+    {
+      "time": 1794652334.995251,
+      "kind": "verified_generation",
+      "files": 381,
+      "bytes": 44666536,
+      "generation": "1794652316153475815.json"
+    },
+    {
+      "time": 1794652948.3433013,
+      "kind": "verified_generation",
+      "files": 385,
+      "bytes": 15622350,
+      "generation": "1794652941316083680.json"
+    },
+    {
+      "time": 1794653688.837234,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794653885.3660638,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794653924.3347363,
+      "kind": "verified_generation",
+      "files": 390,
+      "bytes": 21048461,
+      "generation": "1794653720198762255.json"
+    },
+    {
+      "time": 1794654386.1018164,
+      "kind": "verified_generation",
+      "files": 394,
+      "bytes": 16990002,
+      "generation": "1794654379322199710.json"
+    },
+    {
+      "time": 1794655013.993839,
+      "kind": "bounded_cli_retry",
+      "command": "exec",
+      "attempt": 1,
+      "error": "TimeoutExpired"
+    },
+    {
+      "time": 1794655061.8655705,
+      "kind": "verified_generation",
+      "files": 399,
+      "bytes": 9029578,
+      "generation": "1794655041889938449.json"
+    },
+    {
+      "time": 1794655374.7306547,
+      "kind": "verified_generation",
+      "files": 405,
+      "bytes": 373779,
+      "generation": "1794655367644945621.json"
+    },
+    {
+      "time": 1794656038.3533213,
+      "kind": "worker_launched",
+      "session": "tinysettler-scaling-20261114-a-r3"
+    },
+    {
+      "time": 1794656278.058414,
+      "kind": "verified_generation",
+      "files": 407,
+      "bytes": 551659492,
+      "generation": "1794656270855250298.json"
+    },
+    {
+      "time": 1794656766.5395868,
+      "kind": "verified_generation",
+      "files": 417,
+      "bytes": 850821,
+      "generation": "1794656748253638989.json"
+    },
+    {
+      "time": 1794657369.336649,
+      "kind": "verified_generation",
+      "files": 423,
+      "bytes": 863542,
+      "generation": "1794657361160398376.json"
+    },
+    {
+      "time": 1794657994.5616574,
+      "kind": "verified_generation",
+      "files": 433,
+      "bytes": 1108939,
+      "generation": "1794657988126045474.json"
+    },
+    {
+      "time": 1794658625.848022,
+      "kind": "verified_generation",
+      "files": 444,
+      "bytes": 914256,
+      "generation": "1794658610899221866.json"
+    },
+    {
+      "time": 1794659241.3744578,
+      "kind": "verified_generation",
+      "files": 467,
+      "bytes": 894762,
+      "generation": "1794659234259303230.json"
+    },
+    {
+      "time": 1794659632.6622195,
+      "kind": "verified_generation",
+      "files": 470,
+      "bytes": 652335,
+      "generation": "1794659625630977025.json"
+    }
+  ],
+  "complete": true,
+  "all_terminated": true,
+  "max_fault_replacements": 2,
+  "controller_pid": 60106,
+  "watchdog_pid": 60108,
+  "last_verified_copy": 1794659625.7279592,
+  "latest_generation": "1794659625630977025.json",
+  "selection_committed_at": 1794655061.8672955,
+  "selection_sha256": "00526a7e51cea061ca75c78860fef709ade65297a852d0d3999a66e4a45bff52",
+  "result": {
+    "phase": "complete",
+    "time": 1794659572.8478127,
+    "common_step": 425984,
+    "target": 425984,
+    "runs": 10,
+    "incomplete_training": false
+  },
+  "ended": 1794659634.9681413,
+  "elapsed_upper_bound": 40491.078714847565
+}

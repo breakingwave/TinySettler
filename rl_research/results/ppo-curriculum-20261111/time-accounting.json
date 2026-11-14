@@ -1,0 +1,11 @@
+{
+  "allocated_upper_bound_seconds": 8775.294137716293,
+  "training_seconds": 5262.3699711710005,
+  "evaluation_seconds": 714.6297754829993,
+  "task_seconds": 54.86810147699907,
+  "pilot_seconds": 88.80629756699994,
+  "deadline": 1794433005.0687976,
+  "started": 1794418605.0687976,
+  "ended": 1794427380.3629353,
+  "termination_verified": true
+}

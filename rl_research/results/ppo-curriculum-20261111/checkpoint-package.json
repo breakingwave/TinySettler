@@ -1,0 +1,7 @@
+{
+  "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/final-policies-and-corpus.tar.gz",
+  "bytes": 33673064,
+  "sha256": "2bcfacc77a101807544aecf9bdc625f6f1d51b34dd86b6d2276ced55b28e9802",
+  "models": 6,
+  "includes": "final policies, complete corpus, executed source and manifests"
+}

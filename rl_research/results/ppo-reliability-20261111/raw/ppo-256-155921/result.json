@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "n": 434176,
+  "stats": {
+    "n": 434176,
+    "complete": true,
+    "elapsed": 1176.1760628750003,
+    "learner_decisions_s": 369.14201343182975,
+    "engine_actions_s": 731.7969028344988,
+    "update_seconds": 32.62121776699587,
+    "episodes": 1529,
+    "terminal_rewards": 1527,
+    "parameters": 676173
+  }
+}

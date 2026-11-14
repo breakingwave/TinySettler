@@ -1,0 +1,10 @@
+{
+  "checkpoint_transitions": 4096,
+  "sha256": "42b056a9f979ba79dfb974c886e0939a3525eb68ebc6f61d28e287b873b4177b",
+  "external_upload": true,
+  "cuda_next_transition_matches": true,
+  "resumed_update_bitwise_matches": true,
+  "replay_size": 4097,
+  "epsilon": 0.40610504150390636,
+  "optimizer_updates": 770
+}

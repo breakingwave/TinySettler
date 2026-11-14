@@ -1,0 +1,380 @@
+[
+  {
+    "run": "ddqn-256-104729",
+    "opponent": "random",
+    "games": 200,
+    "wins": 152,
+    "losses": 46,
+    "truncations": 2,
+    "completed": 198,
+    "win_rate_ci95_clustered": [
+      0.695,
+      0.825
+    ],
+    "points": 9.085,
+    "inference_ms": 0.40583631230801104,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.695,
+      0.825
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ddqn-256-104729",
+    "opponent": "weighted",
+    "games": 200,
+    "wins": 141,
+    "losses": 59,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.635,
+      0.775
+    ],
+    "points": 8.52,
+    "inference_ms": 0.4062429011235815,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.63,
+      0.775
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ddqn-256-104729",
+    "opponent": "heuristic",
+    "games": 200,
+    "wins": 120,
+    "losses": 78,
+    "truncations": 2,
+    "completed": 198,
+    "win_rate_ci95_clustered": [
+      0.52,
+      0.685
+    ],
+    "points": 8.045,
+    "inference_ms": 0.40697116059777017,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.52,
+      0.685
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ddqn-256-130363",
+    "opponent": "random",
+    "games": 200,
+    "wins": 96,
+    "losses": 99,
+    "truncations": 5,
+    "completed": 195,
+    "win_rate_ci95_clustered": [
+      0.405,
+      0.565
+    ],
+    "points": 7.11,
+    "inference_ms": 0.4079213342531713,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.4,
+      0.56
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ddqn-256-130363",
+    "opponent": "weighted",
+    "games": 200,
+    "wins": 72,
+    "losses": 122,
+    "truncations": 6,
+    "completed": 194,
+    "win_rate_ci95_clustered": [
+      0.285,
+      0.4351249999999993
+    ],
+    "points": 6.78,
+    "inference_ms": 0.408640128097033,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.285,
+      0.44
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ddqn-256-130363",
+    "opponent": "heuristic",
+    "games": 200,
+    "wins": 90,
+    "losses": 100,
+    "truncations": 10,
+    "completed": 190,
+    "win_rate_ci95_clustered": [
+      0.374875,
+      0.535
+    ],
+    "points": 7.01,
+    "inference_ms": 0.4077743878229771,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.37,
+      0.535
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-128-104729",
+    "opponent": "random",
+    "games": 200,
+    "wins": 195,
+    "losses": 5,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.95,
+      0.995
+    ],
+    "points": 10.0,
+    "inference_ms": 0.4071904807812624,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.95,
+      0.995
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-128-104729",
+    "opponent": "weighted",
+    "games": 200,
+    "wins": 191,
+    "losses": 9,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.92,
+      0.985
+    ],
+    "points": 9.97,
+    "inference_ms": 0.4135951326747774,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.92,
+      0.985
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-128-104729",
+    "opponent": "heuristic",
+    "games": 200,
+    "wins": 163,
+    "losses": 31,
+    "truncations": 6,
+    "completed": 194,
+    "win_rate_ci95_clustered": [
+      0.755,
+      0.875
+    ],
+    "points": 9.38,
+    "inference_ms": 0.4072777025645337,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.755,
+      0.87
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-128-130363",
+    "opponent": "random",
+    "games": 200,
+    "wins": 174,
+    "losses": 25,
+    "truncations": 1,
+    "completed": 199,
+    "win_rate_ci95_clustered": [
+      0.825,
+      0.915
+    ],
+    "points": 9.665,
+    "inference_ms": 0.40061711376305587,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.825,
+      0.915
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-128-130363",
+    "opponent": "weighted",
+    "games": 200,
+    "wins": 164,
+    "losses": 34,
+    "truncations": 2,
+    "completed": 198,
+    "win_rate_ci95_clustered": [
+      0.755,
+      0.875
+    ],
+    "points": 9.37,
+    "inference_ms": 0.39432634813629663,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.755,
+      0.88
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-128-130363",
+    "opponent": "heuristic",
+    "games": 200,
+    "wins": 113,
+    "losses": 69,
+    "truncations": 18,
+    "completed": 182,
+    "win_rate_ci95_clustered": [
+      0.485,
+      0.65
+    ],
+    "points": 8.125,
+    "inference_ms": 0.40222555621030576,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.48,
+      0.645
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-256-104729",
+    "opponent": "random",
+    "games": 200,
+    "wins": 189,
+    "losses": 11,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.915,
+      0.975
+    ],
+    "points": 9.94,
+    "inference_ms": 0.40568238916177274,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.915,
+      0.975
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-256-104729",
+    "opponent": "weighted",
+    "games": 200,
+    "wins": 187,
+    "losses": 13,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.9,
+      0.97
+    ],
+    "points": 9.815,
+    "inference_ms": 0.40065849809302173,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.895,
+      0.97
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-256-104729",
+    "opponent": "heuristic",
+    "games": 200,
+    "wins": 146,
+    "losses": 52,
+    "truncations": 2,
+    "completed": 198,
+    "win_rate_ci95_clustered": [
+      0.665,
+      0.795
+    ],
+    "points": 8.885,
+    "inference_ms": 0.4053077373202303,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.665,
+      0.795
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-256-130363",
+    "opponent": "random",
+    "games": 200,
+    "wins": 166,
+    "losses": 34,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.77,
+      0.89
+    ],
+    "points": 9.42,
+    "inference_ms": 0.40730946963175024,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.77,
+      0.885
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-256-130363",
+    "opponent": "weighted",
+    "games": 200,
+    "wins": 166,
+    "losses": 34,
+    "truncations": 0,
+    "completed": 200,
+    "win_rate_ci95_clustered": [
+      0.775,
+      0.88
+    ],
+    "points": 9.42,
+    "inference_ms": 0.41624646925543607,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.775,
+      0.88
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  },
+  {
+    "run": "ppo-256-130363",
+    "opponent": "heuristic",
+    "games": 200,
+    "wins": 133,
+    "losses": 64,
+    "truncations": 3,
+    "completed": 197,
+    "win_rate_ci95_clustered": [
+      0.5898749999999999,
+      0.74
+    ],
+    "points": 8.06,
+    "inference_ms": 0.41368138147218064,
+    "inference_location": "Colab when executed remotely; excludes observation encoding and host-to-device transfer",
+    "reported_cluster_ci95": [
+      0.59,
+      0.74
+    ],
+    "interval_method": "percentile bootstrap over paired-board clusters"
+  }
+]

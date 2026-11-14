@@ -1,0 +1,24 @@
+{
+  "task": "tabular Q-learning, five-state corridor",
+  "training_episodes": 300,
+  "evaluation_episodes": 100,
+  "seed": 42,
+  "success_before": 0.0,
+  "success_after": 1.0,
+  "passed": true,
+  "python": "3.13.18",
+  "machine": "x86_64",
+  "cpu_count": 2,
+  "gpu_probe": null,
+  "training_device": "cpu",
+  "elapsed_seconds": 0.0036647630001880316,
+  "launch": {
+    "provider": "colab",
+    "recorded_at": "2026-11-10T22:04:20.393969+00:00",
+    "kind": "tabular RL CPU smoke test",
+    "session": "tinysettler-rl-smoke-20261110",
+    "source": "dev/rl_smoke.py",
+    "cli_exit_code": 0,
+    "runtime_terminated": true
+  }
+}

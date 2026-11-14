@@ -1,0 +1,290 @@
+[
+  {
+    "arm": "standard",
+    "seed": 104729,
+    "complete": true,
+    "n": 176128,
+    "target": 176128,
+    "stats": {
+      "n": 176128,
+      "complete": true,
+      "elapsed": 1016.6229978810001,
+      "learner_decisions_s": 173.24809724658277,
+      "engine_actions_s": 359.08296463969117,
+      "update_seconds": 15.593159179001077,
+      "episodes": 1023,
+      "terminal_rewards": 1023,
+      "parameters": 321869
+    },
+    "reason": null,
+    "reset_counts": {
+      "fresh": 1024
+    },
+    "category_transitions": {
+      "fresh": 176128
+    },
+    "planning_totals": {
+      "calls": 62789,
+      "seconds": 403.2371631790071,
+      "worlds": 70424,
+      "rejections": 0,
+      "fallbacks": 0
+    },
+    "completed_by_category": {
+      "fresh": {
+        "episodes": 1023,
+        "terminals": 1023,
+        "truncations": 0,
+        "wins": 447
+      }
+    }
+  },
+  {
+    "arm": "curriculum",
+    "seed": 104729,
+    "complete": true,
+    "n": 176128,
+    "target": 176128,
+    "stats": {
+      "n": 176128,
+      "complete": true,
+      "elapsed": 914.9533722900002,
+      "learner_decisions_s": 192.49942711198088,
+      "engine_actions_s": 392.95117203638665,
+      "update_seconds": 14.632874957000467,
+      "episodes": 1407,
+      "terminal_rewards": 1407,
+      "parameters": 321869
+    },
+    "reason": null,
+    "reset_counts": {
+      "endgame": 343,
+      "midgame": 353,
+      "fresh": 712
+    },
+    "category_transitions": {
+      "endgame": 17499,
+      "midgame": 36173,
+      "fresh": 122456
+    },
+    "planning_totals": {
+      "calls": 67018,
+      "seconds": 351.36132337696074,
+      "worlds": 72530,
+      "rejections": 0,
+      "fallbacks": 0
+    },
+    "completed_by_category": {
+      "fresh": {
+        "episodes": 711,
+        "terminals": 711,
+        "truncations": 0,
+        "wins": 286
+      },
+      "midgame": {
+        "episodes": 353,
+        "terminals": 353,
+        "truncations": 0,
+        "wins": 196
+      },
+      "endgame": {
+        "episodes": 343,
+        "terminals": 343,
+        "truncations": 0,
+        "wins": 274
+      }
+    }
+  },
+  {
+    "arm": "curriculum",
+    "seed": 130363,
+    "complete": true,
+    "n": 176128,
+    "target": 176128,
+    "stats": {
+      "n": 176128,
+      "complete": true,
+      "elapsed": 820.507246331,
+      "learner_decisions_s": 214.65745828276133,
+      "engine_actions_s": 434.3544820519826,
+      "update_seconds": 13.92859948799969,
+      "episodes": 1288,
+      "terminal_rewards": 1286,
+      "parameters": 321869
+    },
+    "reason": null,
+    "reset_counts": {
+      "endgame": 323,
+      "fresh": 651,
+      "midgame": 315
+    },
+    "category_transitions": {
+      "endgame": 15746,
+      "fresh": 126221,
+      "midgame": 34161
+    },
+    "planning_totals": {
+      "calls": 61838,
+      "seconds": 291.9913096360242,
+      "worlds": 66348,
+      "rejections": 0,
+      "fallbacks": 0
+    },
+    "completed_by_category": {
+      "fresh": {
+        "episodes": 650,
+        "terminals": 648,
+        "truncations": 2,
+        "wins": 281
+      },
+      "midgame": {
+        "episodes": 315,
+        "terminals": 315,
+        "truncations": 0,
+        "wins": 173
+      },
+      "endgame": {
+        "episodes": 323,
+        "terminals": 323,
+        "truncations": 0,
+        "wins": 275
+      }
+    }
+  },
+  {
+    "arm": "standard",
+    "seed": 130363,
+    "complete": true,
+    "n": 176128,
+    "target": 176128,
+    "stats": {
+      "n": 176128,
+      "complete": true,
+      "elapsed": 820.5010954890001,
+      "learner_decisions_s": 214.65906745076518,
+      "engine_actions_s": 447.2644851025916,
+      "update_seconds": 14.027989055999683,
+      "episodes": 900,
+      "terminal_rewards": 899,
+      "parameters": 321869
+    },
+    "reason": null,
+    "reset_counts": {
+      "fresh": 901
+    },
+    "category_transitions": {
+      "fresh": 176128
+    },
+    "planning_totals": {
+      "calls": 54365,
+      "seconds": 294.33480868704135,
+      "worlds": 60770,
+      "rejections": 0,
+      "fallbacks": 0
+    },
+    "completed_by_category": {
+      "fresh": {
+        "episodes": 900,
+        "terminals": 899,
+        "truncations": 1,
+        "wins": 370
+      }
+    }
+  },
+  {
+    "arm": "standard",
+    "seed": 155921,
+    "complete": true,
+    "n": 176128,
+    "target": 176128,
+    "stats": {
+      "n": 176128,
+      "complete": true,
+      "elapsed": 847.5511201290001,
+      "learner_decisions_s": 207.80811424471096,
+      "engine_actions_s": 421.355115365366,
+      "update_seconds": 14.459392185000297,
+      "episodes": 996,
+      "terminal_rewards": 996,
+      "parameters": 321869
+    },
+    "reason": null,
+    "reset_counts": {
+      "fresh": 997
+    },
+    "category_transitions": {
+      "fresh": 176128
+    },
+    "planning_totals": {
+      "calls": 58046,
+      "seconds": 317.02326914196306,
+      "worlds": 64392,
+      "rejections": 0,
+      "fallbacks": 0
+    },
+    "completed_by_category": {
+      "fresh": {
+        "episodes": 996,
+        "terminals": 996,
+        "truncations": 0,
+        "wins": 452
+      }
+    }
+  },
+  {
+    "arm": "curriculum",
+    "seed": 155921,
+    "complete": true,
+    "n": 176128,
+    "target": 176128,
+    "stats": {
+      "n": 176128,
+      "complete": true,
+      "elapsed": 842.234139051,
+      "learner_decisions_s": 209.11999625003904,
+      "engine_actions_s": 418.14975630983577,
+      "update_seconds": 14.197248493998359,
+      "episodes": 1378,
+      "terminal_rewards": 1378,
+      "parameters": 321869
+    },
+    "reason": null,
+    "reset_counts": {
+      "endgame": 334,
+      "fresh": 701,
+      "midgame": 344
+    },
+    "category_transitions": {
+      "endgame": 16199,
+      "fresh": 123536,
+      "midgame": 36393
+    },
+    "planning_totals": {
+      "calls": 62065,
+      "seconds": 306.96658635111135,
+      "worlds": 65368,
+      "rejections": 0,
+      "fallbacks": 0
+    },
+    "completed_by_category": {
+      "fresh": {
+        "episodes": 700,
+        "terminals": 700,
+        "truncations": 0,
+        "wins": 301
+      },
+      "midgame": {
+        "episodes": 344,
+        "terminals": 344,
+        "truncations": 0,
+        "wins": 211
+      },
+      "endgame": {
+        "episodes": 334,
+        "terminals": 334,
+        "truncations": 0,
+        "wins": 280
+      }
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "event": "first runtime stopped after external checkpoint upload-back RPC timeout",
+    "new_training_runs_started": 0,
+    "termination_verified": true
+  },
+  {
+    "event": "single replacement allocated with original deadline",
+    "session": "tinysettler-ppo-reliability-20261111-a-r1",
+    "deadline": 1794402494.6572664
+  },
+  {
+    "event": "cached evaluation timing corrected before training",
+    "details": "Fresh timing batches executed with historical-validation worker briefly paused; full 20/50 board manifests still fit",
+    "record": "retrieved/calibration-correction.json",
+    "script": "calibration-repair.py"
+  },
+  {
+    "event": "explicit secondary coverage frozen from validation timings only",
+    "boards": 50,
+    "distinct_policies": 5,
+    "script": "secondary-plan.py",
+    "selection_sha256": "acc194fc64797adfbea20362d222474cc7d86887457d0855ce16c706410a85ba",
+    "time": 1794395569.1143124
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "checked_at": 1794398074.7596889,
+  "dedicated_processes": [
+    {
+      "pid": 16544,
+      "state": "absent"
+    },
+    {
+      "pid": 16869,
+      "state": "absent"
+    },
+    {
+      "pid": 16868,
+      "state": "absent"
+    }
+  ]
+}

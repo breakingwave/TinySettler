@@ -1,0 +1,39 @@
+{
+  "system_cpu_pct": {
+    "samples": 1200,
+    "mean": 61.76971012896479,
+    "median": 64.34302908726178,
+    "maximum": 67.81954887218045
+  },
+  "trainer_cpu_pct_one_core": {
+    "samples": 1200,
+    "mean": 97.99605013427697,
+    "median": 99.29468611082737,
+    "maximum": 100.09473442640929
+  },
+  "trainer_cpu_pct_capacity": {
+    "samples": 1200,
+    "mean": 48.998025067138485,
+    "median": 49.647343055413685,
+    "maximum": 50.047367213204645
+  },
+  "trainer_rss_bytes": {
+    "samples": 1200,
+    "mean": 1680022067.2,
+    "median": 1695633408.0,
+    "maximum": 1703546880.0
+  },
+  "gpu_utilization_pct": {
+    "samples": 1197,
+    "mean": 10.363408521303258,
+    "median": 10.0,
+    "maximum": 46.0
+  },
+  "gpu_memory_used_mib": {
+    "samples": 1197,
+    "mean": 222.62406015037595,
+    "median": 223.0,
+    "maximum": 427.0
+  },
+  "scope": "Samples across the replacement runtime workload, including training, evaluation and gates; not browser measurements."
+}

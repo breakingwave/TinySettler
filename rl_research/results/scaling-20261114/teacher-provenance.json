@@ -1,0 +1,1846 @@
+{
+  "games": [
+    {
+      "source_game": 11000000000000,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 52,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000001,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 34,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000002,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 81,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000003,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 45,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000004,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 67,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000005,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 83,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000006,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 49,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000007,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 66,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000008,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000009,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 50,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000010,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000011,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 87,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000012,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 37,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000013,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000014,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000015,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 73,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000016,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 52,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000017,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000018,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 43,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000019,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 21,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000020,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 67,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000021,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 45,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000022,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 57,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000023,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 79,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000024,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000025,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 62,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000026,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 40,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000027,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 51,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000028,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 86,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000029,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 75,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000030,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 40,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000031,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 54,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000032,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 29,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000033,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 50,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000034,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 57,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000035,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 72,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000036,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 44,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000037,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 75,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000038,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 52,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000039,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 59,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000040,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 49,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000041,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 43,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000042,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 50,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000043,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 61,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000044,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 33,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000045,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 56,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000046,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 58,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000047,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 57,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000048,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 25,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000049,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 101,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000050,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 54,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000051,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 74,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000052,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 66,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000053,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 35,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000054,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000055,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 35,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000056,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 42,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000057,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 63,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000058,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 77,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000059,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000060,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 56,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000061,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 32,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000062,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 46,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000063,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 45,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000064,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 90,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000065,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000066,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 68,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000067,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 47,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000068,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 56,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000069,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 35,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000070,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 84,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000071,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 94,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000072,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 68,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000073,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 40,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000074,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 70,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000075,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 76,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000076,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 50,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000077,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 92,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000078,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 60,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000079,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 39,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000080,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 56,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000081,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 24,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000082,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 113,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000083,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 65,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000084,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 59,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000085,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 35,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000086,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 94,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000087,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 61,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000088,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 40,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000089,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 71,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000090,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 26,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000091,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000092,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 99,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000093,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 30,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000094,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 92,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000095,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 74,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000096,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 61,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000097,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 79,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000098,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 54,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000099,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 68,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000100,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 91,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000101,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 71,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000102,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 113,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000103,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 69,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000104,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 70,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000105,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 11,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000106,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 41,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000107,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 60,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000108,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 46,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000109,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 30,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000110,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 110,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000111,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 93,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000112,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 60,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000113,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 98,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000114,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 81,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000115,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 84,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000116,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 68,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000117,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 39,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000118,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 64,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000119,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 61,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000120,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000121,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 38,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000122,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 51,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000123,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 42,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000124,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 46,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000125,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 63,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000126,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 75,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000127,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 107,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000128,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 32,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000129,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 142,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000130,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 52,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000131,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 40,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000132,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 87,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000133,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 69,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000134,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 101,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000135,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000136,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 51,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000137,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 45,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000138,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 41,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000139,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 90,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000140,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 46,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000141,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 71,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000142,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 88,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000143,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 65,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000144,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 76,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000145,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 51,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000146,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 60,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000147,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 68,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000148,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 28,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000149,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 69,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000150,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 57,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000151,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 54,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000152,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 75,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000153,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 62,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000154,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 41,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000155,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 54,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000156,
+      "split": "train",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 59,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000157,
+      "split": "train",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 56,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000158,
+      "split": "train",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 81,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000159,
+      "split": "train",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 74,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000160,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 52,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000161,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000162,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 92,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000163,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 79,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000164,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 65,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000165,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 69,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000166,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 90,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000167,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 67,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000168,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 69,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000169,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 103,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000170,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 52,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000171,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 70,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000172,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 51,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000173,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 62,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000174,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 80,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000175,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000176,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 66,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000177,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 49,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000178,
+      "split": "validation",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 96,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000179,
+      "split": "validation",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 26,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000180,
+      "split": "test",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 81,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000181,
+      "split": "test",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 78,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000182,
+      "split": "test",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 111,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000183,
+      "split": "test",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 51,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000184,
+      "split": "test",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 42,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000185,
+      "split": "test",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 41,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000186,
+      "split": "test",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 77,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000187,
+      "split": "test",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 80,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000188,
+      "split": "test",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 47,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000189,
+      "split": "test",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 26,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000190,
+      "split": "test",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 53,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000191,
+      "split": "test",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 44,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000192,
+      "split": "test",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 36,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000193,
+      "split": "test",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 122,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000194,
+      "split": "test",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 38,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000195,
+      "split": "test",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 101,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000196,
+      "split": "test",
+      "seat": 0,
+      "opponent": "base",
+      "nonforced_decisions": 48,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000197,
+      "split": "test",
+      "seat": 1,
+      "opponent": "base",
+      "nonforced_decisions": 86,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000198,
+      "split": "test",
+      "seat": 0,
+      "opponent": "weighted",
+      "nonforced_decisions": 84,
+      "terminal": true,
+      "truncated": false
+    },
+    {
+      "source_game": 11000000000199,
+      "split": "test",
+      "seat": 1,
+      "opponent": "heuristic",
+      "nonforced_decisions": 55,
+      "terminal": true,
+      "truncated": false
+    }
+  ],
+  "observed_nonforced": {
+    "train": 9635,
+    "validation": 1334,
+    "test": 1301
+  },
+  "stored": {
+    "train": 9635,
+    "validation": 1334,
+    "test": 1301
+  },
+  "strata": {
+    "train": {
+      "setup": 640,
+      "early": 4215,
+      "remaining": 4780
+    },
+    "validation": {
+      "setup": 80,
+      "early": 577,
+      "remaining": 677
+    },
+    "test": {
+      "setup": 80,
+      "early": 542,
+      "remaining": 679
+    }
+  },
+  "cpu_seconds": 162.04241934395395,
+  "sha256": "847bbee2d30d30d8891ac42468e7b03d857aa6cdc08ef0d59d94ed36a6c4baec",
+  "max_games": 200,
+  "max_stored": 25000,
+  "split_before_generation": true,
+  "reservoir_seed": [
+    519001,
+    519002,
+    519003
+  ],
+  "unique_states": {
+    "train": 9635,
+    "validation": 1334,
+    "test": 1301
+  }
+}

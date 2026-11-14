@@ -1,0 +1,272 @@
+[
+  {
+    "arm": "standard",
+    "opponent": "base",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 283,
+      "BUILD_ROAD": 753,
+      "ROLL": 4391,
+      "END_TURN": 4388,
+      "MOVE_ROBBER": 887,
+      "BUY_DEVELOPMENT_CARD": 279,
+      "PLAY_KNIGHT_CARD": 101,
+      "PLAY_MONOPOLY": 31,
+      "MARITIME_TRADE": 594,
+      "DISCARD_RESOURCE": 355,
+      "PLAY_YEAR_OF_PLENTY": 29,
+      "BUILD_CITY": 31,
+      "PLAY_ROAD_BUILDING": 19
+    },
+    "planning": {
+      "calls": 14163,
+      "seconds": 73.32527678099086,
+      "worlds": 15366,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "standard",
+    "opponent": "contender",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 285,
+      "BUILD_ROAD": 759,
+      "ROLL": 4429,
+      "END_TURN": 4424,
+      "MOVE_ROBBER": 913,
+      "BUY_DEVELOPMENT_CARD": 303,
+      "PLAY_KNIGHT_CARD": 119,
+      "PLAY_MONOPOLY": 27,
+      "MARITIME_TRADE": 629,
+      "DISCARD_RESOURCE": 364,
+      "PLAY_YEAR_OF_PLENTY": 23,
+      "BUILD_CITY": 40,
+      "PLAY_ROAD_BUILDING": 19
+    },
+    "planning": {
+      "calls": 14472,
+      "seconds": 74.7360088280393,
+      "worlds": 16248,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "standard",
+    "opponent": "random",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 465,
+      "BUILD_ROAD": 1456,
+      "ROLL": 10448,
+      "END_TURN": 10342,
+      "MOVE_ROBBER": 2356,
+      "BUY_DEVELOPMENT_CARD": 1013,
+      "PLAY_KNIGHT_CARD": 508,
+      "PLAY_MONOPOLY": 99,
+      "MARITIME_TRADE": 3130,
+      "DISCARD_RESOURCE": 1361,
+      "PLAY_YEAR_OF_PLENTY": 90,
+      "PLAY_ROAD_BUILDING": 76,
+      "BUILD_CITY": 116
+    },
+    "planning": {
+      "calls": 0,
+      "seconds": 0.0,
+      "worlds": 0,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "standard",
+    "opponent": "weighted",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 437,
+      "BUILD_ROAD": 1512,
+      "ROLL": 10888,
+      "END_TURN": 10779,
+      "MOVE_ROBBER": 2371,
+      "BUY_DEVELOPMENT_CARD": 1005,
+      "PLAY_KNIGHT_CARD": 507,
+      "DISCARD_RESOURCE": 1362,
+      "MARITIME_TRADE": 3319,
+      "PLAY_MONOPOLY": 95,
+      "PLAY_YEAR_OF_PLENTY": 79,
+      "BUILD_CITY": 129,
+      "PLAY_ROAD_BUILDING": 74
+    },
+    "planning": {
+      "calls": 0,
+      "seconds": 0.0,
+      "worlds": 0,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "standard",
+    "opponent": "heuristic",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 428,
+      "BUILD_ROAD": 1459,
+      "ROLL": 10835,
+      "END_TURN": 10755,
+      "MOVE_ROBBER": 2429,
+      "BUY_DEVELOPMENT_CARD": 911,
+      "PLAY_KNIGHT_CARD": 485,
+      "MARITIME_TRADE": 2949,
+      "PLAY_YEAR_OF_PLENTY": 66,
+      "PLAY_ROAD_BUILDING": 70,
+      "DISCARD_RESOURCE": 1589,
+      "PLAY_MONOPOLY": 72,
+      "BUILD_CITY": 84
+    },
+    "planning": {
+      "calls": 0,
+      "seconds": 0.0,
+      "worlds": 0,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "curriculum",
+    "opponent": "base",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 275,
+      "BUILD_ROAD": 838,
+      "ROLL": 4580,
+      "END_TURN": 4577,
+      "MOVE_ROBBER": 967,
+      "BUY_DEVELOPMENT_CARD": 398,
+      "PLAY_MONOPOLY": 43,
+      "MARITIME_TRADE": 672,
+      "PLAY_YEAR_OF_PLENTY": 38,
+      "BUILD_CITY": 40,
+      "PLAY_ROAD_BUILDING": 34,
+      "DISCARD_RESOURCE": 201,
+      "PLAY_KNIGHT_CARD": 133
+    },
+    "planning": {
+      "calls": 14914,
+      "seconds": 80.14839362398152,
+      "worlds": 16514,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "curriculum",
+    "opponent": "contender",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 287,
+      "BUILD_ROAD": 898,
+      "ROLL": 4828,
+      "END_TURN": 4824,
+      "MOVE_ROBBER": 1001,
+      "BUY_DEVELOPMENT_CARD": 408,
+      "PLAY_MONOPOLY": 49,
+      "MARITIME_TRADE": 742,
+      "PLAY_YEAR_OF_PLENTY": 40,
+      "PLAY_ROAD_BUILDING": 33,
+      "DISCARD_RESOURCE": 222,
+      "BUILD_CITY": 44,
+      "PLAY_KNIGHT_CARD": 135
+    },
+    "planning": {
+      "calls": 16087,
+      "seconds": 82.39568493800152,
+      "worlds": 18406,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "curriculum",
+    "opponent": "random",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 399,
+      "BUILD_ROAD": 1431,
+      "ROLL": 10691,
+      "BUY_DEVELOPMENT_CARD": 1213,
+      "END_TURN": 10588,
+      "MOVE_ROBBER": 2474,
+      "MARITIME_TRADE": 3067,
+      "DISCARD_RESOURCE": 1283,
+      "PLAY_KNIGHT_CARD": 615,
+      "PLAY_YEAR_OF_PLENTY": 102,
+      "PLAY_MONOPOLY": 114,
+      "PLAY_ROAD_BUILDING": 99,
+      "BUILD_CITY": 112
+    },
+    "planning": {
+      "calls": 0,
+      "seconds": 0.0,
+      "worlds": 0,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "curriculum",
+    "opponent": "weighted",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 421,
+      "BUILD_ROAD": 1369,
+      "ROLL": 10901,
+      "BUY_DEVELOPMENT_CARD": 1092,
+      "END_TURN": 10800,
+      "MOVE_ROBBER": 2417,
+      "PLAY_MONOPOLY": 103,
+      "MARITIME_TRADE": 2908,
+      "PLAY_KNIGHT_CARD": 586,
+      "PLAY_YEAR_OF_PLENTY": 84,
+      "DISCARD_RESOURCE": 1198,
+      "PLAY_ROAD_BUILDING": 83,
+      "BUILD_CITY": 112
+    },
+    "planning": {
+      "calls": 0,
+      "seconds": 0.0,
+      "worlds": 0,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "curriculum",
+    "opponent": "heuristic",
+    "games": 120,
+    "action_counts": {
+      "BUILD_SETTLEMENT": 404,
+      "BUILD_ROAD": 1409,
+      "ROLL": 11069,
+      "END_TURN": 10986,
+      "MOVE_ROBBER": 2507,
+      "BUY_DEVELOPMENT_CARD": 1081,
+      "PLAY_MONOPOLY": 100,
+      "MARITIME_TRADE": 2879,
+      "PLAY_YEAR_OF_PLENTY": 73,
+      "BUILD_CITY": 109,
+      "PLAY_KNIGHT_CARD": 542,
+      "PLAY_ROAD_BUILDING": 91,
+      "DISCARD_RESOURCE": 1249
+    },
+    "planning": {
+      "calls": 0,
+      "seconds": 0.0,
+      "worlds": 0,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  }
+]

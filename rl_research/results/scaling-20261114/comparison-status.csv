@@ -1,0 +1,17 @@
+condition,seed,status,common_target,retained_transitions,validation_games,final_games
+A,400009,not_started_preflight_failed,,0,0,0
+B,400009,not_started_preflight_failed,,0,0,0
+C,400009,not_started_preflight_failed,,0,0,0
+D,400009,not_started_preflight_failed,,0,0,0
+E,400009,not_started_preflight_failed,,0,0,0
+F,400009,not_started_preflight_failed,,0,0,0
+G,400009,not_started_preflight_failed,,0,0,0
+A,400031,not_started_preflight_failed,,0,0,0
+B,400031,not_started_preflight_failed,,0,0,0
+C,400031,not_started_preflight_failed,,0,0,0
+D,400031,not_started_preflight_failed,,0,0,0
+E,400031,not_started_preflight_failed,,0,0,0
+F,400031,not_started_preflight_failed,,0,0,0
+G,400031,not_started_preflight_failed,,0,0,0
+A,400033,not_started_preflight_failed,,0,0,0
+B,400033,not_started_preflight_failed,,0,0,0

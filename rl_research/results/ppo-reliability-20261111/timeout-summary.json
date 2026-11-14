@@ -1,0 +1,98 @@
+[
+  {
+    "split": "training",
+    "width": 128,
+    "truncations": 10,
+    "turn_limit": 10,
+    "action_limit": 0,
+    "mean_own_points": 7.0,
+    "mean_learner_maritime_trades": 95.2,
+    "mean_learner_end_turn_frequency": 0.4048407159080033,
+    "mean_repeated_public_own_hand_states": 690.5,
+    "max_state_visits": 23
+  },
+  {
+    "split": "training",
+    "width": 256,
+    "truncations": 9,
+    "turn_limit": 9,
+    "action_limit": 0,
+    "mean_own_points": 7.777777777777778,
+    "mean_learner_maritime_trades": 77.88888888888889,
+    "mean_learner_end_turn_frequency": 0.4101218570819498,
+    "mean_repeated_public_own_hand_states": 723.8888888888889,
+    "max_state_visits": 25
+  },
+  {
+    "split": "validation",
+    "width": 128,
+    "truncations": 64,
+    "turn_limit": 64,
+    "action_limit": 0,
+    "mean_own_points": 6.578125,
+    "mean_learner_maritime_trades": 181.28125,
+    "mean_learner_end_turn_frequency": 0.3389349855223056,
+    "mean_repeated_public_own_hand_states": 633.0,
+    "max_state_visits": 23
+  },
+  {
+    "split": "validation",
+    "width": 256,
+    "truncations": 85,
+    "turn_limit": 85,
+    "action_limit": 0,
+    "mean_own_points": 7.176470588235294,
+    "mean_learner_maritime_trades": 181.74117647058824,
+    "mean_learner_end_turn_frequency": 0.332918744097443,
+    "mean_repeated_public_own_hand_states": 613.1647058823529,
+    "max_state_visits": 54
+  },
+  {
+    "split": "final",
+    "width": 128,
+    "truncations": 19,
+    "turn_limit": 19,
+    "action_limit": 0,
+    "mean_own_points": 7.315789473684211,
+    "mean_learner_maritime_trades": 190.57894736842104,
+    "mean_learner_end_turn_frequency": 0.33206524289566286,
+    "mean_repeated_public_own_hand_states": 564.0526315789474,
+    "max_state_visits": 14
+  },
+  {
+    "split": "final",
+    "width": 256,
+    "truncations": 24,
+    "turn_limit": 24,
+    "action_limit": 0,
+    "mean_own_points": 6.583333333333333,
+    "mean_learner_maritime_trades": 213.83333333333334,
+    "mean_learner_end_turn_frequency": 0.33058493827766816,
+    "mean_repeated_public_own_hand_states": 577.7916666666666,
+    "max_state_visits": 17
+  },
+  {
+    "split": "secondary",
+    "width": 128,
+    "truncations": 23,
+    "turn_limit": 23,
+    "action_limit": 0,
+    "mean_own_points": 5.913043478260869,
+    "mean_learner_maritime_trades": 213.7826086956522,
+    "mean_learner_end_turn_frequency": 0.36248816521046084,
+    "mean_repeated_public_own_hand_states": 588.7826086956521,
+    "max_state_visits": 18
+  },
+  {
+    "split": "secondary",
+    "width": 256,
+    "truncations": 3,
+    "turn_limit": 3,
+    "action_limit": 0,
+    "mean_own_points": 8.333333333333334,
+    "mean_learner_maritime_trades": 348.3333333333333,
+    "mean_learner_end_turn_frequency": 0.31901144986899643,
+    "mean_repeated_public_own_hand_states": 440.0,
+    "max_state_visits": 9
+  }
+]

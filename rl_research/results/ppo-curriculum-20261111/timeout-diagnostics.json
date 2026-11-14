@@ -1,0 +1,443 @@
+[
+  {
+    "arm": "curriculum",
+    "seed": 104729,
+    "win": false,
+    "loss": false,
+    "truncated": true,
+    "terminal": false,
+    "reward": 0,
+    "points": 8,
+    "initial_points": 0,
+    "decisions": 1429,
+    "engine_actions": 3618,
+    "seconds": 3.230467888000021,
+    "inference_seconds": 1.0550126530047237,
+    "illegal_actions": 0,
+    "task": null,
+    "task_success": null,
+    "completion": null,
+    "diagnostic": {
+      "action_type_counts": {
+        "learner": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 9,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "MARITIME_TRADE": 192,
+          "MOVE_ROBBER": 83,
+          "BUY_DEVELOPMENT_CARD": 6,
+          "PLAY_YEAR_OF_PLENTY": 1,
+          "DISCARD_RESOURCE": 133,
+          "BUILD_CITY": 2,
+          "PLAY_KNIGHT_CARD": 3
+        },
+        "opponent": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 6,
+          "ROLL": 500,
+          "END_TURN": 500,
+          "MOVE_ROBBER": 92,
+          "BUILD_CITY": 2,
+          "BUY_DEVELOPMENT_CARD": 19,
+          "PLAY_KNIGHT_CARD": 11,
+          "DISCARD_RESOURCE": 1054,
+          "PLAY_MONOPOLY": 2,
+          "PLAY_YEAR_OF_PLENTY": 1,
+          "PLAY_ROAD_BUILDING": 2
+        }
+      },
+      "end_turn_frequency": {
+        "learner": 0.34919524142757175,
+        "opponent": 0.22820629849383842
+      },
+      "maritime_trades": {
+        "learner": 192,
+        "opponent": 0
+      },
+      "repeated_public_own_hand_states": 644,
+      "unique_public_own_hand_states": 785,
+      "max_state_visits": 10,
+      "most_repeated_state_hashes": [
+        [
+          "a933c24bdb9510acbd2f63d1e25ac4ab9bac3082515f1de65b8d011b26d27f5b",
+          10
+        ],
+        [
+          "a7916e3b662763263ddae9fcbf5eca9e59d675c37b63ff1df5af9ce2fbceda82",
+          9
+        ],
+        [
+          "b2541841638d821587a2b23feff559dacfb3ab32c8a8899a7902b3dcf3020812",
+          8
+        ],
+        [
+          "425063f560d5966b0b0e37ce345692465cb948e28cd38b89d4fe7733661c5f7e",
+          8
+        ],
+        [
+          "dbd3c22c706cd0a774c7697dc047c423a461bc99ac88d4862faec72a52dbc1d3",
+          7
+        ]
+      ],
+      "turns": 1001,
+      "engine_actions": 3620,
+      "own_points": 8,
+      "opponent_public_points": 6,
+      "turn_limit_reached": true,
+      "action_limit_reached": false,
+      "category": "fresh",
+      "snapshot_id": null,
+      "start_actions": 0,
+      "start_turns": 0,
+      "planning": {
+        "RED": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        },
+        "BLUE": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        }
+      }
+    },
+    "board_seed": 880000000008,
+    "seat": 1,
+    "opponent": "heuristic"
+  },
+  {
+    "arm": "curriculum",
+    "seed": 130363,
+    "win": false,
+    "loss": false,
+    "truncated": true,
+    "terminal": false,
+    "reward": 0,
+    "points": 9,
+    "initial_points": 0,
+    "decisions": 1432,
+    "engine_actions": 3505,
+    "seconds": 2.1841108290000193,
+    "inference_seconds": 0.6026066310014357,
+    "illegal_actions": 0,
+    "task": null,
+    "task_success": null,
+    "completion": null,
+    "diagnostic": {
+      "action_type_counts": {
+        "learner": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 4,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "BUY_DEVELOPMENT_CARD": 15,
+          "PLAY_YEAR_OF_PLENTY": 1,
+          "PLAY_KNIGHT_CARD": 9,
+          "MOVE_ROBBER": 99,
+          "MARITIME_TRADE": 183,
+          "DISCARD_RESOURCE": 117,
+          "PLAY_MONOPOLY": 1,
+          "PLAY_ROAD_BUILDING": 1,
+          "BUILD_CITY": 2
+        },
+        "opponent": {
+          "BUILD_SETTLEMENT": 3,
+          "BUILD_ROAD": 4,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "DISCARD_RESOURCE": 968,
+          "MOVE_ROBBER": 79,
+          "BUY_DEVELOPMENT_CARD": 10,
+          "PLAY_KNIGHT_CARD": 5,
+          "PLAY_MONOPOLY": 1,
+          "PLAY_ROAD_BUILDING": 1,
+          "PLAY_YEAR_OF_PLENTY": 1,
+          "BUILD_CITY": 3
+        }
+      },
+      "end_turn_frequency": {
+        "learner": 0.348463687150838,
+        "opponent": 0.24071394114809455
+      },
+      "maritime_trades": {
+        "learner": 183,
+        "opponent": 0
+      },
+      "repeated_public_own_hand_states": 661,
+      "unique_public_own_hand_states": 771,
+      "max_state_visits": 12,
+      "most_repeated_state_hashes": [
+        [
+          "29e7821e987d5d87e43e13dd9bd224ffaf097243ad3e2dd72b4f10d55b22b91d",
+          12
+        ],
+        [
+          "406760e0d33b096586d1b2e365a524397f22c403041ec9c256e42557e34e66c1",
+          10
+        ],
+        [
+          "8353975edaa2588d4663eb41897ce6adf0e1c652550833d34e74088f55f1fbff",
+          9
+        ],
+        [
+          "e5e373ecf48a3d782ffcf36e47d86af70abf99a4a5ecc5d382758ead68f1a00f",
+          9
+        ],
+        [
+          "a0f342daac3df52d4c2862e8439208fa267589e71ce286b648ab8a72fbf5327b",
+          7
+        ]
+      ],
+      "turns": 1000,
+      "engine_actions": 3505,
+      "own_points": 9,
+      "opponent_public_points": 6,
+      "turn_limit_reached": true,
+      "action_limit_reached": false,
+      "category": "fresh",
+      "snapshot_id": null,
+      "start_actions": 0,
+      "start_turns": 0,
+      "planning": {
+        "RED": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        },
+        "BLUE": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        }
+      }
+    },
+    "board_seed": 880000000001,
+    "seat": 0,
+    "opponent": "heuristic"
+  },
+  {
+    "arm": "standard",
+    "seed": 155921,
+    "win": false,
+    "loss": false,
+    "truncated": true,
+    "terminal": false,
+    "reward": 0,
+    "points": 4,
+    "initial_points": 0,
+    "decisions": 1479,
+    "engine_actions": 3538,
+    "seconds": 2.8469213450002826,
+    "inference_seconds": 0.6698950509940005,
+    "illegal_actions": 0,
+    "task": null,
+    "task_success": null,
+    "completion": null,
+    "diagnostic": {
+      "action_type_counts": {
+        "learner": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 4,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "MOVE_ROBBER": 81,
+          "MARITIME_TRADE": 231,
+          "BUY_DEVELOPMENT_CARD": 3,
+          "PLAY_MONOPOLY": 1,
+          "DISCARD_RESOURCE": 157,
+          "BUILD_CITY": 2
+        },
+        "opponent": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 15,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "MOVE_ROBBER": 98,
+          "BUILD_CITY": 2,
+          "DISCARD_RESOURCE": 940,
+          "BUY_DEVELOPMENT_CARD": 4
+        }
+      },
+      "end_turn_frequency": {
+        "learner": 0.3373901284651792,
+        "opponent": 0.24235065565808644
+      },
+      "maritime_trades": {
+        "learner": 231,
+        "opponent": 0
+      },
+      "repeated_public_own_hand_states": 612,
+      "unique_public_own_hand_states": 867,
+      "max_state_visits": 11,
+      "most_repeated_state_hashes": [
+        [
+          "76a7abae558b841d40dcc6780b8b578dd42258449836878333ed74d36e6d061e",
+          11
+        ],
+        [
+          "368b97929a9ff90485d7fdacd22d6d07126050727ef9fa2e3dfc774a0dcb3209",
+          11
+        ],
+        [
+          "b259de7426e36b493f97d461aeb9abf449605ee33308d2d0f4aee52c1789c125",
+          8
+        ],
+        [
+          "b974460ecd6a540581c1c550d6c32c8921ab6843ac69d358444324025edb5ad4",
+          8
+        ],
+        [
+          "94d5546d5ac5ebeddc57c03a2d90aa527a451987bd622943cb88fd870e383f04",
+          7
+        ]
+      ],
+      "turns": 1000,
+      "engine_actions": 3538,
+      "own_points": 4,
+      "opponent_public_points": 6,
+      "turn_limit_reached": true,
+      "action_limit_reached": false,
+      "category": "fresh",
+      "snapshot_id": null,
+      "start_actions": 0,
+      "start_turns": 0,
+      "planning": {
+        "RED": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        },
+        "BLUE": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        }
+      }
+    },
+    "board_seed": 880000000015,
+    "seat": 0,
+    "opponent": "heuristic"
+  },
+  {
+    "arm": "curriculum",
+    "seed": 155921,
+    "win": false,
+    "loss": false,
+    "truncated": true,
+    "terminal": false,
+    "reward": 0,
+    "points": 6,
+    "initial_points": 0,
+    "decisions": 1586,
+    "engine_actions": 2699,
+    "seconds": 2.370978437999838,
+    "inference_seconds": 0.6763248809957076,
+    "illegal_actions": 0,
+    "task": null,
+    "task_success": null,
+    "completion": null,
+    "diagnostic": {
+      "action_type_counts": {
+        "learner": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 15,
+          "ROLL": 499,
+          "END_TURN": 499,
+          "MOVE_ROBBER": 98,
+          "MARITIME_TRADE": 289,
+          "BUILD_CITY": 2,
+          "DISCARD_RESOURCE": 179,
+          "BUY_DEVELOPMENT_CARD": 2,
+          "PLAY_YEAR_OF_PLENTY": 1
+        },
+        "opponent": {
+          "BUILD_SETTLEMENT": 2,
+          "BUILD_ROAD": 2,
+          "ROLL": 499,
+          "MOVE_ROBBER": 93,
+          "END_TURN": 499,
+          "MARITIME_TRADE": 15,
+          "BUY_DEVELOPMENT_CARD": 1,
+          "PLAY_KNIGHT_CARD": 1,
+          "BUILD_CITY": 1
+        }
+      },
+      "end_turn_frequency": {
+        "learner": 0.3146279949558638,
+        "opponent": 0.44833782569631625
+      },
+      "maritime_trades": {
+        "learner": 289,
+        "opponent": 15
+      },
+      "repeated_public_own_hand_states": 546,
+      "unique_public_own_hand_states": 1040,
+      "max_state_visits": 10,
+      "most_repeated_state_hashes": [
+        [
+          "5a29317ca4d262de8a0ddf6ee5f3593810caa9c19e0a7777b69f1a4b7ffbd5c1",
+          10
+        ],
+        [
+          "04b051085464b5ed000d98097f4146bca970e10019076037a2327c6000cbdb1d",
+          9
+        ],
+        [
+          "6229f9a37c771eac83e4e3a027d23e7f3304a78065e4d2d4cac4a090bcf8ca6c",
+          8
+        ],
+        [
+          "94d5f2602e059d81c706bb2b168bae00ea7609d9e86557364054f41de5ec1d74",
+          7
+        ],
+        [
+          "1fa4b319e92a75ff8c096c46d4250f978e09518037c4d93d64cb09183d89f8b8",
+          7
+        ]
+      ],
+      "turns": 1000,
+      "engine_actions": 2699,
+      "own_points": 6,
+      "opponent_public_points": 3,
+      "turn_limit_reached": true,
+      "action_limit_reached": false,
+      "category": "fresh",
+      "snapshot_id": null,
+      "start_actions": 0,
+      "start_turns": 0,
+      "planning": {
+        "RED": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        },
+        "BLUE": {
+          "calls": 0,
+          "seconds": 0.0,
+          "worlds": 0,
+          "rejections": 0,
+          "fallbacks": 0
+        }
+      }
+    },
+    "board_seed": 880000000016,
+    "seat": 0,
+    "opponent": "random"
+  }
+]

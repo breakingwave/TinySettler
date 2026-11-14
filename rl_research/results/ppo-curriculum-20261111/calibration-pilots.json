@@ -1,0 +1,56 @@
+[
+  {
+    "arm": "standard",
+    "n": 8192,
+    "complete": true,
+    "elapsed": 41.969506052999975,
+    "learner_decisions_s": 195.18933555365103,
+    "engine_actions_s": 388.94906171604,
+    "update_seconds": 0.9724172850000059,
+    "episodes": 46,
+    "terminal_rewards": 46,
+    "parameters": 321869,
+    "reset_counts": {
+      "fresh": 47
+    },
+    "category_transitions": {
+      "fresh": 8192
+    },
+    "planning": {
+      "calls": 2163,
+      "seconds": 13.375591586000212,
+      "worlds": 2258,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  },
+  {
+    "arm": "curriculum",
+    "n": 8192,
+    "complete": true,
+    "elapsed": 46.83679151399997,
+    "learner_decisions_s": 174.90523443629422,
+    "engine_actions_s": 351.71068443226005,
+    "update_seconds": 0.7897726689999445,
+    "episodes": 68,
+    "terminal_rewards": 68,
+    "parameters": 321869,
+    "reset_counts": {
+      "endgame": 21,
+      "midgame": 15,
+      "fresh": 33
+    },
+    "category_transitions": {
+      "endgame": 681,
+      "midgame": 2057,
+      "fresh": 5454
+    },
+    "planning": {
+      "calls": 3143,
+      "seconds": 18.273331660995837,
+      "worlds": 3310,
+      "rejections": 0,
+      "fallbacks": 0
+    }
+  }
+]

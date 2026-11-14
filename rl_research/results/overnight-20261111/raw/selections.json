@@ -1,0 +1,38 @@
+[
+  {
+    "run": "ppo-128-104729",
+    "path": "/content/artifacts/ppo-128-104729/323584.pt",
+    "complete": true,
+    "n": 434176
+  },
+  {
+    "run": "ppo-128-130363",
+    "path": "/content/artifacts/ppo-128-130363/106496.pt",
+    "complete": true,
+    "n": 434176
+  },
+  {
+    "run": "ppo-256-104729",
+    "path": "/content/artifacts/ppo-256-104729/434176.pt",
+    "complete": true,
+    "n": 434176
+  },
+  {
+    "run": "ppo-256-130363",
+    "path": "/content/artifacts/ppo-256-130363/434176.pt",
+    "complete": true,
+    "n": 434176
+  },
+  {
+    "run": "ddqn-256-104729",
+    "path": "/content/artifacts/ddqn-256-104729/217088.pt",
+    "complete": true,
+    "n": 434176
+  },
+  {
+    "run": "ddqn-256-130363",
+    "path": "/content/artifacts/ddqn-256-130363/106496.pt",
+    "complete": true,
+    "n": 434176
+  }
+]

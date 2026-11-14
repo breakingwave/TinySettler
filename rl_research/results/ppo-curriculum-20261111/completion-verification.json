@@ -1,0 +1,374 @@
+{
+  "checkpoints": [
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/pilot.pt",
+      "sha256": "13c4fc85bee44f62ba48ad3feb6842924e094e6b08517425ac514e07d02f5a08",
+      "n": 8192,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/pilot-curriculum.pt",
+      "sha256": "13c4fc85bee44f62ba48ad3feb6842924e094e6b08517425ac514e07d02f5a08",
+      "n": 8192,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/pilot-standard.pt",
+      "sha256": "8be006fb5d30b35acaf02dee69aa50f45afc267807ce91437846cf5fe1a288b4",
+      "n": 8192,
+      "arm": "standard",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/57344.pt",
+      "sha256": "f7e2fb9b22473041b0ad84ea720d657e32547f1fdd5712643e2f184f601e2194",
+      "n": 57344,
+      "arm": "standard",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/0.pt",
+      "sha256": "659834a15356b027ce1314c460e1d00d441f07771b43c87059547fc2f578a59f",
+      "n": 0,
+      "arm": "standard",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/176128.pt",
+      "sha256": "58beeee043f19c4cc216fa801b1d158a99843e73df37332a29eaf4e0db008a45",
+      "n": 176128,
+      "arm": "standard",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/latest.pt",
+      "sha256": "58beeee043f19c4cc216fa801b1d158a99843e73df37332a29eaf4e0db008a45",
+      "n": 176128,
+      "arm": "standard",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-130363/114688.pt",
+      "sha256": "d04e62d2494fe1244c37f92c1e81734f0b04cf84e3834f691c968b1f47f49f34",
+      "n": 114688,
+      "arm": "standard",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-130363/57344.pt",
+      "sha256": "eccf1c1a16f8d24b54b07a0b452aa0ef5248b63cb2ab01895d33905684b41bc7",
+      "n": 57344,
+      "arm": "curriculum",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-130363/0.pt",
+      "sha256": "79880a7e05523d45383cfcad2226df3621e0632def3b27e8b34646a1b42dcc4f",
+      "n": 0,
+      "arm": "curriculum",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-130363/176128.pt",
+      "sha256": "c260dfe69f5c82941a3732a5ffc1e5f4008c2cfa4ca67a459a36578152289001",
+      "n": 176128,
+      "arm": "curriculum",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-130363/latest.pt",
+      "sha256": "c260dfe69f5c82941a3732a5ffc1e5f4008c2cfa4ca67a459a36578152289001",
+      "n": 176128,
+      "arm": "curriculum",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-130363/114688.pt",
+      "sha256": "3a6c0a2c37b80685e77f9c24542436b5e44c3d970be03f053355749a226be8e3",
+      "n": 114688,
+      "arm": "curriculum",
+      "seed": 130363
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-155921/57344.pt",
+      "sha256": "d07d0616b70d293055d34866f1384ba84ff66cfa16f5ec5dcbf3df1cc2a9347a",
+      "n": 57344,
+      "arm": "curriculum",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-155921/0.pt",
+      "sha256": "eb9fdb0aef8310bd9978f7f976d65c867a0900edb9eebfb057b0fe8050d6e97b",
+      "n": 0,
+      "arm": "curriculum",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-155921/176128.pt",
+      "sha256": "6340c17b9f63c651a293106b2db717c5938f13c9bd20e9852db367e57ebd4e48",
+      "n": 176128,
+      "arm": "curriculum",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-155921/latest.pt",
+      "sha256": "6340c17b9f63c651a293106b2db717c5938f13c9bd20e9852db367e57ebd4e48",
+      "n": 176128,
+      "arm": "curriculum",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-155921/114688.pt",
+      "sha256": "a98696f2f7f4efcd29e4e70f9478de1f1f2c8cc1f9cae73b407cbe988d0c2d69",
+      "n": 114688,
+      "arm": "curriculum",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/57344.pt",
+      "sha256": "cebd8e20e5f89c38e1e139537b3c5fa2da2d67a11d2bd5624748ccb670e3839e",
+      "n": 57344,
+      "arm": "standard",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/0.pt",
+      "sha256": "f152e87df83e9282c95b749b94ec9cc02f32722f0c503d7d25eaee41e69c285f",
+      "n": 0,
+      "arm": "standard",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/176128.pt",
+      "sha256": "027eefecc026eac0a0a8dad701c89210e904f5afcfa7cab2c56b7c6546ef5eba",
+      "n": 176128,
+      "arm": "standard",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/latest.pt",
+      "sha256": "027eefecc026eac0a0a8dad701c89210e904f5afcfa7cab2c56b7c6546ef5eba",
+      "n": 176128,
+      "arm": "standard",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-155921/114688.pt",
+      "sha256": "776beba2e8e55e25266def8a06f12b7548cf2fa77291288f8f485890671f5ae3",
+      "n": 114688,
+      "arm": "standard",
+      "seed": 155921
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/57344.pt",
+      "sha256": "fe765fe1b531af4faa20e9438fe7577a30dc07bb3ef7933cfe28df1103fada4a",
+      "n": 57344,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/0.pt",
+      "sha256": "3fa1f84313a19f225c53391905a25b0fa81f08e6e85dfe40b960f2971ee833f7",
+      "n": 0,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/176128.pt",
+      "sha256": "6a7564dd1a039f5d0979b3b8d399886b6b842f5f3c584bc1cfdd378512807023",
+      "n": 176128,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/latest.pt",
+      "sha256": "6a7564dd1a039f5d0979b3b8d399886b6b842f5f3c584bc1cfdd378512807023",
+      "n": 176128,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/curriculum-104729/114688.pt",
+      "sha256": "17958a12d5f3328ce2a41a5ce4b04ce3d07e0601221962f0cc3deb49640c6069",
+      "n": 114688,
+      "arm": "curriculum",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/57344.pt",
+      "sha256": "483e3f558631a1b54ca31dcab31fa8f1849462cc80cfcf58aff16cab1dd499cc",
+      "n": 57344,
+      "arm": "standard",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/0.pt",
+      "sha256": "5a836ae33ca148dfbe36dd409d3a524f13e8227e6a4c2b69f0ced4a1481f4802",
+      "n": 0,
+      "arm": "standard",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/176128.pt",
+      "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+      "n": 176128,
+      "arm": "standard",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/latest.pt",
+      "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+      "n": 176128,
+      "arm": "standard",
+      "seed": 104729
+    },
+    {
+      "path": "/root/tinysettler-artifacts/tinysettler-ppo-curriculum-20261111-a/retrieved/standard-104729/114688.pt",
+      "sha256": "2d4ff15ba2a14c6dcc00f086b4684ccdf7122f4fb887493998251507d62b2789",
+      "n": 114688,
+      "arm": "standard",
+      "seed": 104729
+    }
+  ],
+  "recoveries": [
+    {
+      "arm": "standard",
+      "seed": 104729,
+      "sha256": "943ccd2bcb2d04d509439708eab935ca096009e31b31ba811638963ecae32c3d",
+      "cpu_collect_update": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 104729,
+      "sha256": "6a7564dd1a039f5d0979b3b8d399886b6b842f5f3c584bc1cfdd378512807023",
+      "cpu_collect_update": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 130363,
+      "sha256": "c260dfe69f5c82941a3732a5ffc1e5f4008c2cfa4ca67a459a36578152289001",
+      "cpu_collect_update": true
+    },
+    {
+      "arm": "standard",
+      "seed": 130363,
+      "sha256": "58beeee043f19c4cc216fa801b1d158a99843e73df37332a29eaf4e0db008a45",
+      "cpu_collect_update": true
+    },
+    {
+      "arm": "standard",
+      "seed": 155921,
+      "sha256": "027eefecc026eac0a0a8dad701c89210e904f5afcfa7cab2c56b7c6546ef5eba",
+      "cpu_collect_update": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 155921,
+      "sha256": "6340c17b9f63c651a293106b2db717c5938f13c9bd20e9852db367e57ebd4e48",
+      "cpu_collect_update": true
+    }
+  ],
+  "initial_pair_checks": [
+    {
+      "seed": 104729,
+      "weights_equal": true,
+      "optimizer_equal": true,
+      "pending_rollout_empty": true
+    },
+    {
+      "seed": 130363,
+      "weights_equal": true,
+      "optimizer_equal": true,
+      "pending_rollout_empty": true
+    },
+    {
+      "seed": 155921,
+      "weights_equal": true,
+      "optimizer_equal": true,
+      "pending_rollout_empty": true
+    }
+  ],
+  "primary_coverage": [
+    {
+      "arm": "standard",
+      "seed": 104729,
+      "games": 200,
+      "complete": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 104729,
+      "games": 200,
+      "complete": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 130363,
+      "games": 200,
+      "complete": true
+    },
+    {
+      "arm": "standard",
+      "seed": 130363,
+      "games": 200,
+      "complete": true
+    },
+    {
+      "arm": "standard",
+      "seed": 155921,
+      "games": 200,
+      "complete": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 155921,
+      "games": 200,
+      "complete": true
+    }
+  ],
+  "task_coverage": [
+    {
+      "arm": "standard",
+      "seed": 104729,
+      "games": 22,
+      "complete": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 104729,
+      "games": 22,
+      "complete": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 130363,
+      "games": 22,
+      "complete": true
+    },
+    {
+      "arm": "standard",
+      "seed": 130363,
+      "games": 22,
+      "complete": true
+    },
+    {
+      "arm": "standard",
+      "seed": 155921,
+      "games": 22,
+      "complete": true
+    },
+    {
+      "arm": "curriculum",
+      "seed": 155921,
+      "games": 22,
+      "complete": true
+    }
+  ],
+  "incomplete_runs": [],
+  "allocation_seconds": 8775.294137716293,
+  "termination_verified": true,
+  "all_primary_complete": true,
+  "all_tasks_complete": true
+}

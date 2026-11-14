@@ -1,0 +1,22 @@
+{
+  "gpu_and_load": {
+    "samples": 1064,
+    "start_unix": 1794369672.4659905,
+    "end_unix": 1794380370.7807238,
+    "gpu_util_mean_pct": 14.265037593984962,
+    "gpu_util_p95_pct": 24.0,
+    "gpu_memory_peak_mib": 439.0,
+    "load1_mean": 1.5081447515272557,
+    "scope": "whole monitored session, includes validation, checkpointing and verification"
+  },
+  "cpu": {
+    "samples": 816,
+    "start_unix": 1794372188.8783534,
+    "end_unix": 1794380368.9695368,
+    "system_mean_pct": 62.72382224648676,
+    "trainer_mean_one_core_pct": 96.91300322282451,
+    "trainer_mean_capacity_pct": 48.45650161141226,
+    "trainer_peak_rss_gib": 3.912220001220703,
+    "scope": "sampling started during second PPO-128 run"
+  }
+}

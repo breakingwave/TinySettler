@@ -1,0 +1,26 @@
+{
+  "standard": {
+    "games": 600,
+    "wins": 315,
+    "losses": 284,
+    "truncations": 1,
+    "completed": 599,
+    "win_fraction": 0.525,
+    "mean_points": 7.081666666666667,
+    "illegal_actions": 0,
+    "inference_ms": 0.43036564250982384,
+    "evaluation_seconds": 348.0815108279985
+  },
+  "curriculum": {
+    "games": 600,
+    "wins": 308,
+    "losses": 289,
+    "truncations": 3,
+    "completed": 597,
+    "win_fraction": 0.5133333333333333,
+    "mean_points": 7.238333333333333,
+    "illegal_actions": 0,
+    "inference_ms": 0.4334797077457437,
+    "evaluation_seconds": 366.5482646550008
+  }
+}

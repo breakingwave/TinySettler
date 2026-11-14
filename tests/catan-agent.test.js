@@ -1,0 +1,8 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {parseChoice,actionChoiceSchema,summarizeGame} from '../src/catan-agent.js';
+test('Catan action IDs are validated against the current legal list',()=>{const actions=[{id:2},{id:7}];assert.equal(parseChoice('{"actionId":7}',actions),7);for(const text of ['{"actionId":0}','{"actionId":"7"}','{"actionId":7,"extra":true}','{"actionId":7}{"actionId":2}'])assert.throws(()=>parseChoice(text,actions));assert.deepEqual(actionChoiceSchema(actions).properties.actionId.enum,[2,7]);});
+test('Catan timings include every model attempt, and do not treat truncation as a win',()=>{const r=summarizeGame({model:'x',seed:1,completed:false,error:'Decision cap reached',durationMs:9000,decisions:[{inferenceMs:1000},{inferenceMs:3000,error:'bad'}],finalState:{players:[{color:'RED',points:4}],turn:20}});assert.equal(r.medianDecisionMs,2000);assert.equal(r.invalid,1);assert.equal(r.winner,undefined);assert.equal(r.reason,'Decision cap reached');});
+
+const {catanSystem,nextReasoningBudget}=await import('../src/catan-agent.js');
+test('thinking allows a draft and latency controller reduces only after sustained slow decisions',()=>{assert.match(catanSystem(true),/Think briefly/);assert.match(catanSystem(false),/Reply only/);assert.equal(nextReasoningBudget(128,Array(4).fill({inferenceMs:35000})),128);assert.equal(nextReasoningBudget(128,Array(5).fill({inferenceMs:28000})),96);assert.equal(nextReasoningBudget(32,Array(5).fill({inferenceMs:35000})),32);assert.equal(nextReasoningBudget(128,[10000,15000,25000,28000,35000].map(inferenceMs=>({inferenceMs}))),128);});
