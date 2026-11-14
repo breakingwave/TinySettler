@@ -1,5 +1,7 @@
 # TinySettler reinforcement learning design and local measurements
 
+Current overview: [consolidated RL progress report through November 14, 2026](progress-report-20261114.md), covering the setup, all four completed studies, findings, remaining gaps and next priorities.
+
 Completed study, 2026-11-14: [recovered scaling results, charts and raw data](results/scaling-20261114-recovered/findings.md), [independent interpretation and next test](results/scaling-20261114-recovered/analysis.md), and [implementation and reproduction](scaling/README.md). Ten matched-budget MLP runs completed; refreshed self-play and larger capacity did not establish reliable gains against the strong heuristic family. Graph and teacher conditions were omitted before outcomes.
 
 Artifacts for all ten retained November 14 A–D runs are in the [model release](https://github.com/breakingwave/TinySettler/releases/tag/rl-scaling-20261114): [portable policy exports](https://github.com/breakingwave/TinySettler/releases/download/rl-scaling-20261114/final-delivery.tar.gz), [full resumable checkpoints](https://github.com/breakingwave/TinySettler/releases/download/rl-scaling-20261114/full-checkpoints.tar.gz), and [SHA256 checksums](https://github.com/breakingwave/TinySettler/releases/download/rl-scaling-20261114/SHA256SUMS.txt). Download these release assets separately from the repository.
@@ -14,7 +16,7 @@ Follow-up, 2026-11-11: the [completed five-seed PPO reliability experiment](resu
 
 Follow-up, 2026-11-11: the [completed T4 ablation](results/overnight-20261111/findings.md) reports six PPO/Double DQN runs and 3,600 held-out evaluation games. [Implementation and reproduction commands](overnight/README.md) are available separately from this original design report.
 
-Research date: 2026-11-04. Scope: the reinforcement learning component of a browser agent for two-player Catan, with an LLM choosing strategies and calling an action evaluator.
+The historical design report below dates from November 4, 2026, before the training studies linked above. Its scope is the reinforcement learning component of a browser agent for two-player Catan, with an LLM choosing strategies and calling an action evaluator.
 
 Start with masked PPO and a small multilayer perceptron to establish a playing baseline. Compare masked Double DQN when implementing the planner's action-value tool. Keep Catanatron, add an explicit information-safe observation and action adapter, and postpone full tree search until a learned evaluator works. These are engineering recommendations, not results of an algorithm tournament. The local work measured simulator costs and audited interfaces; it trained no neural networks.
 

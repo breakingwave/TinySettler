@@ -62,6 +62,8 @@ Run `npm run catan` after installing the Python rules bridge, then open `/catan.
 
 ## Reinforcement learning results
 
+Start with the [consolidated RL progress report](rl_research/progress-report-20261114.md): setup, all completed experiments, what worked, limitations and next priorities as of November 14, 2026.
+
 The [RL research index](rl_research/README.md) links the design audit and completed experiments. The latest [recovered scaling study](rl_research/results/scaling-20261114-recovered/findings.md) includes results, raw game records and charts for ten PPO runs comparing model capacity and refreshed self-play. See the [independent interpretation and proposed next test](rl_research/results/scaling-20261114-recovered/analysis.md) and [training implementation](rl_research/scaling/README.md). The policies remain weak against the strong heuristic family; no reliable self-play or capacity advantage was established.
 
 Download artifacts for all ten retained November 14 A–D runs from the [model release](https://github.com/breakingwave/TinySettler/releases/tag/rl-scaling-20261114): [portable policy exports](https://github.com/breakingwave/TinySettler/releases/download/rl-scaling-20261114/final-delivery.tar.gz), [full resumable checkpoints](https://github.com/breakingwave/TinySettler/releases/download/rl-scaling-20261114/full-checkpoints.tar.gz), and [SHA256 checksums](https://github.com/breakingwave/TinySettler/releases/download/rl-scaling-20261114/SHA256SUMS.txt). The release also includes checkpoints from the earlier overnight, reliability and curriculum experiments, linked in the [RL index](rl_research/README.md). Model archives are release assets, separate from a repository clone.
